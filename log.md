@@ -361,3 +361,15 @@ Pages NOT yet in wiki but referenced repeatedly — these are markers for what's
   - **Singapore DCs = 10%+ national power** = canonical hyperscaler-induced national power case
 - wiki now ~130 pages across 6 categories, 56 sources (53 primary, 1 secondary, plus older AI 2027)
 - **SemiAnalysis free article coverage is now substantially comprehensive**
+
+## [2026-05-24] schema | automation infrastructure + git remote
+- created: [[Wiki maintenance model]] (synthesis on permission matrix + automation guardrails)
+- created: `wiki/_meta/ingested-sources.md` (URL tracking for the routine), `wiki/_meta/weekly-digest.md` (human-review queue)
+- created: `.gitignore` (excludes `.obsidian/`, Windows cruft)
+- infra: vault `git init`'d, pushed to private GitHub repo `Ramenr5/ai-infra-bottlenecks`
+- scheduled: remote routine `SemiAnalysis weekly ingest` (id `trig_01AHFGFiYhYS6dyXVd54LEjy`), cron `0 22 * * 0` = Sundays 22:00 UTC = 8 AM Brisbane Mon
+- routine writes only to `raw/articles/`, `wiki/sources/`, `wiki/_meta/`, `log.md`, `index.md` (append-only); never touches layer/company/bottleneck/geography/synthesis pages
+- cap: 3 articles per run; first scheduled fire 2026-05-24 22:00 UTC
+- workflow: routine commits and pushes; user `git pull`s locally to integrate
+- open risk: remote agent push-back auth not yet validated; first run will reveal whether CCR can `git push` to a private GitHub repo
+

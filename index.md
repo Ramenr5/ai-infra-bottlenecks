@@ -11,6 +11,7 @@
 - [[Capex trajectory thesis]] — **AI spending accelerates through at least 2027 (~90% probability); 2028+ depends on GPT-5/6/Rubin-era unit economics.** Supply-side is sold out, demand-side has prepaid forward capacity. Includes tradable read and 10 leading indicators to watch.
 - [[AI infrastructure investment map (May 2026)]] — **state-of-wiki consolidation.** Every tradable name organized by layer; bottleneck severity matrix; top 10 primary data points; material contradictions; coverage gaps. **Start here for a 5-min orientation to the entire wiki.**
 - [[Bottleneck ranking (May 2026)]] — **what's the biggest constraint?** Tiered ranking: Power binds the durable case (multi-year); HBM + CoWoS bite the near-term; chip design talent is the under-appreciated long-term constraint.
+- [[Wiki maintenance model]] — **operating model for this vault.** Source-of-truth = local Obsidian; GitHub remote enables weekly automated SemiAnalysis ingest (Sundays 22:00 UTC); routine never touches layer/company/bottleneck/synthesis pages — flags them for human review in [[weekly-digest]] instead.
 
 ## Layers
 
