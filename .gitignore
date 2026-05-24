@@ -1,0 +1,10 @@
+# Obsidian local UI state
+.obsidian/
+
+# Windows / OneDrive cruft
+Thumbs.db
+desktop.ini
+*.tmp
+
+# OS
+.DS_Store
