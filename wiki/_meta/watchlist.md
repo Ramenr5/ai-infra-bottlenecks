@@ -36,14 +36,14 @@ For each indicator:
   - https://abc.xyz/investor/
   - https://investor.fb.com/financials/
 - **Cadence:** quarterly (next prints: Q2 calendar 2026 = July-Aug)
-- **Last known:** MSFT AI ARR $37B (+123%) Q3 FY26; GOOGL Cloud $20B (+63%) Q1 2026; META 2026 capex $125-145B raised
+- **Last known:** MSFT AI ARR=$37B (Q3 FY26) | GOOGL Cloud rev=$20B (Q1 2026) | META AI ARR=not disclosed
 
 ### 2. Hyperscaler capex guidance changes
 - **What:** Any upward/downward revision to MSFT/GOOGL/META/AMZN/ORCL FY26-27 capex guides
 - **Why:** Guides move faster than actuals; first-derivative signal on the trajectory
 - **Polling sources:** Same as #1 + https://ir.aboutamazon.com/ + https://investor.oracle.com/
 - **Cadence:** quarterly (earnings) + ad-hoc IR releases
-- **Last known:** Big Five FY26 aggregate ~$745-775B (MSFT $190B, GOOGL $180-190B, META $125-145B, AMZN ~$200B, ORCL $50B)
+- **Last known:** MSFT FY26=$190B | GOOGL FY26=$180-190B | META FY26=$125-145B | AMZN FY26=$200B | ORCL FY26=$50B
 
 ### 3. Stargate Abilene operational date
 - **What:** First operational MW at Stargate's Abilene TX site
@@ -53,7 +53,7 @@ For each indicator:
   - https://www.crusoe.ai/news
   - Press search via WebFetch on "Stargate Abilene" site:reuters.com
 - **Cadence:** ad-hoc; major construction milestones in 2026
-- **Last known:** Crusoe operates the site; 1.2 GW Phase 1; opening date not yet confirmed
+- **Last known:** operational_date=unconfirmed | phase1_capacity=1.2GW | operator=Crusoe
 
 ### 4. NVIDIA quarterly supply commitments
 - **What:** The $145B inventory + prepaid supply commitments line on NVDA's balance sheet
@@ -62,7 +62,7 @@ For each indicator:
   - https://investor.nvidia.com/financial-info/financial-reports/
   - Motley Fool transcripts (publishes within 24h of call): https://www.fool.com/earnings/call-transcripts/
 - **Cadence:** quarterly (NVDA Q2 FY27 expected late August 2026)
-- **Last known:** $145B as of Q1 FY27 (May 2026)
+- **Last known:** supply_commitments=$145B (Q1 FY27, May 2026)
 
 ### 5. TSMC CoWoS lead-time changes
 - **What:** Any movement in CoWoS lead times (currently 50+ weeks)
@@ -72,7 +72,7 @@ For each indicator:
   - https://pr.tsmc.com/english/news
   - Google: "TSMC CoWoS lead time"
 - **Cadence:** quarterly TSMC earnings + SemiAnalysis ad-hoc
-- **Last known:** 50+ weeks per C.C. Wei Q1 2026 earnings; demand exceeds supply 40-50%
+- **Last known:** cowos_lead_time_weeks=50+ | demand_supply_gap_pct=40-50 (Q1 2026)
 
 ### 6. SK Hynix operating margins
 - **What:** SK Hynix quarterly operating margin (currently 47-72%)
@@ -81,7 +81,7 @@ For each indicator:
   - https://www.skhynix.com/eng/ir/financialInfo.do
   - Reuters Korea desk: site:reuters.com "SK Hynix" earnings
 - **Cadence:** quarterly
-- **Last known:** Q3 2025 op margin 47%; "72% margin cited for early-2026 quarters"
+- **Last known:** skhynix_op_margin_pct=47 (Q3 2025) | early_2026_cited_pct=72
 
 ### 7. Hyperscaler credit spreads (IG BBB)
 - **What:** IG BBB-rated corporate bond spread vs Treasuries (FRED: BAMLC0A4CBBB)
@@ -90,7 +90,7 @@ For each indicator:
   - https://fred.stlouisfed.org/series/BAMLC0A4CBBB
   - https://fred.stlouisfed.org/series/BAMLH0A0HYM2 (HY for comparison)
 - **Cadence:** daily (continuous market data)
-- **Last known:** seed on first run
+- **Last known:** ig_bbb_oas_bps=unseeded (will baseline on first signal)
 
 ---
 
@@ -103,7 +103,7 @@ For each indicator:
   - https://newsletter.semianalysis.com/archive (looks for updates to the rental-capacity post)
   - https://newsletter.semianalysis.com/p/the-great-gpu-shortage-rental-capacity
 - **Cadence:** SemiAnalysis updates roughly monthly when material moves
-- **Last known:** $1.70 (Oct 2025) → **$2.35 (Mar 2026)**, +40% in 5 months
+- **Last known:** h100_1yr_rental_per_gpu_hr=$2.35 (Mar 2026)
 
 ### 9. Gas turbine OEM backlogs
 - **What:** GE Vernova, Siemens Energy, Mitsubishi Heavy Industries quarterly backlog + order intake
@@ -113,7 +113,7 @@ For each indicator:
   - https://www.siemens-energy.com/global/en/home/investor-relations.html
   - https://www.mhi.com/finance/library/financial/
 - **Cadence:** quarterly + ad-hoc deal PRs
-- **Last known:** GEV $163B backlog +71% YoY orders, 110 GW gas turbine target YE 2026; Siemens Energy €17.7B record Q2 FY26 orders, €154B backlog
+- **Last known:** GEV_backlog=$163B | GEV_gas_target_GW_YE26=110 | SE_backlog=€154B | SE_q2_orders=€17.7B
 
 ### 10. PJM capacity market prices
 - **What:** Next PJM Base Residual Auction (BRA) clearing prices per region
@@ -122,7 +122,7 @@ For each indicator:
   - https://www.pjm.com/markets-and-operations/rpm
   - https://www.pjm.com/-/media/markets-ops/rpm/rpm-auction-info/
 - **Cadence:** annual auction (next: mid-2026 for 2027/28 delivery year)
-- **Last known:** 2026/27 & 2027/28: $329/MW-day (price-capped); 2025/26: $270; 2024/25: $29
+- **Last known:** pjm_2027_28_clearing_per_MW_day=$329 (price-capped) | 2025_26=$270 | 2024_25=$29
 
 ### 11. EDA Big-3 backlogs
 - **What:** Synopsys + Cadence quarterly RPO/backlog
@@ -131,7 +131,7 @@ For each indicator:
   - https://investor.synopsys.com/financials/quarterly-results/
   - https://www.cadence.com/en_US/home/company/investor-relations.html
 - **Cadence:** quarterly
-- **Last known:** Synopsys $11.4B backlog; Cadence $7.8B backlog (per [[SemiAnalysis - EDA Market Primer (2026)]])
+- **Last known:** synopsys_backlog=$11.4B | cadence_backlog=$7.8B (CY2025)
 
 ### 12. Transformer / substation lead times
 - **What:** US large-power-transformer (LPT) lead times + substation interconnect queue length
@@ -141,7 +141,7 @@ For each indicator:
   - Quanta Services IR: https://investors.quantaservices.com/
   - Google: "transformer lead time 2026"
 - **Cadence:** quarterly Quanta earnings + ad-hoc industry reports
-- **Last known:** Quanta doubling transformer mfg ($500-700M); industry LPT lead times ~110 weeks (Q3 2025 per prior data)
+- **Last known:** lpt_lead_time_weeks=~110 (Q3 2025) | quanta_transformer_capex=$500-700M (doubling)
 
 ### 13. AI lab ARR / revenue updates
 - **What:** Anthropic, OpenAI, xAI revenue/ARR disclosures and valuation rounds
@@ -151,7 +151,7 @@ For each indicator:
   - https://openai.com/news
   - Reuters tech: site:reuters.com Anthropic OR OpenAI revenue
 - **Cadence:** ad-hoc; major drops every few months
-- **Last known:** Anthropic $30B ARR (April 2026), $44B+ ARR (May 2026 per SemiAnalysis); pending $50B+ round at ~$900B valuation
+- **Last known:** anthropic_arr=$44B+ (May 2026) | anthropic_round_pending=$50B+ at $900B val | openai_arr=unknown
 
 ### 14. Sovereign capital announcements
 - **What:** MGX (UAE), Saudi PIF/Humain, Singapore Temasek/GIC, Saudi G42 major commitments to AI infra
@@ -161,7 +161,7 @@ For each indicator:
   - Google: "MGX" OR "PIF" OR "Humain" AI investment 2026
   - https://www.bloomberg.com/news/audio/2024-08-23/big-take-uae-s-mgx-fund-and-the-future-of-ai (Bloomberg gated)
 - **Cadence:** ad-hoc
-- **Last known:** MGX in Stargate equity; Saudi PIF $40B xAI rumored (per [[SemiAnalysis - xAI Colossus 2 (2026)]])
+- **Last known:** mgx_stargate=equity_in | pif_xai_rumored=$40B | last_announcement_date=2026-Q1
 
 ### 15. Policy / regulatory drops
 - **What:** FERC interconnect rule changes, US chip export controls, EU AI Act enforcement actions, state IRP processes affecting AI DCs
@@ -171,7 +171,7 @@ For each indicator:
   - https://www.bis.doc.gov/index.php/all-articles (BIS)
   - https://digital-strategy.ec.europa.eu/en/news (EU)
 - **Cadence:** ad-hoc; major events every 1-3 months
-- **Last known:** No specific event tracked yet — first run will baseline
+- **Last known:** last_check=2026-05-25 | last_material_event=baseline (no anchor yet)
 
 ---
 
