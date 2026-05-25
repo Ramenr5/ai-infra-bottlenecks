@@ -373,3 +373,19 @@ Pages NOT yet in wiki but referenced repeatedly — these are markers for what's
 - workflow: routine commits and pushes; user `git pull`s locally to integrate
 - open risk: remote agent push-back auth not yet validated; first run will reveal whether CCR can `git push` to a private GitHub repo
 
+## [2026-05-25] schema | routine first-run failure + manual session ingest
+- diagnosis: scheduled routine fired at 2026-05-24T22:04 UTC, auto-disabled with `ended_reason: auto_disabled_repo_access` — remote CCR could not access the private GitHub repo (confirming the open risk from yesterday)
+- fix step 1: switched `Ramenr5/ai-infra-bottlenecks` from private to public (via `gh repo edit --visibility public`). Routine clone should now work; push-back still untested
+- routine re-enable: pending after this commit
+- user-prompted by named-gap question ("AI value capture, the coding assistant breakdown, how much do gpu clusters really cost..."); manually ingested 5 articles in-session (bypassing the 3-cap because manual + explicit user request)
+- created sources: [[SemiAnalysis - The Coding Assistant Breakdown (2026)]], [[SemiAnalysis - How Much Do GPU Clusters Really Cost (2026)]], [[SemiAnalysis - EDA Market Primer (2026)]], [[SemiAnalysis - The Great GPU Shortage Rental Capacity (2026)]], [[SemiAnalysis - Dissecting NVIDIA Blackwell (2026)]]
+- created extracts: matching `(extract).md` files in `raw/articles/`
+- key numbers surfaced:
+  - **H100 1-yr rental: $1.70 → $2.35 in 5 mo (+40%)**; all GPU rental capacity sold out through Sep 2026
+  - **Hyperscaler TCO premium: +10-61% vs gold-tier neoclouds** depending on workload (pretraining 10%, multimodal RL 61%, inference 59%)
+  - **EDA Big-3: $16B combined CY2025; Synopsys $8B (+Ansys $35B), Cadence $5.30B, Siemens $2.2-2.5B**; 95-99% retention; 1.5-1.6 yr backlogs
+  - **Coding-assistant input:output ratios**: Codex 80:1, Claude Code 100:1 — long-context drives disproportionate inference compute
+  - **Blackwell architectural shift**: TMEM + CTA-scoped tcgen05 + 2SM MMA = kernel rewrites are the rate limit on Blackwell software adoption (separate from hardware availability)
+- 13 pages flagged for human review in [[weekly-digest]] (see "2026-05-25 — MANUAL session ingest" entry)
+- wiki source count: 56 → 61
+

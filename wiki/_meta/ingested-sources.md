@@ -34,3 +34,8 @@ Statuses: `ingested` (source page written), `paywalled-skipped` (insufficient fr
 - 2026-05-24 | ingested | https://newsletter.semianalysis.com/p/google-ai-infrastructure-supremacy | [[SemiAnalysis - Google AI Infrastructure Supremacy]]
 - 2026-05-24 | ingested | https://newsletter.semianalysis.com/p/ai-value-capture-the-shift-to-model | [[SemiAnalysis - AI Value Capture (2026)]]
 - 2026-05-24 | ingested | https://newsletter.semianalysis.com/p/the-eda-primer-from-rtl-to-silicon | [[The EDA Primer From RTL to Silicon (2026)]]
+- 2026-05-25 | ingested | https://newsletter.semianalysis.com/p/the-coding-assistant-breakdown-more | [[SemiAnalysis - The Coding Assistant Breakdown (2026)]]
+- 2026-05-25 | ingested | https://newsletter.semianalysis.com/p/how-much-do-gpu-clusters-really-cost | [[SemiAnalysis - How Much Do GPU Clusters Really Cost (2026)]]
+- 2026-05-25 | ingested | https://newsletter.semianalysis.com/p/eda-market-primer | [[SemiAnalysis - EDA Market Primer (2026)]]
+- 2026-05-25 | ingested | https://newsletter.semianalysis.com/p/the-great-gpu-shortage-rental-capacity | [[SemiAnalysis - The Great GPU Shortage Rental Capacity (2026)]]
+- 2026-05-25 | ingested | https://newsletter.semianalysis.com/p/dissecting-nvidia-blackwell-tensor | [[SemiAnalysis - Dissecting NVIDIA Blackwell (2026)]] — partially paywalled

@@ -158,6 +158,11 @@
 - [[SemiAnalysis - Claude Code Is The Inflection Point]] — Claude Code = 4% of GitHub commits → projected 20%+ EOY 2026; Anthropic quarterly ARR adds > OpenAI; Accenture 30K seats.
 - [[SemiAnalysis - The Memory Wall (DRAM)]] — Top 3 DRAM suppliers = 95% of market; **HBM = ~50%+ H100 BOM, ~60%+ Blackwell BOM**; HBM 3× premium vs DDR5.
 - [[SemiAnalysis - Meta Bizarre AI Infrastructure Choice]] — Largely paywalled; public framing: Meta deploying "billions in servers with silicon that increases costs, power, and latency."
+- [[SemiAnalysis - The Coding Assistant Breakdown (2026)]] — Cost-per-task > cost-per-token; GPT-5.5 $5/$30; Opus 4.7 tokenizer +35%; DeepSeek V4-Pro 1.6T/49B + 90% KV cache cut; Codex 80:1 / Claude Code 100:1 input:output; benchmark integrity warnings.
+- [[SemiAnalysis - How Much Do GPU Clusters Really Cost (2026)]] — 8-component TCO framework; **hyperscalers carry 10-61% premium vs gold-tier (Nebius/Fluidstack/Crusoe)** on workload TCO; silver-tier 20.91% goodput hit on pretraining; TorchFT / HyperPod / TorchPass fault-tolerance.
+- [[SemiAnalysis - EDA Market Primer (2026)]] — Big-3 85%+ share; **Synopsys $8B / Cadence $5.30B / Siemens $2.2-2.5B CY2025**; **PrimeTime 90%+ signoff, Calibre 85%+ PV, Design Compiler 84-85%**; 95%/99% retention; $11.4B/$7.8B backlogs; AI tool 20% renewal premium.
+- [[SemiAnalysis - The Great GPU Shortage Rental Capacity (2026)]] — **H100 1-yr rental: $1.70 (Oct 2025) → $2.35 (Mar 2026) = +40% in 5 mo**; capacity sold out through Sep 2026; Blackwell lead time June-July; named: Lambda/Runpod/CoreWeave/Nebius/IREN.
+- [[SemiAnalysis - Dissecting NVIDIA Blackwell (2026)]] — Largely paywalled. Public: **TMEM, CTA-scoped tcgen05, 2SM MMA** = "largest GPU microarch change in a generation"; die distribution + ~300-cycle die-to-die latency. HBM/power/NVLink5 gated.
 
 **Secondary (retrospective):**
 - [[Situational Awareness, Two Years Later (2026)]] — Omer Ansari, Medium, Apr 29 2026. Aggregates McKinsey, JPM, CSIS, METR.
