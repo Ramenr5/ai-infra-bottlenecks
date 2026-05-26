@@ -389,3 +389,36 @@ Pages NOT yet in wiki but referenced repeatedly — these are markers for what's
 - 13 pages flagged for human review in [[weekly-digest]] (see "2026-05-25 — MANUAL session ingest" entry)
 - wiki source count: 56 → 61
 
+## [2026-05-26] ingest | SemiAnalysis "Inside the 800VDC Revolution" (Part 1)
+- source: [[SemiAnalysis - Inside the 800VDC Revolution (2026)]] (public ~92%; Part 1 of 2 series)
+- new bottleneck: [[800VDC transition]] (severity: structural, layer: power)
+- 11 new company pages (all orphans previously implied but missing):
+  - SST pure-plays: [[DG Matrix]], [[Heron Power]], [[Novos Power]], [[Amperesand]]
+  - Incumbents: [[Eaton]], [[ABB]], [[Delta Electronics]], [[Schneider Electric]]
+  - Semi enablers: [[Wolfspeed]], [[Infineon]]
+  - EPC: [[Aran Industries]]
+- key numbers:
+  - **~39 GW incremental 800VDC capacity by 2030**
+  - **Sidecar (HVDC power rack) TAM peaks ~$11B in 2028**
+  - **SST TAM ~$13B by 2030**
+  - **Datacenter industrial capex >$400B in 2026** (electrical = 30-35% = $120-140B)
+  - **$320M into SST startups** in 12mo ending March 2026
+  - HVDC power rack ASP $400-500k/unit, $500k/MW (10× standard AC rack)
+  - SST content $1.0-1.5M/MW; battery rack $200k/MW
+  - Total electrical content stays $3.6-4.8M/MW band — mix shifts not size
+  - Phase 2 efficiency (UPS gone): 86.5% vs 82.0% baseline = **58 MW saved per 1 GW**
+  - Phase 4 SST: 87.4% = **69 MW saved per 1 GW**
+  - Wolfspeed 10 kV SiC MOSFET commercial bare die **March 2026** = the MV-rectifier enabler
+  - Eaton/Resilient acquisition **Aug 2025**; ABB/NVIDIA partnership **Oct 2025**
+  - **No vendor has UL-certified datacenter SST as of May 2026**
+  - NEC 2029 partial only; full code maturity NEC 2032-35
+- pages flagged for human review (NOT edited per Wiki maintenance model):
+  - [[Power & energy]] — needs 4-phase framework + TAM tables
+  - [[Datacenter physical]] — white-space/grey-space content shift framing
+  - [[Compute & silicon]] — Wolfspeed 10 kV SiC MOSFET commercial availability
+  - [[Capex trajectory thesis]] — $400B 2026 industrial capex anchor to triangulate vs Big Five $745-775B
+  - [[Bottleneck ranking (May 2026)]] — add 800VDC as structural-tier item
+  - [[AI infrastructure investment map (May 2026)]] — full picks-and-shovels overlay with 11 new vendor pages
+- wiki source count: 61 → 62
+- wiki company count: 45 → 56
+

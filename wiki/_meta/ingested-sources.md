@@ -39,3 +39,4 @@ Statuses: `ingested` (source page written), `paywalled-skipped` (insufficient fr
 - 2026-05-25 | ingested | https://newsletter.semianalysis.com/p/eda-market-primer | [[SemiAnalysis - EDA Market Primer (2026)]]
 - 2026-05-25 | ingested | https://newsletter.semianalysis.com/p/the-great-gpu-shortage-rental-capacity | [[SemiAnalysis - The Great GPU Shortage Rental Capacity (2026)]]
 - 2026-05-25 | ingested | https://newsletter.semianalysis.com/p/dissecting-nvidia-blackwell-tensor | [[SemiAnalysis - Dissecting NVIDIA Blackwell (2026)]] — partially paywalled
+- 2026-05-26 | ingested | https://newsletter.semianalysis.com/p/inside-the-800vdc-revolution-part | [[SemiAnalysis - Inside the 800VDC Revolution (2026)]] — public ~92%, Part 1 of 2 series

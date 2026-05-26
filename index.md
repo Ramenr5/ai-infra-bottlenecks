@@ -33,6 +33,7 @@
 - [[Chip design talent shortage]] — verification engineers fastest-growing unfillable job; 1/3 of US semi workforce >55; 50%/yr complexity vs 20%/yr productivity (severity: acute · layer: chip-design · 1 source)
 - [[Lithography monopoly]] — ASML sole EUV supplier globally; €38.8B backlog ~4yr forward visibility; 2 High-NA shipped Q1 2026 (severity: structural · layer: compute · 1 source)
 - [[NAND flash supply]] — structural shortage expected to persist until 2028; AI servers >45% of SanDisk shipments; KV cache offload + checkpoints + training data drive demand (severity: acute · layer: compute · 1 source)
+- [[800VDC transition]] — physics-forced shift from AC to 800VDC distribution as racks approach 600 kW+; **~39 GW incremental capacity by 2030; sidecar TAM $11B 2028 peak; SST TAM $13B 2030**; capex shifts within $3.6-4.8M/MW band across 4 phases (severity: structural · layer: power · 1 source)
 
 ## Geographies
 
@@ -88,6 +89,20 @@
 - [[Siemens Energy]] — European gas turbine + grid OEM; **Q2 FY26 record €17.7B orders**; €154B backlog; US orders nearly doubled to €6.94B (data-center driven) (ticker: ENR.DE / SMNSY ADR · role: supplier · layer: power · 1 source)
 - [[SpaceX]] — private; **IPO filed Apr 1 2026 at $1.75T-$2T+ target with $80B raise**; Starlink $11.4B 2025 revenue (proj $20B 2026); sister relationship with xAI (Colossus) (ticker: pending IPO · role: connectivity · layer: datacenter · 1 source)
 - [[Crusoe Energy]] — private neocloud; operates Stargate Abilene (Oracle/OpenAI contract); 360 MW + 1.2 GW Boom Supersonic deal; stranded-gas onsite-power model (ticker: private · role: neocloud · layer: datacenter · 1 source)
+
+### 800VDC transition picks-and-shovels (new pages, May 2026)
+
+- [[DG Matrix]] — SST pure-play; **only SST in NVIDIA MGX reference architecture**; ABB-backed; Infineon SiC supply; NC State origin; UL cert target Q2 2026 (ticker: private · role: supplier · layer: power · 1 source)
+- [[Heron Power]] — SST pure-play; **40 GW US manufacturing facility** for 4.2 MW Heron Link MV-input units (ticker: private · role: supplier · layer: power · 1 source)
+- [[Novos Power]] — SST pure-play; direct MV-to-800VDC; **50% smaller footprint, air-cooled** (ticker: private · role: supplier · layer: power · 1 source)
+- [[Amperesand]] — SST pure-play; dual LV/MV strategy; **30 MW commercial deployments target 2026** (ticker: private · role: supplier · layer: power · 1 source)
+- [[Eaton]] — diversified power-management; **acquired Resilient Power Systems Aug 2025** for SST expertise; full AC datacenter electrical stack (ticker: ETN · role: supplier · layer: power · 1 source)
+- [[ABB]] — Swiss-Swedish power-automation; **NVIDIA Oct 2025 partnership** + SACE Infinitus solid-state breaker; HiPerGuard MV-UPS deployed at Applied Digital 400 MW ND; strategic backer of [[DG Matrix]] (ticker: ABBN.SW / ABBNY · role: supplier · layer: power · 1 source)
+- [[Delta Electronics]] — Taiwanese power+thermal; broadest 800VDC product set: 110 kW BBU power shelves + **2.4 MW DC In-Row CDU** + 800VDC air-cooled busway (ticker: 2308.TW · role: supplier · layer: power · 1 source)
+- [[Schneider Electric]] — French power-management incumbent; **no named 800VDC product as of May 2026** = laggard signal; large installed base (ticker: SU.PA · role: supplier · layer: power · 1 source)
+- [[Wolfspeed]] — US SiC semiconductor pure-play; **10 kV SiC MOSFET commercial bare die March 2026** = the breakthrough enabling MV rectifier + Phase 4 SST (ticker: WOLF · role: supplier · layer: compute · 1 source)
+- [[Infineon]] — German power semis; SiC supply to DG Matrix; 650V GaN for Diablo 400 ±400V bipolar; BBU roadmap 4 kW PPC cards → 12 kW per unit at 99.5% peak (ticker: IFX.DE / IFNNY · role: supplier · layer: compute · 1 source)
+- [[Aran Industries]] — AI-native EPC startup; PE-stampable 800VDC engineering packages; bridges power electronics + grid dynamics + regulatory — capabilities incumbent EPCs don't combine (ticker: private · role: epc · layer: datacenter · 1 source)
 
 ## Assets
 
@@ -163,6 +178,7 @@
 - [[SemiAnalysis - EDA Market Primer (2026)]] — Big-3 85%+ share; **Synopsys $8B / Cadence $5.30B / Siemens $2.2-2.5B CY2025**; **PrimeTime 90%+ signoff, Calibre 85%+ PV, Design Compiler 84-85%**; 95%/99% retention; $11.4B/$7.8B backlogs; AI tool 20% renewal premium.
 - [[SemiAnalysis - The Great GPU Shortage Rental Capacity (2026)]] — **H100 1-yr rental: $1.70 (Oct 2025) → $2.35 (Mar 2026) = +40% in 5 mo**; capacity sold out through Sep 2026; Blackwell lead time June-July; named: Lambda/Runpod/CoreWeave/Nebius/IREN.
 - [[SemiAnalysis - Dissecting NVIDIA Blackwell (2026)]] — Largely paywalled. Public: **TMEM, CTA-scoped tcgen05, 2SM MMA** = "largest GPU microarch change in a generation"; die distribution + ~300-cycle die-to-die latency. HBM/power/NVLink5 gated.
+- [[SemiAnalysis - Inside the 800VDC Revolution (2026)]] — Part 1 of 2; **physics-forced 800VDC transition** as racks approach 600 kW; 4-phase framework (sidecar → 800VDC-native → facility-wide DC → SST endgame); **~39 GW by 2030, sidecar $11B TAM 2028, SST $13B TAM 2030**; 11 new picks-and-shovels names (DG Matrix, Heron Power, Novos Power, Amperesand, Eaton, ABB, Delta, Schneider, Wolfspeed, Infineon, Aran Industries).
 
 **Secondary (retrospective):**
 - [[Situational Awareness, Two Years Later (2026)]] — Omer Ansari, Medium, Apr 29 2026. Aggregates McKinsey, JPM, CSIS, METR.
