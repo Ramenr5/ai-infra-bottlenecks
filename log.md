@@ -422,3 +422,26 @@ Pages NOT yet in wiki but referenced repeatedly — these are markers for what's
 - wiki source count: 61 → 62
 - wiki company count: 45 → 56
 
+## [2026-05-26] ingest | Power Integrations (POWI) — 800VDC silicon enabler
+- origin: user pushed back on prior dismissive read of POWI exposure to 800VDC; primary-source check changed the analysis
+- created: [[Power Integrations]], [[Power Integrations Q1 2026 earnings]], [[Power Integrations - 1250V & 1700V PowiGaN for 800VDC AI Datacenters (2025)]]
+- raw extracts: matching `(extract).md` files in `raw/articles/`
+- key numbers:
+  - Q1 2026 revenue $108.3M (+3% YoY), Non-GAAP GM 53.5%, OM 11.7%, EPS $0.25 (vs $0.31 YoY → margin pressure)
+  - Industrial +23% YoY, +15% QoQ
+  - Q2 2026 guide $110-120M (+8.5% mid)
+  - **NVIDIA collaboration explicit on 1250V/1700V PowiGaN for 800VDC** (per Oct 13 2025 press release + reaffirmed Q1 2026 call)
+  - **Datacenter SAM >$1B by 2030** (mgmt-disclosed; includes rack + grid applications)
+  - 2 Q1 2026 design wins at Taiwan customers serving US datacenter equipment makers
+  - 175M cumulative PowiGaN switches deployed (lifetime, all families)
+  - 1250V HEMTs: "industry-first"; targeting >98% efficiency
+  - 1700V switch integrated in InnoMux2-EP IC; supports 1000VDC input
+  - Cross-ecosystem engagement: hyperscalers, server OEMs, rack providers, power-supply providers
+- key correction: prior chat-level read had POWI as tangential. Primary-source check revealed explicit NVIDIA collaboration + Taiwan design wins. **SemiAnalysis 800VDC piece notably did NOT name POWI** despite this collaboration — best interpretation: SemiAnalysis tracks equipment/products, POWI is silicon upstream; volume design wins to follow over 12-24mo.
+- pages flagged for human review:
+  - [[Compute & silicon]] — GaN section needs POWI alongside Wolfspeed/Infineon
+  - [[800VDC transition]] — picks-and-shovels expansion: add POWI as silicon enabler tier alongside Wolfspeed (SiC pure-play) and Infineon (broad)
+  - [[Capex trajectory thesis]] — POWI mgmt $1B 2030 datacenter SAM is one more data point on AI infra TAM
+- wiki source count: 62 → 64
+- wiki company count: 56 → 57
+

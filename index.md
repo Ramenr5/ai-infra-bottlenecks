@@ -103,6 +103,7 @@
 - [[Wolfspeed]] — US SiC semiconductor pure-play; **10 kV SiC MOSFET commercial bare die March 2026** = the breakthrough enabling MV rectifier + Phase 4 SST (ticker: WOLF · role: supplier · layer: compute · 1 source)
 - [[Infineon]] — German power semis; SiC supply to DG Matrix; 650V GaN for Diablo 400 ±400V bipolar; BBU roadmap 4 kW PPC cards → 12 kW per unit at 99.5% peak (ticker: IFX.DE / IFNNY · role: supplier · layer: compute · 1 source)
 - [[Aran Industries]] — AI-native EPC startup; PE-stampable 800VDC engineering packages; bridges power electronics + grid dynamics + regulatory — capabilities incumbent EPCs don't combine (ticker: private · role: epc · layer: datacenter · 1 source)
+- [[Power Integrations]] — US GaN silicon pure-play (vs Wolfspeed SiC pure-play); **disclosed NVIDIA collaboration on 1250V/1700V PowiGaN for 800VDC**; Q1 2026 $108.3M (+3% YoY) / 53.5% GM; **two Q1 design wins at Taiwan datacenter equipment customers**; mgmt-disclosed **datacenter SAM >$1B by 2030** (ticker: POWI · role: supplier · layer: compute · 3 sources)
 
 ## Assets
 
@@ -179,6 +180,8 @@
 - [[SemiAnalysis - The Great GPU Shortage Rental Capacity (2026)]] — **H100 1-yr rental: $1.70 (Oct 2025) → $2.35 (Mar 2026) = +40% in 5 mo**; capacity sold out through Sep 2026; Blackwell lead time June-July; named: Lambda/Runpod/CoreWeave/Nebius/IREN.
 - [[SemiAnalysis - Dissecting NVIDIA Blackwell (2026)]] — Largely paywalled. Public: **TMEM, CTA-scoped tcgen05, 2SM MMA** = "largest GPU microarch change in a generation"; die distribution + ~300-cycle die-to-die latency. HBM/power/NVLink5 gated.
 - [[SemiAnalysis - Inside the 800VDC Revolution (2026)]] — Part 1 of 2; **physics-forced 800VDC transition** as racks approach 600 kW; 4-phase framework (sidecar → 800VDC-native → facility-wide DC → SST endgame); **~39 GW by 2030, sidecar $11B TAM 2028, SST $13B TAM 2030**; 11 new picks-and-shovels names (DG Matrix, Heron Power, Novos Power, Amperesand, Eaton, ABB, Delta, Schneider, Wolfspeed, Infineon, Aran Industries).
+- [[Power Integrations Q1 2026 earnings]] — Q1 2026 $108.3M (+3% YoY); industrial +23%; **NVIDIA collaboration on 1250V/1700V GaN for 800VDC confirmed**; "variety of sockets in forthcoming 800VDC architectures"; **datacenter SAM >$1B by 2030** per mgmt; 2 Q1 Taiwan DC equipment design wins.
+- [[Power Integrations - 1250V & 1700V PowiGaN for 800VDC AI Datacenters (2025)]] — Oct 13 2025 press release; **first public disclosure of NVIDIA-POWI collaboration on 800VDC**; 1250V HEMTs (industry-first) + 1700V InnoMux2-EP integrated switch; 175M lifetime GaN switches shipped.
 
 **Secondary (retrospective):**
 - [[Situational Awareness, Two Years Later (2026)]] — Omer Ansari, Medium, Apr 29 2026. Aggregates McKinsey, JPM, CSIS, METR.
