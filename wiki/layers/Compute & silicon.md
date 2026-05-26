@@ -1,8 +1,8 @@
 ---
 type: layer
 created: 2026-05-24
-updated: 2026-05-24
-sources: ["[[Situational Awareness, Two Years Later (2026)]]", "[[Can AI scaling continue through 2030 (2024)]]", "[[Cerebras — Faster Tokens Please (2026)]]", "[[ASML Q1 2026 earnings]]", "[[Applied Materials Q1 FY26 earnings]]", "[[NVIDIA Blackwell at Hot Chips 2025]]"]
+updated: 2026-05-26
+sources: ["[[Situational Awareness, Two Years Later (2026)]]", "[[Can AI scaling continue through 2030 (2024)]]", "[[Cerebras — Faster Tokens Please (2026)]]", "[[ASML Q1 2026 earnings]]", "[[Applied Materials Q1 FY26 earnings]]", "[[NVIDIA Blackwell at Hot Chips 2025]]", "[[SemiAnalysis - Inside the 800VDC Revolution (2026)]]", "[[Power Integrations Q1 2026 earnings]]"]
 tags: [compute, silicon, semiconductors, bottleneck-layer]
 ---
 
@@ -18,6 +18,7 @@ The compute layer of the AI buildout: GPUs, AI accelerators, memory, advanced pa
 - **Foundries** — [[TSMC]] (Taiwan + Arizona), [[Samsung Foundry]], [[Intel Foundry]]; nodes 5nm → 3nm → 2nm
 - **Lithography** — [[ASML]] EUV and high-NA EUV; sole supplier
 - **Substrates & materials** — ABF substrates, photoresists, silicon wafers
+- **Power semiconductors (800VDC enablers)** — SiC MOSFETs ([[Wolfspeed]] 10 kV bare die March 2026), GaN switches ([[Power Integrations]] 1250V/1700V PowiGaN with disclosed NVIDIA collaboration; [[Infineon]] 650V GaN for ±400V bipolar)
 
 ## Bottlenecks (to be populated as sources land)
 
@@ -87,6 +88,20 @@ Per [[The EDA Primer From RTL to Silicon (2026)]], every chip in this layer pass
 - **Big Three EDA vendors** ([[Synopsys]], [[Cadence Design Systems]], [[Siemens EDA]]) with multi-year switching costs — see [[EDA tool consolidation]]
 - **Verification engineer shortage** — 70% of project effort, fastest-growing unfillable job category — see [[Chip design talent shortage]]
 - **PDK access tiers** — anchor JDA customers (Apple, AMD, NVIDIA) get 3+ years lead over standard foundry customers, concentrating the design pipeline further
+
+## Downstream of the silicon: Power semiconductors for 800VDC
+
+Per [[SemiAnalysis - Inside the 800VDC Revolution (2026)]] and [[Power Integrations Q1 2026 earnings]], the [[800VDC transition]] is creating a new picks-and-shovels silicon category — power semiconductors that enable the AC-DC rectification, on-blade DC-DC conversion, and MV-class SST architectures replacing legacy 48V copper distribution. **Voltage class, not foundry node, is the differentiator here.**
+
+| Vendor | Tech | Voltage class | 800VDC fit | Validation signal |
+| --- | --- | --- | --- | --- |
+| **[[Wolfspeed]]** (WOLF) | SiC pure-play | **10 kV SiC MOSFET** bare die March 2026 | MV rectifier + Phase 4 SST end-state | Direct MV-input SST enabler |
+| **[[Infineon]]** (IFX.DE / IFNNY) | Broad: SiC + 650V GaN + BBU modules | 650V GaN → ±400V Diablo 400; SiC for MV; BBU PPC cards 4 kW → 12 kW at 99.5% | Phase 1-4 across the stack | DG Matrix SiC supply; OCP Diablo 400 ecosystem |
+| **[[Power Integrations]]** (POWI) | Integrated GaN ("PowiGaN", vertical) | **1250V HEMTs + 1700V switch** | On-blade 800V→50V DC-DC (Kyber rack Phase 2) + LV rectifier | **Explicit NVIDIA collaboration disclosed Oct 2025**; "variety of sockets" Q1 2026; **datacenter SAM >$1B by 2030 per mgmt**; 2 Q1 Taiwan DC equipment design wins |
+
+**Demand-side anchor:** ~39 GW incremental 800VDC capacity by 2030; sidecar (power rack) TAM peaks ~$11B in 2028; SST TAM ~$13B by 2030. Silicon take-rate on this equipment market is the addressable pool for these three names.
+
+Direct GaN competitors not yet on the wiki: Navitas (NVTS), Innoscience, Transphorm (acquired by Renesas).
 
 ## DeepSeek shock & Jevons (Jan 2025)
 

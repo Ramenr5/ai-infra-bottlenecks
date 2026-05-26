@@ -1,8 +1,8 @@
 ---
 type: synthesis
 created: 2026-05-24
-updated: 2026-05-24
-sources: ["[[NVIDIA Q1 FY27 earnings (2026)]]", "[[TSMC Q1 2026 earnings]]", "[[SK Hynix Q3 2025 earnings]]", "[[McKinsey - The Cost of Compute (2025)]]", "[[Goldman Sachs - Generational Growth (2024)]]", "[[Stargate Project announcement (2025)]]", "[[Cerebras — Faster Tokens Please (2026)]]", "[[Situational Awareness, Two Years Later (2026)]]", "[[The EDA Primer From RTL to Silicon (2026)]]", "[[ASML Q1 2026 earnings]]", "[[Applied Materials Q1 FY26 earnings]]", "[[Broadcom Q1 FY26 earnings]]", "[[Marvell Q4 FY26 earnings]]", "[[ARM Holdings Q4 FY26 earnings]]", "[[Astera Labs Q1 2026 earnings]]", "[[Lam Research Q3 FY26 earnings]]", "[[Coherent Q3 FY26 earnings]]", "[[KLA Q3 FY26 earnings]]", "[[Micron Q2 FY26 earnings]]"]
+updated: 2026-05-26
+sources: ["[[NVIDIA Q1 FY27 earnings (2026)]]", "[[TSMC Q1 2026 earnings]]", "[[SK Hynix Q3 2025 earnings]]", "[[McKinsey - The Cost of Compute (2025)]]", "[[Goldman Sachs - Generational Growth (2024)]]", "[[Stargate Project announcement (2025)]]", "[[Cerebras — Faster Tokens Please (2026)]]", "[[Situational Awareness, Two Years Later (2026)]]", "[[The EDA Primer From RTL to Silicon (2026)]]", "[[ASML Q1 2026 earnings]]", "[[Applied Materials Q1 FY26 earnings]]", "[[Broadcom Q1 FY26 earnings]]", "[[Marvell Q4 FY26 earnings]]", "[[ARM Holdings Q4 FY26 earnings]]", "[[Astera Labs Q1 2026 earnings]]", "[[Lam Research Q3 FY26 earnings]]", "[[Coherent Q3 FY26 earnings]]", "[[KLA Q3 FY26 earnings]]", "[[Micron Q2 FY26 earnings]]", "[[SemiAnalysis - Inside the 800VDC Revolution (2026)]]", "[[Power Integrations Q1 2026 earnings]]"]
 tags: [thesis, capex, hyperscaler, supply-side, investment, trajectory]
 ---
 
@@ -101,6 +101,18 @@ Per [[The EDA Primer From RTL to Silicon (2026)]], the [[Chip design & EDA]] lay
 - **[[Chip design talent shortage]]** — verification engineers (70% of project effort) fastest-growing unfillable job; 1/3 of US semi workforce >55; complexity grows 50%/yr vs productivity 20%/yr
 
 Even if [[TSMC]] doubled CoWoS overnight and [[SK Hynix]] doubled HBM, the rate at which new accelerator architectures can be designed is gated by EDA tools + verification engineer headcount. This **reinforces the supply-side lock-in argument** — the bottleneck framework extends from foundry capacity all the way back to the design tooling itself.
+
+### 11. Datacenter electrical buildout = independent triangulation point ($120-140B 2026)
+
+Per [[SemiAnalysis - Inside the 800VDC Revolution (2026)]], **datacenter industrial capex >$400B in 2026 with electrical at 30-35% = $120-140B**. Independent corroboration of the supply-side scaling thesis from the *power-electronics* layer (vs. silicon/compute focus elsewhere in this thesis):
+
+- **~39 GW incremental 800VDC capacity by 2030** — TAM math: sidecar (HVDC power rack) $11B 2028 peak; SST $13B 2030
+- Total electrical content $3.6-4.8M/MW stays flat — **content mix shifts**, total doesn't — strong evidence that capex isn't waste, it's re-architecture forced by 600 kW rack density physics
+- **$320M into SST startups** in 12 months ending March 2026 — venture money confirms the curve
+
+**Per [[Power Integrations Q1 2026 earnings]] (silicon-enabler corroboration)**: management discloses **datacenter SAM >$1B by 2030** for their integrated GaN platform, with explicit NVIDIA collaboration on 1250V/1700V GaN sockets in forthcoming 800VDC architectures. A silicon-enabler at the on-blade DC-DC stage validating $1B+ TAM independently triangulates the $11-13B equipment-stack TAM upstream.
+
+The 800VDC transition is a parallel buildout track — separate from but contemporaneous with the compute/HBM/packaging supply expansion — and both arms triangulate the same thesis: spending is structurally locked in through 2027+.
 
 ## The arguments against (real, but second-order through 2027)
 

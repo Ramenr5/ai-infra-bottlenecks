@@ -2,7 +2,7 @@
 type: bottleneck
 created: 2026-05-26
 updated: 2026-05-26
-sources: ["[[SemiAnalysis - Inside the 800VDC Revolution (2026)]]"]
+sources: ["[[SemiAnalysis - Inside the 800VDC Revolution (2026)]]", "[[Power Integrations Q1 2026 earnings]]", "[[Power Integrations - 1250V & 1700V PowiGaN for 800VDC AI Datacenters (2025)]]"]
 layer: power
 severity: structural
 mechanism: capacity
@@ -74,8 +74,9 @@ At Kyber-class 660 kW per rack, 48V distribution requires ~200 kg copper per MW 
 - [[Schneider Electric]], [[Vertiv]] — incumbent positioning, slower
 
 **Semiconductor enablers:**
-- [[Wolfspeed]] — 10 kV SiC MOSFET commercial March 2026
-- [[Infineon]] — BBU roadmap, 650V GaN FETs, SiC supply
+- [[Wolfspeed]] — **10 kV SiC MOSFET commercial March 2026**; SiC pure-play; MV rectifier + SST end-state enabler
+- [[Infineon]] — broad portfolio: SiC + 650V GaN (for ±400V Diablo 400) + BBU power modules (4 kW → 12 kW at 99.5%); supplies SiC to [[DG Matrix]]
+- [[Power Integrations]] (POWI) — **integrated GaN pure-play; 1250V HEMTs + 1700V switch with disclosed NVIDIA collaboration**; targets on-blade 800V→50V DC-DC (Phase 2 Kyber) + LV rectifier; **mgmt-disclosed datacenter SAM >$1B by 2030**; Q1 2026 confirmed "variety of sockets in forthcoming 800VDC architectures"; 2 Q1 2026 Taiwan datacenter design wins. Notably NOT named in the SemiAnalysis deep dive — likely because SemiAnalysis tracks deployed equipment products, not silicon enablers upstream of them
 
 **AI-native EPC:**
 - [[Aran Industries]] — PE-stampable 800VDC packages bridging power electronics + grid dynamics
