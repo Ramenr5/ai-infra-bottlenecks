@@ -3,7 +3,7 @@ type: company
 ticker: VST
 created: 2026-05-28
 updated: 2026-05-28
-sources: ["[[Power & energy]]", "[[SemiAnalysis - Anthropic Bedrock AWS Margins (2026)]]", "[[Capex trajectory thesis]]"]
+sources: ["[[Vistra Meta nuclear PPA + Q1 2026 (2026)]]", "[[Power & energy]]", "[[SemiAnalysis - Anthropic Bedrock AWS Margins (2026)]]", "[[Capex trajectory thesis]]"]
 layer: power
 role: utility
 tags: [ipp, power, nuclear, gas, vst, datacenter-ppa]
@@ -15,16 +15,20 @@ US independent power producer (NYSE: VST). Large merchant generation fleet (nucl
 
 ## Why it matters for the thesis
 
-- **Merchant generation + nuclear**: owns a large dispatchable fleet (incl. nuclear via the Energy Harbor acquisition) positioned to sign datacenter PPAs at premium prices
-- **Named hyperscaler counterparty**: [[Amazon]] signed multibillion PPAs with IPPs including Vistra (per [[SemiAnalysis - Anthropic Bedrock AWS Margins (2026)]])
-- **Nuclear-DC pairing play**: grouped with [[Talen Energy]] and [[Constellation Energy]] as the merchant-nuclear beneficiaries of behind-the-meter / co-located datacenter deals
+- **The Meta nuclear PPA (headline)**: 20-year PPAs for **2,609 MW of carbon-free nuclear** from Vistra's PJM plants (Perry, Davis-Besse, Beaver Valley uprates), announced Jan 2026 — part of Meta's up-to-6.6 GW nuclear push (per [[Vistra Meta nuclear PPA + Q1 2026 (2026)]]). Delivery from late 2026, full by YE 2027; uprates early 2030s.
+- **Merchant nuclear = pure margin in tight capacity markets**: near-zero marginal cost; in [[PJM]] (+9.3× capacity spike) the entire capacity payment is effectively margin
+- **Also** signed power PPAs with [[Amazon]] (per [[SemiAnalysis - Anthropic Bedrock AWS Margins (2026)]]); nuclear-DC pairing cohort with [[Talen Energy]] + [[Constellation Energy]]
 
-## Key facts (as of 2026, verify before acting)
+## Key facts (Q1 2026, per [[Vistra Meta nuclear PPA + Q1 2026 (2026)]])
 
 | Metric | Value |
 | --- | --- |
-| Fleet | Nuclear + natural gas + solar/storage (merchant) |
-| AI angle | Datacenter PPAs + merchant power price upside in tightening grids |
+| **Meta PPA** | **2,609 MW carbon-free nuclear, 20-year** (PJM) |
+| Q1 2026 revenue | ~$5.64B (+43% YoY) |
+| Q1 2026 adj EBITDA | ~$1.49B |
+| FY2026 adj EBITDA guide | $6.8-7.6B |
+| Pending acquisition | Cogentrix ~$4.7B (~5,500 MW gas) |
+| Fleet | Nuclear (Perry, Davis-Besse, Beaver Valley, Comanche Peak) + gas + solar/storage |
 | Peers | [[Constellation Energy]], [[Talen Energy]], [[NextEra Energy]] |
 
 ## Why merchant IPPs win

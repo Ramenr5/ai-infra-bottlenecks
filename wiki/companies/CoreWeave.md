@@ -3,7 +3,7 @@ type: company
 ticker: CRWV
 created: 2026-05-28
 updated: 2026-05-28
-sources: ["[[Datacenter physical]]", "[[AI debt financing capacity]]", "[[Capex bust scenario]]", "[[SemiAnalysis - How Much Do GPU Clusters Really Cost (2026)]]"]
+sources: ["[[CoreWeave Q1 2026 earnings]]", "[[Datacenter physical]]", "[[AI debt financing capacity]]", "[[Capex bust scenario]]", "[[SemiAnalysis - How Much Do GPU Clusters Really Cost (2026)]]"]
 layer: datacenter
 role: neocloud
 tags: [neocloud, gpu-cloud, debt-financed, crwv]
@@ -19,14 +19,19 @@ Largest pure-play AI neocloud (NASDAQ: CRWV). Rents NVIDIA GPU capacity at scale
 - **Margin-disadvantaged vs hyperscalers**: per [[SemiAnalysis - How Much Do GPU Clusters Really Cost (2026)]], neoclouds compete on price but lack the TaaS margin engine hyperscalers have (AWS Bedrock etc.) — CoreWeave is wholesale IaaS, the lowest-margin tier
 - **Bear-case exposure**: flagged in [[Capex bust scenario]] as a most-exposed name if capex rationalizes (high-beta, debt-dependent, single-bottleneck)
 
-## Key facts (as of 2026, verify before acting)
+## Key facts (Q1 2026, per [[CoreWeave Q1 2026 earnings]])
 
 | Metric | Value |
 | --- | --- |
-| Model | GPU IaaS rental (NVIDIA-heavy); take-or-pay offtake |
-| Funding | Heavy non-recourse / project debt + equity (post-IPO) |
-| Tier | Wholesale IaaS (vs gold-tier Nebius/Crusoe/Fluidstack) |
-| Key risk | Margin compression + refinancing if AI demand softens |
+| **Revenue** | **~$2.1B** (+32% QoQ, +112% YoY) |
+| **Revenue backlog** | **$99.4B** (+>$40B new commitments in Q1) |
+| **Total contracted power** | **3.5 GW** |
+| **Active power** | **>1 GW** (target >1.7 GW by YE 2026) |
+| FY2026 revenue guide | $12-13B; exit run-rate floor lifted to $18B |
+| FY2025 revenue | $5.13B (+168% YoY) |
+| Model | GPU IaaS rental (NVIDIA-heavy); ~96% take-or-pay long-term contracts |
+
+**The $99.4B backlog vs $12-13B 2026 revenue** is the cleanest single measure of contracted forward AI-compute demand — and the project-finance collateral underpinning [[AI debt financing capacity]].
 
 ## Counterparties
 
