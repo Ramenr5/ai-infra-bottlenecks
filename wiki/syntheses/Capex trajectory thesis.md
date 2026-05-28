@@ -116,6 +116,8 @@ The 800VDC transition is a parallel buildout track — separate from but contemp
 
 ## The arguments against (real, but second-order through 2027)
 
+> The full bear case is developed as its own page: **[[Capex bust scenario]]** (the deliberate counterweight to this thesis). Summary below; see that page for the steelman + bear-tilted leading indicators.
+
 | Concern | Magnitude | Likely binding by 2027? |
 | --- | --- | --- |
 | [[Stargate]] stalling per Bloomberg Aug 2025 | Material at project level | Possible but doesn't move the broader curve |

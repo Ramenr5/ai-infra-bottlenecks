@@ -11,6 +11,7 @@
 - [[Capex trajectory thesis]] — **AI spending accelerates through at least 2027 (~90% probability); 2028+ depends on GPT-5/6/Rubin-era unit economics.** Supply-side is sold out, demand-side has prepaid forward capacity. Includes tradable read and 10 leading indicators to watch.
 - [[AI infrastructure investment map (May 2026)]] — **state-of-wiki consolidation.** Every tradable name organized by layer; bottleneck severity matrix; top 10 primary data points; material contradictions; coverage gaps. **Start here for a 5-min orientation to the entire wiki.**
 - [[Bottleneck ranking (May 2026)]] — **what's the biggest constraint?** Tiered ranking: Power binds the durable case (multi-year); HBM + CoWoS bite the near-term; chip design talent is the under-appreciated long-term constraint.
+- [[Capex bust scenario]] — **the deliberate bear counterweight to [[Capex trajectory thesis]].** Steelmans the ~$2T-revenue-by-2030 gap, circular financing, $90B/qtr bond issuance. NOT the base case (~20-30% through 2027) — the risk the bull thesis must survive. Both-sides epistemics.
 - [[Wiki maintenance model]] — **operating model for this vault.** Source-of-truth = local Obsidian; GitHub remote enables weekly automated SemiAnalysis ingest (Sundays 22:00 UTC); routine never touches layer/company/bottleneck/synthesis pages — flags them for human review in [[weekly-digest]] instead.
 
 ## Layers
@@ -34,6 +35,7 @@
 - [[Lithography monopoly]] — ASML sole EUV supplier globally; €38.8B backlog ~4yr forward visibility; 2 High-NA shipped Q1 2026 (severity: structural · layer: compute · 1 source)
 - [[NAND flash supply]] — structural shortage expected to persist until 2028; AI servers >45% of SanDisk shipments; KV cache offload + checkpoints + training data drive demand (severity: acute · layer: compute · 1 source)
 - [[800VDC transition]] — physics-forced shift from AC to 800VDC distribution as racks approach 600 kW+; **~39 GW incremental capacity by 2030; sidecar TAM $11B 2028 peak; SST TAM $13B 2030**; capex shifts within $3.6-4.8M/MW band across 4 phases (severity: structural · layer: power · 1 source)
+- [[Datacenter cooling]] — air cooling obsolete >50 kW/rack; GB200 NVL72 (120 kW) is DLC-only, chip TDP **>4,000W by 2029**; liquid-cooling market **$3B→$7B (2025-29), >$15B/5yr**; Quick Disconnect shortage = the CoWoS-style chokepoint (severity: acute · layer: datacenter · 2 sources)
 
 ## Geographies
 
@@ -104,6 +106,14 @@
 - [[Infineon]] — German power semis; SiC supply to DG Matrix; 650V GaN for Diablo 400 ±400V bipolar; BBU roadmap 4 kW PPC cards → 12 kW per unit at 99.5% peak (ticker: IFX.DE / IFNNY · role: supplier · layer: compute · 1 source)
 - [[Aran Industries]] — AI-native EPC startup; PE-stampable 800VDC engineering packages; bridges power electronics + grid dynamics + regulatory — capabilities incumbent EPCs don't combine (ticker: private · role: epc · layer: datacenter · 1 source)
 - [[Power Integrations]] — US GaN silicon pure-play (vs Wolfspeed SiC pure-play); **disclosed NVIDIA collaboration on 1250V/1700V PowiGaN for 800VDC**; Q1 2026 $108.3M (+3% YoY) / 53.5% GM; **two Q1 design wins at Taiwan datacenter equipment customers**; mgmt-disclosed **datacenter SAM >$1B by 2030** (ticker: POWI · role: supplier · layer: compute · 3 sources)
+
+### Datacenter cooling picks-and-shovels (new pages, May 2026)
+
+- [[Vertiv Holdings]] — **#1 liquid-cooling market share** (Dell'Oro); broad thermal + power portfolio; exposed to BOTH [[Datacenter cooling]] and [[800VDC transition]] (ticker: VRT · role: supplier · layer: datacenter · 2 sources)
+- [[nVent Electric]] — RDHx + liquid distribution; benefits from the "bridge" transition era (ticker: NVT · role: supplier · layer: datacenter · 2 sources)
+- [[Aaon]] — rapid datacenter-cooling growth via hyperscaler-customized solutions (ticker: AAON · role: supplier · layer: datacenter · 1 source)
+- [[CoolIT Systems]] — pure-play DLC (cold plates + CDUs); private, KKR-backed (ticker: private · role: supplier · layer: datacenter · 2 sources)
+- [[Boyd]] — cold plates + thermal; private, Goldman-backed (ticker: private · role: supplier · layer: datacenter · 2 sources)
 
 ## Assets
 
@@ -184,6 +194,12 @@
 - [[Power Integrations - 1250V & 1700V PowiGaN for 800VDC AI Datacenters (2025)]] — Oct 13 2025 press release; **first public disclosure of NVIDIA-POWI collaboration on 800VDC**; 1250V HEMTs (industry-first) + 1700V InnoMux2-EP integrated switch; 175M lifetime GaN switches shipped.
 - [[SemiAnalysis - Anthropic Bedrock AWS Margins (2026)]] — **TaaS > IaaS margin thesis**; AWS EBIT +213bp Q/Q driven by Claude/Bedrock; Bedrock ~$5.5B run-rate (80-90%+ Anthropic), ~55% EBIT margin; Trainium >50% of Bedrock tokens; Anthropic +$21B net new ARR Q1 → $30B, inference GM mid-60s, OI-profitable 2Q, >$100B ARR potential EOY; Google "EBTIT" margin caveat.
 - [[Finding Miscompiles for Fun Not Profit (2026)]] — Justin Lebar blog; **demand-side/Jevons anecdote**: >$10K of tokens in an afternoon running AI agents over compiler code; "things impossible 5 months ago are now just Very Expensive"; agentic token consumption as the inference-demand driver.
+- [[SemiAnalysis - Datacenter Anatomy Cooling Systems (2026)]] — rack-density→cooling thresholds (DLC mandatory >50 kW; GB200 NVL72 = 120 kW DLC-only); PUE/WUE benchmarks (Meta 1.08, Google 1.10); **Quick Disconnect shortage** as the cooling chokepoint; 60-80% of non-IT energy is cooling.
+- [[Dell'Oro - Liquid Cooling Market (2026)]] — liquid cooling **$3B→$7B (2025-29), >$15B/5yr**; GPU TDP >4,000W by 2029; Vertiv leads, then CoolIT/nVent/Boyd/Aaon; single-phase DLC dominant.
+- [[IEA - Energy and AI (2026)]] — **authoritative global power anchor**: DC electricity **415 TWh (2024) → 945 TWh (2030)**, AI servers +30%/yr; US +130%; 2035 sensitivity 700-1,700 TWh.
+- [[EPRI - Powering Intelligence (2026)]] — **US power anchor**: datacenters **9-17% of US electricity by 2030** (from ~4%); EPRI+Epoch joint; live state-level dashboard.
+- [[Apollo - AI Capex Risk Outlook (2026)]] — **credible bear**: hyperscaler capex ~$646B 2026 (~2% US GDP), $2.7T cumulative 2025-29, **$90B Q4 2025 bonds**, self-funded→debt-funded shift. Anchors [[Capex bust scenario]].
+- [[Ed Zitron - AI Is A Money Trap (2025)]] — **polemical bear steelman**: ~$2T revenue by 2030 or wasted capex; capex-vs-revenue gap; partially rebutted by Anthropic profitability inflection.
 
 **Secondary (retrospective):**
 - [[Situational Awareness, Two Years Later (2026)]] — Omer Ansari, Medium, Apr 29 2026. Aggregates McKinsey, JPM, CSIS, METR.

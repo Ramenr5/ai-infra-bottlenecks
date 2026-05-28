@@ -474,3 +474,29 @@ Pages NOT yet in wiki but referenced repeatedly — these are markers for what's
 - note: also reviewed concretumgroup.com/papers (14 systematic-trading papers) — flagged as off-thesis, awaiting user decision on scope; NOT ingested
 - wiki source count: 64 → 66
 
+## [2026-05-27] ingest | Source scan: cooling + power anchors + bear case (3-tier batch)
+- origin: user asked to scan for high-quality thesis-matching sources; approved full ingest of the ranked recommendations
+- decisions logged: Untitled.md deleted; Concretum papers confirmed off-thesis (NOT ingested)
+- **Tier 1 — Cooling (biggest coverage gap):**
+  - sources: [[SemiAnalysis - Datacenter Anatomy Cooling Systems (2026)]], [[Dell'Oro - Liquid Cooling Market (2026)]]
+  - new bottleneck: [[Datacenter cooling]] (severity: acute, layer: datacenter)
+  - new company pages: [[Vertiv Holdings]] (VRT), [[nVent Electric]] (NVT), [[Aaon]] (AAON), [[CoolIT Systems]] (private/KKR), [[Boyd]] (private/GS)
+  - key numbers: DLC mandatory >50 kW/rack; GB200 NVL72 = 120 kW DLC-only; chip TDP H100 700W → 1500W → **>4,000W by 2029**; liquid-cooling market **$3B→$7B (2025-29), >$15B/5yr**; **Quick Disconnect shortage** = cooling chokepoint; cooling = 60-80% of non-IT energy; 50 MW DC = 657M L water/yr; Meta PUE 1.08 / Google 1.10
+- **Tier 2 — Power anchors (authoritative refresh):**
+  - sources: [[IEA - Energy and AI (2026)]], [[EPRI - Powering Intelligence (2026)]]
+  - IEA: global DC **415 TWh (2024) → 945 TWh (2030)**, ~15%/yr; AI servers +30%/yr; US +130%; 2035 sensitivity **700 / 970 / 1,700 TWh** (Headwinds/HighEff/LiftOff)
+  - EPRI: US datacenters **9-17% of US electricity by 2030** (from ~4%); EPRI+Epoch joint; state dashboard (deeper fetch TODO)
+- **Tier 3 — Bear case (fixes thesis one-sidedness):**
+  - sources: [[Apollo - AI Capex Risk Outlook (2026)]] (Torsten Slok), [[Ed Zitron - AI Is A Money Trap (2025)]] (polemical steelman)
+  - new synthesis: [[Capex bust scenario]] — explicit counterweight to [[Capex trajectory thesis]]; bust ~20-30% prob through 2027, NOT base case
+  - key bear numbers: hyperscaler capex ~$646B 2026 (~2% US GDP); $2.7T cumulative 2025-29; **$90B Q4 2025 bonds**; Big-4 FCF -30% YoY while NI +73%; ~$2T revenue by 2030 needed or capex wasted; IEA Headwinds 700 TWh as demand-disappointment anchor
+  - strongest bull rebuttal recorded: supply is sold-out + prepaid (opposite of a demand air-pocket)
+- updates: [[Datacenter physical]] (cooling bottleneck + sources), [[Capex trajectory thesis]] (cross-link to bust scenario)
+- pages flagged for human review:
+  - [[Power & energy]] — add IEA global trajectory + EPRI 9-17% US range
+  - [[AI debt financing capacity]] — add Apollo $90B Q4 issuance + self→debt shift
+  - [[Hyperscaler capex sustainability]] — add 2% GDP, $2.7T cumulative, circular financing
+  - [[Bottleneck ranking (May 2026)]] — add [[Datacenter cooling]] (acute) to the near-term tier
+  - water as candidate bottleneck page (657M L/yr per 50 MW)
+- wiki source count: 66 → 72; companies → 62; bottlenecks +1 (Datacenter cooling); syntheses +1 (Capex bust scenario)
+

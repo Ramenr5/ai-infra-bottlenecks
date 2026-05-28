@@ -1,8 +1,8 @@
 ---
 type: layer
 created: 2026-05-24
-updated: 2026-05-24
-sources: []
+updated: 2026-05-27
+sources: ["[[SemiAnalysis - Datacenter Anatomy Cooling Systems (2026)]]", "[[Dell'Oro - Liquid Cooling Market (2026)]]"]
 tags: [datacenter, cooling, networking, real-estate, construction, workforce, bottleneck-layer]
 ---
 
@@ -18,10 +18,11 @@ The "building the box" layer: site selection, permitting, construction (shell + 
 - **Real estate & construction** — site selection, [[Datacenter permitting]], shell construction, [[EPC contractors]]
 - **Workforce** — [[Electrician shortage]], [[Datacenter technician labor]], [[Construction labor]]
 
-## Bottlenecks (to be populated as sources land)
+## Bottlenecks
 
-- [[Liquid cooling component supply]] — CDU, manifolds, quick-disconnect fittings; ramping from niche to mainstream
+- [[Datacenter cooling]] — **acute** (now sourced): air obsolete >50 kW/rack; GB200 NVL72 = 120 kW DLC-only; chip TDP >4,000W by 2029; liquid-cooling market $3B→$7B (2025-29); **Quick Disconnect shortage** is the CoWoS-style chokepoint; 60-80% of non-IT energy is cooling
 - [[Optical transceiver supply]] — InP / VCSEL capacity, advanced packaging
+- [[Datacenter water permits]] — a 50 MW DC at 2.0 WUE uses ~657M L/yr; contested in arid regions
 - [[Datacenter water permits]] — increasingly contested in arid regions
 - [[Electrician shortage]] — IBEW journeyman pipeline + community college throughput
 - [[Permitting and zoning]] — Loudoun moratorium debates, Dublin/Frankfurt local pushback

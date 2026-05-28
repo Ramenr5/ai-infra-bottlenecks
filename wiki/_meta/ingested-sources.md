@@ -41,10 +41,17 @@ Statuses: `ingested` (source page written), `paywalled-skipped` (insufficient fr
 - 2026-05-25 | ingested | https://newsletter.semianalysis.com/p/dissecting-nvidia-blackwell-tensor | [[SemiAnalysis - Dissecting NVIDIA Blackwell (2026)]] — partially paywalled
 - 2026-05-26 | ingested | https://newsletter.semianalysis.com/p/inside-the-800vdc-revolution-part | [[SemiAnalysis - Inside the 800VDC Revolution (2026)]] — public ~92%, Part 1 of 2 series
 - 2026-05-27 | ingested | https://newsletter.semianalysis.com/p/anthropic-growth-and-bedrock-mix | [[SemiAnalysis - Anthropic Bedrock AWS Margins (2026)]] — public ~95%
+- 2026-05-27 | ingested | https://newsletter.semianalysis.com/p/datacenter-anatomy-part-2-cooling-systems | [[SemiAnalysis - Datacenter Anatomy Cooling Systems (2026)]] — partially paywalled (free portion rich)
 
 ## Other sources
 
 - 2026-05-27 | ingested | https://substack.com/home/post/p-199418059 | [[Finding Miscompiles for Fun Not Profit (2026)]] — Justin Lebar personal blog; anecdotal demand-side/Jevons signal
+- 2026-05-27 | ingested | https://www.delloro.com/news/data-center-liquid-cooling-market-to-approach-7-billion-by-2029-as-ai-deployments-accelerate/ | [[Dell'Oro - Liquid Cooling Market (2026)]]
+- 2026-05-27 | ingested | https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai | [[IEA - Energy and AI (2026)]]
+- 2026-05-27 | ingested | https://powering-intelligence.epri.com/load-growth.html | [[EPRI - Powering Intelligence (2026)]] — headline captured; state dashboard pending deeper fetch
+- 2026-05-27 | ingested | https://www.apolloacademy.com/top-5-risks-in-2026/ | [[Apollo - AI Capex Risk Outlook (2026)]]
+- 2026-05-27 | ingested | https://www.wheresyoured.at/ai-is-a-money-trap/ | [[Ed Zitron - AI Is A Money Trap (2025)]] — polemical bear steelman
+- 2026-05-30 | not-relevant | https://concretumgroup.com/papers/ | [skipped - off-thesis systematic-trading papers; user decision 2026-05-27]
 
 ## Power Integrations (POWI)
 
