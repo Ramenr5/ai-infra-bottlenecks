@@ -6,6 +6,7 @@ sources: ["[[Marvell Q4 FY26 earnings]]"]
 ticker: MRVL
 layer: compute
 role: supplier
+aliases: [Marvell]
 tags: [marvell, mrvl, custom-asic, optical-dsp, ai-networking, microsoft-maia]
 ---
 

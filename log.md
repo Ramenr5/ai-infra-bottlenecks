@@ -511,3 +511,22 @@ Pages NOT yet in wiki but referenced repeatedly — these are markers for what's
 - net: thesis now has explicit both-sides framing (bull [[Capex trajectory thesis]] ↔ bear [[Capex bust scenario]]) and datacenter-physical bottlenecks (cooling + water + 800VDC) properly ranked
 - wiki bottleneck count: +1 (Datacenter water permits)
 
+## [2026-05-28] gap-fill | Orphan-wikilink fill (top thesis-central pages)
+- origin: "fill gaps" — ran local orphan analysis (145 orphans across 315 link targets vs 174 pages), filled the highest-inbound-ref thesis-central ones
+- new pages (9):
+  - [[OpenAI]] (17 inbound refs — biggest gap; ai-lab, Stargate anchor, $300B Oracle deal)
+  - [[ERCOT]] (geography/grid-region; energy-only advantage vs PJM)
+  - [[PJM]] (geography/grid-region; 9.3× capacity spike, bill backlash)
+  - [[CoreWeave]] (neocloud; AI debt financing canary)
+  - [[Vistra]] (IPP; merchant nuclear+gas; Amazon PPAs)
+  - [[Constellation Energy]] (largest US nuclear; firm baseload)
+  - [[Mitsubishi Heavy Industries]] (3rd gas-turbine OEM)
+  - [[xAI]] (ai-lab; Colossus GW-scale + onsite gas)
+  - [[Transformer lead times]] (bottleneck; acute; ~110-wk LPT)
+- alias fixes (resolve ~24 orphan refs via frontmatter `aliases:`):
+  - Samsung Electronics +[Samsung]; Micron Technology +[Micron]; Marvell Technology +[Marvell]; Vertiv Holdings +[Vertiv]; Amazon +[AWS]
+- all new pages sourced by cross-citing existing wiki sources (no fabricated figures; fast-aging numbers marked "as of / verify before acting")
+- remaining orphans (not yet filled, candidates for next pass): Samsung Foundry, Intel Foundry, Lambda, Nebius, Humain (Saudi PIF), MGX, G42, Apollo (Global), Blackstone, KKR, Brookfield, Jacobs/Fluor/AECOM (EPC), Hubbell, Hammond Power Solutions, Equinix, Digital Realty, Ohio (geography), plus many single-ref placeholders/template tokens (Page A/Source A etc. — noise, ignore)
+- note: this is the local/manual version of what the Gap-audit routine now drafts via email; routine remains for ongoing detection
+- wiki: companies +6, geographies +2, bottlenecks +1
+

@@ -6,6 +6,7 @@ sources: ["[[Amazon Q1 2026 earnings]]", "[[SemiAnalysis - Anthropic Bedrock AWS
 ticker: AMZN
 layer: capital
 role: hyperscaler
+aliases: [AWS]
 tags: [amazon, amzn, aws, trainium, hyperscaler, custom-asic, bedrock, taas]
 ---
 

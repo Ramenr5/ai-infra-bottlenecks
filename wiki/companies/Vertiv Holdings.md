@@ -6,6 +6,7 @@ updated: 2026-05-27
 sources: ["[[Dell'Oro - Liquid Cooling Market (2026)]]", "[[SemiAnalysis - Datacenter Anatomy Cooling Systems (2026)]]"]
 layer: datacenter
 role: supplier
+aliases: [Vertiv]
 tags: [cooling, liquid-cooling, power, datacenter-physical, market-leader]
 ---
 

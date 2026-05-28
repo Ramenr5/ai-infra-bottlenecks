@@ -6,6 +6,7 @@ sources: ["[[Samsung Q1 2026 earnings]]"]
 ticker: 005930.KS
 layer: compute
 role: idm
+aliases: [Samsung]
 tags: [samsung, conglomerate, hbm4, nand, dram, foundry, idm, vertically-integrated]
 ---
 

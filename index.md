@@ -37,6 +37,7 @@
 - [[800VDC transition]] — physics-forced shift from AC to 800VDC distribution as racks approach 600 kW+; **~39 GW incremental capacity by 2030; sidecar TAM $11B 2028 peak; SST TAM $13B 2030**; capex shifts within $3.6-4.8M/MW band across 4 phases (severity: structural · layer: power · 1 source)
 - [[Datacenter cooling]] — air cooling obsolete >50 kW/rack; GB200 NVL72 (120 kW) is DLC-only, chip TDP **>4,000W by 2029**; liquid-cooling market **$3B→$7B (2025-29), >$15B/5yr**; Quick Disconnect shortage = the CoWoS-style chokepoint (severity: acute · layer: datacenter · 2 sources)
 - [[Datacenter water permits]] — water as a siting constraint; **657M L/yr per 50 MW** DC; arid-region penalty (Phoenix WUE >2.0); water-vs-power tradeoff; locally binding (severity: watch · layer: datacenter · 1 source)
+- [[Transformer lead times]] — **~110-week LPT lead times (Q3 2025)**; every grid-tied DC needs them; GOES + bespoke manufacturing gate supply; Quanta doubling capacity (severity: acute · layer: power · 3 sources)
 
 ## Geographies
 
@@ -44,6 +45,8 @@
 - [[Northern Virginia]] — 300 DCs, 5→10 GW by 2030; transmission-constrained (kind: metro · 1 source)
 - [[Oklahoma]] — Cerebras's main DC; SPP grid (kind: state · 1 source)
 - [[Johor Malaysia]] — world's 2nd largest AI hub; ByteDance + Oracle; 600-700 MW within a year, potentially 2 GW by 2028 (kind: metro · 1 source)
+- [[ERCOT]] — Texas grid; **structurally advantaged** (energy-only market, stable prices, faster interconnect) = why TX wins AI infra share; but ~1 GW/yr approval ceiling drives onsite gas (kind: grid-region · 4 sources)
+- [[PJM]] — largest US grid (67M people); home to Northern Virginia; **capacity prices spiked 9.3×**, ~15% residential bill increase = AI-power backlash epicenter (kind: grid-region · 2 sources)
 
 ## Companies
 
@@ -115,6 +118,15 @@
 - [[Aaon]] — rapid datacenter-cooling growth via hyperscaler-customized solutions (ticker: AAON · role: supplier · layer: datacenter · 1 source)
 - [[CoolIT Systems]] — pure-play DLC (cold plates + CDUs); private, KKR-backed (ticker: private · role: supplier · layer: datacenter · 2 sources)
 - [[Boyd]] — cold plates + thermal; private, Goldman-backed (ticker: private · role: supplier · layer: datacenter · 2 sources)
+
+### Gap-fill: AI labs, neoclouds, power IPPs, turbine OEM (May 2026)
+
+- [[OpenAI]] — largest compute-demand anchor (17 inbound refs); Stargate lead tenant; $300B Oracle / 4.5 GW deal; centerpiece of both bull + bear capex cases (role: ai-lab · layer: compute · 5 sources)
+- [[xAI]] — Colossus GW-scale builds; 1.9 GW onsite gas (Doosan); record-fast construction; $40B PIF rumored (role: ai-lab · layer: compute · 3 sources)
+- [[CoreWeave]] — largest pure-play neocloud; debt-financed against offtake = the [[AI debt financing capacity]] canary (ticker: CRWV · role: neocloud · layer: datacenter · 4 sources)
+- [[Vistra]] — merchant IPP (nuclear+gas); Amazon PPAs; nuclear-DC pairing play (ticker: VST · role: utility · layer: power · 3 sources)
+- [[Constellation Energy]] — largest US nuclear operator; TMI/Crane restart for Microsoft; firm clean baseload for AI (ticker: CEG · role: utility · layer: power · 2 sources)
+- [[Mitsubishi Heavy Industries]] — 3rd of the gas-turbine oligopoly (w/ GEV, Siemens Energy); Mitsubishi Power ~+30% capacity (ticker: 7011.T · role: supplier · layer: power · 3 sources)
 
 ## Assets
 

@@ -6,6 +6,7 @@ sources: ["[[Micron Q2 FY26 earnings]]"]
 ticker: MU
 layer: compute
 role: supplier
+aliases: [Micron]
 tags: [micron, mu, hbm, hbm4, dram, memory, nvidia-supplier, rubin, us-headquartered]
 ---
 
