@@ -1,8 +1,8 @@
 ---
 type: layer
 created: 2026-05-24
-updated: 2026-05-24
-sources: ["[[Situational Awareness, Two Years Later (2026)]]", "[[Can AI scaling continue through 2030 (2024)]]", "[[Goldman Sachs - Generational Growth (2024)]]"]
+updated: 2026-05-27
+sources: ["[[Situational Awareness, Two Years Later (2026)]]", "[[Can AI scaling continue through 2030 (2024)]]", "[[Goldman Sachs - Generational Growth (2024)]]", "[[IEA - Energy and AI (2026)]]", "[[EPRI - Powering Intelligence (2026)]]"]
 tags: [power, energy, grid, bottleneck-layer]
 ---
 
@@ -37,6 +37,28 @@ The most commonly cited binding constraint on the AI buildout. Frontier datacent
 | Meta Arizona solar | 300 MW | Same |
 
 Stargate alone implies a step-change in [[ERCOT]] load 2–3× the size of today's [[Northern Virginia]] cluster.
+
+## Authoritative demand anchors (IEA global + EPRI US, 2026)
+
+The institutional anchors complementing the analyst/Epoch numbers below:
+
+**Global ([[IEA - Energy and AI (2026)]]):**
+
+| Metric | Value |
+| --- | --- |
+| Global DC electricity 2024 → 2030 | **415 TWh → 945 TWh** (~15%/yr; ~1.5% → ~3% of global) |
+| AI ("accelerated") servers | **+30%/yr** vs +9%/yr conventional |
+| US increase 2024-2030 | **+240 TWh (+130%)**; per-capita 540 → >1,200 kWh |
+| China / Europe / Japan | +175 TWh (+170%) / +45 TWh (+70%) / +15 TWh (+80%) |
+| **2035 sensitivity** | **700 (Headwinds) / 970 (HighEff) / 1,700 (Lift-Off) TWh** |
+
+**US ([[EPRI - Powering Intelligence (2026)]], with [[Epoch AI]]):**
+
+| Metric | Value |
+| --- | --- |
+| US datacenter share of electricity by 2030 | **9-17%** (up from ~4% today) |
+
+The IEA 2035 range (700-1,700 TWh) is the cleanest quantified bull/bear bookend — it feeds both [[Capex trajectory thesis]] (Lift-Off) and [[Capex bust scenario]] (Headwinds).
 
 ## Aggregate US sizing (Epoch 2024)
 

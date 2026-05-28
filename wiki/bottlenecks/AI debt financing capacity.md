@@ -1,8 +1,8 @@
 ---
 type: bottleneck
 created: 2026-05-24
-updated: 2026-05-24
-sources: ["[[Situational Awareness, Two Years Later (2026)]]"]
+updated: 2026-05-27
+sources: ["[[Situational Awareness, Two Years Later (2026)]]", "[[Apollo - AI Capex Risk Outlook (2026)]]"]
 layer: capital
 severity: watch
 mechanism: capacity
@@ -21,6 +21,11 @@ The question of how much debt the AI infrastructure buildout can absorb before c
 | Meta + Oracle bond issuance, two months of 2025 | $75B combined | Same |
 | Projected total AI-related debt | ~$1.5T | Same |
 | BofA characterization | "the AI boom is hitting a money wall" | Same |
+| **Hyperscaler bond issuance, Q4 2025 alone** | **~$90B** (Oracle, Meta, Google, Amazon) | [[Apollo - AI Capex Risk Outlook (2026)]] |
+| **Self-funded → debt-funded shift** | Big-4 net income +73% YoY but **FCF −30%** — capex now exceeds internal cash | Same |
+| 2026 fixed-income supply | Rising from gov deficits + hyperscaler issuance → upward pressure on rates + spreads | Same |
+
+**The Apollo data (Q4 2025) is the concrete realization of this bottleneck's thesis**: the funding model has visibly flipped from self-funded to debt-funded. $90B in a single quarter from four issuers, against an FCF base that's shrinking, is the mechanism by which an AI-demand disappointment transmits into IG credit spreads. See [[Capex bust scenario]] for the full transmission chain.
 
 ## Why this is its own bottleneck
 

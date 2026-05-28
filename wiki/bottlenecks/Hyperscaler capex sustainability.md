@@ -2,7 +2,7 @@
 type: bottleneck
 created: 2026-05-24
 updated: 2026-05-24
-sources: ["[[Situational Awareness, Two Years Later (2026)]]", "[[Can AI scaling continue through 2030 (2024)]]", "[[McKinsey - The Cost of Compute (2025)]]", "[[NVIDIA Q1 FY27 earnings (2026)]]", "[[Microsoft Q3 FY26 earnings]]", "[[Alphabet Q1 2026 earnings]]", "[[Meta Q1 2026 earnings]]", "[[Amazon Q1 2026 earnings]]", "[[Oracle Q3 FY26 earnings]]"]
+sources: ["[[Situational Awareness, Two Years Later (2026)]]", "[[Can AI scaling continue through 2030 (2024)]]", "[[McKinsey - The Cost of Compute (2025)]]", "[[NVIDIA Q1 FY27 earnings (2026)]]", "[[Microsoft Q3 FY26 earnings]]", "[[Alphabet Q1 2026 earnings]]", "[[Meta Q1 2026 earnings]]", "[[Amazon Q1 2026 earnings]]", "[[Oracle Q3 FY26 earnings]]", "[[Apollo - AI Capex Risk Outlook (2026)]]"]
 layer: capital
 severity: watch
 mechanism: capacity
@@ -38,6 +38,18 @@ A demand-side rather than supply-side bottleneck: the question of whether hypers
 | Operating cash flow consumed by AI capex | **94% at some firms** — Amazon Q1 FCF $1.2B TTM = concrete |
 | Sundar Pichai (Alphabet) on AI capex | "elements of irrationality" |
 | BofA framing | "the AI boom is hitting a money wall" |
+
+### Apollo institutional read (the credible bear) — per [[Apollo - AI Capex Risk Outlook (2026)]]
+
+| Signal | Value |
+| --- | --- |
+| Hyperscaler capex 2026 | **~$646B (~2% of US GDP)** |
+| Cumulative AI-related spend 2025-2029 | **~$2.7 trillion** |
+| Capex growth since 2023 | tripled |
+| Big-4 FCF vs net income | NI +73% YoY but **FCF −30%** — the divergence is the warning |
+| Circular financing | datacenters booked as long-term revenue while subsidized/VC-funded → capex stimulates capex without proven end-demand |
+
+Apollo (Torsten Slok) flags an AI-bubble burst as a **top-5 risk for 2026**. The full bear case is developed in [[Capex bust scenario]] — this page's "watch" rating is the bull-side framing of the same data Apollo reads bearishly.
 
 ### Per-cluster cost anchor
 

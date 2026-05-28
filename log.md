@@ -500,3 +500,14 @@ Pages NOT yet in wiki but referenced repeatedly — these are markers for what's
   - water as candidate bottleneck page (657M L/yr per 50 MW)
 - wiki source count: 66 → 72; companies → 62; bottlenecks +1 (Datacenter cooling); syntheses +1 (Capex bust scenario)
 
+## [2026-05-27] lint/integrate | Fold new sources into framing pages + water bottleneck
+- origin: "proceed" — actioned the human-review items flagged by the source-scan ingest
+- updated framing pages (supervised session):
+  - [[Power & energy]] — added IEA global anchor (415→945 TWh 2024-30; AI +30%/yr; 2035 range 700-1,700 TWh) + EPRI US 9-17% by 2030
+  - [[AI debt financing capacity]] — added Apollo $90B Q4 2025 hyperscaler bond issuance + self-funded→debt-funded shift (Big-4 FCF -30% while NI +73%); cross-link to [[Capex bust scenario]]
+  - [[Hyperscaler capex sustainability]] — added Apollo $646B 2026 (~2% GDP), $2.7T cumulative 2025-29, circular-financing mechanism; cross-link to bust scenario
+  - [[Bottleneck ranking (May 2026)]] — added [[Datacenter cooling]] as Tier-1 near-term (physical-side) + 800VDC structural reference; updated time-horizon summary + tradable-read table
+- new bottleneck: [[Datacenter water permits]] (severity: watch, layer: datacenter) — 657M L/yr per 50 MW; water-vs-power tradeoff; Phoenix WUE >2.0; locally binding
+- net: thesis now has explicit both-sides framing (bull [[Capex trajectory thesis]] ↔ bear [[Capex bust scenario]]) and datacenter-physical bottlenecks (cooling + water + 800VDC) properly ranked
+- wiki bottleneck count: +1 (Datacenter water permits)
+

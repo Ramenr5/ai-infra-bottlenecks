@@ -36,6 +36,7 @@
 - [[NAND flash supply]] — structural shortage expected to persist until 2028; AI servers >45% of SanDisk shipments; KV cache offload + checkpoints + training data drive demand (severity: acute · layer: compute · 1 source)
 - [[800VDC transition]] — physics-forced shift from AC to 800VDC distribution as racks approach 600 kW+; **~39 GW incremental capacity by 2030; sidecar TAM $11B 2028 peak; SST TAM $13B 2030**; capex shifts within $3.6-4.8M/MW band across 4 phases (severity: structural · layer: power · 1 source)
 - [[Datacenter cooling]] — air cooling obsolete >50 kW/rack; GB200 NVL72 (120 kW) is DLC-only, chip TDP **>4,000W by 2029**; liquid-cooling market **$3B→$7B (2025-29), >$15B/5yr**; Quick Disconnect shortage = the CoWoS-style chokepoint (severity: acute · layer: datacenter · 2 sources)
+- [[Datacenter water permits]] — water as a siting constraint; **657M L/yr per 50 MW** DC; arid-region penalty (Phoenix WUE >2.0); water-vs-power tradeoff; locally binding (severity: watch · layer: datacenter · 1 source)
 
 ## Geographies
 

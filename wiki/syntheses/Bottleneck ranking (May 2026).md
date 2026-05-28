@@ -1,8 +1,8 @@
 ---
 type: synthesis
 created: 2026-05-24
-updated: 2026-05-24
-sources: ["[[Can AI scaling continue through 2030 (2024)]]", "[[Goldman Sachs - Generational Growth (2024)]]", "[[TSMC Q1 2026 earnings]]", "[[SK Hynix Q3 2025 earnings]]", "[[Samsung Q1 2026 earnings]]", "[[ASML Q1 2026 earnings]]", "[[GE Vernova Q1 2026 earnings]]", "[[The EDA Primer From RTL to Silicon (2026)]]", "[[Capex trajectory thesis]]"]
+updated: 2026-05-27
+sources: ["[[Can AI scaling continue through 2030 (2024)]]", "[[Goldman Sachs - Generational Growth (2024)]]", "[[TSMC Q1 2026 earnings]]", "[[SK Hynix Q3 2025 earnings]]", "[[Samsung Q1 2026 earnings]]", "[[ASML Q1 2026 earnings]]", "[[GE Vernova Q1 2026 earnings]]", "[[The EDA Primer From RTL to Silicon (2026)]]", "[[Capex trajectory thesis]]", "[[SemiAnalysis - Datacenter Anatomy Cooling Systems (2026)]]"]
 tags: [thesis, bottleneck, ranking, power, hbm, cowos, eda, talent]
 ---
 
@@ -59,6 +59,17 @@ A bottleneck's "biggest" qualifier depends on:
 
 These two bottlenecks are **the constraints actively biting in 2026** — they're the reason NVIDIA's $145B supply commitments don't translate immediately into shipments. But they're **on a capex-driven resolution path**, so they recede with time.
 
+### Tier 1 (near-term, 2026-27): Datacenter cooling — the physical-side acute constraint
+
+**[[Datacenter cooling]]** (added May 2026)
+- Air cooling physically obsolete >50 kW/rack; **GB200 NVL72 = 120 kW DLC-only**; chip TDP **>4,000W by 2029**
+- Acute sub-chokepoint: **Quick Disconnect shortage** (NVIDIA ramp) — the CoWoS analog of liquid cooling
+- Not enough DLC-capable datacenter shells → "bridge" solutions proliferate
+- Capex responsiveness: HIGH (market $3B→$7B; many vendors entering — Dell'Oro even flags CDU saturation)
+- **1-2 year resolution path** — bites now, recedes as DLC-ready shells + QD supply ramp
+
+This is the **datacenter-physical** counterpart to HBM/CoWoS: a hard physical forcing function (TDP), a humble-component chokepoint (QDs), but capex-responsive. Its slower-burn cousin is the **structural** [[800VDC transition]] (power-distribution re-architecture, multi-year).
+
 ### Tier 2: Structural / IP concentration
 
 **Lithography monopoly** ([[Lithography monopoly]])
@@ -104,7 +115,7 @@ This is the **most under-appreciated** constraint in the wiki. AI itself (agenti
 
 | Horizon | Binding constraint | Rationale |
 | --- | --- | --- |
-| **Right now (Q2 2026)** | **HBM + CoWoS** | Both sold out; 40-50% demand gaps; NVIDIA $145B prepaid against them |
+| **Right now (Q2 2026)** | **HBM + CoWoS + cooling** | HBM/CoWoS sold out + 40-50% gaps; [[Datacenter cooling]] DLC chokepoint (Quick Disconnects) on the physical side |
 | **2026-2028** | **Power** (begins to bite) | Stargate 10 GW + hyperscaler new builds outpace generation capacity additions |
 | **2027-2030** | **Power + chip design talent** | Power becomes Epoch's median binding constraint; talent gap compounds |
 | **2028+** | **Power + capex sustainability** | Either supply catches demand and capex pulls back, OR power forces pace |
@@ -127,6 +138,8 @@ This is the **most under-appreciated** constraint in the wiki. AI itself (agenti
 | **Power** (Tier 1 durable) | [[GE Vernova]], [[Siemens Energy]], [[Quanta Services]], [[Talen Energy]], Constellation Energy, Vistra, NextEra Energy, Eaton, Hubbell |
 | **HBM** (Tier 1 near-term) | [[SK Hynix]], [[Samsung Electronics]], [[Micron Technology]] |
 | **CoWoS** (Tier 1 near-term) | [[TSMC]], [[KLA Corporation]] (process control on advanced packaging) |
+| **Cooling** (Tier 1 near-term) | [[Vertiv Holdings]], [[nVent Electric]], [[Aaon]], [[CoolIT Systems]], [[Boyd]], [[Trane Technologies]] |
+| **800VDC** (structural) | [[DG Matrix]], [[Eaton]], [[ABB]], [[Delta Electronics]], [[Wolfspeed]], [[Infineon]], [[Power Integrations]] |
 | **Lithography** (Tier 2 structural) | [[ASML]] |
 | **EDA + IP** (Tier 2 structural) | [[Synopsys]], [[Cadence Design Systems]], [[ARM Holdings]] |
 | **Talent (Tier 3 under-appreciated)** | EDA vendors (productivity tools), offshore design services |
