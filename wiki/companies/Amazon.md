@@ -1,12 +1,12 @@
 ---
 type: company
 created: 2026-05-24
-updated: 2026-05-24
-sources: ["[[Amazon Q1 2026 earnings]]"]
+updated: 2026-05-27
+sources: ["[[Amazon Q1 2026 earnings]]", "[[SemiAnalysis - Anthropic Bedrock AWS Margins (2026)]]"]
 ticker: AMZN
 layer: capital
 role: hyperscaler
-tags: [amazon, amzn, aws, trainium, hyperscaler, custom-asic]
+tags: [amazon, amzn, aws, trainium, hyperscaler, custom-asic, bedrock, taas]
 ---
 
 # Amazon
@@ -27,6 +27,24 @@ tags: [amazon, amzn, aws, trainium, hyperscaler, custom-asic]
 | **Expected NVIDIA GPUs 2026** | **>1M** |
 | AWS chips business run rate | **$20B annual** |
 | **Trainium revenue commitments** | **>$225B (multi-year)** |
+
+## Bedrock & the TaaS margin engine (per [[SemiAnalysis - Anthropic Bedrock AWS Margins (2026)]])
+
+The differentiated AWS story isn't just scale — it's **business-model mix**. AWS is the only CSP where Token-as-a-Service (TaaS) is the dominant share of AI revenue, vs IaaS-heavy peers.
+
+| Metric | Value |
+| --- | --- |
+| **AWS EBIT margin** | **+213 bps Q/Q** — only CSP with rising margin trend |
+| **Bedrock run-rate** | **~$5.5B**; 80-90%+ customers on [[Anthropic]] models |
+| Bedrock growth | +170% Q/Q (1Q26), +60% Q/Q (4Q25) |
+| Bedrock as % of AWS AI revenue | 37% (up from 9% 1Q25); 2Q26 proj 53% |
+| Bedrock EBIT margin (est.) | **~55%** at ~$26M Anthropic-rev/MW |
+| Bedrock share of AWS GP step-up Y/Y | **30%** despite only 4% of AWS revenue |
+| **Trainium share of Bedrock tokens** | **>50%** (Matt Garman, AWS CEO, Nov 2025) |
+
+**Why TaaS > IaaS on margin**: In the Bedrock model, Anthropic is seller-of-record (books full token revenue); AWS earns an EC2-like infra fee PLUS a distribution/revenue-share fee. The rev-share is what lifts AWS margins above the IaaS-heavy GCP/Azure. **Trainium vertical integration compounds it** — inference-optimized custom silicon abstracted behind Bedrock tokens = margin-accretive offtake for Trainium.
+
+Capacity enabling the scale: ~2 GW built fast in **Indiana and Mississippi**; multibillion PPAs with [[Talen Energy]], [[Vistra]], NiSource. Amazon adding more capacity than any CSP across 2025-2027.
 
 ## Trainium custom silicon
 

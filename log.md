@@ -445,3 +445,32 @@ Pages NOT yet in wiki but referenced repeatedly — these are markers for what's
 - wiki source count: 62 → 64
 - wiki company count: 56 → 57
 
+## [2026-05-27] ingest | Anthropic/Bedrock/AWS margins + Finding Miscompiles
+- origin: user dropped 2 new files in raw/ root ("ingest new articles added")
+- created sources:
+  - [[SemiAnalysis - Anthropic Bedrock AWS Margins (2026)]] (public ~95%)
+  - [[Finding Miscompiles for Fun Not Profit (2026)]] (Justin Lebar blog; anecdotal demand signal)
+- updated (supervised session — framing edits allowed):
+  - [[Amazon]] — new Bedrock/TaaS margin-engine section (+213bp AWS margin, $5.5B Bedrock, Trainium >50% of tokens, Indiana/Mississippi 2GW, Talen/Vistra/NiSource PPAs)
+  - [[Anthropic]] — Q1 detail (+$21B net new ARR → $30B), inference GM mid-60s, OI-profitable 2Q (WSJ 5/20/26), >$100B ARR potential EOY, Bedrock distribution-channel mechanics
+- key numbers (Bedrock article):
+  - **AWS EBIT margin +213 bps Q/Q** — only CSP with rising margins (server depreciation 5yr, lowest of all CSPs)
+  - **Bedrock ~$5.5B run-rate**; 80-90%+ on Anthropic; +170% Q/Q (1Q26); 37% of AWS AI revenue (from 9% 1Q25)
+  - **Bedrock EBIT margin ~55%**; 30% of AWS GP step-up Y/Y despite 4% of revenue
+  - TaaS ARR $10B+ each at AMZN/MSFT/GOOGL vs ~nothing at ORCL/neoclouds
+  - Trainium >50% of Bedrock tokens (Matt Garman Nov 2025)
+  - Microsoft OpenAI backlog = 2.5× total Azure annual revenue
+  - Google "EBTIT" caveat: $5.4B Alphabet-Level Activities (DeepMind training) hidden from GCP margins
+  - **Core insight: TaaS margin > IaaS margin → drives hyperscaler margin divergence (AMZN > MSFT/GOOGL > ORCL/neoclouds)**
+- key numbers (Miscompiles):
+  - >$10,000 tokens in one afternoon (50 Claude subagents reading LLVM); 1 bug/4min (AMDGPU), ~2 bugs/min (x86)
+  - "Things impossible 5 months ago are now just Very Expensive" — Jevons demand signal
+- pages flagged for human review:
+  - [[Microsoft]] — datacenter freeze + OpenAI backlog 2.5× Azure revenue
+  - [[Alphabet]] — EBTIT margin caveat ($5.4B training costs bucketed outside GCP)
+  - [[Capital flows & deal structures]] — add TaaS-vs-IaaS margin-economics framework
+  - [[Oracle]] — TaaS-light → margin disappointment
+  - [[Capex trajectory thesis]] — Miscompiles as qualitative Jevons demand anecdote (pillar #5)
+- note: also reviewed concretumgroup.com/papers (14 systematic-trading papers) — flagged as off-thesis, awaiting user decision on scope; NOT ingested
+- wiki source count: 64 → 66
+

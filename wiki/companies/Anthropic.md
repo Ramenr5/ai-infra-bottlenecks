@@ -1,8 +1,8 @@
 ---
 type: company
 created: 2026-05-24
-updated: 2026-05-24
-sources: ["[[Situational Awareness, Two Years Later (2026)]]", "[[Cerebras — Faster Tokens Please (2026)]]", "[[NVIDIA Q1 FY27 earnings (2026)]]", "[[Anthropic 2026 update]]"]
+updated: 2026-05-27
+sources: ["[[Situational Awareness, Two Years Later (2026)]]", "[[Cerebras — Faster Tokens Please (2026)]]", "[[NVIDIA Q1 FY27 earnings (2026)]]", "[[Anthropic 2026 update]]", "[[SemiAnalysis - Anthropic Bedrock AWS Margins (2026)]]"]
 layer: compute
 role: ai-lab
 tags: [ai-lab, frontier-lab, claude, private, fastest-revenue-inflection]
@@ -34,6 +34,18 @@ US frontier AI lab. **Revenue grew 10× in ~10 months: ~$3B mid-2025 → $30B an
 | **Inference gross margins** | **38% → 70%+** over the ARR expansion window |
 
 **Anthropic ARR is moving extraordinarily fast** — the wiki had $30B (Apr 2026) just weeks ago; SemiAnalysis (May 2026) puts it at $44B+. The trajectory may continue.
+
+### Q1 2026 detail + profitability inflection (per [[SemiAnalysis - Anthropic Bedrock AWS Margins (2026)]])
+
+- **Added $21B net new ARR in Q1 2026 → $30B ARR** (API/Enterprise-weighted vs OpenAI's consumer skew)
+- **Inference gross margins now mid-60s%** — up from 38% (2025) and **-94% (2024)**
+- API revenue **~13× Y/Y** (Claude Code enterprise-driven)
+- **WSJ (5/20/26): expected Operating Income profitable in 2Q** (adjusted for SBC) — major milestone for a frontier lab
+- SemiAnalysis Tokenomics model: **potential >$100B ARR by year end 2026**
+
+### Distribution: the Bedrock channel
+
+Anthropic pioneered the **Token-as-a-Service distribution model** with [[Amazon]] (AWS Bedrock) and [[Alphabet|Google]] (Vertex), later followed by OpenAI on AWS. Structure: **Anthropic is seller-of-record (books full token revenue)**; the CSP earns an infra fee + revenue-share. Bedrock alone is ~$5.5B run-rate with 80-90%+ on Claude. This gives Anthropic CSP-customer-base access + compute without expensive multi-year IaaS lock-in (at a higher per-token cost). Note: gross-basis revenue recognition makes Bedrock a slightly dilutive mix on Anthropic's blended low-60s% inference margin.
 
 ### Claude Code adoption inflection (per [[SemiAnalysis - Claude Code Is The Inflection Point]])
 
