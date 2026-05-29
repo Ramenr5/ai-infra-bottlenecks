@@ -530,3 +530,19 @@ Pages NOT yet in wiki but referenced repeatedly — these are markers for what's
 - note: this is the local/manual version of what the Gap-audit routine now drafts via email; routine remains for ongoing detection
 - wiki: companies +6, geographies +2, bottlenecks +1
 
+## [2026-05-28] schema | AI Market Regime Monitor (4th routine) + momentum tracker synthesis
+- origin: user request — "market crucial information updater" to keep the investment map in sync on whether AI buildout is accelerating/stagnating/slowing (e.g. Dell earnings, principal statements)
+- new synthesis: [[AI investment momentum tracker]] — LIVE regime read between bull ([[Capex trajectory thesis]]) and bear ([[Capex bust scenario]]) poles; scores signals +1/0/-1 across 4 channels → net score → verdict tier
+- **inaugural verdict (2026-05-28): 🟢 ACCELERATING (net +5)** — seeded with live WebSearch data:
+  - Dell Q1 FY27 (reported same day): $24.4B AI orders, **$51.3B AI backlog**, ~$60B FY27 guide (+144%) [+1]
+  - NVIDIA Q1 FY27: $81.6B rev (+85%), $75.2B DC, Vera Rubin $200B TAM [+1]
+  - CoreWeave Q1: $99.4B backlog, 3.5 GW contracted [+1]
+  - Jensen Huang (May 21): "demand parabolic… agentic inflection… compute equals revenue; $1T won't be enough" [+1]
+  - Hyperscaler FY26 capex guides all raised; $1T NVDA guidance intact [+1]
+  - Credit: BofA hyperscaler IG issuance to $175B; survey $285B [+1] BUT "AI bubble" now #1 bond-investor concern 23% vs 9% Dec + BIS shadow-debt warning [-1]
+  - read: hard-demand channel maxed; credit/sentiment channel is the leading risk-edge (where a slowdown shows first)
+- new company page: [[Dell Technologies]] (DELL; AI-server demand proxy; $51.3B backlog)
+- new routine: "AI Market Regime Monitor" (id trig_0162nssfTjTdw4M8cCZmLKT8), daily 23:00 UTC (after US close, catches same-day earnings); WebSearch-only (WebFetch blocked in CCR); Gmail-draft GATED on material change (tier shift / crux signal / >=2 notable signals) — daily scan, selective draft to avoid flooding; read-only repo
+- automation now 4 routines: Daily Pulse (21:00 daily), Regime Monitor (23:00 daily), Gap Audit (Sat 22:00), SemiAnalysis (Sun 22:00) — all WebSearch + Gmail-draft model
+- wiki: syntheses +1, companies +1
+

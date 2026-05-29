@@ -12,6 +12,7 @@
 - [[AI infrastructure investment map (May 2026)]] — **state-of-wiki consolidation.** Every tradable name organized by layer; bottleneck severity matrix; top 10 primary data points; material contradictions; coverage gaps. **Start here for a 5-min orientation to the entire wiki.**
 - [[Bottleneck ranking (May 2026)]] — **what's the biggest constraint?** Tiered ranking: Power binds the durable case (multi-year); HBM + CoWoS bite the near-term; chip design talent is the under-appreciated long-term constraint.
 - [[Capex bust scenario]] — **the deliberate bear counterweight to [[Capex trajectory thesis]].** Steelmans the ~$2T-revenue-by-2030 gap, circular financing, $90B/qtr bond issuance. NOT the base case (~20-30% through 2027) — the risk the bull thesis must survive. Both-sides epistemics.
+- [[AI investment momentum tracker]] — **the LIVE regime read: accelerating / stagnating / slowing?** Sits between the bull/bear poles; scores signals across 4 channels (earnings, principals, deals/guidance, macro/credit). **Current verdict (2026-05-28): 🟢 ACCELERATING** (demand parabolic; credit channel the leading risk-edge). Maintained daily by the Market Regime Monitor routine.
 - [[Wiki maintenance model]] — **operating model for this vault.** Source-of-truth = local Obsidian; GitHub remote enables weekly automated SemiAnalysis ingest (Sundays 22:00 UTC); routine never touches layer/company/bottleneck/synthesis pages — flags them for human review in [[weekly-digest]] instead.
 
 ## Layers
@@ -127,6 +128,7 @@
 - [[Vistra]] — merchant IPP (nuclear+gas); Amazon PPAs; nuclear-DC pairing play (ticker: VST · role: utility · layer: power · 3 sources)
 - [[Constellation Energy]] — largest US nuclear operator; TMI/Crane restart for Microsoft; firm clean baseload for AI (ticker: CEG · role: utility · layer: power · 2 sources)
 - [[Mitsubishi Heavy Industries]] — 3rd of the gas-turbine oligopoly (w/ GEV, Siemens Energy); Mitsubishi Power ~+30% capacity (ticker: 7011.T · role: supplier · layer: power · 3 sources)
+- [[Dell Technologies]] — AI-server OEM; **prime demand proxy** — Q1 FY27 (May 2026): $24.4B AI orders, **$51.3B AI backlog**, ~$60B FY27 guide (+144%); backlog growing faster than shipments (ticker: DELL · role: oem · layer: datacenter · 1 source)
 
 ## Assets
 
