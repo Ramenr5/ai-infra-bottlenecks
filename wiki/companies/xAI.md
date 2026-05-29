@@ -23,10 +23,14 @@ US frontier AI lab (Elon Musk). Builder of the [[Colossus (xAI)]] supercomputers
 
 | Metric | Value |
 | --- | --- |
-| Flagship | [[Colossus (xAI)]] (Memphis) — Colossus 2 GW-scale |
-| Power | 1.9 GW onsite gas (Doosan); RDHx + DLC cooling |
-| Capital | $40B PIF raise rumored |
+| Flagship | [[Colossus (xAI)]] (Memphis) — Colossus 1 (2024) + Colossus 2 ramping (Southaven, MS) |
+| Complex capacity target | **~2 GW** with a third building (per Musk / DCD 2026) |
+| Power | 1.9 GW onsite gas (Doosan) + temporary generators; Memphis utility accommodating initial requests, +150 MW in review |
+| **Colossus 1 monetization** | **Leased to [[Anthropic]] via [[SpaceX]]: $1.25B/mo, up to $40B, 300+ MW / 220K GPUs** (May 2026) |
+| Capital | $40B Saudi PIF raise rumored |
 | Product | Grok models |
+
+> The Colossus 1 lease to Anthropic (via SpaceX) is notable: xAI/SpaceX monetizing existing GPU capacity to a rival lab while xAI builds Colossus 2 — a sign even spare frontier capacity clears instantly at premium prices.
 
 ## Counterparties
 

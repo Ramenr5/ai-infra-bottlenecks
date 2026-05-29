@@ -43,6 +43,10 @@ US frontier AI lab. **Revenue grew 10× in ~10 months: ~$3B mid-2025 → $30B an
 - **WSJ (5/20/26): expected Operating Income profitable in 2Q** (adjusted for SBC) — major milestone for a frontier lab
 - SemiAnalysis Tokenomics model: **potential >$100B ARR by year end 2026**
 
+### SpaceX compute deal (May 2026) — the extreme demand signal
+
+Anthropic is **renting all of [[xAI]]'s Colossus 1** compute from [[SpaceX]] (which acquired the capacity): **$1.25B/month through May 2029, up to $40B total**, for **300+ MW / 220,000 NVIDIA GPUs** (announced May 6 2026; CNBC/Bloomberg/Fortune/TheInformation — verify). A frontier lab renting a *competitor-adjacent* cluster because it can't source enough GPUs through normal channels is the single most extreme demand-side signal in the wiki — supply-constraint, not demand-restraint. Anthropic Q2 2026 revenue tracking ~$10.9B (≈ $44B+ ARR). Logged +1 in [[AI investment momentum tracker]].
+
 ### Distribution: the Bedrock channel
 
 Anthropic pioneered the **Token-as-a-Service distribution model** with [[Amazon]] (AWS Bedrock) and [[Alphabet|Google]] (Vertex), later followed by OpenAI on AWS. Structure: **Anthropic is seller-of-record (books full token revenue)**; the CSP earns an infra fee + revenue-share. Bedrock alone is ~$5.5B run-rate with 80-90%+ on Claude. This gives Anthropic CSP-customer-base access + compute without expensive multi-year IaaS lock-in (at a higher per-token cost). Note: gross-basis revenue recognition makes Bedrock a slightly dilutive mix on Anthropic's blended low-60s% inference margin.

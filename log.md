@@ -558,3 +558,16 @@ Pages NOT yet in wiki but referenced repeatedly — these are markers for what's
 - automation unchanged in count (4 routines); Regime Monitor now does regime-read + thesis-lint
 - wiki: syntheses +1 ([[Thesis stress-tests]])
 
+## [2026-05-29] verify+update | Routine test drafts validated + verified signals folded in
+- context: fired test runs of all routines; Daily Pulse + Regime Monitor + Gap Audit ALL produced high-quality Gmail drafts. Automation fully validated end-to-end on the WebSearch+Gmail-draft model.
+- Regime Monitor test notably scored Andrej Karpathy = 0 (joined Anthropic but cautious on 2027-AGI timelines) — directional-scoring nuance working as designed; Pichai "compute constrained" = +1
+- verified the drafts' standout signals via local WebSearch, then folded confirmed ones in:
+  - **[[Anthropic]]**: SpaceX compute deal — $1.25B/mo through May 2029, up to $40B, 300+MW / 220K GPUs at Colossus 1 (renting xAI capacity); Q2 rev ~$10.9B (verified CNBC/Bloomberg/Fortune/TheInformation)
+  - **[[Vertiv Holdings]]**: Q1 2026 — organic orders +252% YoY, backlog >$15B (+109%), adj EPS +83%, FY26 guide raised (verified 8-K)
+  - **[[Transformer lead times]]**: updated ~110 → ~128wk avg (2026 WoodMac); GSU/large-custom up to ~208wk (4yr); ~$2B new US mfg not online until ~2028
+  - **[[xAI]]**: Colossus 2 ramping (Southaven MS); complex → ~2 GW; Colossus 1 leased to Anthropic
+  - **[[AI investment momentum tracker]]**: verdict deepened to 🟢 Accelerating (high conviction); 6 new ledger rows; added ledger-hygiene note (age out ~3-4wk)
+- **correction caught by verification**: routine flagged "NVIDIA supply commitments $95.2B vs $145B" — verified $145B is CORRECT (the $29.8B→$145B jump = disclosure-definition change to "total supply incl. prepaids"). No page change. Logged as verified-non-signal in the tracker so it isn't re-flagged. Good example of the verify-before-commit discipline catching a WebSearch imprecision.
+- still in Drafts (lower priority, not yet folded): GEV backlog $163B→~$176B / 100GW, PJM 2027/28 BRA $333/MW-day, SK Hynix 72% margin confirmed, Anthropic ARR $45B, EDA backlogs (Synopsys $11.3B / Cadence $8.0B)
+- updated: [[Anthropic]], [[Vertiv Holdings]], [[Transformer lead times]], [[xAI]], [[AI investment momentum tracker]]
+

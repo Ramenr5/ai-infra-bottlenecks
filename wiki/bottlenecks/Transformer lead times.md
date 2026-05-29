@@ -21,9 +21,13 @@ You can't energize a datacenter without transformers (grid-tie + step-down); LPT
 
 | Metric | Value | Source |
 | --- | --- | --- |
-| **US LPT lead time** | **~110 weeks (Q3 2025)** | [[Power & energy]] |
+| **US LPT lead time** | **~128 weeks avg (2026)** — up from ~110 (2024); range 80-210 wks | Wood Mackenzie 2026 (verify) |
+| **GSU / large custom transformers** | **up to ~208 weeks (4 years)** for the biggest units | [pv-magazine USA May 2026](https://pv-magazine-usa.com/2026/05/11/u-s-transformer-market-faces-severe-supply-constraints-as-lead-times-extend-to-four-years/) |
 | Quanta transformer capacity | doubling at **$500-700M** investment | [[Quanta Services Q1 2026 earnings]] |
+| New US transformer manufacturing announced | ~$2B (Hitachi Energy, Siemens Energy) — not online until ~2028 | WoodMac 2026 (verify) |
 | US incremental generation needed | 47 GW through 2030 (all needs transformers) | [[Goldman Sachs - Generational Growth (2024)]] |
+
+> Lead times rose from ~50 wks (2021) → ~120 (2024) → **~128 avg (2026)**; the very latest WoodMac quarter ticked *down* ~10 wks off a higher peak, but GSU/large-custom units still run to 4 years. New domestic capacity (~$2B announced) doesn't come online until ~2028 — so projects permitted now face 2028-29 grid delivery. Reinforces behind-the-meter gas ([[SemiAnalysis - Onsite Gas Deep Dive (2025)]]) as the bypass.
 
 ## Why it binds
 

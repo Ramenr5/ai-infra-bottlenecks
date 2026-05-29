@@ -12,11 +12,11 @@ tags: [thesis, regime-monitor, momentum, accelerating-stagnating-slowing, live]
 
 ---
 
-## CURRENT VERDICT — 2026-05-28
+## CURRENT VERDICT — 2026-05-29
 
-# 🟢 ACCELERATING
+# 🟢 ACCELERATING (high conviction)
 
-**Confidence: High** on the hard-demand channel; **rising caution** on the credit channel.
+**Confidence: High** on the hard-demand channel; **rising caution** on the credit channel. Conviction deepened 2026-05-29 after the daily Regime Monitor + local verification added 4 confirmed accelerating signals (Anthropic–SpaceX $40B compute lease, Vertiv orders +252%, xAI Colossus 2 ramp, Pichai "compute constrained"). No tier change — already top tier.
 
 ```
 SLOWING  ◄———————————————————————●———►  ACCELERATING
@@ -52,9 +52,19 @@ Each tracked signal scores **+1 (accelerating) / 0 (neutral) / −1 (slowing)** 
 | 2026-05 | Deals/guide | Hyperscaler FY26 capex guides all *raised* (Big Five ~$745-775B); NVIDIA $1T Blackwell+Rubin guidance intact | **+1** |
 | 2026-05 | Macro/credit | **BofA raised hyperscaler IG issuance forecast to $175B; investor survey expects $285B** (debt funds the buildout = accel signal) | **+1** |
 | 2026-02→05 | Macro/credit | **"AI bubble" now bond investors' #1 concern (23%, up from 9% in Dec); BIS warns on hyperscaler shadow/off-B/S debt** | **−1** |
-| 2026-05 | Macro/credit | IG BBB OAS — **needs verification** (watchlist baseline unseeded); spread *widening* would be the key decel tell | **0 (watch)** |
+| 2026-05-06 | Deals/demand | **[[Anthropic]] renting [[xAI]] Colossus 1 via [[SpaceX]]: $1.25B/mo, up to $40B, 300+MW / 220K GPUs** — frontier lab can't source enough GPUs, rents a rival cluster (verified CNBC/Bloomberg) | **+1** |
+| 2026-04-22 | Earnings | **[[Vertiv Holdings|Vertiv]] Q1: organic orders +252% YoY, backlog >$15B (+109%), adj EPS +83%, FY26 guide raised** (verified 8-K) | **+1** |
+| 2026-05 | Deals/infra | **[[xAI]] Colossus 2 ramping (Southaven MS); complex targeting ~2 GW** — demand pulling GW-scale supply into existence | **+1** |
+| 2026-05 | Principal | **Sundar Pichai: Google "compute constrained in the near term"**; Alphabet capex raised ~$190B; Meta raised — measured CEO confirming demand>supply | **+1** |
+| 2026-05-19 | Principal | Andrej Karpathy → [[Anthropic]] (pretraining) but publicly cautious on 2027-AGI timelines — commits to frontier, hedges on pace | **0 (watch)** |
+| 2026-05 | Macro/credit | IG BBB OAS **~96bps (verified)** — historically tight, 4bps below the +100bps crux; NOT widening | **0 (watch)** |
 
-**Net score: +5 → 🟢 Accelerating.** The lone −1 is concentrated in credit sentiment, not demand.
+**Net score: deeply positive → 🟢 Accelerating (high conviction).** All four channels green simultaneously; the only non-positives are the credit canary (96bps, tight) and Karpathy's timeline-caution (0). The lone standing −1 (AI-bubble = top bond-investor concern) remains a *sentiment* signal that has **not** translated into actual spread widening.
+
+> [!note] Verified non-signals (don't re-flag)
+> **NVIDIA supply commitments = $145B** (Q1 FY27) confirmed correct. A routine draft surfaced "$95.2B" — that was a partial/misread figure; the $29.8B→$145B jump reflects a *disclosure-definition change* (now "total supply incl. prepaids"), not a demand drop. No change to [[NVIDIA]] pages.
+>
+> **Ledger hygiene:** signals age out after ~3-4 weeks (archive to [[log.md]]) so net score reflects the *current* window, not a monotonic running total.
 
 ---
 
