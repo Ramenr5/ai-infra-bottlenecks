@@ -581,3 +581,14 @@ Pages NOT yet in wiki but referenced repeatedly — these are markers for what's
 - all draft items from the 2026-05-28/29 routine runs now verified + folded; Drafts queue cleared
 - NOTE: user requested switching routine delivery from Gmail drafts → Telegram (via their "my stock briefing" bot). Finding: that bot is not visible in RemoteTrigger/CronList; no Telegram MCP connector exists. User opting to provide bot token + chat ID for direct api.telegram.org delivery. Telegram conversion pending token.
 
+## [2026-05-29] schema | Telegram delivery LIVE via Apps Script relay
+- finding: **CCR sandbox blocks ALL outbound HTTP** — confirmed by an isolated egress test (a cloud routine curl to api.telegram.org produced no message). So routines CANNOT hit Telegram directly. (Token itself is fine — verified locally via getMe/sendMessage.)
+- solution shipped: **Gmail-draft → Google Apps Script relay → Telegram** (@MyStockss_bot, chat 266952662)
+  - routines keep creating concise Gmail drafts (works via MCP in CCR)
+  - `tools/telegram-relay.gs` runs on Google servers (has egress + Gmail access), every 15 min reads new alert drafts by subject prefix (AI Regime Monitor / AI Infra Pulse / Wiki gap audit / SemiAnalysis), forwards concise summary (subj + first ~14 lines, cap 1200 chars) to Telegram, dedups via Script Properties
+  - repo copy = placeholder template (public repo); real token lives only in user's Apps Script
+  - **confirmed working by user 2026-05-29**
+- Regime Monitor delivery reverted from direct-curl (CCR-incapable) back to Gmail draft, like the other 3
+- one-off "TG egress test" routine (trig_01JBbgh656QmsbsscCPzTMpQ) left DISABLED (user can delete in claude.ai UI)
+- net architecture: 4 routines → Gmail drafts → Apps Script relay → Telegram push; human reviews concise alert, opens Gmail draft / repo for detail, commits locally
+
