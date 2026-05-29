@@ -64,6 +64,10 @@ function relayAlerts() {
     if (!matches) return;
 
     var body = (msg.getPlainBody() || '');
+    // Routines put a concise Telegram block at the top, then a literal "===DETAIL==="
+    // marker, then full detail meant only for the Gmail draft. Send only the top block.
+    var cut = body.indexOf('===DETAIL===');
+    if (cut !== -1) body = body.substring(0, cut).trim();
     var lines = body.split('\n')
                     .map(function (s) { return s.replace(/\s+$/, ''); })
                     .filter(function (s) { return s.trim().length > 0; })

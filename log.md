@@ -592,3 +592,13 @@ Pages NOT yet in wiki but referenced repeatedly — these are markers for what's
 - one-off "TG egress test" routine (trig_01JBbgh656QmsbsscCPzTMpQ) left DISABLED (user can delete in claude.ai UI)
 - net architecture: 4 routines → Gmail drafts → Apps Script relay → Telegram push; human reviews concise alert, opens Gmail draft / repo for detail, commits locally
 
+## [2026-05-29] schema | Telegram message concision: ===DETAIL=== split
+- problem: relay was truncating daily messages (1200-char cap) AND appended "(full detail in Gmail draft)" to EVERY message even complete ones (misleading)
+- fix part 1 (relay): cap 1200→3800 chars; footer only when actually truncated; **cut at a literal `===DETAIL===` marker — relay sends ONLY the concise top block to Telegram**, ignores everything below
+- fix part 2 (all 4 routine prompts): drafts now structured as [CONCISE TOP BLOCK] + `===DETAIL===` + [full detail]:
+  - Daily Pulse: top = signals only (1 line each) + counts; detail = ambiguous/stale/errors/watchlist-upkeep
+  - Regime Monitor: top = regime verdict + net + up to 3 signals + 1-line lint; detail = full ledger rows/lint/why-it-matters/tracker-upkeep
+  - Gap Audit: top = gap count + page names + top orphans; detail = full drafted page markdown + sources
+  - SemiAnalysis: top = numbered titles; detail = URLs/summaries/filenames
+- net: Telegram = tight phone alert (important points only); Gmail draft = full detail for local commit. Repo relay template updated; user must re-paste the relay code into their Apps Script (marker-cut + new caps).
+
