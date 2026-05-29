@@ -66,6 +66,15 @@ Dell ($51.3B AI backlog, +144% FY27 guide), NVIDIA ($75.2B DC, +85%), CoreWeave 
 ### 2. Principal statements → 🟢 accelerating
 Jensen Huang (May 2026): demand "parabolic," "compute equals revenue," "$1T won't be enough." No major principal is signaling a pullback. (Watch for the *first* hedge — Pichai's "elements of irrationality" was the closest, months ago.)
 
+**Principals tracked** (statements scored directionally — a bull voice turning cautious is a stronger signal than a known bear staying bearish):
+- **Lab leaders:** Sam Altman (OpenAI), Dario Amodei ([[Anthropic]]), Demis Hassabis (Google DeepMind), **Elon Musk** ([[xAI]]/Tesla), Ilya Sutskever (SSI), Mustafa Suleyman (Microsoft AI)
+- **Hardware/infra:** Jensen Huang ([[NVIDIA]]), Lisa Su ([[AMD]]), C.C. Wei ([[TSMC]])
+- **Hyperscaler/capital:** Satya Nadella ([[Microsoft]]), Sundar Pichai ([[Alphabet]]), Mark Zuckerberg ([[Meta]]), Andy Jassy ([[Amazon]]), Larry Ellison/Safra Catz ([[Oracle]]), Masayoshi Son ([[SoftBank]]/[[Stargate]])
+- **Independent researchers / market-movers:** **Andrej Karpathy** (capability/timeline realism — tends to temper hype; a notable *bull-to-cautious* tell if he sours), **Leopold Aschenbrenner** (Situational Awareness; aggressive-scaling bull, now runs an AI-focused fund — see [[Situational Awareness, Two Years Later (2026)]])
+- **Analysts / allocators:** Dylan Patel ([[SemiAnalysis]]), Torsten Slok ([[Apollo - AI Capex Risk Outlook (2026)|Apollo]]), David Cahn (Sequoia, "$600B question"), Ed Zitron ([[Ed Zitron - AI Is A Money Trap (2025)|bear]]), Michael Burry / Stanley Druckenmiller (positioning shifts)
+
+**Scoring nuance:** weight *direction change* over level. Aschenbrenner staying bullish ≈ 0 (priced in); **Aschenbrenner turning cautious = strong −1**. Karpathy or Burry flagging over-build = meaningful −1. A known bear (Zitron) staying bearish ≈ 0.
+
 ### 3. Deals + capex guidance → 🟢 accelerating
 All Big Five raised FY26 capex guides; NVIDIA's $1T 2025-27 guidance is a reputational lock-in. Guide *revisions* are the first-derivative tell — still pointing up. No cuts yet.
 
