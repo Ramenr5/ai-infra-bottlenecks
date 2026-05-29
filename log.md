@@ -546,3 +546,15 @@ Pages NOT yet in wiki but referenced repeatedly — these are markers for what's
 - automation now 4 routines: Daily Pulse (21:00 daily), Regime Monitor (23:00 daily), Gap Audit (Sat 22:00), SemiAnalysis (Sun 22:00) — all WebSearch + Gmail-draft model
 - wiki: syntheses +1, companies +1
 
+## [2026-05-28] schema | Thesis stress-test engine (lint/claim-adjudication) + Regime Monitor lint fold-in
+- origin: user request — automated lint/thesis-check to test feasibility of a new theory when new data/info or a principal statement emerges
+- new synthesis: [[Thesis stress-tests]] — 7-step adjudication rubric (capture → decompose premises → confront evidence base → score feasibility → thesis impact → verdict+falsifier → log) + dated ledger; anti-bias guardrails (score the argument not the name; mechanism vs conclusion; wiki data is referee)
+- inaugural live adjudication: **Michael Burry depreciation claim** (Nov 2025 — hyperscalers extend chip useful-lives, understate D&A ~$176B 2026-28, Oracle +27%/Meta +21% overstated)
+  - verdict: **Contested / open** — mechanism real (would partly explain FCF -30% vs NI +73%) BUT load-bearing premise (true chip life=2-3yr) **rebutted by wiki's own data**: H100 1-yr rental UP ~40% (2-3yr-old GPUs stay scarce/productive); AWS depn already 5yr (most conservative). "Fraud" framing overreaches (Big-Four audited).
+  - falsifier: GPU rental/resale prices rolling over before 3yr → ties to GPU rental price index
+- flagged (callouts added): [[Capex bust scenario]] (new bear pillar #5), [[Hyperscaler capex sustainability]] (earnings-quality flag)
+- folded a **feasibility-lint step (2.5)** into the AI Market Regime Monitor routine — when an emerging signal asserts a THEORY (not just a number), it lightweight-adjudicates vs the evidence base and drafts it for local completion; 'material change' now also triggers on 'a new claim worth formal stress-testing'
+- updated CLAUDE.md: added 'Stress-test (thesis check)' workflow
+- automation unchanged in count (4 routines); Regime Monitor now does regime-read + thesis-lint
+- wiki: syntheses +1 ([[Thesis stress-tests]])
+

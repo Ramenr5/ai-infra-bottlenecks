@@ -51,6 +51,11 @@ A demand-side rather than supply-side bottleneck: the question of whether hypers
 
 Apollo (Torsten Slok) flags an AI-bubble burst as a **top-5 risk for 2026**. The full bear case is developed in [[Capex bust scenario]] — this page's "watch" rating is the bull-side framing of the same data Apollo reads bearishly.
 
+### Earnings-quality flag: depreciation (Burry, Nov 2025)
+
+> [!warning] Stress-tested in [[Thesis stress-tests]] — verdict: Contested
+> Michael Burry argues hyperscalers understate depreciation by extending chip useful-lives (~3yr → 5-6yr), inflating earnings ~$176B 2026-28 (Oracle +27%, Meta +21% by 2028). This would partly explain the **FCF −30% vs NI +73%** divergence above. But the core premise (true chip life = 2-3yr) is **rebutted by rising H100 rental prices** ([[SemiAnalysis - The Great GPU Shortage Rental Capacity (2026)]]) — 2-3yr-old GPUs stay scarce and revenue-productive. Mechanism is a legitimate *watch*; the "fraud" framing overreaches. Falsifier: GPU rental/resale prices rolling over before 3yr.
+
 ### Per-cluster cost anchor
 
 A frontier 2030 training cluster (2e29 FLOP) is estimated at **"hundreds of billions of dollars"** per [[Can AI scaling continue through 2030 (2024)]]. The Big Five capex numbers above are consistent with multiple labs each pursuing one or more such clusters, suggesting current capex isn't excessive *relative to the implied physical commitment*. Whether it's excessive *relative to revenue* is the open question.

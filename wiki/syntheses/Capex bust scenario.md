@@ -33,6 +33,12 @@ The deliberate counterweight to [[Capex trajectory thesis]]. This page steelmans
 ### 4. Demand-disappointment bookend
 - IEA **Headwinds case = ~700 TWh by 2035** (vs Lift-Off 1,700 TWh) — a 1,000 TWh forecast spread that quantifies how wide the demand uncertainty is ([[IEA - Energy and AI (2026)]])
 
+### 5. Earnings-quality: the depreciation argument (Michael Burry, Nov 2025)
+Hyperscalers extended chip useful-life assumptions (~3yr → 5-6yr), which Burry argues understates depreciation by **~$176B (2026-28)** and overstates profits (~Oracle +27%, Meta +21% by 2028). Consistent with the FCF −30% / NI +73% divergence. **But stress-tested as Contested** — see [[Thesis stress-tests#2026-05-28 · Michael Burry: hyperscaler depreciation understatement → earnings inflated|the full adjudication]]: the load-bearing premise (true chip life = 2-3yr) is rebutted by rising H100 rental prices (2-3yr-old chips stay scarce/productive). Mechanism = real watch item; "fraud" conclusion = overreach.
+
+> [!warning] Adjudicated in [[Thesis stress-tests]]
+> The Burry depreciation claim is logged as **Contested / open** — the accounting mechanism is valid but its core premise is contradicted by the wiki's own GPU-rental data. Watch the GPU rental index as the falsifier.
+
 ## The arguments against the bust (why it's NOT the base case)
 
 | Bear claim | Rebuttal | Source |

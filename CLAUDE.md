@@ -103,6 +103,19 @@ When the user points you at a new source (a file in `raw/`, a URL, or pasted tex
 3. Answer with citations to wiki pages (which cite raw sources).
 4. **After answering, ask whether the answer is worth filing** — as a new bottleneck/company/layer page or an update. Good explorations should compound into the wiki, not vanish into chat.
 
+### Stress-test (thesis check, on a new claim or theory)
+
+When a new claim, theory, or data point emerges ("X said Y", "this report claims Z"), adjudicate it via the rubric in [[Thesis stress-tests]] before letting it move any thesis:
+1. **Capture** the precise assertion, source tier, and the source's incentives.
+2. **Decompose** into 2-5 load-bearing premises.
+3. **Confront** each premise with the evidence base — supports / contradicts / silent, citing pages (the "lint").
+4. **Score feasibility** (source credibility, internal consistency, evidence fit, plausibility, falsifiability) → Plausible / Contested / Unlikely / Refuted + confidence. Steelman AND attempt to refute; separate a valid *mechanism* from an overreaching *conclusion*.
+5. **Thesis impact**: support / challenge / break which pages; does it move the regime read?
+6. **Verdict + falsifier**: the specific watchable evidence that would confirm/kill it, tied to a leading indicator.
+7. **Log** a dated row in [[Thesis stress-tests]]; add a `> [!warning]` callout to any thesis it materially challenges; propose (never auto-apply) framing-page edits.
+
+The daily Market Regime Monitor runs a lightweight version of this lint automatically on emerging claims and drafts it for local completion.
+
 ### Lint (on request)
 
 Health check looks for:
