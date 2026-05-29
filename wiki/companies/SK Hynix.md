@@ -1,7 +1,7 @@
 ---
 type: company
 created: 2026-05-24
-updated: 2026-05-24
+updated: 2026-05-29
 sources: ["[[Can AI scaling continue through 2030 (2024)]]", "[[SK Hynix Q3 2025 earnings]]"]
 ticker: 000660.KS
 layer: compute
@@ -32,11 +32,20 @@ Per [[SK Hynix Q3 2025 earnings]] (Oct 29, 2025 release):
 - Full-scale sales expansion **2026**
 - Per industry coverage: **NVIDIA HBM4 allocation ~70% to SK Hynix** (Samsung targeting earlier delivery for the remainder)
 
-### Subsequent-quarter indicators (Q4 2025 / Q1 2026 coverage)
+### Q1 2026 (verified — record quarter)
 
-- HBM supply expected to **remain tight into 2027**
-- KED Global cites **72% operating margin** for an early-2026 quarter (pending official confirmation)
-- M15X facility expansion is the primary capex vehicle for 2026; specific dollar amounts not disclosed
+Per [SK Hynix Q1 2026 results](https://news.skhynix.com/q1-2026-business-results/) / [TrendForce](https://www.trendforce.com/news/2026/04/23/news-sk-hynix-reports-5x-1q26-profit-surge-operating-margin-hits-72-outpacing-tsmc-and-micron/) / [CNBC](https://www.cnbc.com/2026/04/23/sk-hynix-earnings-ai-memory-shortage-hbm-demand.html):
+
+| Metric | Q1 2026 |
+| --- | --- |
+| Revenue | **₩52.58T** (first quarter >₩50T) |
+| Operating profit | **₩37.61T (+405% YoY)** |
+| **Operating margin** | **72%** — vs Micron 67.6%, TSMC 58% |
+| Streak | 4th straight record quarter |
+
+- **HBM demand exceeds available supply for the next 3 years** (customer requirements already booked beyond capacity) — the strongest HBM-scarcity confirmation to date
+- 72% operating margin = extraordinary rent capture; confirms the [[HBM allocation]] bottleneck is intensifying, not easing
+- (Earlier Q4 2025 / M15X expansion notes: HBM tight into 2027; M15X is the primary 2026 capex vehicle)
 
 ### Competitive shift — Samsung HBM4 challenge
 

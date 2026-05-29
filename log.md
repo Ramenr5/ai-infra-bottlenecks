@@ -571,3 +571,13 @@ Pages NOT yet in wiki but referenced repeatedly — these are markers for what's
 - still in Drafts (lower priority, not yet folded): GEV backlog $163B→~$176B / 100GW, PJM 2027/28 BRA $333/MW-day, SK Hynix 72% margin confirmed, Anthropic ARR $45B, EDA backlogs (Synopsys $11.3B / Cadence $8.0B)
 - updated: [[Anthropic]], [[Vertiv Holdings]], [[Transformer lead times]], [[xAI]], [[AI investment momentum tracker]]
 
+## [2026-05-29] verify+fold (round 2) | remaining draft items folded
+- verified + folded the rest of the routine-draft signals:
+  - **[[GE Vernova]]**: gas equip backlog + slot reservations **83 → 100 GW in Q1 2026** (21 GW signed in quarter), ≥110 GW YE26 target, $200B total backlog target pulled to 2027 (verified 8-K / Utility Dive)
+  - **[[PJM]]**: 2027/28 BRA cleared **$333.44/MW-day (at FERC cap; uncapped ~$530, ~60% higher); fell 6,623 MW short of reliability requirement — first RTO-wide shortfall** (verified PJM / Utility Dive)
+  - **[[SK Hynix]]**: Q1 2026 **72% operating margin (record; rev ₩52.6T, OP +405% YoY)**, outpacing Micron 67.6% / TSMC 58%; HBM demand exceeds supply 3yr out (verified SK Hynix IR / TrendForce / CNBC)
+  - **EDA**: Cadence Q1 2026 backlog **$8.0B record** (FY26 guide +17%); Synopsys Q2 2026 backlog **~$11.0B** (EDA rev +8%) — folded into watchlist baseline
+- updated all corresponding **watchlist baselines** (SK Hynix 72%, IG BBB 96bps, GEV 100GW, PJM $333.44, EDA $11.0B/$8.0B, transformer 128wk) so routines don't re-fire on them
+- all draft items from the 2026-05-28/29 routine runs now verified + folded; Drafts queue cleared
+- NOTE: user requested switching routine delivery from Gmail drafts → Telegram (via their "my stock briefing" bot). Finding: that bot is not visible in RemoteTrigger/CronList; no Telegram MCP connector exists. User opting to provide bot token + chat ID for direct api.telegram.org delivery. Telegram conversion pending token.
+

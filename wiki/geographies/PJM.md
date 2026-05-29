@@ -17,7 +17,10 @@ The largest US grid operator (mid-Atlantic, 13 states + DC; 67M people) — and 
 | --- | --- |
 | 2024/25 | $29/MW-day |
 | **2025/26** | **$270/MW-day (9.3× spike)** |
-| 2026/27 & 2027/28 | $329/MW-day (price-capped) |
+| 2026/27 | ~$329/MW-day (price-capped) |
+| **2027/28 (cleared Dec 2025)** | **$333.44/MW-day — at the FERC cap; uncapped would be ~$530/MW-day (~60% higher)** |
+
+**2027/28 BRA is a screaming-tight signal** (verified, [PJM](https://www.pjm.com/-/media/DotCom/markets-ops/rpm/rpm-auction-info/2027-2028/2027-2028-bra-report.pdf) / [Utility Dive](https://www.utilitydive.com/news/pjm-interconnection-capacity-auction-data-center/808264/)): cleared at the cap AND **fell 6,623 MW short of the reliability requirement — the first time the entire RTO (incl. FRR areas) failed to meet it.** The cap is the only thing holding the price below ~$530. Demand (AI load) is outrunning supply faster than the market can price within its cap.
 
 **Residential impact:** 67M PJM residents face **~15% bill increase (~$29.90/month)** attributable to AI DC buildout. Removing all DCs would cut capacity payments $9.33B (−64%).
 

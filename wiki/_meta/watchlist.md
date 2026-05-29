@@ -81,7 +81,7 @@ For each indicator:
   - https://www.skhynix.com/eng/ir/financialInfo.do
   - Reuters Korea desk: site:reuters.com "SK Hynix" earnings
 - **Cadence:** quarterly
-- **Last known:** skhynix_op_margin_pct=47 (Q3 2025) | early_2026_cited_pct=72
+- **Last known:** skhynix_op_margin_pct=72 (Q1 2026, verified — record; rev ₩52.6T, OP +405%) | HBM demand > supply 3yr out
 
 ### 7. Hyperscaler credit spreads (IG BBB)
 - **What:** IG BBB-rated corporate bond spread vs Treasuries (FRED: BAMLC0A4CBBB)
@@ -90,7 +90,7 @@ For each indicator:
   - https://fred.stlouisfed.org/series/BAMLC0A4CBBB
   - https://fred.stlouisfed.org/series/BAMLH0A0HYM2 (HY for comparison)
 - **Cadence:** daily (continuous market data)
-- **Last known:** ig_bbb_oas_bps=unseeded (will baseline on first signal)
+- **Last known:** ig_bbb_oas_bps=96 (May 2026, verified — tight; +100bps crux NOT hit)
 
 ---
 
@@ -113,7 +113,7 @@ For each indicator:
   - https://www.siemens-energy.com/global/en/home/investor-relations.html
   - https://www.mhi.com/finance/library/financial/
 - **Cadence:** quarterly + ad-hoc deal PRs
-- **Last known:** GEV_backlog=$163B | GEV_gas_target_GW_YE26=110 | SE_backlog=€154B | SE_q2_orders=€17.7B
+- **Last known:** GEV_backlog=$163B | GEV_gas_backlog_GW=100 (Q1 2026, from 83; 21GW signed) | GEV_gas_target_GW_YE26=110 | GEV_$200B_target=pulled to 2027 | SE_backlog=€154B
 
 ### 10. PJM capacity market prices
 - **What:** Next PJM Base Residual Auction (BRA) clearing prices per region
@@ -122,7 +122,7 @@ For each indicator:
   - https://www.pjm.com/markets-and-operations/rpm
   - https://www.pjm.com/-/media/markets-ops/rpm/rpm-auction-info/
 - **Cadence:** annual auction (next: mid-2026 for 2027/28 delivery year)
-- **Last known:** pjm_2027_28_clearing_per_MW_day=$329 (price-capped) | 2025_26=$270 | 2024_25=$29
+- **Last known:** pjm_2027_28_clearing_per_MW_day=$333.44 (cleared Dec 2025, at cap; uncapped ~$530; fell 6,623 MW short of reliability req) | 2025_26=$270 | 2024_25=$29
 
 ### 11. EDA Big-3 backlogs
 - **What:** Synopsys + Cadence quarterly RPO/backlog
@@ -131,7 +131,7 @@ For each indicator:
   - https://investor.synopsys.com/financials/quarterly-results/
   - https://www.cadence.com/en_US/home/company/investor-relations.html
 - **Cadence:** quarterly
-- **Last known:** synopsys_backlog=$11.4B | cadence_backlog=$7.8B (CY2025)
+- **Last known:** synopsys_backlog=~$11.0B (Q2 2026, Apr 30; EDA rev +8%) | cadence_backlog=$8.0B (Q1 2026 record; FY26 guide +17%)
 
 ### 12. Transformer / substation lead times
 - **What:** US large-power-transformer (LPT) lead times + substation interconnect queue length
@@ -141,7 +141,7 @@ For each indicator:
   - Quanta Services IR: https://investors.quantaservices.com/
   - Google: "transformer lead time 2026"
 - **Cadence:** quarterly Quanta earnings + ad-hoc industry reports
-- **Last known:** lpt_lead_time_weeks=~110 (Q3 2025) | quanta_transformer_capex=$500-700M (doubling)
+- **Last known:** lpt_lead_time_weeks=~128 avg (2026, WoodMac; GSU up to ~208/4yr) | quanta_transformer_capex=$500-700M (doubling) | new US mfg ~$2B not online until ~2028
 
 ### 13. AI lab ARR / revenue updates
 - **What:** Anthropic, OpenAI, xAI revenue/ARR disclosures and valuation rounds

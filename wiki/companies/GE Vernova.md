@@ -21,7 +21,8 @@ tags: [ge-vernova, gev, gas-turbine, electrification, backlog, ai-data-center, o
 | Net income | $4.75B |
 | EPS (continuing ops) | $17.65 basic |
 | **Orders** | **$18.3B (+71% YoY)** |
-| **Backlog** | **$163B (+$13B QoQ)** |
+| **Backlog** | **$163B (+$13B QoQ; incl. $5B Prolec GE acq.)** |
+| **Gas equip backlog + slot reservations** | **83 → 100 GW in Q1 2026** (21 GW signed in the quarter) → **≥110 GW target YE 2026** |
 | **YE 2026 gas turbine backlog target** | **≥110 GW** combined backlog + slot reservations |
 | **$200B backlog target** | Pulled forward from 2028 → 2027 |
 | **Q1 Electrification DC equipment orders** | **$2.4B — more than ALL of last year** |
