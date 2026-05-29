@@ -32,8 +32,8 @@ var SUBJECT_MATCHES = [
   'SemiAnalysis ingest'
 ];
 
-var MAX_TELEGRAM_CHARS = 1200;   // keep messages concise
-var MAX_BODY_LINES      = 14;    // first N non-empty body lines
+var MAX_TELEGRAM_CHARS = 3800;   // Telegram hard limit is 4096; stay under it
+var MAX_BODY_LINES      = 120;   // effectively send the whole concise draft; char cap is the real guard
 
 function setup() {
   // remove any existing triggers for relayAlerts, then add a fresh 15-min trigger
@@ -69,10 +69,9 @@ function relayAlerts() {
                     .filter(function (s) { return s.trim().length > 0; })
                     .slice(0, MAX_BODY_LINES);
     var text = subj + '\n\n' + lines.join('\n');
+    // Only add the "truncated" note when content is ACTUALLY cut. Complete messages get no footer.
     if (text.length > MAX_TELEGRAM_CHARS) {
-      text = text.substring(0, MAX_TELEGRAM_CHARS) + '\n…(full detail in Gmail draft)';
-    } else {
-      text += '\n\n(full detail in Gmail draft + repo)';
+      text = text.substring(0, MAX_TELEGRAM_CHARS) + '\n…(truncated — full detail in Gmail draft)';
     }
 
     var resp = UrlFetchApp.fetch(
