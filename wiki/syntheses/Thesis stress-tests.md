@@ -78,6 +78,25 @@ Most recent first. Status: `open` (watching falsifier) · `aged-well` · `aged-p
 
 ---
 
+### 2026-05-31 · P3 Institute / Gurley: open weights → Chinese models become global default by 2030
+**Status: open** · Verdict: **Plausible (mechanism) / Contested (timeline + "default")** · Confidence: moderate
+
+**1. Capture.** P3 Institute Substack (attr. Bill Gurley, May 2026; influential VC — provocative framing, plausibly long open/infra). Claim: absent a credible **Western open-weight frontier** player, **Chinese open models (DeepSeek/Qwen/Kimi/GLM) become the global default by 2030**, isolating US tech from ~6B users. See [[P3 Institute - Open Source to Open Weights (2026)]].
+
+**2. Load-bearing premises.** (1) open weights structurally commoditize the model layer [CONTESTED — open still lags the frontier ~6-12mo]; (2) China leads open weights + state-committed [TRUE]; (3) West lacks a credible open frontier (Meta withdrew, Mistral subscale at $400M ARR) [PARTLY TRUE]; (4) ∴ Chinese open default by 2030 [follows only if #1 + capability parity].
+
+**3. Confront evidence base.** *Supports:* [[DeepSeek]] cost-shock + Jevons already in wiki; 40% of AI/ML workloads already open. *Contradicts:* [[SemiAnalysis - Anthropic Bedrock AWS Margins (2026)]] + [[Capex trajectory thesis]] — closed labs are **monetizing hard right now** (Anthropic $44B+ ARR, OI-profitable; frontier capability still closed-led) → premise #1 not yet validated at the frontier. *Silent:* wiki has little on China-open / geopolitics — a real coverage gap.
+
+**4. Feasibility.** Credible-but-agenda source; logic sound *conditional on* capability parity; evidence fit mixed (commoditization real for trailing edge, not frontier); falsifiability high.
+
+**5. Thesis impact.** Challenges the **lab-rent** half of the bull case; does **not** break the **infra picks-and-shovels** half (open + cheap → Jevons → *more* compute demand). Surfaces a China/open-weights coverage gap. Doesn't move the 🟢 regime.
+
+**6. Verdict + falsifier.** Mechanism (open commoditizes trailing capability) = real watch; the "Chinese default by 2030" conclusion overreaches given closed-lab monetization + persistent frontier gap + US export/regulatory countermoves. **Confirms:** an open model hits frontier parity AND majority enterprise/sovereign adoption of Chinese open models. **Refutes:** a Western open-frontier player emerges, or capability gap persists + US restrictions fragment the market.
+
+**7. Disposition.** Logged. Flagged [[AI infrastructure investment map (May 2026)]]. Candidate new synthesis: "Open weights vs closed cathedral." Re-test on any frontier-parity open release or major sovereign open-model adoption.
+
+---
+
 ### 2026-05-28 · Michael Burry: hyperscaler depreciation understatement → earnings inflated
 **Status: open** · Verdict: **Contested (mechanism valid, core premise rebutted by wiki data)** · Confidence: high
 

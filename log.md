@@ -602,3 +602,16 @@ Pages NOT yet in wiki but referenced repeatedly — these are markers for what's
   - SemiAnalysis: top = numbered titles; detail = URLs/summaries/filenames
 - net: Telegram = tight phone alert (important points only); Gmail draft = full detail for local commit. Repo relay template updated; user must re-paste the relay code into their Apps Script (marker-cut + new caps).
 
+## [2026-05-31] schema | Replace Gap Audit with AI Narrative & Findings Scout; fold in SemiAnalysis
+- user request: drop the gap scan; add a real-time AI/tech narrative scout (NVDA announcements, AI findings, influential perspective pieces e.g. P3 Institute open-weights essay) from credible influential sources incl. SemiAnalysis substacks
+- routine changes:
+  - **repurposed Gap Audit** (trig_0167) → **"AI Narrative & Findings Scout"**, daily 13:00 UTC. Scans curated sources for NEW high-signal posts/announcements/papers; attaches a 1-line PERSPECTIVE (thesis relevance) to each; flags strong claims for stress-testing; Gmail draft → relay → Telegram (concise top + ===DETAIL===); material-gated (only sends on genuinely new high-signal content)
+  - **disabled SemiAnalysis weekly** (trig_01AH) — folded into the scout's source list (reversible)
+- new tracking file: [[sources-watchlist]] — curated influential sources in 5 tiers (compute/semis analysts, AI research/policy, strategy/markets, vendor/lab primary, papers); editable, scout reads it each run
+- relay SUBJECT_MATCHES updated: dropped 'Wiki gap audit' + SemiAnalysis subjects, added 'AI Narrative' (user must update Apps Script copy)
+- seed ingest (demo of the scout's intended output): [[P3 Institute - Open Source to Open Weights (2026)]] (attr. Bill Gurley) — open-source-as-strategy; closed cathedral vs open weights (China-dominant); claim 'Chinese open models global default by 2030 absent Western open frontier'
+  - stress-tested in [[Thesis stress-tests]] → **Plausible (mechanism) / Contested (timeline)**: open commoditizes trailing capability (Jevons-real) but closed labs monetizing hard now + frontier gap persists; challenges the lab-rent thesis, NOT the infra picks-and-shovels thesis (open+cheap → more compute); surfaces a China/open-weights coverage gap
+- routine lineup now: Daily Pulse (21:00 daily, quant), Regime Monitor (23:00 daily, accel/stag/slow + thesis-lint), AI Narrative Scout (13:00 daily, qualitative findings+perspective). Gap Audit + SemiAnalysis weekly disabled.
+- flagged: [[AI infrastructure investment map (May 2026)]] (open-vs-closed value-migration); candidate synthesis 'Open weights vs closed cathedral'
+- wiki: sources +1; meta +1 (sources-watchlist); stress-test ledger +1
+

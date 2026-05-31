@@ -216,6 +216,7 @@
 - [[EPRI - Powering Intelligence (2026)]] — **US power anchor**: datacenters **9-17% of US electricity by 2030** (from ~4%); EPRI+Epoch joint; live state-level dashboard.
 - [[Apollo - AI Capex Risk Outlook (2026)]] — **credible bear**: hyperscaler capex ~$646B 2026 (~2% US GDP), $2.7T cumulative 2025-29, **$90B Q4 2025 bonds**, self-funded→debt-funded shift. Anchors [[Capex bust scenario]].
 - [[Ed Zitron - AI Is A Money Trap (2025)]] — **polemical bear steelman**: ~$2T revenue by 2030 or wasted capex; capex-vs-revenue gap; partially rebutted by Anthropic profitability inflection.
+- [[P3 Institute - Open Source to Open Weights (2026)]] — **perspective/narrative** (attr. Bill Gurley): open source as corporate strategy; closed "cathedral" (OpenAI/Anthropic) vs **open weights (China-dominant: DeepSeek/Qwen/Kimi/GLM)**; claim: Chinese open models become global default by 2030 absent a Western open frontier. Challenges the lab-rent value-capture thesis; stress-tested → Plausible-mechanism/Contested-conclusion.
 
 **Secondary (retrospective):**
 - [[Situational Awareness, Two Years Later (2026)]] — Omer Ansari, Medium, Apr 29 2026. Aggregates McKinsey, JPM, CSIS, METR.

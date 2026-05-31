@@ -27,9 +27,7 @@ var CHAT_ID   = '__PASTE_CHAT_ID__';     // e.g. 266952662
 var SUBJECT_MATCHES = [
   'AI Regime Monitor',
   'AI Infra Pulse',
-  'Wiki gap audit',
-  'SemiAnalysis new posts',
-  'SemiAnalysis ingest'
+  'AI Narrative'
 ];
 
 var MAX_TELEGRAM_CHARS = 3800;   // Telegram hard limit is 4096; stay under it

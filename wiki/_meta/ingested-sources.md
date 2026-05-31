@@ -56,6 +56,7 @@ Statuses: `ingested` (source page written), `paywalled-skipped` (insufficient fr
 - 2026-05-28 | ingested | https://about.fb.com/news/2026/01/meta-nuclear-energy-projects-power-american-ai-leadership/ | [[Vistra Meta nuclear PPA + Q1 2026 (2026)]] (verified during gap-fill)
 - 2026-05-28 | ingested | https://www.cnbc.com/2026/03/31/openai-funding-round-ipo.html | OpenAI $852B/$122B round — cited inline in [[OpenAI]] (no standalone source page)
 - 2026-05-28 | ingested | https://www.ercot.com/news/release/04152026-ercot-releases-preliminary | ERCOT 2026-2032 load forecast — cited inline in [[ERCOT]] (no standalone source page)
+- 2026-05-31 | ingested | https://p3institute.substack.com/p/from-open-source-software-to-open | [[P3 Institute - Open Source to Open Weights (2026)]] — perspective piece (open-weights vs closed-cathedral); stress-tested
 
 ## Power Integrations (POWI)
 
