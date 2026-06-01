@@ -61,4 +61,4 @@ The single biggest swing factor: **is the model-lab layer a durable toll or does
 **Re-evaluate on:** open-weight frontier parity (commoditizes labs); NVIDIA/TSMC raising prices (capturing the "underpricing" gap); any HBM/CoWoS capacity catching demand (erodes the memory/packaging toll).
 
 ## Related
-- [[Capex trajectory thesis]] · [[Capex bust scenario]] · [[AI investment momentum tracker]] · [[Bottleneck ranking (May 2026)]] · [[AI infrastructure investment map (May 2026)]] · [narrative: CRWD + NOW](../../narratives/2026-06-01 CRWD %2B NOW.md)
+- [[Future progression of AI (2026 view)]] (the *time-axis* companion — this page is the *layer-axis*) · [[Capex trajectory thesis]] · [[Capex bust scenario]] · [[AI investment momentum tracker]] · [[Bottleneck ranking (May 2026)]] · [[AI infrastructure investment map (May 2026)]] · [narrative: CRWD + NOW](../../narratives/2026-06-01 CRWD %2B NOW.md)

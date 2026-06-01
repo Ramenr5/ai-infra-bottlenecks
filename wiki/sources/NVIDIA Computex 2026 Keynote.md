@@ -82,6 +82,40 @@ NVIDIA framed the event around its Taiwan ecosystem (pregame chapters + guests):
 - **Networking → [[Broadcom]], [[Coherent]], [[Lumentum]], [[Astera Labs]]:** Spectrum-X + X1600 + CPO horizon shape the connectivity layer.
 - **Inference economics → [[SemiAnalysis - AI Value Capture (2026)]], [[ServiceNow]], [[CrowdStrike]]:** Rubin CPX (GDDR7, massive-context) cheapens inference → feeds the agentic-application demand the [CRWD+NOW narrative](../../narratives/2026-06-01 CRWD %2B NOW.md) rides.
 
+## Social / analyst follow-up (added 2026-06-01 — second search pass)
+
+Pulled from post-keynote coverage + analyst commentary (ServeTheHome live, Tom's Hardware, TechRadar, Morgan Stanley, SemiAnalysis, GlobalDataCenterHub, TheNextWeb). Verify against NVIDIA primary.
+
+**The framing that dominated commentary — "compute is the new economy":**
+- **"AI is now a profit generator. AI is now a GDP generator."** — Jensen's thesis shift: from cost center to revenue/output engine.
+- **"Compute is revenue" / "Throughput per Watt is revenue" / "the more you buy, the more you make."** Formalized (at GTC Mar 2026, reaffirmed here) as **Revenue = (Tokens per Watt) × (Available Gigawatts)** — power-efficiency becomes a direct revenue multiplier.
+- **AI-factory unit economics:** a **1-GW AI factory ≈ $100B capex → ~$150B/yr revenue** in tiered "token packages" (analyst extrapolation of Jensen's framing).
+- **"Five-Layer Cake" stack** — energy/infra at the base → applications at the top; NVIDIA reframes itself as **CUDA-X + systems + AI factories**, not silicon alone (value moves to the full stack). Ties directly to [[AI value capture across the stack]].
+
+**Performance / spec confirmations + additions:**
+- **Vera Rubin in full production** ("ramps into full production to power agentic AI factories"); **~3.5× training / ~5× inference perf vs Blackwell**; **VR NVL72 = ~1/7 the token cost** for MoE inference at same latency (broader marketing claim: **up to 10× lower cost per token, 4× fewer GPUs to train MoE**). VR200 rack **mass production H2 2026**.
+- **Vera CPU:** TSMC 3nm, **1.8× agentic perf vs x86**, 3× SQL throughput, "highest IPC in the world," at reticle limit "no chiplet penalty."
+- **Component count — reconcile:** "**over 1.3M components**" (board/system level, per techradar) vs "**nearly 2 million parts**" + "**150 ecosystem partners** on the island" (TheNextWeb) — different denominators (board components vs total system parts); both cited. **6 trillion transistors**, **18,000+ components on a single board**. Grace Blackwell rack assembles in **5 minutes**, no cables in compute trays.
+- **"NVIDIA is now the largest networking company in the world."** Marvell CEO shared the stage on an **AI-datacenter interconnect blueprint** (June 2).
+
+**Software + agents (the demand-pull layer):**
+- **Nemotron 3 Ultra** (open) — ~5× faster, ~30% lower inference cost; Nemotron 4 in development.
+- **NVIDIA Agent Toolkit for Enterprise** (models + harnesses + tools + runtime) + **OpenShell** for privacy/security; "open agentic systems entering the enterprise stack" — **security framed as a *gating issue* for enterprise agent adoption** (corroborates [[Identity security in the AI era (2026)]] / the [CRWD+NOW narrative](../../narratives/2026-06-01 CRWD %2B NOW.md)).
+- Jensen: **GitHub commits ~tripling in 2026** on AI coding tools (NVIDIA's framing of the same agentic inflection in [[SemiAnalysis - Claude Code Is The Inflection Point]]).
+
+**Physical AI / robotics (the next demand driver):**
+- **Jetson Thor** robotics compute; **Isaac GROOT** reference humanoid (Unitree body, articulated hands); **Cosmos 3** open robotics world-model for sim/synthetic data; **Alpamayo — "world's first reasoning autonomous vehicle"** on Drive Hyperion. Physical AI positioned as a mainstream, compute-hungry demand driver "beyond the data center."
+
+**Consumer / N1X (the edge):**
+- **RTX Spark / N1X:** TSMC 3nm, **70B transistors, 20 CPU cores, 6,144 CUDA cores**, [[MediaTek]] SoC; **Fall 2026** laptops/desktops + DGX Station for Windows; Adobe rebuilding Photoshop/Premiere for it. Consumer roadmap: **2028 Vera Rubin Spark → 2030 Rosa Feynman**.
+
+**Taiwan as "epicentre":**
+- Jensen: NVIDIA expects to **spend ~$150B/year in Taiwan**; Taiwan called the **"epicentre of the AI revolution"**; Vera Rubin "probably the largest product launch in the history of Taiwan." **Constellation campus** under construction. Reinforces [[Taiwan]] / [[CoWoS packaging capacity]] concentration risk.
+
+**SemiAnalysis forward read ("The Inference Kingdom Expands"):**
+- **CPU scaling is the emerging bottleneck** — "as GPUs scale faster than CPUs, larger CPU clusters are needed to keep them fully utilized"; Vera **ETL256** rack (256 CPUs, liquid-cooled) addresses it. A *new* bottleneck to watch alongside HBM/CoWoS/power.
+- **Attention-FFN Disaggregation (AFD)** + "**copper where they can, optics where they must**" → NVL144 (Kyber, all-copper) → NVL288 → NVL576 (Oberon, CPO inter-rack) → Feynman NVL1152. Deepens the [[Disaggregated inference (Rubin CPX)]] thesis: disaggregation is becoming the *organizing principle* of inference, not a one-off.
+
 ## Implications — pages flagged for review/update
 - [[NVIDIA]] — add Computex 2026: $1T POs reaffirmed, Vera Rubin 1.3M components / 10× perf/watt, X1600, Spectrum-X, Rubin CPX, RTX Spark / N1X
 - [[AI investment momentum tracker]] — log $1T-PO reaffirmation + "inflection point for inference" as a strong accelerating signal
@@ -89,3 +123,8 @@ NVIDIA framed the event around its Taiwan ecosystem (pregame chapters + guests):
 - [[Capex trajectory thesis]] — purchase-orders (not TAM) framing strengthens the demand-lock pillar
 - New page candidates (ODM AI-factory builders): [[Supermicro]], [[Wiwynn]], [[Ingrasys]], [[Quanta Cloud Technology]], [[Inventec]], [[Asus]]
 - New concept candidate: **Rubin CPX / disaggregated inference** (GDDR7 inference economics)
+
+## Synthesis pages this anchors
+- [[Future progression of AI (2026 view)]] — the forward time-axis map built on this keynote (four phases; deployment-gated capability; Jevons crux)
+- [[AI value capture across the stack]] — the layer-axis rent map (five-layer-cake → who captures the value)
+- [[Disaggregated inference (Rubin CPX)]] — the inference-economics mechanism
