@@ -31,7 +31,7 @@ The opinionated forward map: **where AI compute goes from here, what bends the c
 2. **Demand is an order book, not a forecast.** **$1T high-confidence demand + purchase orders through 2027** ([[NVIDIA Computex 2026 Keynote]]) — the strongest demand-lock in the wiki ([[Capex trajectory thesis]]). Compute is "revenue" / "GDP": **Revenue = (tokens/watt) × (gigawatts)**.
 3. **Agents are the new compute consumer.** Software is shifting from humans-at-keyboards to **always-on agents** (GitHub commits ~tripling in 2026; Claude Code 4%→20% of commits, [[SemiAnalysis - Claude Code Is The Inflection Point]]). Agents consume tokens continuously → demand scales with *deployment count*, not headcount.
 4. **The bottleneck stack is broadening.** Power → HBM → CoWoS were the 2025 constraints. 2026 adds **CPU scaling** (GPUs outscale CPUs → CPU clusters become the limiter, [[NVIDIA Computex 2026 Keynote]] / SemiAnalysis) and keeps **memory** acute (288GB→1TB HBM/GPU). See [[Bottleneck ranking (May 2026)]].
-5. **Physical AI opens a second demand front.** Jetson Thor, Isaac GROOT humanoid, Cosmos 3 world model, Alpamayo reasoning-AV ([[NVIDIA Computex 2026 Keynote]]) — robotics/AV extend compute demand *beyond* the data center, with simulation/synthetic-data/world-models as a new compute sink.
+5. **Physical AI opens a second demand front.** Jetson Thor, Isaac GROOT humanoid, Cosmos 3 world model, Alpamayo reasoning-AV ([[NVIDIA Computex 2026 Keynote]]) — robotics/AV extend compute demand *beyond* the data center, with simulation/synthetic-data/world-models as a new compute sink. See [[Physical AI & robotics]] (Jensen's $40T TAM; NVDA physical-AI rev >$9B TTM).
 
 ## Where the money lands (forward) — see [[AI value capture across the stack]]
 
@@ -50,7 +50,7 @@ The whole forward thesis pivots on **one question: does cheaper-per-token infere
 
 ## The swing factor — open weights
 
-[[P3 Institute - Open Source to Open Weights (2026)]]: if open-weight models reach frontier parity, the **model layer commoditizes** → value migrates *down* to infrastructure (the tolls) and *out* to applications + whoever owns cheap compute. This **doesn't slow the buildout — it changes who captures the rent** (away from closed labs, toward infra + cheap-inference operators). A reason the *infrastructure* tolls are the more durable bet than any single lab.
+See [[Open-weight commoditization (the swing factor)]] (the dedicated page): open-weight is now **~5% off the closed frontier** on code/reasoning ([[Open-weight frontier parity (H1 2026)]]). If parity holds and generalizes, the **model layer commoditizes** → value migrates *down* to infrastructure (the tolls) and *out* to applications + whoever owns cheap compute. This **doesn't slow the buildout — it changes who captures the rent** (away from closed labs, toward infra + cheap-inference operators). A reason the *infrastructure* tolls are the more durable bet than any single lab.
 
 ## Leading indicators (what I'm watching)
 

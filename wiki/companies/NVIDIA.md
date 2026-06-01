@@ -35,6 +35,7 @@ Per [[NVIDIA Q1 FY27 earnings (2026)]]:
 - **Rubin CPX** — new GPU class for 1M+ token context inference on **GDDR7** (cheaper inference)
 - **X1600** converged IB/Ethernet switch; **Spectrum-X** Ethernet widespread adoption
 - Consumer: **RTX Spark** AI PC, DLSS 4.5; **"new era of PC"** + N1X Arm laptops with [[Microsoft]]
+- **Physical AI** — full-stack robot platform (Jetson Thor compute + Isaac GROOT humanoid + Cosmos 3 world model + Drive/Alpamayo AV); **physical-AI revenue >$9B TTM** (VERIFY); the cross-maker toll on the $40T humanoid TAM → [[Physical AI & robotics]]
 - Supply: **sole/exclusive early HBM4 client** ([[SK Hynix]]+[[Samsung Electronics]]); books vast majority of [[CoWoS packaging capacity|CoWoS]]; booked entire server-plant capacity through 2026
 
 ### Supply commitments — the canonical anchor

@@ -17,6 +17,7 @@
 - [[Disaggregated inference (Rubin CPX)]] — **inference splits into prefill (GDDR7, compute-bound) + decode (HBM, bandwidth-bound); NVIDIA built a chip for each.** Cheapens long-context inference → Jevons → expands demand, tilts value to the application layer, bifurcates memory. From the [[NVIDIA Computex 2026 Keynote]].
 - [[AI value capture across the stack]] — **the capstone: where do the rents land?** Rent = concentration × indispensability × capacity-constraint — *not* revenue size. Own the tolls (memory, NVIDIA, TSMC/CoWoS, ASML, EDA = durable rents); labs = highest-rent-but-least-durable (open-weights risk); application = stock-picker's layer. Reconciles "value migrates to labs" ([[SemiAnalysis - AI Value Capture (2026)]]) vs "value stays distributed" ([[Menlo - State of Enterprise AI (2025)]]).
 - [[Future progression of AI (2026 view)]] — **the time-axis forward map.** Four phases (scaling → reasoning → **agentic/industrialization, now** → physical AI); capability is now *deployment-gated, not research-gated* — the binding constraints are power/HBM/CPU/cost-per-token, not algorithms. Crux: does Jevons (cheaper inference → more demand) hold past 2027? Bull through 2027 high-confidence; 2028+ hinges on agent unit economics. Companion to the capstone.
+- [[Open-weight commoditization (the swing factor)]] — **the variable that most changes who keeps the rent.** Open weights now ~5% off closed frontier on code/reasoning → commoditize the model layer → value migrates *down* to infra tolls + *out* to data-moat apps. Doesn't slow the buildout, changes the winners. Why "own the tolls" is outcome-robust.
 - [[Wiki maintenance model]] — **operating model for this vault.** Source-of-truth = local Obsidian; GitHub remote enables weekly automated SemiAnalysis ingest (Sundays 22:00 UTC); routine never touches layer/company/bottleneck/synthesis pages — flags them for human review in [[weekly-digest]] instead.
 
 ## Layers
@@ -26,6 +27,8 @@
 - [[Chip design & EDA]] — Big Three EDA tools, IP licensing, PDK access, verification compute; sits upstream of silicon (1 source)
 - [[Datacenter physical]] — cooling, optics, real estate, construction, workforce
 - [[Capital flows & deal structures]] — hyperscaler capex, sovereign wealth, JVs, project finance (6 sources)
+- [[Application & software]] — **the "stock-picker's layer"** (top of stack): frontier labs + agentic SaaS; captured ~half of enterprise AI spend but fragmented/contested. Selection rule: data/ontology/identity moats agents can't route around.
+- [[Physical AI & robotics]] — **AI leaves the data center** — humanoids/AVs/industrial robots; Jensen's $40T labor-automation TAM, NVDA physical-AI rev >$9B TTM. Phase 4 demand driver; own the enabling tolls (NVDA stack), the pure-plays are mostly private.
 
 ## Bottlenecks
 
@@ -138,6 +141,14 @@
 
 - [[CrowdStrike]] — cybersecurity platform; **agentic-security** beneficiary; Q4 FY26 ending ARR **$5.25B (+24%)**, FY27 guide →$6.5B; Falcon Shield NAAR +300% (non-human identity), Charlotte AI +6× (ticker: CRWD · role: security · layer: application · 1 source)
 - [[ServiceNow]] — enterprise workflow; **agent-orchestration "control plane"** bet; Q1 FY26 subscription $3.671B (+19% cc); **AI commitments raised to $1.5B for 2026**; FY26 guide ~$15.75B (ticker: NOW · role: workflow · layer: application · 1 source)
+- [[Salesforce]] — CRM incumbent; **Agentforce ARR ~$800M (+169%)**, AI platform ARR +114%, Data Cloud ~$2.1B; own-platform agents = both beneficiary and competitive threat (ticker: CRM · layer: application · 1 source)
+- [[Palantir]] — **ontology/operational-AI (AIP)**; data moat agents can't route around → insulated from model commoditization; financials to verify from FY26 10-Q (ticker: PLTR · layer: application)
+
+### Physical AI / robotics (Computex 2026 — Phase 4 demand front)
+
+- [[Tesla]] — main **listed pure-play** humanoid (Optimus Gen 3 scaling at Fremont, ~$20-30k target); binary on execution (ticker: TSLA · layer: application · role: robot-maker)
+- [[Figure AI]] — leading Western humanoid; **$39B val**, 40-unit fleet live at BMW, BotQ 12k/yr (private)
+- [[Unitree Robotics]] — China volume leader; 5,500+ units '25 → 10-20k '26; G1 from $16k; Isaac GROOT body partner (private)
 
 ### NVIDIA AI-factory / server supply chain (Computex 2026 — the production layer)
 
@@ -239,6 +250,9 @@
 - [[Apollo - AI Capex Risk Outlook (2026)]] — **credible bear**: hyperscaler capex ~$646B 2026 (~2% US GDP), $2.7T cumulative 2025-29, **$90B Q4 2025 bonds**, self-funded→debt-funded shift. Anchors [[Capex bust scenario]].
 - [[Ed Zitron - AI Is A Money Trap (2025)]] — **polemical bear steelman**: ~$2T revenue by 2030 or wasted capex; capex-vs-revenue gap; partially rebutted by Anthropic profitability inflection.
 - [[P3 Institute - Open Source to Open Weights (2026)]] — **perspective/narrative** (attr. Bill Gurley): open source as corporate strategy; closed "cathedral" (OpenAI/Anthropic) vs **open weights (China-dominant: DeepSeek/Qwen/Kimi/GLM)**; claim: Chinese open models become global default by 2030 absent a Western open frontier. Challenges the lab-rent value-capture thesis; stress-tested → Plausible-mechanism/Contested-conclusion.
+- [[Open-weight frontier parity (H1 2026)]] — open-weight now **~5% off closed frontier** on code/reasoning; spring-2026 release cluster (DeepSeek V4 Pro MIT +75% price cut, Qwen 3.7 Max, **Meta ship-paused open Llama** for closed "Muse"); buyer question flipped to "which open-weight." Multi-sources the [[Open-weight commoditization (the swing factor)]] thesis.
+- [[Physical AI & humanoid landscape (2026)]] — physical-AI landscape note: Jensen **$40T humanoid TAM**, NVDA physical-AI rev **>$9B TTM**; humanoid players (Figure $39B, Unitree 5.5k units, Tesla Optimus, 1X, Apptronik). Seeds [[Physical AI & robotics]].
+- [[Salesforce Agentforce Q4 FY26 (2026)]] — **Agentforce ARR ~$800M (+169%)**, AI platform ARR +114%, Data Cloud ~$2.1B, 29k deals. Third app-layer monetization data point (with CRWD/NOW).
 
 **Secondary (retrospective):**
 - [[Situational Awareness, Two Years Later (2026)]] — Omer Ansari, Medium, Apr 29 2026. Aggregates McKinsey, JPM, CSIS, METR.
