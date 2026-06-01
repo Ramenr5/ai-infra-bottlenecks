@@ -65,6 +65,8 @@ Statuses: `ingested` (source page written), `paywalled-skipped` (insufficient fr
 - 2026-06-01 | ingested | https://fortune.com/2026/04/17/ai-saas-enterprise-software-moats-margins-saaspocalypse/ | [[AI eats SaaS - the seat-erosion debate (2026)]] (gap-fill: seat→consumption disruption; IDC/Bain/Nadella/SaaSpocalypse)
 - 2026-06-01 | ingested | https://www.cnbc.com/2025/11/18/microsoft-unveils-agent-365-to-help-companies-control-track-ai-agents.html | [[Microsoft Agent 365 + security bundling (2026)]] (gap-fill: MSFT bundling vs CRWD + Agent 365 vs NOW control-plane)
 - 2026-06-01 | ingested | https://blogs.nvidia.com/blog/nvidia-gtc-taipei-computex-2026-news/ | [[NVIDIA Computex 2026 Keynote]] — ANCHOR (search-sourced; video/slides not directly captured); $1T POs, Vera Rubin/Rubin Ultra/Feynman roadmap, supply chain, demand
+- 2026-06-01 | ingested | https://www.nvidia.com/en-tw/gtc/taipei/keynote/ | (raw clipping — keynote landing page; pregame Taiwan ecosystem guest list folded into [[NVIDIA Computex 2026 Keynote]])
+- 2026-06-01 | ingested | https://www.theverge.com/news/940275/nvidia-n1x-laptop-processor-arm-microsoft-teaser | (raw clipping — N1/N1X Arm laptops; MediaTek SoC, Lenovo/Dell, breaks Qualcomm WoA exclusivity; folded into [[NVIDIA Computex 2026 Keynote]] + [[MediaTek]])
 
 ## Power Integrations (POWI)
 

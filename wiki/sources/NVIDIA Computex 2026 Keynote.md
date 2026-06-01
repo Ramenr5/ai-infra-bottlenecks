@@ -60,10 +60,19 @@ Building AI factories (cloud / on-prem / embedded / edge) with: **[[Asus]], [[In
 - **Server capacity:** NVIDIA reportedly **booked entire server-plant capacity through 2026** (Blackwell + Rubin), pushing out other customers
 - **Memory crunch:** Jensen — memory shortage *won't* hit NVIDIA (exclusive HBM4 early access), even as broader DRAM/HBM is sold out → corroborates [[HBM allocation]] / [[SemiAnalysis - The Memory Wall (DRAM)]]
 
-## Consumer / "new era of PC"
+## Consumer / "new era of PC" (per N1X coverage, The Verge 2026-05-30)
 
 - **RTX Spark** AI-PC platform; **DLSS 4.5** Ray Reconstruction; 1,000+ RTX games/apps
-- **"New era of PC"** with [[Microsoft]] — rumored **N1X Arm-based laptops** (Windows on Arm) — NVIDIA entering the client CPU/PC space
+- **"New era of PC"** — coordinated [[Microsoft]] + NVIDIA + Arm teaser; NVIDIA **N1 / N1X Arm laptop chips** (NVIDIA GPU IP + **[[MediaTek]]** SoC), OEMs **Lenovo + Dell**; **breaks Qualcomm's Windows-on-Arm exclusivity** — NVIDIA enters the client CPU/PC market
+
+## Taiwan ecosystem (GTC Taipei pregame — the named supply chain)
+
+NVIDIA framed the event around its Taiwan ecosystem (pregame chapters + guests):
+- **AI Server Boom:** [[TSMC]] (YJ Mii), [[Quanta Cloud Technology|Quanta]] (Barry Lam), [[Wistron]] (Simon Lin)
+- **PCs → Embedded AI:** Techman Robot, [[Asus]] (Jonney Shih), [[MediaTek]] (Rick Tsai)
+- **Agentic AI + Robotics:** [[Delta Electronics]] (Simon Chang), Pegatron (T.H. Tung), [[Foxconn]] (Kathy Yang)
+- **Building AI Infra for Taiwan:** NTU, Visionbay.ai, [[GMI Cloud]] (Alex Yeh) — sovereign/regional AI cloud
+*(Server ODM cohort now ingested: [[Foxconn]], [[Quanta Cloud Technology]], [[Wistron]], [[Wiwynn]], [[Inventec]], [[Supermicro]], [[Ingrasys]], [[Asus]], [[MediaTek]], [[GMI Cloud]].)*
 
 ## Why it matters — connection map (this is the anchor)
 

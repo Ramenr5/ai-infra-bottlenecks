@@ -660,3 +660,14 @@ Pages NOT yet in wiki but referenced repeatedly — these are markers for what's
 - this source is now the **core anchor for narratives** per user intent
 - wiki: sources +1 (anchor)
 
+## [2026-06-01] ingest | Computex supply-chain build-out: 10 ODM/supplier pages + raw clippings folded
+- user dropped 2 raw clippings: NVIDIA GTC Taipei keynote landing page (event page w/ livestream embed + pregame guest list — NOT a transcript) and The Verge N1X piece. Folded their detail into [[NVIDIA Computex 2026 Keynote]]; deleted stray raw/Untitled.md
+- N1X detail (The Verge 2026-05-30): NVIDIA N1/N1X Arm laptop chips (GPU IP + [[MediaTek]] SoC), OEMs Lenovo+Dell, breaks Qualcomm's Windows-on-Arm exclusivity
+- pregame Taiwan ecosystem captured: TSMC/Quanta/Wistron (servers), Techman/Asus/MediaTek (PC/embedded), Delta/Pegatron/Foxconn (agentic+robotics), NTU/Visionbay/GMI Cloud (sovereign infra)
+- created 10 supplier/ODM company pages (the physical production layer of the demand thesis):
+  - [[Foxconn]] (2317.TW; largest NVDA server maker, ~$83B Q4'25 +22%), [[Quanta Cloud Technology]] (2382.TW; ~50% of Meta), [[Wiwynn]] (6669.TW; >50% rev Meta), [[Wistron]] (3231.TW), [[Inventec]] (2356.TW), [[Supermicro]] (SMCI), [[Ingrasys]] (Foxconn sub), [[Asus]] (2357.TW), [[MediaTek]] (2454.TW; N1X SoC), [[GMI Cloud]] (TW neocloud)
+  - grounding: GB200 server ~$2-3M each, ~$210B/yr Blackwell-server revenue pool; Taiwan ODMs lifting on hyperscaler AI capex (verify financials)
+- updated [[NVIDIA Computex 2026 Keynote]] (N1X + Taiwan ecosystem), index (ODM cluster), ingested-sources (2 raw clippings)
+- Rubin CPX / disaggregated-inference captured in the keynote source; dedicated concept page still a candidate
+- wiki: companies +10
+

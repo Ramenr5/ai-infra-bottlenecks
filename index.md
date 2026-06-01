@@ -136,6 +136,19 @@
 - [[CrowdStrike]] — cybersecurity platform; **agentic-security** beneficiary; Q4 FY26 ending ARR **$5.25B (+24%)**, FY27 guide →$6.5B; Falcon Shield NAAR +300% (non-human identity), Charlotte AI +6× (ticker: CRWD · role: security · layer: application · 1 source)
 - [[ServiceNow]] — enterprise workflow; **agent-orchestration "control plane"** bet; Q1 FY26 subscription $3.671B (+19% cc); **AI commitments raised to $1.5B for 2026**; FY26 guide ~$15.75B (ticker: NOW · role: workflow · layer: application · 1 source)
 
+### NVIDIA AI-factory / server supply chain (Computex 2026 — the production layer)
+
+- [[Foxconn]] — **largest maker of NVIDIA servers**; Q4 2025 ~$83B rev (+22%); via [[Ingrasys]] (ticker: 2317.TW · role: ems · layer: datacenter)
+- [[Quanta Cloud Technology]] — top AI-server ODM; ~50% of Meta's orders (ticker: 2382.TW · role: odm)
+- [[Wiwynn]] — hyperscale ODM; >50% revenue from Meta (ticker: 6669.TW · role: odm)
+- [[Wistron]] — core GB200 rack builder; parent of Wiwynn (ticker: 3231.TW · role: odm)
+- [[Inventec]] — GB200 rack ODM (ticker: 2356.TW · role: odm)
+- [[Supermicro]] — US-listed AI-server/DLC systems (ticker: SMCI · role: oem)
+- [[Ingrasys]] — Foxconn DC subsidiary; NVIDIA AI-factory vehicle (role: odm)
+- [[Asus]] — AI-factory + AI-PC OEM (ticker: 2357.TW · role: oem)
+- [[MediaTek]] — **N1/N1X Arm laptop SoC co-dev** with NVIDIA (Lenovo/Dell OEMs; breaks Qualcomm WoA exclusivity) (ticker: 2454.TW · role: supplier · layer: compute)
+- [[GMI Cloud]] — Taiwan GPU neocloud (sovereign/regional demand) (role: neocloud)
+
 ## Assets
 
 - [[Stargate Texas]] — multi-site TX portfolio (Abilene + Shackelford + Milam) (kind: datacenter · 2 sources)
