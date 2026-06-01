@@ -10,10 +10,9 @@ tags: [source, ai-factory, capex, depreciation, roic, token-demand, search-sourc
 **Type:** consolidated search-sourced note — the 1-GW cost stack (Epoch et al.), the GPU-depreciation debate, and the demand side (who buys the tokens). Built to deepen [[AI factory economics (tokens per watt)]]. **Tag figures VERIFY.**
 
 ## The 1-GW cost stack (where the money goes)
-- **Total capex per 1 GW — wide dispersion:** ~**$35B** (Bernstein) · ~**$38B** (one model) · **$50–60B** (NVIDIA) · **$60–80B** (Jensen's on-stage math). Use a range, not a point ([Epoch AI](https://epoch.ai/data-insights/ai-datacenter-cost-breakdown), [Investing.com](https://www.investing.com/news/stock-market-news/how-much-does-a-gw-of-data-center-capacity-actually-cost-4314046)).
-- **Capex mix:** **GPU/compute ~39%** of capex; **networking ~13%**; facility/power/cooling the balance. GB200 NVL72 rack ≈ **$5.9M** ($3.4M compute + $2.5M physical infra). Facility ~**$9–15M/MW**.
-- **TCO mix:** **servers/IT ~60%** of annual TCO (~$5B/yr per GW); **power = largest opex** — a 1-GW site burns ~**$1.3B/yr** electricity at $0.15/kWh.
-- **Annualized TCO ≈ $8.5B/yr** for 1 GW (Epoch, capex amortized over asset lives + opex).
+- **Total capex per 1 GW — wide dispersion:** ~**$35B** (Bernstein) · **$38B** (**Epoch — primary**) · **$50–60B** (NVIDIA) · **$60–80B** (Jensen's on-stage math). Every independent estimate sits *below* the "$100B/GW" headline ([Epoch AI](https://epoch.ai/data-insights/ai-datacenter-cost-breakdown), [Investing.com](https://www.investing.com/news/stock-market-news/how-much-does-a-gw-of-data-center-capacity-actually-cost-4314046)).
+- **Capex mix (secondary — Epoch shows it only as charts):** GPU/compute ~39%, networking ~13%, facility/power/cooling the balance. GB200 NVL72 rack ≈ **$5.9M** ($3.4M compute + $2.5M physical infra). Facility ~**$9–15M/MW**.
+- **TCO (Epoch — primary):** **annualized ≈ $8.5B/yr** for 1 GW; **servers/IT ~60% (~$5B/yr)**; total opex ~$0.9B/yr with **energy ~$0.6B/yr** the largest opex line *(corrects the earlier "$1.3B" secondary figure)*. Useful life: **5 yr IT / 14 yr facility** — directly relevant to the depreciation debate below.
 
 ## The depreciation question (does the reported P&L hold?)
 The single biggest accounting swing factor — extends [[Thesis stress-tests]] (Burry row):

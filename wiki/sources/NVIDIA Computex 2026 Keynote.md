@@ -94,7 +94,7 @@ Pulled from post-keynote coverage + analyst commentary (ServeTheHome live, Tom's
 
 **Performance / spec confirmations + additions:**
 - **Vera Rubin in full production** ("ramps into full production to power agentic AI factories"); **~3.5× training / ~5× inference perf vs Blackwell**; **VR NVL72 = ~1/7 the token cost** for MoE inference at same latency (broader marketing claim: **up to 10× lower cost per token, 4× fewer GPUs to train MoE**). VR200 rack **mass production H2 2026**.
-- **Vera CPU:** TSMC 3nm, **1.8× agentic perf vs x86**, 3× SQL throughput, "highest IPC in the world," at reticle limit "no chiplet penalty."
+- **Vera CPU:** TSMC 3nm, **up to 1.5× agentic sandbox perf vs x86** (full-socket; vs AMD EPYC Turin / Intel Xeon 6 Granite Rapids — **NVIDIA dev-blog primary**, *corrects the secondary "1.8×"*), "highest IPC in the world," at reticle limit. 88 Olympus cores; **1.2 TB/s memory bandwidth, up to 1.5 TB LPDDR5X SOCAMM**; **2× perf/watt** + 4× capacity vs x86 racks; OEMs Cisco/Dell/HPE/Lenovo/Supermicro, H2 2026.
 - **Component count — reconcile:** "**over 1.3M components**" (board/system level, per techradar) vs "**nearly 2 million parts**" + "**150 ecosystem partners** on the island" (TheNextWeb) — different denominators (board components vs total system parts); both cited. **6 trillion transistors**, **18,000+ components on a single board**. Grace Blackwell rack assembles in **5 minutes**, no cables in compute trays.
 - **"NVIDIA is now the largest networking company in the world."** Marvell CEO shared the stage on an **AI-datacenter interconnect blueprint** (June 2).
 

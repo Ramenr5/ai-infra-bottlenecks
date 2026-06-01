@@ -34,7 +34,7 @@ The CPU shortage is being met mostly by **Arm**, not merchant x86 — so the bot
 
 ## NVIDIA's answer — and the x86 land-grab
 - **Vera ETL256** — liquid-cooled rack packing **256 Vera CPUs**, all-copper intra-rack topology, purpose-built for the CPU-bound tier ([[NVIDIA Computex 2026 Keynote]], [The Register](https://www.theregister.com/2026/03/16/nvidia_vera_cpu_rack/)).
-- **Vera CPU ("the CPU for agents")** — 88 custom **Olympus Arm v9.2-A** cores / 176 threads (spatial multithreading); **1024-bit LPDDR5X**, ~14 GB/s/core bandwidth; **1.8× faster task completion vs x86**; ~10% > AMD EPYC 9575F, up to **55% > Intel Xeon 6980P**; rack delivers ~4× capacity and **2× perf/watt vs x86 racks**; OEM availability **H2 2026** ([ServeTheHome](https://www.servethehome.com/nvidias-vera-cpu-in-detail-high-perf-chip-takes-aim-at-broader-ai-server-market/), [SQ Magazine](https://sqmagazine.co.uk/nvidia-vera-arm-cpu-intel-amd-benchmarks/)). *(Vendor-sanctioned benchmarks — VERIFY.)*
+- **Vera CPU ("the CPU for agents")** — 88 custom **Olympus** cores (Armv9.2) with Spatial Multithreading; **1.2 TB/s memory bandwidth**, **up to 1.5 TB LPDDR5X SOCAMM**, ~14 GB/s/core, 3.4 TB/s bisection; **up to 1.5× agentic-sandbox perf vs x86** (full-socket, vs AMD EPYC Turin / Intel Xeon 6 Granite Rapids); **2× perf/watt** + **4× capacity** vs x86 racks; **>22.5K sandboxes/rack**; OEMs Cisco/Dell/HPE/Lenovo/Supermicro, **H2 2026** (**NVIDIA dev-blog primary**). *(Note: primary says up to **1.5×** — the "1.8×" in earlier secondary coverage is not the NVIDIA figure.)*
 - **Strategy:** not displacing x86 universally — targeting **AI-native datacenters** (the fastest-growing segment). The host CPU in the AI rack is the contested ground.
 
 ## Supply / demand read

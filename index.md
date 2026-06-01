@@ -144,8 +144,8 @@
 
 - [[CrowdStrike]] — cybersecurity platform; **agentic-security** beneficiary; Q4 FY26 ending ARR **$5.25B (+24%)**, FY27 guide →$6.5B; Falcon Shield NAAR +300% (non-human identity), Charlotte AI +6× (ticker: CRWD · role: security · layer: application · 1 source)
 - [[ServiceNow]] — enterprise workflow; **agent-orchestration "control plane"** bet; Q1 FY26 subscription $3.671B (+19% cc); **AI commitments raised to $1.5B for 2026**; FY26 guide ~$15.75B (ticker: NOW · role: workflow · layer: application · 1 source)
-- [[Salesforce]] — CRM incumbent; **Agentforce ARR ~$800M (+169%)**, AI platform ARR +114%, Data Cloud ~$2.1B; own-platform agents = both beneficiary and competitive threat (ticker: CRM · layer: application · 1 source)
-- [[Palantir]] — **ontology/operational-AI (AIP)**; data moat agents can't route around → insulated from model commoditization; financials to verify from FY26 10-Q (ticker: PLTR · layer: application)
+- [[Salesforce]] — CRM incumbent; **Agentforce ARR $800M (+169%)**; **Agentforce+Data 360 >$2.9B (+200%)**; Q4 rev $11.2B (+12%); own-platform agents = both beneficiary and competitive threat (ticker: CRM · layer: application · *primary-verified*)
+- [[Palantir]] — **ontology/operational-AI (AIP)**; data moat insulated from model commoditization; **Q1'26 rev $1.6B (+85%), US +104%, RPO $4.45B, NDR 150%**, FY26 guide $7.7B (ticker: PLTR · layer: application · *primary-verified*)
 
 ### Physical AI / robotics (Computex 2026 — Phase 4 demand front)
 

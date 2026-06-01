@@ -37,8 +37,10 @@ tags: [meta, gaps, coverage, narrative-tracker]
 5. 🟢-minor — GDDR7 memory treatment; inference-serving providers; more app-layer comparables.
 
 ## Quality / freshness gaps (not missing pages)
-- **Primary-verification debt:** the [[NVIDIA Computex 2026 Keynote]] anchor + many 2026 figures are **secondary-sourced (VERIFY)** — no transcript/filing pulled. Verify before any number becomes load-bearing for a trade.
-- **Search-sourced new pages:** the 2026-06-01 builds (physical AI, app layer, open weights, CPU, AI-factory econ) cite blogs/coverage, not primaries — figures tagged VERIFY throughout.
+- **Primary-verification pass done 2026-06-01 (highest-stakes batch):**
+  - ✅ **Verified to primary:** NVIDIA Rubin (full production, 10× inference cost, 4× MoE-train GPU reduction, 50 PFLOPS/GPU, NVL72 260 TB/s — *newsroom*); Vera CPU (88 Olympus, 1.2 TB/s, 1.5 TB SOCAMM, 2× perf/watt, >22.5K sandboxes, H2'26 OEMs — *dev blog*); Epoch 1-GW ($38B capex, $8.5B/yr TCO, 5yr/14yr life); Salesforce ($800M Agentforce / $2.9B combined / $11.2B rev — *press release*); Palantir ($1.6B rev +85%, US +104%, RPO $4.45B, NDR 150%).
+  - ⚠️ **Corrected:** Vera CPU **1.8× → up to 1.5×** agentic vs x86; Epoch energy **$1.3B → $0.6B/yr**; Salesforce combined ARR **$1.8B → $2.9B** (and dropped the wrong "$2.1B Data Cloud / +114% AI platform").
+- **Still secondary (VERIFY) — not yet pulled:** NVIDIA 288GB HBM4 / 10× perf-watt / 1.3M-2M components / Rubin-Ultra-Feynman roadmap (CES/secondary); CPU TAM (AMD $120B, Arm $100B/50%/AGI CPU, Intel 52→43.9%); AI-factory MS 100-MW model + token tiers + $40T humanoid TAM + Gartner $207B; physical-AI valuations (Figure $39B, Unitree units, NVDA >$9B physical-AI rev).
 - **Single-source watch:** open-weights de-single-sourced ✅; keep widening Taiwan-risk and networking sources before they anchor a thesis.
 
 ## Changelog

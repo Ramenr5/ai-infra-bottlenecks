@@ -29,9 +29,9 @@ tags: [synthesis, ai-factory, tokenomics, tokens-per-watt, inference-economics, 
 
 ## The cost stack — where the $100B/GW goes
 The revenue side is one input; the **cost stack** is the other (all VERIFY, [[AI datacenter cost stack & token demand (2026)]]):
-- **Total capex per 1 GW is a *range*, not a point:** ~$35B (Bernstein) · ~$38B (Epoch-cited) · **$50–60B (NVIDIA)** · $60–80B (Jensen's stage math). The dispersion itself matters — the "$100B/GW" headline sits at the high end.
+- **Total capex per 1 GW is a *range*, not a point:** ~$35B (Bernstein) · **$38B (Epoch — primary)** · **$50–60B (NVIDIA)** · $60–80B (Jensen's stage math). The dispersion itself matters — the "$100B/GW" headline sits *above* every independent estimate.
 - **Capex mix:** **GPU/compute ~39%**, networking ~13%, facility/power/cooling the balance; a GB200 NVL72 rack ≈ **$5.9M** ($3.4M compute + $2.5M infra); facility ~$9–15M/MW.
-- **Annual TCO ≈ $8.5B/yr per GW** (Epoch) — of which **servers/IT ~60%** and **power is the largest opex** (~$1.3B/yr electricity at $0.15/kWh).
+- **Annual TCO ≈ $8.5B/yr per GW** (Epoch — **primary**) — of which **servers/IT ~60% (~$5B/yr)**; total opex ~$0.9B/yr, **energy ~$0.6B/yr** the largest opex line (Epoch; *corrects an earlier "$1.3B" secondary figure*). Useful-life assumptions: **5 yr IT / 14 yr facility**.
 - Read-through: the **$150B/yr revenue vs ~$8.5B/yr TCO** gap is where the ">50% margin / 15× hardware return" claims come from — *if* utilization and token prices hold. The cost stack is knowable; the revenue is the assumption.
 
 ## The depreciation question — does the reported margin hold?

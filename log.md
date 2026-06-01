@@ -736,3 +736,11 @@ Pages NOT yet in wiki but referenced repeatedly — these are markers for what's
 - created [[narrative-gaps]] (wiki/_meta/) — living coverage dashboard across the 9 keynote threads + cross-cutting theses; 🟢/🟡/🔴 status, anchor pages, remaining gap, ranked next-to-build, quality/freshness gaps, changelog.
 - post-build status: **5 threads filled today** (CPU scaling, AI-factory economics, Physical AI, Application layer, Open-weights). Remaining: **Taiwan geo page (🔴, #1 hole), Networking/interconnect synthesis (🟡), test-time-compute/reasoning page (🟡)**, Physical-AI supplier depth (🟡).
 - index.md: added [[narrative-gaps]] pointer under maintenance.
+
+## [2026-06-01] lint | Primary-verification pass on highest-stakes VERIFY figures
+- user: verify the tagged figures + pull the filings
+- pulled primaries: NVIDIA newsroom (Rubin platform) + dev blog (Vera CPU); Epoch AI 1-GW TCO; Salesforce Q4 FY26 press release; Palantir Q1 2026 release.
+- **✅ verified → upgraded from VERIFY to primary:** NVIDIA Rubin in **full production** (partners H2'26), **10× inference token-cost** + **4× fewer GPUs for MoE training**, **50 PFLOPS NVFP4/GPU**, NVL72 = 72 Rubin + 36 Vera @ 260 TB/s (72×50=3.6 EFLOPS ✓); Vera CPU 88 Olympus / 1.2 TB/s / 1.5 TB LPDDR5X SOCAMM / 2× perf-watt / >22.5K sandboxes; Epoch 1-GW **$38B capex / $8.5B-yr TCO / 5yr-IT-14yr-facility**; Salesforce **Agentforce $800M (+169%)**, **Agentforce+Data360 $2.9B (+200%, incl $1.1B Informatica)**, Q4 rev $11.2B; Palantir Q1'26 **$1.6B (+85%), US +104%, RPO $4.45B, NDR 150%**, FY26 guide $7.7B.
+- **⚠️ corrections (secondary was wrong):** Vera CPU **1.8× → up to 1.5×** agentic-sandbox vs x86 (NVIDIA primary); Epoch energy **$1.3B → $0.6B/yr**; Salesforce combined ARR **~$1.8B → $2.9B** (+ dropped wrong "$2.1B Data Cloud" / "+114% AI platform").
+- **still secondary (not pulled):** NVDA 288GB HBM4 / perf-watt / component count / Rubin-Ultra-Feynman roadmap; CPU TAM (AMD/Arm/Intel-share); MS 100-MW model + token tiers + $40T TAM + Gartner $207B; physical-AI valuations.
+- updated: [[Salesforce]], [[Salesforce Agentforce Q4 FY26 (2026)]], [[Palantir]], [[NVIDIA Computex 2026 Keynote]], [[CPU scaling (host-CPU ratio)]], [[AI factory economics (tokens per watt)]], [[AI datacenter cost stack & token demand (2026)]], index.md, [[narrative-gaps]].

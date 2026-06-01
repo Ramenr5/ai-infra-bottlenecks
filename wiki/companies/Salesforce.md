@@ -13,10 +13,12 @@ tags: [company, application-layer, agentic, saas, crm]
 
 **The CRM incumbent monetizing agents through Agentforce** — a third large sourced data point (with [[CrowdStrike]], [[ServiceNow]]) that the agentic [[Application & software]] layer captures real value.
 
-## Key figures (FY2026, reported 2026-02-25, VERIFY — [[Salesforce Agentforce Q4 FY26 (2026)]])
-- **Agentforce ARR ~$800M, +169% YoY**; **AI platform ARR +114%**.
-- **Agentforce + Data Cloud ~$1.8B ARR**; **Data Cloud ~$2.1B** (fastest-growing product in company history).
-- **29,000 Agentforce deals**, +50% QoQ.
+## Key figures (Q4 FY2026, reported 2026-02-25 — **primary**, [[Salesforce Agentforce Q4 FY26 (2026)]])
+- **Agentforce ARR $800M, +169% YoY** ✓ (primary press release).
+- **Agentforce + Data 360 ARR exceeds $2.9B, +200% YoY** — incl. **$1.1B Informatica Cloud ARR + $800M Agentforce** (corrected from the earlier ~$1.8B secondary figure).
+- **29,000 Agentforce deals, +50% QoQ**; >60% of Q4 bookings from existing-customer expansion.
+- Q4 revenue **$11.2B (+12% YoY)** — fastest growth in two years; **$50B buyback** authorized.
+- New usage metric: **Agentic Work Units (AWUs)** — 2.4B delivered to date (+57% QoQ).
 
 ## The double-edged read
 - **Bull:** system-of-record lock-in + Data Cloud = a data moat agents can't easily route around; Agentforce turns the install base into agent seats/consumption. Fits the [[Application & software]] "structural moat" selection rule.

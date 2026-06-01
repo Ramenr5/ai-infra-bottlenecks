@@ -7,13 +7,14 @@ tags: [source, salesforce, agentforce, agentic, application-layer, search-source
 
 # Salesforce Agentforce Q4 FY26 (2026)
 
-**Type:** search-sourced earnings note (Salesforce FY2026 results, reported 2026-02-25). **Tag figures VERIFY** — secondary coverage; confirm against the 8-K/transcript.
+**Type:** earnings note — **verified against the Salesforce primary press release** (Q4 FY2026, reported 2026-02-25; salesforce.com/news + SEC 8-K crm-q4fy26xexhibit991). Figures upgraded from VERIFY → primary on 2026-06-01.
 
-## Key numbers (VERIFY)
-- **AI platform ARR +114% YoY.**
-- **Agentforce ARR ~$800M, +169% YoY.**
-- **Agentforce + Data Cloud combined ARR ~$1.8B**; Data Cloud alone **~$2.1B ARR** (fastest-growing product in Salesforce history).
-- **29,000 Agentforce deals**, +50% QoQ in Q4.
+## Key numbers (primary — Salesforce Q4 FY26 press release)
+- **Agentforce ARR $800M, +169% YoY.** ✓ confirmed.
+- **Agentforce + Data 360 ARR exceeds $2.9B, +200% YoY** — incl. **$1.1B Informatica Cloud ARR + $800M Agentforce ARR**. *(Corrects the earlier secondary "~$1.8B combined / $2.1B Data Cloud" figures — those were wrong.)*
+- **29,000 Agentforce deals**, +50% QoQ; **>60%** of Q4 bookings from existing-customer expansion; production accounts +~50% QoQ.
+- **Q4 revenue $11.2B (+12% YoY)** — fastest growth in 2 years; **$50B buyback** authorized.
+- Data 360: **112T records ingested (+114%)**, 53T via Zero Copy (+310%); **2.4B Agentic Work Units** delivered (+57% QoQ).
 
 ## Why it matters
 - Hard evidence the **agentic application layer is monetizing now** — corroborates [[Menlo - State of Enterprise AI (2025)]] (apps captured ~half of enterprise AI spend) and the [CRWD+NOW narrative](../../narratives/2026-06-01 CRWD %2B NOW.md).
