@@ -34,12 +34,21 @@ The revenue side is one input; the **cost stack** is the other (all VERIFY, [[AI
 - **Annual TCO ≈ $8.5B/yr per GW** (Epoch — **primary**) — of which **servers/IT ~60% (~$5B/yr)**; total opex ~$0.9B/yr, **energy ~$0.6B/yr** the largest opex line (Epoch; *corrects an earlier "$1.3B" secondary figure*). Useful-life assumptions: **5 yr IT / 14 yr facility**.
 - Read-through: the **$150B/yr revenue vs ~$8.5B/yr TCO** gap is where the ">50% margin / 15× hardware return" claims come from — *if* utilization and token prices hold. The cost stack is knowable; the revenue is the assumption.
 
+## NVIDIA's own framework — "Compute Is Revenue" (the 4 levers)
+From the keynote slide ([[NVIDIA Computex 2026 Keynote - ServeTheHome Live (2026)]]), NVIDIA frames AI-factory revenue as the **area under a curve**, expanded by four levers — a richer model than "tokens/watt" alone:
+- **Tokens/Watt** → raises the *height* (extreme co-design).
+- **TTFT / TTFI** (time-to-first-token) → widens the *onset* (extreme co-design).
+- **MTBI** (mean time between incidents) → fills the *reliability dip* (scale & experience / uptime).
+- **Useful Life** → extends the *duration* — explicitly attributed to **"CUDA ecosystem & installed base."**
+The takeaway: NVIDIA argues revenue isn't just *peak* tokens/watt — it's **how wide (TTFT), how reliable (MTBI), and how long (useful life)** the factory earns. And the **power layer is now software**: NVIDIA's **DSX MaxLPS** (more hardware per power budget) and **DSX Flex** (grid demand-response) are tokens-per-watt levers, tying the factory to [[Power & energy]].
+
 ## The depreciation question — does the reported margin hold?
 The accounting bridge between *advertised* tokens/watt and *realized* margin (extends [[Thesis stress-tests]], Burry row):
 - **Front-loaded ROI:** an H100 returned ~**+137% in year 2** but **−34% by year 4** — the economics are early-life. So tokens/watt math only works at **high *early* utilization**.
 - **The Burry charge:** hyperscalers depreciate over 5–6 yr while real economic life may be ~2–3 yr → **~$176B of understated depreciation / overstated profit 2026–28**. Nadella: *"I didn't want to get stuck with four or five years of depreciation on one generation."*
 - **The split is live:** Amazon shortened 6→5 yr; Meta extended to 5.5 yr (a $2.9B depreciation *reduction*). Same assets, opposite calls — so reported AI-factory margins are partly an accounting *choice*.
 - **"Bend, don't break":** older GPUs cascade to inference/cheaper tiers, lengthening useful life — but that **assumes a deep secondary-demand tier exists** (which [[Disaggregated inference (Rubin CPX)]]'s cheap-inference tier helps create).
+- **NVIDIA's own rebuttal (on stage):** Jensen — *"You cannot predict how long your system will last. I can."* — explicitly attributing **longer useful life to CUDA ecosystem + installed base** (a revenue lever in the framework above). Read it as the *vendor* making the bull case for long depreciation — i.e. exactly the assumption the Burry bear disputes. Treat as an interested claim, not a settled fact.
 
 ## Why it matters to the thesis
 

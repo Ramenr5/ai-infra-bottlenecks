@@ -18,7 +18,7 @@ tags: [layer, physical-ai, robotics, humanoid, autonomous-vehicles, demand-drive
 From [[NVIDIA Computex 2026 Keynote]]:
 - **Jetson Thor** — on-board robotics compute (the "brain" inside the robot).
 - **Isaac GROOT** — reference humanoid platform (NVIDIA + Unitree body) + the GROOT foundation models.
-- **Cosmos 3** — open robotics **world model** for simulation / synthetic-data generation (training without real-world data collection).
+- **Cosmos 3** — open robotics **world model** (open model *and* open data) for simulation / synthetic-data generation (training without real-world data collection). **Cosmos Coalition** partners: Agile Robots, Black Forest Labs, Generalist, LTX, Runway, SKILD AI ([[NVIDIA Computex 2026 Keynote - ServeTheHome Live (2026)]]).
 - **Alpamayo** — "world's first reasoning autonomous vehicle" on **Drive Hyperion**.
 - Read-through: NVIDIA sells the **training cloud + the simulation + the on-board chip** — three tolls per robot. → [[NVIDIA]]
 

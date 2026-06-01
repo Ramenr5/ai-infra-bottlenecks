@@ -185,6 +185,7 @@
 
 **Primary (company / deal):**
 - ⭐ [[NVIDIA Computex 2026 Keynote]] — **ANCHOR SOURCE (Jun 1 2026).** $1T high-confidence demand + **purchase orders** Blackwell+Rubin through 2027; Vera Rubin (1.3M components, 10× perf/watt, 288GB HBM4) → Rubin Ultra 2027 (1TB HBM4E, NVL576/Kyber) → Feynman 2028 (TSMC A16); Rubin CPX (GDDR7 massive-context inference); X1600 + Spectrum-X; sole early HBM4 client; "new era of PC" + N1X. *Where the buildout is heading — cross-linked across the wiki.*
+- ⭐ [[NVIDIA Computex 2026 Keynote - ServeTheHome Live (2026)]] — **eyewitness slide-by-slide liveblog, image-processed.** Verifies the anchor off the actual stage slides: full Vera CPU spec sheet; the "Compute is Revenue" 4-lever framework (tokens/watt · TTFT · MTBI · useful life); DSX AI-factory platform (MaxLPS/Flex) + named partner ecosystem; Vera adopters (OpenAI/Anthropic/SpaceX); Cosmos Coalition. Resolves the Vera "1.8× (slide) vs 1.5× (blog)" question.
 - [[NVIDIA Q1 FY27 earnings (2026)]] — DC revenue $75B (+92%); $145B supply commitments; $1T Blackwell+Rubin 2025-27 guidance.
 - [[TSMC Q1 2026 earnings]] — $35.9B revenue; FY26 >30%; CoWoS sold out into 2026 with 50+ week leads.
 - [[SK Hynix Q3 2025 earnings]] — ₩24.45T revenue; 47% margin; HBM4 mass production Sept 2025; 2026 sold out.
