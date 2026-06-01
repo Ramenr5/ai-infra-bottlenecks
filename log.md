@@ -730,3 +730,9 @@ Pages NOT yet in wiki but referenced repeatedly — these are markers for what's
 - expanded [[CPU scaling (host-CPU ratio)]]: added sized TAM section, the custom-silicon land-grab (Arm 50% + AGI CPU + hyperscaler Arm), refined beneficiaries (ARM = pure-play; Intel most exposed 52→43.9%; AMD mixed)
 - expanded [[AI factory economics (tokens per watt)]]: added the cost stack ($/GW range + capex/TCO mix), the depreciation question (front-loaded ROI, Burry/Nadella, Amazon vs Meta split, bend-don't-break), and the demand-side "who buys the tokens" section (Gartner $207B vs sticker shock — the demand test for the supply-side metric)
 - cross-linked: index Sources +2; [[ARM Holdings]] (CPU-scaling pure-play line)
+
+## [2026-06-01] lint | Update narrative-gaps tracker (post-build refresh)
+- user: update narrative gaps
+- created [[narrative-gaps]] (wiki/_meta/) — living coverage dashboard across the 9 keynote threads + cross-cutting theses; 🟢/🟡/🔴 status, anchor pages, remaining gap, ranked next-to-build, quality/freshness gaps, changelog.
+- post-build status: **5 threads filled today** (CPU scaling, AI-factory economics, Physical AI, Application layer, Open-weights). Remaining: **Taiwan geo page (🔴, #1 hole), Networking/interconnect synthesis (🟡), test-time-compute/reasoning page (🟡)**, Physical-AI supplier depth (🟡).
+- index.md: added [[narrative-gaps]] pointer under maintenance.
