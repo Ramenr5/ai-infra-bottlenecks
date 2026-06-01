@@ -1,8 +1,8 @@
 ---
 type: company
 created: 2026-05-24
-updated: 2026-05-24
-sources: ["[[Can AI scaling continue through 2030 (2024)]]", "[[Cerebras — Faster Tokens Please (2026)]]", "[[NVIDIA Q1 FY27 earnings (2026)]]", "[[NVIDIA Blackwell at Hot Chips 2025]]"]
+updated: 2026-06-01
+sources: ["[[Can AI scaling continue through 2030 (2024)]]", "[[Cerebras — Faster Tokens Please (2026)]]", "[[NVIDIA Q1 FY27 earnings (2026)]]", "[[NVIDIA Blackwell at Hot Chips 2025]]", "[[NVIDIA Computex 2026 Keynote]]"]
 ticker: NVDA
 layer: compute
 role: supplier
@@ -26,6 +26,16 @@ Per [[NVIDIA Q1 FY27 earnings (2026)]]:
 | Sovereign revenue | — | **+80% YoY** |
 | GAAP gross margin | 74.9% | — |
 | **Q2 FY27 guide** | **$91B ± 2%** | sequential growth driven by DC |
+
+## Computex 2026 keynote (Jun 1 2026 — per [[NVIDIA Computex 2026 Keynote]])
+
+- **"At least $1T in high-confidence demand and *purchase orders* for Blackwell + Rubin through 2027"** (up from $500B a year ago) — purchase-order framing, not just TAM
+- **Vera Rubin** = 1.3M components, **~10× perf/watt vs Grace Blackwell**; 88-core Vera CPU + Rubin GPU **288GB HBM4 (~13 TB/s)**; NVL144 = **3.6 NVFP4 EFLOPS** (~3.3× B300); mass production confirmed, ramps Q2 2026, launches late 2026
+- Roadmap: **Rubin Ultra 2027** (NVL576/Kyber, **1TB HBM4E**, ~100 PFLOPS FP4/GPU) → **Feynman 2028** (TSMC A16)
+- **Rubin CPX** — new GPU class for 1M+ token context inference on **GDDR7** (cheaper inference)
+- **X1600** converged IB/Ethernet switch; **Spectrum-X** Ethernet widespread adoption
+- Consumer: **RTX Spark** AI PC, DLSS 4.5; **"new era of PC"** + N1X Arm laptops with [[Microsoft]]
+- Supply: **sole/exclusive early HBM4 client** ([[SK Hynix]]+[[Samsung Electronics]]); books vast majority of [[CoWoS packaging capacity|CoWoS]]; booked entire server-plant capacity through 2026
 
 ### Supply commitments — the canonical anchor
 

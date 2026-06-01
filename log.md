@@ -642,3 +642,21 @@ Pages NOT yet in wiki but referenced repeatedly — these are markers for what's
 - net: both flagged gaps closed; the NOW control-plane bet is now the most-contested link (MCP commoditizes below + Microsoft Agent 365 competes above + seat-erosion resets the model)
 - wiki: sources +2
 
+## [2026-06-01] ingest | NVIDIA Computex 2026 Keynote — ANCHOR SOURCE
+- user: ingest the Computex 2026 keynote (Jun 1 2026, Jensen Huang) as the core source for where AI is heading; every detail (suppliers → production → demand)
+- created: [[NVIDIA Computex 2026 Keynote]] — comprehensive anchor source, heavily cross-linked
+- honesty caveat logged in the page: assembled from credible secondary coverage (Tom's Hardware, CNBC, TrendForce, Fortune, DCD); NVIDIA blog/DCD 403'd the fetcher so raw video + full slide deck NOT directly captured; some Vera Rubin specs first disclosed GTC/CES 2026, reaffirmed here; search-sourced → verify
+- key numbers:
+  - **DEMAND: "$1T high-confidence demand + purchase orders Blackwell+Rubin through 2027"** (purchase-order framing, up from $500B yr ago); 2026 = "inflection point for inference"; "surprise new product" teased H2 2026
+  - **Vera Rubin:** 1.3M components, ~10× perf/watt vs Grace Blackwell; 88-core Vera CPU + Rubin GPU 288GB HBM4 (8 stacks, 6.4GT/s, ~13TB/s) on TSMC 3nm; NVL144 = 3.6 NVFP4 EFLOPS / 1.2 FP8 EFLOPS (~3.3× B300); mass production confirmed (CES), ramp Q2 2026, launch late 2026
+  - **Roadmap:** Rubin Ultra 2027 (NVL576/Kyber racks, 4 chiplets, ~100 PFLOPS FP4/GPU, **1TB HBM4E ~32TB/s**, rack 15 EFLOPS FP4) → Feynman 2028 (TSMC A16)
+  - **Rubin CPX:** new GPU class for 1M+ token context inference on GDDR7 (cheaper inference economics)
+  - **Networking:** X1600 converged IB/Ethernet switch; Spectrum-X Ethernet widespread adoption
+  - **AI factory ODMs:** Asus, Ingrasys, Inventec, QCT, Supermicro, Wiwynn (orphan links — candidate pages)
+  - **Supply chain:** TSMC (Rubin 3nm, Feynman A16) + CoWoS (NVDA books vast majority); HBM4 SK Hynix+Samsung(+Micron), NVDA sole/exclusive early HBM4 client (insulated from memory crunch); SK Hynix US HBM packaging $3.9B; NVDA booked entire server-plant capacity through 2026
+  - **Consumer:** RTX Spark AI PC, DLSS 4.5; "new era of PC" + N1X Arm laptops w/ Microsoft
+- updates: [[NVIDIA]] (Computex section), [[AI investment momentum tracker]] (+1 strong ledger row), [[HBM allocation]] (HBM4 exclusivity callout), index Sources (⭐ anchor)
+- flagged: [[CoWoS packaging capacity]], [[Capex trajectory thesis]]; ODM partner pages (Supermicro/Wiwynn/Ingrasys/QCT/Inventec/Asus); concept candidate "Rubin CPX / disaggregated inference"
+- this source is now the **core anchor for narratives** per user intent
+- wiki: sources +1 (anchor)
+

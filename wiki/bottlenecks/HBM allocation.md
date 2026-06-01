@@ -13,6 +13,8 @@ tags: [hbm, hbm4, sk-hynix, samsung, micron, memory, dram, nvidia]
 
 **High-Bandwidth Memory** — vertically-stacked DRAM packaged onto AI accelerators via [[CoWoS packaging capacity|CoWoS]] (or equivalent). Provides the memory bandwidth that frontier inference and training require. Co-binding constraint with CoWoS — both must scale together to expand AI chip output.
 
+> [!note] Computex 2026 (per [[NVIDIA Computex 2026 Keynote]]): NVIDIA is the **sole/exclusive early client of HBM4** ([[SK Hynix]] + [[Samsung Electronics]] key suppliers), insulating itself from the broader memory crunch. HBM intensity/GPU rising sharply: Rubin **288 GB HBM4 (~13 TB/s)** → Rubin Ultra **1 TB HBM4E (~32 TB/s, 2027)**. [[SK Hynix]] building first US HBM 2.5D packaging plant ($3.9B).
+
 ## Key numbers (now primary-sourced)
 
 - **HBM, DRAM, NAND all sold out for 2026** as of Oct 2025 — per [[SK Hynix Q3 2025 earnings]] official release

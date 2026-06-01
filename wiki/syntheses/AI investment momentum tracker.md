@@ -45,6 +45,7 @@ Each tracked signal scores **+1 (accelerating) / 0 (neutral) / −1 (slowing)** 
 
 | Date | Channel | Signal | Score |
 | --- | --- | --- | --- |
+| 2026-06-01 | Deals/principal | **[[NVIDIA Computex 2026 Keynote\|NVIDIA Computex]]: Jensen reaffirms "$1T high-confidence demand + *purchase orders* (Blackwell+Rubin) through 2027"; Vera Rubin mass production, 10× perf/watt; "inflection point for inference"** | **+1 (strong)** |
 | 2026-05-28 | Earnings | **[[Dell Technologies\|Dell]] Q1 FY27: $24.4B AI orders, $51.3B AI backlog, ~$60B FY27 AI-server guide (+144%)** | **+1** |
 | 2026-05-20 | Earnings | **[[NVIDIA]] Q1 FY27: $81.6B rev (+85%), $75.2B DC; Vera Rubin = new $200B TAM** | **+1** |
 | 2026-05-28 | Earnings | **[[CoreWeave]] Q1: $99.4B backlog, 3.5 GW contracted, +>$40B new commitments in Q1** | **+1** |
