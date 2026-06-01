@@ -635,3 +635,10 @@ Pages NOT yet in wiki but referenced repeatedly — these are markers for what's
 - candidate synthesis flagged: "AI value capture across the stack" (app-fragmented vs infra-concentrated)
 - wiki: sources +3
 
+## [2026-06-01] ingest | Chase the 2 thin narrative gaps (AI-eats-SaaS + MSFT bundling)
+- [[AI eats SaaS - the seat-erosion debate (2026)]] — Nadella "per agent"/"SaaS is dead"; **IDC: seat-pricing obsolete by 2028, 70% of vendors refactor**; Bain outcome-pricing; "SaaSpocalypse" >$2T wiped; Fortune "agents aren't killing SaaS" but NOW earnings "fail to shift anti-SaaS vibes". NOW adapting (metered assists, Autonomous Workforce). → narrative seat-erosion gap now SOURCED; pressures the tailwind>threat bet (realistic bear = revenue mix + multiple reset, not death)
+- [[Microsoft Agent 365 + security bundling (2026)]] — Defender bundling = canonical CRWD bear; **Microsoft Agent 365 (Nov 2025) = hyperscaler-scale competitor for NOW's exact agent-governance/control-plane layer** (also a partner → coopetition). Biggest new risk to the NOW half. → narrative L5 now contends with Agent 365, not just MCP commoditization
+- updated narrative gaps section + [[CrowdStrike]] (Defender bundling) + [[ServiceNow]] (seat-erosion + Agent 365) risk sections
+- net: both flagged gaps closed; the NOW control-plane bet is now the most-contested link (MCP commoditizes below + Microsoft Agent 365 competes above + seat-erosion resets the model)
+- wiki: sources +2
+

@@ -62,6 +62,8 @@ Statuses: `ingested` (source page written), `paywalled-skipped` (insufficient fr
 - 2026-06-01 | ingested | https://menlovc.com/perspective/2025-the-state-of-generative-ai-in-the-enterprise/ | [[Menlo - State of Enterprise AI (2025)]] (gap-fill: value-capture / app-vs-infra spend split)
 - 2026-06-01 | ingested | https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-acquire-sgnl-transform-identity-security-ai-era | [[Identity security in the AI era (2026)]] (gap-fill: NHI/agentic security market + CRWD SGNL)
 - 2026-06-01 | ingested | https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation | [[MCP and the Agentic AI Foundation (2026)]] (gap-fill: agent orchestration standard / NOW control-plane test)
+- 2026-06-01 | ingested | https://fortune.com/2026/04/17/ai-saas-enterprise-software-moats-margins-saaspocalypse/ | [[AI eats SaaS - the seat-erosion debate (2026)]] (gap-fill: seat→consumption disruption; IDC/Bain/Nadella/SaaSpocalypse)
+- 2026-06-01 | ingested | https://www.cnbc.com/2025/11/18/microsoft-unveils-agent-365-to-help-companies-control-track-ai-agents.html | [[Microsoft Agent 365 + security bundling (2026)]] (gap-fill: MSFT bundling vs CRWD + Agent 365 vs NOW control-plane)
 
 ## Power Integrations (POWI)
 

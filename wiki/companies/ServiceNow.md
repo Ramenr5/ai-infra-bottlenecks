@@ -42,7 +42,8 @@ US enterprise workflow / IT-service-management platform (NYSE: NOW). **Applicati
 - **Value-capture test case:** bull = agents need orchestration NOW provides; bear = [[SemiAnalysis - AI Value Capture (2026)]] (value to labs) + "AI eats SaaS" seat-erosion compress the workflow layer.
 
 ## Risks
-- "AI eats SaaS" — if agents collapse workflows, seat-based ITSM value erodes (the disintermediation case)
+- **"AI eats SaaS" / seat-erosion** (per [[AI eats SaaS - the seat-erosion debate (2026)]]) — IDC: seat-pricing obsolete by 2028, 70% of vendors refactor; Nadella "per agent". Real overhang: Fortune notes NOW's strong earnings *"fail to shift anti-SaaS vibes."* NOW adapting via metered "assists" + Autonomous Workforce, but **revenue mix + multiple reset risk** in the seat→consumption transition
+- **Microsoft Agent 365** (per [[Microsoft Agent 365 + security bundling (2026)]]) — hyperscaler-scale competitor for the exact agent-governance/control-plane layer NOW is betting on (also a partner — coopetition)
 - Value migration to model labs ([[SemiAnalysis - AI Value Capture (2026)]])
 - **Orchestration commoditization:** [[MCP and the Agentic AI Foundation (2026)|MCP]] is now an open Linux-Foundation standard — the agent↔tool *protocol* commoditizes, so NOW's moat must sit in the **governance / business-context / which-agent layer above MCP** (the "quarterback"), not the pipes. Whether NOW wins that layer vs. hyperscalers + the labs' own agent SDKs is the open question.
 - Hyperscaler/Microsoft bundling of workflow + AI

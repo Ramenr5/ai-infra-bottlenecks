@@ -46,8 +46,9 @@ US cybersecurity platform (NASDAQ: CRWD) — Falcon endpoint/identity/cloud secu
 - **Value-capture test case:** bull = AI agents are a net security tailwind; bear = [[SemiAnalysis - AI Value Capture (2026)]] ("AI labs capturing all the value") + Microsoft security bundling compress application-layer rents.
 
 ## Risks
-- Microsoft bundling (Defender) — platform-bundle threat to standalone security
-- July 2024 global outage — operational/reputational tail (external, not yet a wiki source)
+- **Microsoft Defender bundling** — the canonical bear: a diversified giant bundling "good-enough" security into M365/E5 ("doesn't need to be as good as CRWD to win") — per [[Microsoft Agent 365 + security bundling (2026)]]
+- Okta / Palo Alto / CyberArk contesting the NHI/agent-identity category
+- July 2024 global outage — operational/reputational tail (external)
 - Value migration to model labs ([[SemiAnalysis - AI Value Capture (2026)]])
 
 ## Related
