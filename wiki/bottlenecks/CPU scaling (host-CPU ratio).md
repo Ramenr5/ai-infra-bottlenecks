@@ -50,6 +50,28 @@ The CPU shortage is being met mostly by **Arm**, not merchant x86 — so the bot
 - **Most exposed:** [[Intel]] — datacenter share modeled **52.0% → 43.9%**; the clear loser of the Arm shift, with the weakest AI-rack position.
 - **Picks-and-shovels:** CPU-adjacent content — memory ([[Micron Technology]] LPDDR; Vera uses 1024-bit LPDDR5X), interconnect ([[Astera Labs]]), [[Datacenter cooling]] for dense 256-CPU racks.
 
+## Vera demand projection (FY27 — the agentic-CPU TAM crack-open)
+NVIDIA quantified Vera demand at Computex / Q1 FY27 ([[NVIDIA Q1 FY27 earnings (2026)]]). **Two pools, very different certainty:**
+
+**1. Bundled with Rubin (attach) — near-certain, already inside the $1T order book.**
+- Every **NVL72 rack = 36 Vera CPUs** (+ 72 Rubin GPUs). Rubin rack ramp ~**30k (2026) → ~100k (2027)** (Citi/KeyBanc) → at 100k racks, **~3.6M Vera CPUs/yr** bundled. As certain as Rubin ships ([[Capex trajectory thesis]]); rack BOM ~$7.8M (Vera a small slice — GPU+HBM dominate).
+
+**2. Standalone Vera racks — NVIDIA's $20B bet on *this* bottleneck.**
+- **Jensen: ~$20B standalone Vera revenue in FY27** — *explicitly excluding* Vera bundled with Rubin — into a **$200B TAM**; "every major hyperscaler and system maker is partnering to deploy it."
+- This is the **CPU-bound agentic tier** (ETL256 racks) the bottleneck predicts: as CPU:GPU → 1:1–1:2 and **>4× CPU/GW**, buyers add **CPU-only racks** beside the GPU racks.
+- Analyst: on track for **~4M Vera CPUs in FY27**, potentially **two-thirds of the x86 server-CPU market** from [[Intel]]/[[AMD]].
+
+**The demand vehicles (who's buying):**
+- **Launch adopters:** [[OpenAI]], [[Anthropic]], [[SpaceX]] — frontier-AI, agent-heavy workloads (the natural first Vera buyers).
+- **Clouds (deployment channel):** [[Oracle]] Cloud, [[CoreWeave]] ($66.8B backlog), [[Crusoe Energy|Crusoe]] (45 GW pipeline), [[Nebius]], [[Lambda]], [[Nscale]] (~200k GB300 GPUs), firmus, together.ai.
+
+**Scenario read:**
+- **Base:** ~$20B standalone **+** ~3.6M bundled → Vera vaults to a **top-3 server-CPU vendor by units in a single year**, owning the new agentic-CPU socket inside the NVIDIA stack.
+- **Bull:** two-thirds x86 share, $200B TAM, standalone compounding as the ratio climbs and ETL256 proliferates → [[ARM Holdings]] (royalty) + [[NVIDIA]] take the CPU layer outright.
+- **Bear:** the $20B is a **target, not booked revenue**; standalone Vera is **captive to NVIDIA-stack buyers** (won't displace x86 in non-NVIDIA shops); contested by **Arm's own AGI CPU** (>$2B FY28 visibility; OpenAI/Cerebras) + hyperscaler-custom Arm (Graviton/Axion/Cobalt) + AMD EPYC Verano. Attach is sure; standalone is the wager.
+
+**The tell to watch:** **standalone Vera bookings** converting (separate from Rubin attach) = the signal the CPU bottleneck is monetizing as its *own* TAM, not just riding GPU coattails.
+
 ## Connections
 - Feeds [[Bottleneck ranking (May 2026)]] (a new entrant on the watch list), [[AI factory economics (tokens per watt)]] (CPU efficiency is part of tokens/watt), [[Compute & silicon]].
 - Contrast with the *acute* bottlenecks ([[HBM allocation]], [[CoWoS packaging capacity]], [[Power & energy]]) — CPU scaling is the next one rising behind them.

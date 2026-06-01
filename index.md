@@ -134,7 +134,10 @@
 
 - [[OpenAI]] — largest compute-demand anchor (17 inbound refs); Stargate lead tenant; $300B Oracle / 4.5 GW deal; centerpiece of both bull + bear capex cases (role: ai-lab · layer: compute · 5 sources)
 - [[xAI]] — Colossus GW-scale builds; 1.9 GW onsite gas (Doosan); record-fast construction; $40B PIF rumored (role: ai-lab · layer: compute · 3 sources)
-- [[CoreWeave]] — largest pure-play neocloud; debt-financed against offtake = the [[AI debt financing capacity]] canary (ticker: CRWV · role: neocloud · layer: datacenter · 4 sources)
+- [[CoreWeave]] — largest pure-play neocloud; debt-financed against offtake = the [[AI debt financing capacity]] canary; **$99.4B backlog; Meta ~$35.2B**; named Vera/DSX partner (ticker: CRWV · role: neocloud · layer: datacenter · 4 sources)
+- [[Nebius]] — AI-native neocloud; named **Vera CPU cloud**/DSX partner; part of MSFT's $60B+ neocloud spend (ticker: NBIS · role: neocloud · layer: datacenter)
+- [[Lambda]] — GPU-cloud neocloud; ~$2.5B val; multi-$B MSFT GB300 deal; **Vera cloud** (private · role: neocloud · layer: datacenter)
+- [[Nscale]] — sovereign-tilt neocloud; ~200k GB300 GPUs via MSFT, Stargate Norway 100k; **Vera cloud** (private · role: neocloud · layer: datacenter)
 - [[Vistra]] — merchant IPP (nuclear+gas); Amazon PPAs; nuclear-DC pairing play (ticker: VST · role: utility · layer: power · 3 sources)
 - [[Constellation Energy]] — largest US nuclear operator; TMI/Crane restart for Microsoft; firm clean baseload for AI (ticker: CEG · role: utility · layer: power · 2 sources)
 - [[Mitsubishi Heavy Industries]] — 3rd of the gas-turbine oligopoly (w/ GEV, Siemens Energy); Mitsubishi Power ~+30% capacity (ticker: 7011.T · role: supplier · layer: power · 3 sources)

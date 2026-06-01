@@ -35,8 +35,8 @@ Largest pure-play AI neocloud (NASDAQ: CRWV). Rents NVIDIA GPU capacity at scale
 
 ## Counterparties
 
-- [[NVIDIA]] — primary GPU supplier (and equity/preferred backer historically)
-- Microsoft, OpenAI — major contracted customers
+- [[NVIDIA]] — primary GPU supplier (and equity/preferred backer historically); **named NVIDIA Vera CPU cloud + DSX AI-factory partner** ([[NVIDIA Computex 2026 Keynote - ServeTheHome Live (2026)]]) → a [[CPU scaling (host-CPU ratio)|Vera]] demand channel
+- Microsoft, OpenAI, **Meta** (~$35.2B committed incl. $21B Apr 2026 expansion) — major contracted customers
 - Private credit: [[Blackstone]], [[Apollo]], Magnetar (debt providers)
 
 ## Related

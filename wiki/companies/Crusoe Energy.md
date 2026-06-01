@@ -40,6 +40,7 @@ tags: [crusoe, neocloud, abilene, openai, oracle, stranded-gas, onsite-power]
 
 - [[OpenAI]] = anchor customer at Abilene (via [[Stargate]] / Oracle)
 - [[Oracle]] = compute operator on top of Crusoe infrastructure
+- [[NVIDIA]] = **named Vera CPU cloud + DSX partner** ([[NVIDIA Computex 2026 Keynote - ServeTheHome Live (2026)]]); **~45 GW pipeline** (2026, VERIFY) → a [[CPU scaling (host-CPU ratio)|Vera]] demand channel
 - [[GE Vernova]] = primary turbine supplier (LM2500XPRESS)
 - Caterpillar = Solar Titan turbine supplier (CAT subsidiary)
 - Boom Supersonic = 1.2 GW turbine vendor

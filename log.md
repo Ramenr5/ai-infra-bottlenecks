@@ -752,3 +752,10 @@ Pages NOT yet in wiki but referenced repeatedly — these are markers for what's
 - **reconciled the Vera perf figure:** keynote slide = **"1.8× agentic sandbox vs x86"** (compilation 1.7× / Python 1.9×); dev blog = **~1.5× full-socket** → both NVIDIA, different conditions (un-did the earlier over-correction to flat 1.5×).
 - updated: [[NVIDIA Computex 2026 Keynote]] (Vera full spec + DSX + Cosmos Coalition + 1.8/1.5 reconcile), [[CPU scaling (host-CPU ratio)]] (full Vera spec + adopters), [[AI factory economics (tokens per watt)]] (4-lever framework + DSX + NVIDIA useful-life rebuttal to depreciation bear), [[Physical AI & robotics]] (Cosmos Coalition), index.md, [[narrative-gaps]].
 - raw: +17 slide images in raw/assets/.
+
+## [2026-06-01] ingest+synthesis | Vera demand projection + DSX/Vera demand-vehicle names
+- user: pull info on the DSX/Vera names; project Vera's demand
+- pulled (WebSearch): NVIDIA **~$20B standalone Vera revenue FY27** (Jensen: excludes Vera-bundled-with-Rubin), **$200B TAM**, analyst **~4M Vera CPUs FY27** + potential **⅔ x86 share**; Rubin rack ramp **~30k (2026) → ~100k (2027)**, NVL72 = 72 Rubin + 36 Vera, BOM ~$7.8M; neocloud demand (CoreWeave $66.8-99.4B backlog/Meta $35.2B, Nscale ~200k GB300, Lambda MSFT deal, Crusoe 45GW); Arm AGI CPU comparator (>$2B FY28, $15B 2031).
+- built **Vera demand projection (FY27)** section on [[CPU scaling (host-CPU ratio)]]: two pools — (1) **bundled attach** ~3.6M units/yr at 100k Rubin racks (near-certain, in the order book) + (2) **standalone $20B bet** on the CPU-scaling thesis (ETL256 racks). Base/bull/bear + "watch standalone bookings" tell; demand vehicles = OpenAI/Anthropic/SpaceX + neoclouds.
+- new company pages: [[Nebius]], [[Lambda]], [[Nscale]] (neocloud Vera demand channels; figures VERIFY). updated [[CoreWeave]] (Meta $35.2B + Vera/DSX tag), [[Crusoe Energy]] (45GW + Vera/DSX tag).
+- index: +3 neoclouds; CoreWeave line refreshed.
