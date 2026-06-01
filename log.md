@@ -695,3 +695,9 @@ Pages NOT yet in wiki but referenced repeatedly — these are markers for what's
 - created: [[Future progression of AI (2026 view)]] — opinionated forward time-axis synthesis. **Four phases** (scaling→reasoning→**agentic/industrialization (now)**→physical AI); thesis: capability is **deployment-gated, not research-gated** — binding constraints are power/HBM/CPU/cost-per-token, not algorithms. Crux: does **Jevons** (cheaper inference → more demand) hold past 2027? Bull through 2027 high-confidence, 2028+ open (agent unit economics + [[Capex bust scenario]]). Open weights = swing factor (commoditizes labs, infra tolls win either way). Leading-indicator table + tradable read (core tolls / phase-3 agentic / phase-4 physical-AI option value).
 - cross-linked: keynote ↔ both syntheses; capstone ↔ forward synthesis (layer-axis ↔ time-axis); index.md Syntheses +1
 - wiki: syntheses +1 (Future progression of AI); sources updated (keynote)
+
+## [2026-06-01] schema | Telegram consolidated to single "AI Synthesis Tracker" feed
+- user: want Telegram to be recent news ON the syntheses, not current-state snapshots → chose "consolidate into one feed"
+- routines: repurposed **AI Market Regime Monitor → AI Synthesis Tracker** (trig_0162nssfTjTdw4M8cCZmLKT8, daily 23:00 UTC / 9am Brisbane). New job: scan recent news (~2 days) against the synthesis pages' leading indicators + falsifiers; report only thesis movement CONFIRM(^)/CHALLENGE(v)/BREAK(x); subject `AI Synthesis Tracker {date}: {N} thesis updates`. Tracks: Future progression, Value capture, Disaggregated inference, Capex trajectory/bust, Bottleneck ranking, CRWD+NOW.
+- **disabled**: AI Infra Daily Pulse (trig_01QAyouMLcYiXD3vNBTHKWL7) + AI Narrative & Findings Scout (trig_0167fvo4VoZrdNbzBF37JmSW)
+- relay: added 'AI Synthesis Tracker' to SUBJECT_MATCHES in tools/telegram-relay.gs → **requires one-time re-paste of that array into the deployed Apps Script** (don't overwrite the token line)
