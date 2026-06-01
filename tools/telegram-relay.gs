@@ -25,6 +25,8 @@ var CHAT_ID   = '__PASTE_CHAT_ID__';     // e.g. 266952662
 
 // Only drafts whose subject contains one of these prefixes get relayed:
 var SUBJECT_MATCHES = [
+  'AI Synthesis Tracker',   // the active consolidated thesis-news feed (daily)
+  // legacy feeds (now disabled, kept so re-enabling them still relays):
   'AI Regime Monitor',
   'AI Infra Pulse',
   'AI Narrative'
