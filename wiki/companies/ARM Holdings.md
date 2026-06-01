@@ -29,6 +29,7 @@ Listed on NASDAQ (ticker: ARM) since September 2023 IPO. SoftBank Group remains 
 - **Data center royalty more than doubled YoY** (Q4 FY26)
 - **Neoverse royalties doubled YoY**; expected to **double again** in FY27 per CEO Rene Haas
 - **CSS (Compute Subsystem) program** in adoption with **AWS, Google, NVIDIA, Microsoft** — all four major hyperscalers using pre-validated subsystems
+- **The cleanest pure-play on [[CPU scaling (host-CPU ratio)]]:** agentic AI is shifting the bottleneck to host CPUs, and Arm captures it both ways — **~50% of CPU compute among top hyperscalers** (Graviton/Axion/Cobalt/Vera all Arm) AND its own **"AGI CPU" silicon** (forecast doubled to **>$2B by FY2028**, modeled **~$15B by 2031** ≈ 15% of a $100B CPU TAM; OpenAI + Cerebras early buyers). Server-CPU TAM re-rating to **$100B+ by 2030** ([[Datacenter CPU landscape (2026)]])
 
 ## Product/IP portfolio
 

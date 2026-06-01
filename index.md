@@ -256,6 +256,8 @@
 - [[Physical AI & humanoid landscape (2026)]] — physical-AI landscape note: Jensen **$40T humanoid TAM**, NVDA physical-AI rev **>$9B TTM**; humanoid players (Figure $39B, Unitree 5.5k units, Tesla Optimus, 1X, Apptronik). Seeds [[Physical AI & robotics]].
 - [[Salesforce Agentforce Q4 FY26 (2026)]] — **Agentforce ARR ~$800M (+169%)**, AI platform ARR +114%, Data Cloud ~$2.1B, 29k deals. Third app-layer monetization data point (with CRWD/NOW).
 - [[AI factory tokenomics (2026)]] — token-economics framing + **Morgan Stanley 100-MW model**: ~$660M capex, >50% margin "NVIDIA or Huawei", $0.20/M token ref; NVDA $5M GB200→$75M (15×); pricing tiers $1/$3-6/$45. Plus the skeptic side (price erosion, "dark output"). Anchors [[AI factory economics (tokens per watt)]].
+- [[Datacenter CPU landscape (2026)]] — server-CPU TAM re-rating: **>4× CPU/GW** for agentic; AMD >$120B-by-2030, Arm $100B TAM; **Arm ~50% of hyperscaler CPU compute**; custom Arm (Graviton/Axion/Cobalt) + Arm AGI CPU; Intel share **52→43.9%**. Deepens [[CPU scaling (host-CPU ratio)]].
+- [[AI datacenter cost stack & token demand (2026)]] — 1-GW cost stack (capex $35-80B range, GPU ~39%, TCO ~$8.5B/yr), the **GPU-depreciation debate** (Burry $176B; H100 +137%→−34% ROI), and the **demand side** (Gartner $207B agent spend +139%, but 73% over budget). Deepens [[AI factory economics (tokens per watt)]].
 
 **Secondary (retrospective):**
 - [[Situational Awareness, Two Years Later (2026)]] — Omer Ansari, Medium, Apr 29 2026. Aggregates McKinsey, JPM, CSIS, METR.

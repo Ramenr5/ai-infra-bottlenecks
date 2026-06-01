@@ -2,7 +2,7 @@
 type: bottleneck
 created: 2026-06-01
 updated: 2026-06-01
-sources: ["[[NVIDIA Computex 2026 Keynote]]", "[[SemiAnalysis - AI Value Capture (2026)]]"]
+sources: ["[[NVIDIA Computex 2026 Keynote]]", "[[Datacenter CPU landscape (2026)]]", "[[SemiAnalysis - AI Value Capture (2026)]]"]
 layer: compute
 severity: watch
 mechanism: capacity
@@ -19,9 +19,18 @@ AI workloads shifted from **simple text generation** (GPU-bound) to **agents + r
 - RL training adds **data preprocessing, scheduling, reward/validation** loops — CPU-bound.
 - Net: **as GPUs scale faster than CPUs, you need larger CPU clusters just to keep GPUs fed.** The CPU becomes the binding constraint on effective GPU utilization.
 
-## The ratio shift (the TAM story)
+## The ratio shift → the TAM re-rating (sized)
 - Historically GPU-heavy trays (few CPUs per many GPUs). Agentic workloads push the **CPU:GPU ratio toward 1:1–1:2** — "we may need more CPUs than GPUs" ([TrendForce](https://insights.trendforce.com/p/agentic-ai-cpu-gpu)).
-- That is a **large, under-modeled expansion of the server-CPU TAM** — and "an extremely severe CPU capacity shortage" as AI scales.
+- The hard version: demand is quantified at **>4× current CPU capacity per gigawatt** as agentic AI scales ([[Datacenter CPU landscape (2026)]]).
+- **Server-CPU TAM re-rating** (VERIFY): **AMD** doubled its forecast to **>$120B by 2030** (>35%/yr), calling EPYC **Verano "built purely for AI"**; **Arm** CEO Haas sees **$60–70B (2026) → $100B (2030)**; bull-case analysts model up to **$170B by 2030**. The agentic workload *is* the driver AMD/Arm both cite.
+- Net: a **large, under-modeled expansion of the server-CPU TAM** — "an extremely severe CPU capacity shortage" as AI scales ([[Datacenter CPU landscape (2026)]]).
+
+## The custom-silicon land-grab (who captures the new socket)
+The CPU shortage is being met mostly by **Arm**, not merchant x86 — so the bottleneck *relief* is also a **share shift**:
+- **Arm ≈ 50% of CPU compute among the top hyperscalers** (Amazon/Google/NVIDIA) already.
+- **Hyperscaler custom Arm:** AWS **Graviton** (*majority of new AWS capacity in 2025*), Google **Axion** (65% better price-perf, 60% better energy efficiency vs x86), Microsoft **Cobalt** (paired with Maia accelerators), ByteDance building its own Arm+RISC-V.
+- **Arm's own "AGI CPU":** Arm moved from IP into selling silicon — AGI revenue forecast **doubled to >$2B by FY2028**, modeled **~$15B by 2031**; OpenAI + Cerebras early buyers.
+- **NVIDIA Vera** takes the host socket *inside* its racks. So the CPU TAM expansion accrues to **Arm-architecture + NVIDIA**, with [[TSMC]] fabbing it. ([[Datacenter CPU landscape (2026)]])
 
 ## NVIDIA's answer — and the x86 land-grab
 - **Vera ETL256** — liquid-cooled rack packing **256 Vera CPUs**, all-copper intra-rack topology, purpose-built for the CPU-bound tier ([[NVIDIA Computex 2026 Keynote]], [The Register](https://www.theregister.com/2026/03/16/nvidia_vera_cpu_rack/)).
@@ -34,9 +43,10 @@ AI workloads shifted from **simple text generation** (GPU-bound) to **agents + r
 - **Gap:** a genuine new chokepoint, currently *watch* — NVIDIA's ETL256 + Vera ramp is the relief valve, but it also **routes the CPU rent to NVIDIA/Arm**, away from merchant x86.
 
 ## Who benefits / who's exposed
-- **Benefits:** [[NVIDIA]] (Vera captures the new CPU socket), [[ARM Holdings]] (royalty on every Arm host CPU — data-center royalty already doubling YoY), [[TSMC]] (more 3nm CPU wafers).
-- **Exposed:** [[Intel]] (Xeon) and [[AMD]] (EPYC) merchant server CPU — the AI-rack host socket is exactly where Arm/Vera is taking share; the offset is that the *total* CPU TAM is expanding (1:1–1:2 ratio), so x86 can still grow units even while losing AI-rack share.
-- **Picks-and-shovels:** CPU-adjacent content (memory ([[Micron Technology]] LPDDR), interconnect ([[Astera Labs]]), the [[Datacenter cooling]] for dense 256-CPU racks).
+- **Benefits (the CPU rent migrates here):** [[ARM Holdings]] — royalty on every Arm host CPU *plus* its own AGI-CPU silicon (~$15B 2031 modeled); the cleanest pure-play on this bottleneck. [[NVIDIA]] (Vera captures the in-rack socket). [[TSMC]] (more 3nm CPU wafers).
+- **Mixed:** [[AMD]] — *both* exposed (Arm takes hyperscaler share) *and* a beneficiary (EPYC Verano AI-tuned; AMD's own $120B-by-2030 TAM call). AMD holds better than Intel; total-TAM expansion lets x86 units grow even while losing AI-rack share.
+- **Most exposed:** [[Intel]] — datacenter share modeled **52.0% → 43.9%**; the clear loser of the Arm shift, with the weakest AI-rack position.
+- **Picks-and-shovels:** CPU-adjacent content — memory ([[Micron Technology]] LPDDR; Vera uses 1024-bit LPDDR5X), interconnect ([[Astera Labs]]), [[Datacenter cooling]] for dense 256-CPU racks.
 
 ## Connections
 - Feeds [[Bottleneck ranking (May 2026)]] (a new entrant on the watch list), [[AI factory economics (tokens per watt)]] (CPU efficiency is part of tokens/watt), [[Compute & silicon]].
