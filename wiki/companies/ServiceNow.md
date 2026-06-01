@@ -52,4 +52,4 @@ US enterprise workflow / IT-service-management platform (NYSE: NOW). **Applicati
 - Source: [[ServiceNow Q1 FY26 earnings]]
 - Narrative: [narratives/2026-06-01 CRWD + NOW](../../narratives/2026-06-01 CRWD %2B NOW.md)
 - Peer/complement: [[CrowdStrike]] (security of the same agentic enterprise)
-- Concept links: [[SemiAnalysis - Claude Code Is The Inflection Point]], [[SemiAnalysis - AI Value Capture (2026)]]
+- Concept links: [[SemiAnalysis - Claude Code Is The Inflection Point]], [[SemiAnalysis - AI Value Capture (2026)]], [[AI value capture across the stack]] (NOW sits in the contested "stock-picker's" application layer; control plane contested by MSFT Agent 365), [[Disaggregated inference (Rubin CPX)]] (cheaper agents → bigger orchestration surface)

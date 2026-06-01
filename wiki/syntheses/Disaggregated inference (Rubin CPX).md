@@ -42,4 +42,4 @@ Running both on the same HBM GPU wastes expensive HBM bandwidth during prefill. 
 - Bear: if long-context demand is smaller than assumed, CPX is a niche; if disaggregation stays hard to operate, the theoretical $/token win doesn't materialize.
 
 ## Related
-- Anchor: [[NVIDIA Computex 2026 Keynote]] · [[Compute & silicon]] · [[HBM allocation]] · [[Capex trajectory thesis]] · [[AI investment momentum tracker]] · [narrative: CRWD + NOW](../../narratives/2026-06-01 CRWD %2B NOW.md)
+- Anchor: [[NVIDIA Computex 2026 Keynote]] · [[Compute & silicon]] · [[HBM allocation]] · [[Capex trajectory thesis]] · [[AI investment momentum tracker]] · [[AI value capture across the stack]] (this is the mechanism that tilts value to the app layer) · [narrative: CRWD + NOW](../../narratives/2026-06-01 CRWD %2B NOW.md)
