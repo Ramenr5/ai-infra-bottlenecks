@@ -32,4 +32,4 @@ A thesis whose load-bearing links are `[INFERRED]` is a **hypothesis to test, no
 
 ## Index
 
-*(none yet — narratives appear here as they're built)*
+- [2026-06-01 CRWD + NOW](2026-06-01%20CRWD%20%2B%20NOW.md) — agentic-enterprise tailwind (CrowdStrike securing agents, ServiceNow orchestrating them) vs. the value-capture-to-labs risk. **Hypothesis** (forward backbone is 3 inferred links + a sourced contradiction).
