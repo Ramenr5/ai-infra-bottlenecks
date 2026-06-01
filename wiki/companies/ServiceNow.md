@@ -3,7 +3,7 @@ type: company
 ticker: NOW
 created: 2026-06-01
 updated: 2026-06-01
-sources: ["[[ServiceNow Q1 FY26 earnings]]"]
+sources: ["[[ServiceNow Q1 FY26 earnings]]", "[[MCP and the Agentic AI Foundation (2026)]]"]
 layer: application
 role: workflow
 tags: [enterprise-software, now, agentic-orchestration, now-assist, ai-beneficiary, application-layer]
@@ -44,7 +44,8 @@ US enterprise workflow / IT-service-management platform (NYSE: NOW). **Applicati
 ## Risks
 - "AI eats SaaS" — if agents collapse workflows, seat-based ITSM value erodes (the disintermediation case)
 - Value migration to model labs ([[SemiAnalysis - AI Value Capture (2026)]])
-- Hyperscaler/Microsoft bundling of workflow + AI; agent-protocol standards (MCP) commoditizing orchestration
+- **Orchestration commoditization:** [[MCP and the Agentic AI Foundation (2026)|MCP]] is now an open Linux-Foundation standard — the agent↔tool *protocol* commoditizes, so NOW's moat must sit in the **governance / business-context / which-agent layer above MCP** (the "quarterback"), not the pipes. Whether NOW wins that layer vs. hyperscalers + the labs' own agent SDKs is the open question.
+- Hyperscaler/Microsoft bundling of workflow + AI
 
 ## Related
 - Source: [[ServiceNow Q1 FY26 earnings]]

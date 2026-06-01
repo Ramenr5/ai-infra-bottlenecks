@@ -624,3 +624,14 @@ Pages NOT yet in wiki but referenced repeatedly — these are markers for what's
 - key numbers verified via Motley Fool transcripts (SEC 8-Ks 403 the fetcher); flag verify before acting
 - wiki: companies +2 (CrowdStrike, ServiceNow), sources +2; narratives +1; first use of layer=application
 
+## [2026-06-01] ingest | Gap-fill the CRWD+NOW narrative (3 sources) — links re-scored
+- user: "ingest all" the suggested gap-fillers. Ingested + folded back into the narrative:
+  - [[Menlo - State of Enterprise AI (2025)]] — **$37B enterprise GenAI spend 2025, split ~$19B app / $18B infra** (foundation-model APIs $12.5B); Anthropic 40% of enterprise LLM spend (OpenAI 27%). **Partly resolves the value-capture contradiction**: app layer captured ~half (not all to labs) — but app half is fragmented, infra concentrates. → narrative L6 INFERRED→partly SOURCED
+  - [[Identity security in the AI era (2026)]] — identity-security market $29B→$56B (2029); ~45 machine identities/human; **CRWD Next-Gen Identity ARR >$520M (+34%) + SGNL acquisition (Jan 2026)**; 69% say security slows agent adoption (gating bottleneck); Okta contests. → narrative L2/L3 INFERRED→SOURCED
+  - [[MCP and the Agentic AI Foundation (2026)]] — MCP now open Linux-Foundation standard (Anthropic/Block/OpenAI + hyperscalers); 97M+ monthly SDK downloads. **Double-edged for NOW**: orchestration *protocol* commoditizes; NOW's moat must sit in governance layer above MCP. → narrative L5 sharpened
+- narrative re-scored: present-tense well-sourced; value-capture contradiction **softened** (apps capture half) but live; two genuinely-inferred load-bearing bets remain — (a) NOW wins the governance layer above commoditizing MCP, (b) tailwind>threat direction. Upgraded from "hypothesis" → "evidenced thesis with 2 inferred bets."
+- still-thin gaps flagged for scout: "AI eats SaaS"/seat-erosion (no strong source found), Microsoft bundling, CRWD July 2024 outage
+- updated [[CrowdStrike]] (SGNL, $520M NHI ARR) + [[ServiceNow]] (MCP commoditization risk)
+- candidate synthesis flagged: "AI value capture across the stack" (app-fragmented vs infra-concentrated)
+- wiki: sources +3
+

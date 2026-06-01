@@ -59,6 +59,9 @@ Statuses: `ingested` (source page written), `paywalled-skipped` (insufficient fr
 - 2026-05-31 | ingested | https://p3institute.substack.com/p/from-open-source-software-to-open | [[P3 Institute - Open Source to Open Weights (2026)]] — perspective piece (open-weights vs closed-cathedral); stress-tested
 - 2026-06-01 | ingested | https://www.fool.com/earnings/call-transcripts/2026/03/03/crowdstrike-crwd-q4-2026-earnings-transcript/ | [[CrowdStrike Q4 FY26 earnings]] (application-layer entity; agentic security)
 - 2026-06-01 | ingested | https://www.fool.com/earnings/call-transcripts/2026/04/22/servicenow-now-q1-2026-earnings-transcript/ | [[ServiceNow Q1 FY26 earnings]] (application-layer entity; agent orchestration)
+- 2026-06-01 | ingested | https://menlovc.com/perspective/2025-the-state-of-generative-ai-in-the-enterprise/ | [[Menlo - State of Enterprise AI (2025)]] (gap-fill: value-capture / app-vs-infra spend split)
+- 2026-06-01 | ingested | https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-acquire-sgnl-transform-identity-security-ai-era | [[Identity security in the AI era (2026)]] (gap-fill: NHI/agentic security market + CRWD SGNL)
+- 2026-06-01 | ingested | https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation | [[MCP and the Agentic AI Foundation (2026)]] (gap-fill: agent orchestration standard / NOW control-plane test)
 
 ## Power Integrations (POWI)
 

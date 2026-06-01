@@ -3,7 +3,7 @@ type: company
 ticker: CRWD
 created: 2026-06-01
 updated: 2026-06-01
-sources: ["[[CrowdStrike Q4 FY26 earnings]]", "[[Anthropic]]"]
+sources: ["[[CrowdStrike Q4 FY26 earnings]]", "[[Identity security in the AI era (2026)]]", "[[Anthropic]]"]
 layer: application
 role: security
 tags: [cybersecurity, crwd, agentic-security, charlotte-ai, ai-beneficiary, application-layer]
@@ -36,7 +36,9 @@ US cybersecurity platform (NASDAQ: CRWD) — Falcon endpoint/identity/cloud secu
 - **Charlotte AI** agent usage +6× YoY, its ARR tripling — CRWD's own agentic-security product
 - **AIDR** (AI Detection & Response) +5× sequential since launch
 - Endpoint AI detection tracking **1,800+ distinct AI apps / 160M unique instances** across customers — i.e. CRWD already sees the agentic sprawl inside enterprises
+- **Next-Gen Identity Security >$520M ending ARR (+34% YoY)**; **acquiring SGNL** (Jan 2026) for continuous human/NHI/AI identity (per [[Identity security in the AI era (2026)]]) — identity-security market $29B→$56B by 2029; ~45 machine identities per human
 - Threat-side tailwind: AI escalates *attacker* capability too — cf. [[Anthropic]]'s Nov 2025 disclosure of a state-sponsored cyberattack **80-90% autonomously executed by AI agents**
+- Demand-pull: **69% of leaders say security concerns *slow* agent adoption** → security is a gating bottleneck (bullish for CRWD); but **Okta contests** the NHI/agent-identity category
 
 ## Why it matters for the thesis
 
