@@ -131,6 +131,11 @@
 - [[Mitsubishi Heavy Industries]] — 3rd of the gas-turbine oligopoly (w/ GEV, Siemens Energy); Mitsubishi Power ~+30% capacity (ticker: 7011.T · role: supplier · layer: power · 3 sources)
 - [[Dell Technologies]] — AI-server OEM; **prime demand proxy** — Q1 FY27 (May 2026): $24.4B AI orders, **$51.3B AI backlog**, ~$60B FY27 guide (+144%); backlog growing faster than shipments (ticker: DELL · role: oem · layer: datacenter · 1 source)
 
+### Application layer — AI beneficiaries (downstream of the infra thesis; value-capture test cases)
+
+- [[CrowdStrike]] — cybersecurity platform; **agentic-security** beneficiary; Q4 FY26 ending ARR **$5.25B (+24%)**, FY27 guide →$6.5B; Falcon Shield NAAR +300% (non-human identity), Charlotte AI +6× (ticker: CRWD · role: security · layer: application · 1 source)
+- [[ServiceNow]] — enterprise workflow; **agent-orchestration "control plane"** bet; Q1 FY26 subscription $3.671B (+19% cc); **AI commitments raised to $1.5B for 2026**; FY26 guide ~$15.75B (ticker: NOW · role: workflow · layer: application · 1 source)
+
 ## Assets
 
 - [[Stargate Texas]] — multi-site TX portfolio (Abilene + Shackelford + Milam) (kind: datacenter · 2 sources)

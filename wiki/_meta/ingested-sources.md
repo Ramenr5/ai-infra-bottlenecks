@@ -57,6 +57,8 @@ Statuses: `ingested` (source page written), `paywalled-skipped` (insufficient fr
 - 2026-05-28 | ingested | https://www.cnbc.com/2026/03/31/openai-funding-round-ipo.html | OpenAI $852B/$122B round — cited inline in [[OpenAI]] (no standalone source page)
 - 2026-05-28 | ingested | https://www.ercot.com/news/release/04152026-ercot-releases-preliminary | ERCOT 2026-2032 load forecast — cited inline in [[ERCOT]] (no standalone source page)
 - 2026-05-31 | ingested | https://p3institute.substack.com/p/from-open-source-software-to-open | [[P3 Institute - Open Source to Open Weights (2026)]] — perspective piece (open-weights vs closed-cathedral); stress-tested
+- 2026-06-01 | ingested | https://www.fool.com/earnings/call-transcripts/2026/03/03/crowdstrike-crwd-q4-2026-earnings-transcript/ | [[CrowdStrike Q4 FY26 earnings]] (application-layer entity; agentic security)
+- 2026-06-01 | ingested | https://www.fool.com/earnings/call-transcripts/2026/04/22/servicenow-now-q1-2026-earnings-transcript/ | [[ServiceNow Q1 FY26 earnings]] (application-layer entity; agent orchestration)
 
 ## Power Integrations (POWI)
 

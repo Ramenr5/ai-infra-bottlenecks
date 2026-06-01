@@ -615,3 +615,12 @@ Pages NOT yet in wiki but referenced repeatedly — these are markers for what's
 - flagged: [[AI infrastructure investment map (May 2026)]] (open-vs-closed value-migration); candidate synthesis 'Open weights vs closed cathedral'
 - wiki: sources +1; meta +1 (sources-watchlist); stress-test ledger +1
 
+## [2026-06-01] capability+ingest | "Build a narrative" mode added; CRWD + NOW ingested
+- added generative **"build a narrative"** workflow to CLAUDE.md + `narratives/` folder (README with tagging contract). Mode allows labeled inference: every connection tagged [SOURCED: page, STRONG/MODERATE/WEAK] or [INFERRED: reasoning]; mandatory stress section; output saved to narratives/.
+- first narrative: [narratives/2026-06-01 CRWD + NOW] — agentic-enterprise tailwind (CrowdStrike secures agents, ServiceNow orchestrates them) vs value-capture-to-labs risk. Backbone = present-tense sourced (primary filings) + forward-tense 3 inferred links + 1 sourced contradiction ([[SemiAnalysis - AI Value Capture (2026)]] "labs capturing all the value") → labeled a hypothesis.
+- per user: ingested CRWD + NOW as **application-layer** wiki entities (taxonomy extension: layer=application, downstream AI beneficiaries):
+  - [[CrowdStrike]] (CRWD) + [[CrowdStrike Q4 FY26 earnings]] — ending ARR $5.25B (+24%), FY27 guide $6.5B; Falcon Shield NAAR +300% (non-human identity), Charlotte AI +6×, AIDR +5× seq; tracking 1,800+ AI apps/160M instances
+  - [[ServiceNow]] (NOW) + [[ServiceNow Q1 FY26 earnings]] — subscription $3.671B (+19% cc), FY26 guide ~$15.75B; AI commitments raised to $1.5B 2026; McDermott "quarterback / which agent or LLM to use" = agent control-plane claim (partly sources the narrative's inferred L5)
+- key numbers verified via Motley Fool transcripts (SEC 8-Ks 403 the fetcher); flag verify before acting
+- wiki: companies +2 (CrowdStrike, ServiceNow), sources +2; narratives +1; first use of layer=application
+
