@@ -671,3 +671,13 @@ Pages NOT yet in wiki but referenced repeatedly — these are markers for what's
 - Rubin CPX / disaggregated-inference captured in the keynote source; dedicated concept page still a candidate
 - wiki: companies +10
 
+## [2026-06-01] schema | Reframe the thesis spine on the Computex keynote + Rubin CPX concept
+- user: reframe everything on the keynote + follow up with concept page
+- new synthesis: [[Disaggregated inference (Rubin CPX)]] — inference splits into prefill (GDDR7, compute-bound) + decode (HBM, bandwidth-bound); NVIDIA built Rubin CPX for prefill. Cheapens long-context inference → Jevons (more demand), tilts value to application layer ([[CrowdStrike]]/[[ServiceNow]]), bifurcates memory (HBM + GDDR7). Honesty: architecture sourced, "expands pie → app wins" read-through partly inferred.
+- reframed core syntheses around the keynote as the anchor:
+  - [[Capex trajectory thesis]] — added "demand is now an ORDER BOOK not a forecast" reframe: $1T purchase orders + server-plant/CoWoS/HBM4 reservation + roadmap to Feynman 2028 → pushes ~90%-through-2027 to high end, extends visibility to 2028
+  - [[AI investment momentum tracker]] — verdict re-anchored 2026-06-01 to the keynote (forecast→backlog); raises the floor
+  - [[Bottleneck ranking (May 2026)]] — HBM intensity escalates (288GB→1TB/GPU + exclusive HBM4); Rubin CPX bifurcates memory (HBM+GDDR7); Kyber 600kW racks make 800VDC+cooling roadmap-confirmed
+  - [[AI infrastructure investment map (May 2026)]] — spine redrawn as the keynote value chain (demand order book → silicon → NEW production/ODM layer → power/cooling → NEW inference economics → NEW client/N1X)
+  - [[Capex bust scenario]] — order book trims near-term bust prob toward ~20% low end BUT raises concentration risk (single-vendor order book; POs cancellable; 2028+ ROI reckoning on a more levered/concentrated base)
+- wiki: syntheses +1 (Disaggregated inference)

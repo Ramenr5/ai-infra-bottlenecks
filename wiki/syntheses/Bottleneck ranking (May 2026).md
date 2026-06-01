@@ -14,6 +14,9 @@ What's the **biggest constraint** the AI buildout faces? Different framings yiel
 
 **Power binds the durable case (multi-year);** **HBM + CoWoS bite the near-term (2026-27);** **chip design talent is the under-appreciated long-term constraint.**
 
+> [!note] Computex 2026 reframe ([[NVIDIA Computex 2026 Keynote]])
+> The Rubin roadmap **intensifies the memory bottleneck**: HBM per GPU goes **288 GB HBM4 (Rubin) → 1 TB HBM4E (Rubin Ultra 2027)** — a ~3.5× capacity jump per GPU on top of unit growth, with NVIDIA the **exclusive early HBM4 client**. HBM moves up the durable ranking. **[[Disaggregated inference (Rubin CPX)|Rubin CPX]]** also *splits* memory demand into HBM (decode) + **GDDR7** (prefill) — broadening the memory constraint beyond HBM. And **Kyber 600 kW racks** make [[800VDC transition]] + [[Datacenter cooling]] roadmap-confirmed, not speculative. Net: **power still binds the durable case, but HBM/memory intensity is escalating faster than previously framed.**
+
 ## Ranking framework
 
 A bottleneck's "biggest" qualifier depends on:

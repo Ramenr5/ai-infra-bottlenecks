@@ -8,7 +8,19 @@ tags: [thesis, investment-map, state-of-wiki, picks-and-shovels, consolidated]
 
 # AI infrastructure investment map (May 2026)
 
-State-of-the-wiki consolidation. Read [[Capex trajectory thesis]] for the central claim; this page is the **investment map** — every tradable name in our wiki organized by where it sits in the stack and what it does. Built from **29 primary sources across 6 layers** (power, compute, chip-design, datacenter, capital, plus connectivity/space adjacency).
+State-of-the-wiki consolidation. Read [[Capex trajectory thesis]] for the central claim; this page is the **investment map** — every tradable name in our wiki organized by where it sits in the stack and what it does.
+
+> [!success] Computex 2026 reframe — the spine is now the [[NVIDIA Computex 2026 Keynote]]
+> The keynote is the wiki's **anchor source**, and it maps the full value chain end-to-end. Read the stack top-to-bottom as the keynote draws it:
+> 1. **Demand (order book):** [[NVIDIA Computex 2026 Keynote|$1T purchase orders]] Blackwell+Rubin through 2027 → roadmap Rubin / Rubin Ultra 2027 / Feynman 2028
+> 2. **Silicon:** [[NVIDIA]] (Rubin) ← [[TSMC]] (3nm/A16 + CoWoS) ← HBM4 [[SK Hynix]]/[[Samsung Electronics]]/[[Micron Technology]] (NVDA exclusive early client); networking [[Broadcom]]/[[Astera Labs]]/[[Coherent]]/[[Lumentum]] (X1600/Spectrum-X/CPO)
+> 3. **Production (NEW layer):** the AI-factory ODMs — [[Foxconn]] (largest), [[Quanta Cloud Technology]], [[Wistron]], [[Wiwynn]], [[Inventec]], [[Supermicro]], [[Ingrasys]], [[Asus]] (GB200 servers ~$2-3M each; ~$210B/yr Blackwell-server pool)
+> 4. **Power/cooling:** Kyber 600 kW racks → [[800VDC transition]] ([[Eaton]]/[[ABB]]/[[Vertiv Holdings]]/[[Power Integrations]]) + [[Datacenter cooling]] ([[Vertiv Holdings]]/[[Delta Electronics]])
+> 5. **Inference economics (NEW):** [[Disaggregated inference (Rubin CPX)]] (GDDR7 prefill) cheapens long-context inference → expands the application layer ([[CrowdStrike]]/[[ServiceNow]])
+> 6. **Client (NEW vector):** N1/N1X Arm PCs ([[MediaTek]] SoC) — NVIDIA enters client compute
+> The investable through-line: **the order book is contracted and supply is reserved**, so the picks-and-shovels extend from silicon all the way to the Taiwan assembly layer and now down into inference economics + client.
+
+Built from **30+ primary sources across the stack** (power, compute, chip-design, datacenter production, capital, application, plus connectivity/space adjacency).
 
 ## Wiki coverage (snapshot)
 

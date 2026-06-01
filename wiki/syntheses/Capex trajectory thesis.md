@@ -8,9 +8,12 @@ tags: [thesis, capex, hyperscaler, supply-side, investment, trajectory]
 
 # Capex trajectory thesis
 
-## The view (as of 2026-05-24)
+## The view (reframed 2026-06-01 on the [[NVIDIA Computex 2026 Keynote]])
 
 **AI infrastructure spending accelerates through at least 2027 with high probability (~90%). 2028+ depends on whether GPT-5/6/Rubin-era unit economics validate the spend.** The core mechanism: the binding constraints have shifted from demand-side to supply-side, so spending is now governed by supply expansion rate, not by demand creation.
+
+> [!success] Computex 2026 reframe — demand is now an ORDER BOOK, not a forecast
+> Jensen's prior "$1T TAM" became **"$1T high-confidence demand AND *purchase orders* for Blackwell + Rubin through 2027"** ([[NVIDIA Computex 2026 Keynote]]) — a contracted order book, not a projection (up from $500B a year ago). Combined with NVIDIA **booking the entire server-plant capacity through 2026**, the **vast majority of TSMC CoWoS**, and **exclusive early HBM4**, BOTH sides are now locked: demand is contracted *and* supply is reserved. The **Rubin → Rubin Ultra (2027) → Feynman (2028, TSMC A16)** roadmap extends the supply-side lock-in a full generation past where this thesis originally saw. This is the strongest single confirmation of the accelerating regime to date — and it pushes the "~90% through 2027" toward the high end and extends visibility into 2028.
 
 ## Why acceleration is structurally locked in through 2027
 

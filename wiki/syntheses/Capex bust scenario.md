@@ -14,6 +14,9 @@ The deliberate counterweight to [[Capex trajectory thesis]]. This page steelmans
 
 **There is a credible path (~20-30% probability through 2027, rising thereafter) where AI capex proves to have outrun monetizable demand, triggering a capex slowdown that reprices the entire picks-and-shovels complex.** The mechanism is not "AI is useless" — it's that **spending is front-loaded and debt-financed while revenue is back-loaded and concentrated**, so a timing mismatch can force rationalization before the revenue arrives.
 
+> [!warning] Computex 2026 cuts the near-term probability — but raises concentration risk
+> The [[NVIDIA Computex 2026 Keynote]] **"$1T purchase orders (not TAM) through 2027"** is a strong counter to the *near-term* bust: a contracted order book is harder to air-pocket than a forecast → I'd trim the through-2027 bust probability toward the **~20% low end**. **BUT** it sharpens the bear's real shape: (a) the buildout is now **even more concentrated on a single vendor's order book** — if NVIDIA's customers (a handful of hyperscalers + labs) cut, the whole chain (TSMC, HBM, the ODMs [[Foxconn]]/[[Quanta Cloud Technology]]/[[Wiwynn]], power, cooling) cuts together; (b) **purchase orders can be cancelled/deferred** — an order book is confidence, not cash; (c) it doesn't resolve the [[SemiAnalysis - AI Value Capture (2026)|value-capture]] / revenue-vs-capex question. The bust just moves from "near-term demand air-pocket" to "**2028+ ROI reckoning on a more concentrated, more levered base**."
+
 ## The bear evidence
 
 ### 1. The capex-vs-revenue gap (the core argument)

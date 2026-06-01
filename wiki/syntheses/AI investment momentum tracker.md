@@ -12,11 +12,11 @@ tags: [thesis, regime-monitor, momentum, accelerating-stagnating-slowing, live]
 
 ---
 
-## CURRENT VERDICT — 2026-05-29
+## CURRENT VERDICT — 2026-06-01
 
 # 🟢 ACCELERATING (high conviction)
 
-**Confidence: High** on the hard-demand channel; **rising caution** on the credit channel. Conviction deepened 2026-05-29 after the daily Regime Monitor + local verification added 4 confirmed accelerating signals (Anthropic–SpaceX $40B compute lease, Vertiv orders +252%, xAI Colossus 2 ramp, Pichai "compute constrained"). No tier change — already top tier.
+**Confidence: High** on the hard-demand channel; **rising caution** on the credit channel. **Anchored 2026-06-01 to the [[NVIDIA Computex 2026 Keynote]]:** demand is now a **contracted order book** ("$1T high-confidence demand + *purchase orders* Blackwell+Rubin through 2027"), supply reserved (server plants, CoWoS, exclusive HBM4), roadmap extended to **Feynman 2028** — the strongest demand signal moved from *forecast* to *backlog*. (Prior 2026-05-29: Anthropic–SpaceX $40B lease, Vertiv +252% orders, xAI Colossus 2, Pichai "compute constrained.") No tier change — already top tier; the keynote raises the floor.
 
 ```
 SLOWING  ◄———————————————————————●———►  ACCELERATING
