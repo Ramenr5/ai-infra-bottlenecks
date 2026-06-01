@@ -116,6 +116,20 @@ When a new claim, theory, or data point emerges ("X said Y", "this report claims
 
 The daily Market Regime Monitor runs a lightweight version of this lint automatically on emerging claims and drafts it for local completion.
 
+### Build a narrative (generative mode, on request)
+
+A **GENERATIVE** mode invoked when the user says "build a narrative on {topic}". Unlike every other workflow (which stays grounded), here you MAY propose new connections not stated in any source — the inferential leaps a good analyst makes (second-order effects, read-throughs, analogies, supply-demand linkages). **The single rule: every connection is TAGGED so grounded links are distinguishable from inferences. Invent freely; label honestly.**
+
+1. **READ** — read the actual entity + concept pages relevant to the topic (the pages, not just `index.md`). Note which `raw/` source each claim traces back to.
+2. **BUILD CONNECTIONS** — connect the entities/concepts; actively propose NEW ones. Tag every link:
+   - `[SOURCED: <page / raw source>, <STRONG|MODERATE|WEAK>]` — stated in or directly supported by a source. Corroboration: **STRONG** = 3+ independent sources OR a primary (filing / transcript / guidance); **MODERATE** = 2; **WEAK** = 1. Weight primary sources above commentary.
+   - `[INFERRED: <one-line reasoning>]` — your leap, not in any source. When unsure whether something is sourced, call it `[INFERRED]`, never `[SOURCED]`.
+3. **ASSEMBLE THE FORWARD THESIS** — weighted toward company guidance/projections, demand-supply dynamics, and bottlenecks; valuation is a sanity check only, never the anchor. Walk the connection chain so each read-through is visible.
+4. **STRESS THE THESIS (never skip or soften)** — explicitly list: (a) the `[INFERRED]` links the thesis leans on hardest — a thesis resting on inferred links is a **hypothesis, not a finding**; label it so. (b) every contradiction in the wiki — name the source, quote what it says. **Inferred links never override sourced contradictions** — surface the conflict.
+5. **OUTPUT FORMAT**: (1) forward thesis (2-4 sentences); (2) connection chain, each link tagged per above; (3) what would have to be true for it to play out; (4) inferred-link risks + contradictions (the honest section — only empty if the wiki genuinely has no disagreement, in which case say so); (5) overall confidence + the sourced-vs-inferred mix (e.g. "backbone is 2 sourced / 3 inferred — treat as a hypothesis to test, not a grounded call"); (6) **save to `narratives/{YYYY-MM-DD} {topic}.md`** with the source list (see [narratives/README.md](narratives/README.md)).
+
+This mode is the one place fabrication is allowed — *because it is labeled*. The tags are the contract.
+
 ### Lint (on request)
 
 Health check looks for:
