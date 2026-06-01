@@ -13,6 +13,8 @@ tags: [psu, power-shelves, busway, dc-cooling, taiwanese, datacenter-electrical]
 
 Taiwanese power electronics and thermal management leader (TWSE: 2308). Aggressive 800VDC product launches across multiple categories: **110 kW BBU power shelves, 2.4 MW DC In-Row CDU (first major DC-native cooling product), 800VDC air-cooled busway**.
 
+> **Confirmed NVIDIA DSX AI-factory partner (Energy & Cooling)** ([[NVIDIA Computex 2026 Keynote - ServeTheHome Live (2026)]]) — named in NVIDIA's AI-factory power/cooling stack (Delta also appeared in the Taiwan-ecosystem pregame).
+
 ## Key facts
 
 - **110 kW power shelves with 80 kW BBU each** = 480 kW total BBU capacity per 6-shelf rack (announced GTC 2026)

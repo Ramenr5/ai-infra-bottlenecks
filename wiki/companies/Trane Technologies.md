@@ -13,6 +13,8 @@ tags: [trane, cooling, liquid-cooling, liquidstack, cdu, cerebras-supplier, hvac
 
 HVAC and thermal management company. **Acquired LiquidStack in March 2026** — significant inorganic move into AI datacenter liquid cooling.
 
+> **Confirmed NVIDIA DSX AI-factory partner (Energy & Cooling)** ([[NVIDIA Computex 2026 Keynote - ServeTheHome Live (2026)]]) — named in NVIDIA's AI-factory cooling stack, validating the LiquidStack push.
+
 ## LiquidStack acquisition
 
 - **Closed March 2026** per [[Cerebras — Faster Tokens Please (2026)]]

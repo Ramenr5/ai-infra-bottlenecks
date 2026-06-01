@@ -13,6 +13,8 @@ tags: [datacenter-electrical, ups, switchboards, incumbent]
 
 French power-management and digital-automation incumbent (Euronext Paris: SU). Major AC datacenter electrical supplier (UPS, switchboards, PDUs). **No named discrete 800VDC product as of May 2026** — slower 800VDC positioning than [[ABB]], [[Eaton]], [[Delta Electronics]].
 
+> **Confirmed NVIDIA DSX AI-factory partner (Energy & Cooling)** ([[NVIDIA Computex 2026 Keynote - ServeTheHome Live (2026)]]) — named in NVIDIA's AI-factory power stack despite the slower 800VDC product positioning.
+
 ## Key facts
 
 - **Product range**: UPS, switchboards, switchgear, PDUs, busway — full AC datacenter electrical stack

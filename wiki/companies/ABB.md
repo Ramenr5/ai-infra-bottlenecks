@@ -13,6 +13,8 @@ tags: [datacenter-electrical, mv-ups, solid-state-breakers, nvidia-partner, incu
 
 Swiss-Swedish power and automation incumbent (SIX: ABBN). **NVIDIA partner** (October 2025 announcement for modular power blocks). Owner of strategic stakes in SST landscape (backed [[DG Matrix]]). Deployed at scale in early 800VDC operator sites.
 
+> **Confirmed NVIDIA DSX AI-factory partner (Energy & Cooling)** ([[NVIDIA Computex 2026 Keynote - ServeTheHome Live (2026)]]) — reinforces the Oct-2025 modular-power-block partnership; ABB is now named in NVIDIA's AI-factory power stack.
+
 ## Key facts
 
 - **NVIDIA partnership** (Oct 2025): modular power block including distribution

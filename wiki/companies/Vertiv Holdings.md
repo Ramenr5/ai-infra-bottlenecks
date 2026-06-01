@@ -14,6 +14,8 @@ tags: [cooling, liquid-cooling, power, datacenter-physical, market-leader]
 
 US datacenter critical-infrastructure leader (NYSE: VRT). **#1 in the liquid-cooling market** per Dell'Oro. Broad portfolio: thermal management (air + liquid), power (UPS, busway, switchgear), and racks/enclosures — one of the purest large-cap plays on datacenter physical buildout.
 
+> **Confirmed NVIDIA DSX AI-factory partner (Energy & Cooling).** Named on NVIDIA's AI-factory ecosystem chart ([[NVIDIA Computex 2026 Keynote - ServeTheHome Live (2026)]]) — and the DSX power-management software (MaxLPS/Flex) sits directly upstream of the cooling/power kit Vertiv sells.
+
 ## Key facts
 
 - **Market position**: leading the datacenter liquid-cooling market ([[Dell'Oro - Liquid Cooling Market (2026)]])

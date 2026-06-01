@@ -13,6 +13,8 @@ tags: [cadence, eda, innovus, jaspergold, palladium, place-and-route, formal-ver
 
 **The narrow #2 of the Big Three EDA vendors.** Formed in 1988 through the merger of SDA Systems and ECAD, quickly becoming the leading provider of IC layout and place-and-route tools. Particularly strong in **formal verification, placement, and emulation** — categories where it leads [[Synopsys]] head-to-head.
 
+> **Confirmed NVIDIA DSX AI-factory partner (Design & Construction)** + **Cadence Super Agent** launch at Computex 2026 — agentic chip design that compresses "weeks → minutes," with NVIDIA as both partner and user for its own silicon ([[NVIDIA Computex 2026 Keynote - ServeTheHome Live (2026)]]). A concrete instance of AI agents eating into the EDA workflow (watch: does agentic design lift EDA seat/usage revenue, or compress it?).
+
 ## Tool portfolio (per [[The EDA Primer From RTL to Silicon (2026)]])
 
 | Stage | Tool | Position |

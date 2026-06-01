@@ -13,6 +13,8 @@ tags: [datacenter-electrical, ups, sst, incumbent, sst-acquisition]
 
 Diversified power management incumbent (NYSE: ETN). Major datacenter electrical equipment supplier; **acquired Resilient Power Systems August 2025** to add SST expertise to its 800VDC roadmap.
 
+> **Confirmed NVIDIA DSX AI-factory partner (Energy & Cooling)** ([[NVIDIA Computex 2026 Keynote - ServeTheHome Live (2026)]]) — named in NVIDIA's AI-factory power stack.
+
 ## Key facts
 
 - **Acquisition**: Resilient Power Systems acquired August 2025 — explicit SST expertise play

@@ -13,6 +13,8 @@ tags: [ge-vernova, gev, gas-turbine, electrification, backlog, ai-data-center, o
 
 **The dominant US gas turbine OEM + electrification equipment supplier.** Q1 2026 orders +71% YoY; backlog $163B. **$200B backlog target pulled forward from 2028 to 2027.** Electrification segment booked **$2.4B in data center equipment orders in Q1 alone — more than ALL of last year.** Direct primary on gas turbine + grid equipment demand from AI buildout.
 
+> **Confirmed NVIDIA DSX AI-factory partner (Energy & Cooling).** Named on NVIDIA's own AI-factory ecosystem chart ([[NVIDIA Computex 2026 Keynote - ServeTheHome Live (2026)]]) — NVIDIA explicitly slots GEV into the power layer of the AI-factory build stack, corroborating the demand its $163B backlog reflects.
+
 ## Q1 2026 financials (per [[GE Vernova Q1 2026 earnings]])
 
 | Metric | Value |

@@ -759,3 +759,8 @@ Pages NOT yet in wiki but referenced repeatedly — these are markers for what's
 - built **Vera demand projection (FY27)** section on [[CPU scaling (host-CPU ratio)]]: two pools — (1) **bundled attach** ~3.6M units/yr at 100k Rubin racks (near-certain, in the order book) + (2) **standalone $20B bet** on the CPU-scaling thesis (ETL256 racks). Base/bull/bear + "watch standalone bookings" tell; demand vehicles = OpenAI/Anthropic/SpaceX + neoclouds.
 - new company pages: [[Nebius]], [[Lambda]], [[Nscale]] (neocloud Vera demand channels; figures VERIFY). updated [[CoreWeave]] (Meta $35.2B + Vera/DSX tag), [[Crusoe Energy]] (45GW + Vera/DSX tag).
 - index: +3 neoclouds; CoreWeave line refreshed.
+
+## [2026-06-01] lint | Tag DSX-confirmed energy/cooling + design partners
+- user: tag the energy/cooling DSX partners as confirmed NVIDIA AI-factory partners
+- added a "Confirmed NVIDIA DSX AI-factory partner" callout (citing [[NVIDIA Computex 2026 Keynote - ServeTheHome Live (2026)]]) to: [[GE Vernova]], [[Vertiv Holdings]], [[Eaton]], [[Schneider Electric]], [[ABB]], [[Delta Electronics]], [[Trane Technologies]] (Energy & Cooling) and [[Cadence Design Systems]] (Design & Construction — + the **Cadence Super Agent** agentic-chip-design launch, an EDA-disruption watch).
+- compute ODMs (Foxconn/QCT/Supermicro/Wistron/Wiwynn/Asus/GMI) already covered as NVIDIA supply-chain pages — not re-tagged.
