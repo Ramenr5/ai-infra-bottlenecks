@@ -18,6 +18,7 @@
 - [[AI value capture across the stack]] — **the capstone: where do the rents land?** Rent = concentration × indispensability × capacity-constraint — *not* revenue size. Own the tolls (memory, NVIDIA, TSMC/CoWoS, ASML, EDA = durable rents); labs = highest-rent-but-least-durable (open-weights risk); application = stock-picker's layer. Reconciles "value migrates to labs" ([[SemiAnalysis - AI Value Capture (2026)]]) vs "value stays distributed" ([[Menlo - State of Enterprise AI (2025)]]).
 - [[Future progression of AI (2026 view)]] — **the time-axis forward map.** Four phases (scaling → reasoning → **agentic/industrialization, now** → physical AI); capability is now *deployment-gated, not research-gated* — the binding constraints are power/HBM/CPU/cost-per-token, not algorithms. Crux: does Jevons (cheaper inference → more demand) hold past 2027? Bull through 2027 high-confidence; 2028+ hinges on agent unit economics. Companion to the capstone.
 - [[Open-weight commoditization (the swing factor)]] — **the variable that most changes who keeps the rent.** Open weights now ~5% off closed frontier on code/reasoning → commoditize the model layer → value migrates *down* to infra tolls + *out* to data-moat apps. Doesn't slow the buildout, changes the winners. Why "own the tolls" is outcome-robust.
+- [[AI factory economics (tokens per watt)]] — **the buildout's organizing economic frame.** Revenue = (tokens/watt) × gigawatts → power becomes the *revenue denominator*; $100B/GW → ~$150B/yr, >50% modeled margin. But it's a **supply-side metric** — says nothing about whether demand clears at price (the [[Capex bust scenario]] crux). Trust realized margin, not advertised tokens/watt.
 - [[Wiki maintenance model]] — **operating model for this vault.** Source-of-truth = local Obsidian; GitHub remote enables weekly automated SemiAnalysis ingest (Sundays 22:00 UTC); routine never touches layer/company/bottleneck/synthesis pages — flags them for human review in [[weekly-digest]] instead.
 
 ## Layers
@@ -46,6 +47,7 @@
 - [[Datacenter cooling]] — air cooling obsolete >50 kW/rack; GB200 NVL72 (120 kW) is DLC-only, chip TDP **>4,000W by 2029**; liquid-cooling market **$3B→$7B (2025-29), >$15B/5yr**; Quick Disconnect shortage = the CoWoS-style chokepoint (severity: acute · layer: datacenter · 2 sources)
 - [[Datacenter water permits]] — water as a siting constraint; **657M L/yr per 50 MW** DC; arid-region penalty (Phoenix WUE >2.0); water-vs-power tradeoff; locally binding (severity: watch · layer: datacenter · 1 source)
 - [[Transformer lead times]] — **~110-week LPT lead times (Q3 2025)**; every grid-tied DC needs them; GOES + bespoke manufacturing gate supply; Quanta doubling capacity (severity: acute · layer: power · 3 sources)
+- [[CPU scaling (host-CPU ratio)]] — **the emerging bottleneck**: agentic/RL workloads are CPU-bound (orchestration, tool calls, data loading) → host CPU caps GPU utilization; CPU:GPU ratio shifting toward **1:1–1:2** (big CPU-TAM expansion). NVDA's Vera ETL256 + "CPU for agents" routes the rent to Arm/NVDA, erodes merchant x86 (severity: watch · layer: compute · 1 source)
 
 ## Geographies
 
@@ -253,6 +255,7 @@
 - [[Open-weight frontier parity (H1 2026)]] — open-weight now **~5% off closed frontier** on code/reasoning; spring-2026 release cluster (DeepSeek V4 Pro MIT +75% price cut, Qwen 3.7 Max, **Meta ship-paused open Llama** for closed "Muse"); buyer question flipped to "which open-weight." Multi-sources the [[Open-weight commoditization (the swing factor)]] thesis.
 - [[Physical AI & humanoid landscape (2026)]] — physical-AI landscape note: Jensen **$40T humanoid TAM**, NVDA physical-AI rev **>$9B TTM**; humanoid players (Figure $39B, Unitree 5.5k units, Tesla Optimus, 1X, Apptronik). Seeds [[Physical AI & robotics]].
 - [[Salesforce Agentforce Q4 FY26 (2026)]] — **Agentforce ARR ~$800M (+169%)**, AI platform ARR +114%, Data Cloud ~$2.1B, 29k deals. Third app-layer monetization data point (with CRWD/NOW).
+- [[AI factory tokenomics (2026)]] — token-economics framing + **Morgan Stanley 100-MW model**: ~$660M capex, >50% margin "NVIDIA or Huawei", $0.20/M token ref; NVDA $5M GB200→$75M (15×); pricing tiers $1/$3-6/$45. Plus the skeptic side (price erosion, "dark output"). Anchors [[AI factory economics (tokens per watt)]].
 
 **Secondary (retrospective):**
 - [[Situational Awareness, Two Years Later (2026)]] — Omer Ansari, Medium, Apr 29 2026. Aggregates McKinsey, JPM, CSIS, METR.

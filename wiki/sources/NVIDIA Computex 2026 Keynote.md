@@ -128,3 +128,6 @@ Pulled from post-keynote coverage + analyst commentary (ServeTheHome live, Tom's
 - [[Future progression of AI (2026 view)]] — the forward time-axis map built on this keynote (four phases; deployment-gated capability; Jevons crux)
 - [[AI value capture across the stack]] — the layer-axis rent map (five-layer-cake → who captures the value)
 - [[Disaggregated inference (Rubin CPX)]] — the inference-economics mechanism
+- [[AI factory economics (tokens per watt)]] — the "compute is revenue" framing (Revenue = tokens/watt × GW) stress-tested
+- [[CPU scaling (host-CPU ratio)]] — the Vera CPU / ETL256 emerging-bottleneck thread
+- [[Physical AI & robotics]] — the Jetson Thor / Isaac GROOT / Cosmos / Alpamayo robot thread

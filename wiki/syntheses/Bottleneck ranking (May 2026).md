@@ -146,6 +146,7 @@ This is the **most under-appreciated** constraint in the wiki. AI itself (agenti
 | **Lithography** (Tier 2 structural) | [[ASML]] |
 | **EDA + IP** (Tier 2 structural) | [[Synopsys]], [[Cadence Design Systems]], [[ARM Holdings]] |
 | **Talent (Tier 3 under-appreciated)** | EDA vendors (productivity tools), offshore design services |
+| **[[CPU scaling (host-CPU ratio)]]** (emerging — watch) | [[NVIDIA]] (Vera), [[ARM Holdings]] (host-CPU royalty), [[TSMC]]; **exposed:** [[Intel]]/[[AMD]] merchant x86 in AI racks |
 
 ## Confidence and aging
 
