@@ -771,3 +771,9 @@ Pages NOT yet in wiki but referenced repeatedly — these are markers for what's
 - FIX (trig_0162nssfTjTdw4M8cCZmLKT8): added CAPITAL MARKETS / FINANCING trigger (IPOs/S-1s, hyperscaler mega-raises, lab funding/valuations, bond+equity issuance) + reads [[Capital flows & deal structures]] + [[AI debt financing capacity]] + financing search queries + an **X/fintwit `site:x.com` breaking-news sweep** (with honest caveat: Google indexes X with lag, not real-time; true real-time needs an X API the CCR sandbox can't reach). Triggered a manual validation run.
 - INGESTED: [[Alphabet $80B AI equity raise (2026)]] (equity not debt → de-risks debt-bust; Berkshire $10B; first raise since 2005) + [[Anthropic draft S-1 IPO filing (2026)]] (IPO ~Oct, ~$1T, ARR $47B → value-capture-at-labs + rebuts no-revenue bear).
 - updated: [[Alphabet]], [[Anthropic]], [[Capital flows & deal structures]] (AI IPO race + funding-mix shift), [[Capex bust scenario]] (equity-funding counterweight callout), [[AI investment momentum tracker]] (+2 financing ledger rows), index.md, ingested-sources.md.
+
+## [2026-06-02] schema | Add tools/x-watcher.gs — real-time X→Telegram watcher (companion to relay)
+- user: proceed (build the X-API watcher for sub-hour breaking news)
+- created tools/x-watcher.gs: Google Apps Script that polls X API v2 recent-search for a curated handle list (deal-breakers + principals + analysts), keyword-gates client-side, dedupes via since_id, forwards fresh posts to Telegram every ~5 min. Reuses the relay's bot token.
+- HONEST CONSTRAINT documented in-file: requires a PAID X API v2 Bearer Token (Free tier read cap unusable; Basic ~$200/mo). This is the only path to sub-hour X alerts since the CCR sandbox has no egress; the routines' free site:x.com sweep remains the ~1-day fallback.
+- repo copy uses placeholders; tokens live only in the user's Apps Script.
