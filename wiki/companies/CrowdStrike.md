@@ -53,6 +53,6 @@ US cybersecurity platform (NASDAQ: CRWD) — Falcon endpoint/identity/cloud secu
 
 ## Related
 - Source: [[CrowdStrike Q4 FY26 earnings]]
-- Narrative: [narratives/2026-06-01 CRWD + NOW](../../narratives/2026-06-01 CRWD %2B NOW.md)
+- Narrative: [narratives/2026-06-02 AI cybersecurity](../../narratives/2026-06-02 AI cybersecurity.md) (identity-as-perimeter thesis) · [narratives/2026-06-01 CRWD + NOW](../../narratives/2026-06-01 CRWD %2B NOW.md) (original)
 - Peer/complement: [[ServiceNow]] (workflow-orchestration of the same agentic enterprise)
 - Concept links: [[Anthropic]] (AI-autonomous attacks), [[SemiAnalysis - AI Value Capture (2026)]], [[AI value capture across the stack]] (CRWD sits in the contested "stock-picker's" application layer), [[Application & software]] (the layer page), [[Disaggregated inference (Rubin CPX)]] (cheaper agents → bigger attack surface)

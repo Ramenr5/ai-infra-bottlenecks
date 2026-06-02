@@ -32,4 +32,5 @@ A thesis whose load-bearing links are `[INFERRED]` is a **hypothesis to test, no
 
 ## Index
 
-- [2026-06-01 CRWD + NOW](2026-06-01%20CRWD%20%2B%20NOW.md) — agentic-enterprise tailwind (CrowdStrike securing agents, ServiceNow orchestrating them) vs. the value-capture-to-labs risk. **Hypothesis** (forward backbone is 3 inferred links + a sourced contradiction).
+- [2026-06-02 AI cybersecurity](2026-06-02%20AI%20cybersecurity.md) — **cybersecurity in the AI era: identity is the new perimeter.** AI dual-threat (autonomous attacks + exploding machine-identity surface) → security as a gating requirement → identity land-grab (PANW+CyberArk $25B, Okta for AI Agents, CRWD Next-Gen Identity). **Evidenced theme** (demand sourced; winner-picks + net-additive-vs-automation inferred). *Broadens & supersedes the CRWD+NOW narrative.*
+- [2026-06-01 CRWD + NOW](2026-06-01%20CRWD%20%2B%20NOW.md) — agentic-enterprise tailwind (CrowdStrike securing agents, ServiceNow orchestrating them) vs. the value-capture-to-labs risk. **Hypothesis** (forward backbone is 3 inferred links + a sourced contradiction). *Superseded on the security axis by [2026-06-02 AI cybersecurity](2026-06-02%20AI%20cybersecurity.md).*

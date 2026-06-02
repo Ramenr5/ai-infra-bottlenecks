@@ -777,3 +777,10 @@ Pages NOT yet in wiki but referenced repeatedly — these are markers for what's
 - created tools/x-watcher.gs: Google Apps Script that polls X API v2 recent-search for a curated handle list (deal-breakers + principals + analysts), keyword-gates client-side, dedupes via since_id, forwards fresh posts to Telegram every ~5 min. Reuses the relay's bot token.
 - HONEST CONSTRAINT documented in-file: requires a PAID X API v2 Bearer Token (Free tier read cap unusable; Basic ~$200/mo). This is the only path to sub-hour X alerts since the CCR sandbox has no egress; the routines' free site:x.com sweep remains the ~1-day fallback.
 - repo copy uses placeholders; tokens live only in the user's Apps Script.
+
+## [2026-06-02] narrative | Pivot CRWD+NOW → "Cybersecurity in the AI era" (identity as new perimeter)
+- user: change the CRWD+NOW narrative to cybersecurity relating to AI
+- created narratives/2026-06-02 AI cybersecurity.md (generative, tagged). Thesis: AI is a dual force — escalates attacker capability (Anthropic 80-90% autonomous attack) AND explodes the attack surface (machine:human identity 45-100:1) → security becomes a gating requirement → battleground shifts to IDENTITY. Beneficiaries = identity-chokepoint consolidators: PANW (+CyberArk $25B, Feb 2026), CRWD (Next-Gen Identity + SGNL), Okta (Okta for AI Agents, Apr 30). Backbone ~5 sourced (demand + identity land-grab) / 3 inferred (winner-picks, net-additive, durability). NEW contradiction surfaced: autonomous SOC = AI automating the defenders (security eats itself).
+- broadens & supersedes [[2026-06-01 CRWD + NOW]] on the security axis (kept for the ServiceNow half + as record); added pivot pointers both ways.
+- updated: narratives/README.md index (+ new entry, supersede note), [[CrowdStrike]] narrative link.
+- external candidates to ingest: PANW-CyberArk $25B close, Okta for AI Agents, agentic-AI-security TAM $1.65B->$13.5B.
