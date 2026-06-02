@@ -10,7 +10,9 @@ tags: [ai-lab, frontier-lab, claude, private, fastest-revenue-inflection]
 
 # Anthropic
 
-US frontier AI lab. **Revenue grew 10× in ~10 months: ~$3B mid-2025 → $30B annualized April 2026** — fastest enterprise SaaS scale-up in history. **Pending $50B+ round at ~$900B valuation** would exceed OpenAI as most valuable AI private. Most aggressive on AGI timelines among major Western labs.
+US frontier AI lab. **Revenue grew 10× in ~10 months: ~$3B mid-2025 → $30B annualized April 2026** — fastest enterprise SaaS scale-up in history. Most aggressive on AGI timelines among major Western labs.
+
+> **2026-05-28: $65B Series H at ~$965B valuation; ARR ~$47B** (from $30B April) — passes OpenAI as the most-valued AI company; semis suppliers (Samsung/SK Hynix/Micron) co-invested. **2026-06-01: filed a confidential draft S-1** for an IPO as early as **Oct 2026** — a potential **trillion-dollar debut** ([[Anthropic draft S-1 IPO filing (2026)]]). Thesis weight: the **biggest value-capture-at-the-labs datapoint** ([[AI value capture across the stack]]) and a direct rebuttal to the [[Capex bust scenario]] "no-revenue" bear. (Figures VERIFY.)
 
 ## Valuation trajectory (per [[Anthropic 2026 update]])
 

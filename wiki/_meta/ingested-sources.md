@@ -72,3 +72,8 @@ Statuses: `ingested` (source page written), `paywalled-skipped` (insufficient fr
 
 - 2026-05-26 | ingested | https://www.fool.com/earnings/call-transcripts/2026/05/09/powi-q1-2026-earnings-transcript/ | [[Power Integrations Q1 2026 earnings]]
 - 2026-05-26 | ingested | https://investors.power.com/news/news-details/2025/Power-Integrations-Details-1250-V-and-1700-V-PowiGaN-Technology-for-Next-Generation-800-VDC-AI-Data-Centers/default.aspx | [[Power Integrations - 1250V & 1700V PowiGaN for 800VDC AI Datacenters (2025)]]
+
+## Capital markets / financing (2026-06-01)
+
+- 2026-06-02 | ingested | https://www.cnbc.com/2026/06/01/alphabet-to-raise-80-billion-from-stock-sales-to-fund-ai-buildout.html | [[Alphabet $80B AI equity raise (2026)]]
+- 2026-06-02 | ingested | https://www.anthropic.com/news/confidential-draft-s1-sec | [[Anthropic draft S-1 IPO filing (2026)]]

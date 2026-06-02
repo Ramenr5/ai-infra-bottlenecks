@@ -13,6 +13,8 @@ tags: [alphabet, google, googl, cloud, tpu, ironwood, hyperscaler, broadcom-part
 
 **Hyperscaler with the fastest cloud growth** (+63% Q1 2026 vs Azure +40%, AWS +28%). FY26 capex guide $180-190B with 2027 expected to "significantly increase." Owns the **TPU custom silicon** franchise — Ironwood (7th gen) GA March 2026; **$21B Broadcom deal for TPU 8t/8i** is the largest disclosed custom-silicon commitment.
 
+> **2026-06-01: ~$80B equity raise to fund AI infrastructure** — Alphabet's **first stock sale since 2005**, with **Berkshire Hathaway committing ~$10B** ([[Alphabet $80B AI equity raise (2026)]]). Key read: it's **equity, not debt** — funding capex *on top of* ~$180-190B FY26 spend by issuing stock rather than bonds *de-risks* the [[AI debt financing capacity]] bust scenario, while the sheer scale confirms the buildout outruns even Alphabet's FCF. Stock fell on dilution; Berkshire's commitment is a value-investor endorsement. (Figures VERIFY.)
+
 ## Q1 2026 financials (per [[Alphabet Q1 2026 earnings]])
 
 | Metric | Value |

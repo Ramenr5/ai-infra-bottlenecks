@@ -28,6 +28,7 @@ The deliberate counterweight to [[Capex trajectory thesis]]. This page steelmans
 - **$90B hyperscaler bond issuance in Q4 2025 alone** (Oracle, Meta, Google, Amazon)
 - Big-4 net income +73% YoY but **FCF −30%** — the capex burden is now exceeding internal cash generation
 - Transmits AI-demand disappointment directly into IG credit spreads ([[AI debt financing capacity]])
+- > [!note] Partial counterweight (2026-06-01): [[Alphabet $80B AI equity raise (2026)|Alphabet's ~$80B *equity* raise]] funds capex with stock, not debt — a hyperscaler de-levering the buildout at the margin. If equity-funding becomes a trend it *softens* this bear pillar (less bond-market fragility); if it stays debt-led, the pillar holds. Watch the funding mix.
 
 ### 3. Circular financing
 - Datacenters booked as long-term revenue even when subsidized by the hyperscaler or VC-funded → capex stimulates capex without proven end-demand
