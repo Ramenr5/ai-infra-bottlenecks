@@ -150,6 +150,15 @@
 - [[Salesforce]] — CRM incumbent; **Agentforce ARR $800M (+169%)**; **Agentforce+Data 360 >$2.9B (+200%)**; Q4 rev $11.2B (+12%); own-platform agents = both beneficiary and competitive threat (ticker: CRM · layer: application · *primary-verified*)
 - [[Palantir]] — **ontology/operational-AI (AIP)**; data moat insulated from model commoditization; **Q1'26 rev $1.6B (+85%), US +104%, RPO $4.45B, NDR 150%**, FY26 guide $7.7B (ticker: PLTR · layer: application · *primary-verified*)
 
+#### AI cybersecurity (identity = the new perimeter — see [AI cybersecurity narrative](narratives/2026-06-02%20AI%20cybersecurity.md))
+
+- [[Palo Alto Networks]] — **the platform consolidator + identity giant**; FY26 NGS ARR ~$8.5B (+53%); **closed ~$25B CyberArk** → Idira (human/machine/agentic identity) (ticker: PANW · layer: application · role: security)
+- [[CrowdStrike]] — agentic-security + Next-Gen Identity ($520M ARR + SGNL); ending ARR $5.25B (already listed above) (ticker: CRWD)
+- [[Okta]] — **pure-play identity**; Okta for AI Agents (GA Apr 2026); FY26 rev $2.92B; *agent revenue a FY28-29 story* (ticker: OKTA · layer: application · role: security)
+- [[CyberArk]] — PAM/machine-identity leader; **acquired by PANW ~$25B (Feb 2026)** (layer: application · role: security · acquired)
+- [[Zscaler]] — zero-trust/SSE; Q3 FY26 ARR $3.5B (+25%); agent-traffic security read-through (ticker: ZS · layer: application · role: security)
+- [[SentinelOne]] — AI-native XDR; **Purple AI = autonomous SOC** (the "security eats itself" double-edge); FY26 rev $1.0B (+22%) (ticker: S · layer: application · role: security)
+
 ### Physical AI / robotics (Computex 2026 — Phase 4 demand front)
 
 - [[Tesla]] — main **listed pure-play** humanoid (Optimus Gen 3 scaling at Fremont, ~$20-30k target); binary on execution (ticker: TSLA · layer: application · role: robot-maker)
@@ -192,6 +201,8 @@
 - [[NVIDIA Q1 FY27 earnings (2026)]] — DC revenue $75B (+92%); $145B supply commitments; $1T Blackwell+Rubin 2025-27 guidance.
 - [[Anthropic draft S-1 IPO filing (2026)]] — **Anthropic files confidential S-1** (Jun 1 2026; IPO ~Oct, ~$965B/$1T, ARR ~$47B). Biggest value-capture-at-the-labs datapoint; rebuts the bust "no-revenue" bear.
 - [[Alphabet $80B AI equity raise (2026)]] — **Alphabet ~$80B equity raise** for AI infra (Jun 1 2026; first since 2005; Berkshire ~$10B). Equity-not-debt = de-risks the debt-bust; scale confirms demand.
+- [[Palo Alto Networks - CyberArk acquisition (2026)]] — **PANW closes ~$25B CyberArk** (Feb 2026) → Idira (human/machine/agentic identity); largest cyber deal ever. Anchors "identity = the new perimeter."
+- [[Okta for AI Agents (2026)]] — Okta governs AI agents as identities (GA Apr 30 2026); validates the agentic-identity theme (revenue a FY28-29 story).
 - [[TSMC Q1 2026 earnings]] — $35.9B revenue; FY26 >30%; CoWoS sold out into 2026 with 50+ week leads.
 - [[SK Hynix Q3 2025 earnings]] — ₩24.45T revenue; 47% margin; HBM4 mass production Sept 2025; 2026 sold out.
 - [[Stargate Project announcement (2025)]] — $500B/10 GW; OpenAI 40%/SoftBank 40%/Oracle/MGX; flagship Abilene; Bloomberg Aug 2025 stalling caveat.

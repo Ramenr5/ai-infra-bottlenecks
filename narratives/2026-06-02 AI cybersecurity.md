@@ -24,7 +24,7 @@ AI is a **dual force** in cybersecurity: it simultaneously **escalates attacker 
 `[INFERRED: that "slows adoption" converts into incremental security *spend* rather than just delayed AI projects]`
 
 **L5 — The battleground shifts to IDENTITY** — the perimeter dissolved; for agents, identity *is* the control plane.
-`[SOURCED: three independent platform moves — Palo Alto's **~$25B CyberArk acquisition** (Feb 2026, "human/machine/agentic identity"), **Okta for AI Agents** (GA Apr 30 2026), **CRWD Next-Gen Identity >$520M ARR + SGNL acquisition**, STRONG — 3 incumbents repositioning on the same axis]`
+`[SOURCED: three independent platform moves — [[Palo Alto Networks - CyberArk acquisition (2026)|PANW's ~$25B CyberArk acquisition]] (Feb 2026) + Idira (human/machine/agentic identity), [[Okta for AI Agents (2026)|Okta for AI Agents]] (GA Apr 30 2026), [[CrowdStrike|CRWD]] Next-Gen Identity >$520M ARR + SGNL, STRONG — 3 incumbents repositioning on the same axis, now wiki-grounded]`
 
 **L6 — Winners are the *consolidators* of human+machine+agentic identity + agentic detection.**
 `[SOURCED: [[CrowdStrike]] (Falcon Shield NAAR +300%, Charlotte AI +6×, AIDR +5×, Next-Gen Identity), Palo Alto+CyberArk, Okta, STRONG — real products/ARR]`
@@ -70,11 +70,8 @@ AI is a **dual force** in cybersecurity: it simultaneously **escalates attacker 
 - **Verdict: an evidenced theme with stock-selection + value-capture risk.** Backbone ≈ 5 sourced (the demand + identity shift) / 3 inferred (who wins, net-additive, durability). The *theme* (AI → more security spend, centered on identity) is high-confidence; the *winner picks* and *durability of rent* are the live questions. Treat as a theme to position in, with selection discipline — favor the **identity chokepoint consolidators** (PANW, CRWD) over point tools a hyperscaler can bundle.
 
 ## Sources
-**Wiki (grounded):** [[CrowdStrike]], [[Identity security in the AI era (2026)]], [[Anthropic]], [[Microsoft Agent 365 + security bundling (2026)]], [[MCP and the Agentic AI Foundation (2026)]], [[Menlo - State of Enterprise AI (2025)]], [[SemiAnalysis - AI Value Capture (2026)]], [[SemiAnalysis - Claude Code Is The Inflection Point]], [[AI value capture across the stack]], [[Application & software]], [[Disaggregated inference (Rubin CPX)]]
+**Wiki (grounded):** [[CrowdStrike]], [[Palo Alto Networks]], [[Okta]], [[CyberArk]], [[Zscaler]], [[SentinelOne]], [[Palo Alto Networks - CyberArk acquisition (2026)]], [[Okta for AI Agents (2026)]], [[Identity security in the AI era (2026)]], [[Anthropic]], [[Microsoft Agent 365 + security bundling (2026)]], [[MCP and the Agentic AI Foundation (2026)]], [[Menlo - State of Enterprise AI (2025)]], [[SemiAnalysis - AI Value Capture (2026)]], [[SemiAnalysis - Claude Code Is The Inflection Point]], [[AI value capture across the stack]], [[Application & software]], [[Disaggregated inference (Rubin CPX)]]
 
-**External (not yet in wiki raw/ — candidates to ingest):**
-- Palo Alto Networks closes ~$25B **CyberArk** acquisition (Feb 2026) — "secure every identity: human, machine, agentic"
-- **Okta for AI Agents** GA (Apr 30 2026)
-- Agentic-AI-security TAM $1.65B→$13.5B (MarketsandMarkets)
+**External (search-sourced):** Agentic-AI-security TAM $1.65B→$13.5B by 2032 (MarketsandMarkets, WEAK).
 
-*All external figures search-sourced 2026-06-02 — verify before acting.*
+*Beneficiary financials + the PANW/Okta moves were ingested as wiki pages 2026-06-03; figures search-sourced, verify before acting.*

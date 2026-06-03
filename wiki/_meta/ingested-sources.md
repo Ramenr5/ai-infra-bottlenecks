@@ -77,3 +77,8 @@ Statuses: `ingested` (source page written), `paywalled-skipped` (insufficient fr
 
 - 2026-06-02 | ingested | https://www.cnbc.com/2026/06/01/alphabet-to-raise-80-billion-from-stock-sales-to-fund-ai-buildout.html | [[Alphabet $80B AI equity raise (2026)]]
 - 2026-06-02 | ingested | https://www.anthropic.com/news/confidential-draft-s1-sec | [[Anthropic draft S-1 IPO filing (2026)]]
+
+## AI cybersecurity beneficiaries (2026-06-03)
+
+- 2026-06-03 | ingested | https://markets.financialcontent.com/stocks/article/marketminute-2026-2-12-palo-alto-networks-completes-historic-25-billion-cyberark-acquisition-to-solidify-identity-security-pillar | [[Palo Alto Networks - CyberArk acquisition (2026)]]
+- 2026-06-03 | ingested | https://siliconangle.com/2026/03/04/okta-tops-earnings-revenue-expectations-identity-platform-targets-ai-agents/ | [[Okta for AI Agents (2026)]]

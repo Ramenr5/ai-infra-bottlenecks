@@ -784,3 +784,10 @@ Pages NOT yet in wiki but referenced repeatedly — these are markers for what's
 - broadens & supersedes [[2026-06-01 CRWD + NOW]] on the security axis (kept for the ServiceNow half + as record); added pivot pointers both ways.
 - updated: narratives/README.md index (+ new entry, supersede note), [[CrowdStrike]] narrative link.
 - external candidates to ingest: PANW-CyberArk $25B close, Okta for AI Agents, agentic-AI-security TAM $1.65B->$13.5B.
+
+## [2026-06-03] ingest | AI-cybersecurity beneficiary pages + PANW-CyberArk / Okta-for-AI-Agents sources
+- user: proceed (spin up beneficiary pages + ingest the two external anchors for the AI cybersecurity narrative)
+- new COMPANY pages: [[Palo Alto Networks]] (platform consolidator + identity giant; FY26 NGS ARR ~$8.5B +53%; closed $25B CyberArk → Idira), [[Okta]] (pure-play identity; Okta for AI Agents GA Apr 2026; FY26 rev $2.92B; agent rev = FY28-29 story), [[CyberArk]] (PAM/machine-identity; absorbed into PANW), [[Zscaler]] (zero-trust/SSE; Q3 FY26 ARR $3.5B +25%), [[SentinelOne]] (AI-native XDR; Purple AI = autonomous SOC → the "security eats itself" double-edge; FY26 rev $1.0B). Figures VERIFY.
+- new SOURCE pages: [[Palo Alto Networks - CyberArk acquisition (2026)]] (~$25B, closed Feb 11 2026, largest cyber deal; Idira launch May 12), [[Okta for AI Agents (2026)]] (GA Apr 30 2026; FY26 rev $2.92B; monetization FY28-29).
+- de-inferred narrative L5: [[2026-06-02 AI cybersecurity]] now cites the new wiki source pages (identity land-grab = wiki-grounded, not external); moved PANW/Okta from external to grounded.
+- index: +6 cyber companies (new AI-cybersecurity subsection) + 2 sources.
