@@ -798,3 +798,11 @@ Pages NOT yet in wiki but referenced repeatedly — these are markers for what's
 - created tools/telegram-inbox.gs: Apps Script polls Telegram getUpdates (1-min), parses replies (ingest/validate/skip/note/file [+ item], captures reply_to_message as target), queues each as a Gmail draft "AI INGEST QUEUE:", ACKs back to Telegram. Reuses the relay's bot token + Gmail.
 - added CLAUDE.md workflow "Process the ingest queue": list_drafts subject:"AI INGEST QUEUE" → cross-ref the scout draft for the URL → supervised ingest/validate/skip → delete queue draft.
 - repo copy uses placeholders; one-time setupInbox() on the user's side.
+
+## [2026-06-03] schema | Fully-automated Telegram reply-to-ingest (GitHub Action + dispatch)
+- user: make reply-to-ingest fully automated
+- architecture: Telegram reply → tools/telegram-inbox.gs fires GitHub repository_dispatch → .github/workflows/ingest.yml runs headless Claude Code in CI (full repo context + WebFetch + commit) → opens a PR → pings Telegram with the link. (Cloud routines can't do this — no WebFetch/egress/commit; GitHub Actions can.)
+- created .github/workflows/ingest.yml (repository_dispatch type telegram-ingest; installs Claude Code, runs `claude -p` headless to ingest/validate per CLAUDE.md, peter-evans/create-pull-request opens the PR, curl pings Telegram). Secrets: ANTHROPIC_API_KEY, TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID.
+- upgraded tools/telegram-inbox.gs: ingest/validate → fireDispatch (needs a fine-grained GitHub PAT, Contents RW) with the matched scout-draft body (URLs) as payload; skip/note/file → Gmail-queue log.
+- updated CLAUDE.md "Process the ingest queue": ingest/validate now CI-automated (PR-by-default, auto-merge opt-in); skip/note/file = local.
+- HONEST: PR-by-default (review gate for VERIFY figures) — flip to auto-merge for true zero-touch; each ingest = a pay-per-use Anthropic API run. Repo copies use placeholders.

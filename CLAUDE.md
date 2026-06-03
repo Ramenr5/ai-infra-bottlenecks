@@ -98,7 +98,10 @@ When the user points you at a new source (a file in `raw/`, a URL, or pasted tex
 
 ### Process the ingest queue (Telegram reply-to-ingest)
 
-The user triages Telegram scout messages by replying with a command (`ingest` / `validate` / `skip` / `note` / `file`). The `tools/telegram-inbox.gs` Apps Script captures each reply as a **Gmail draft subject-prefixed `AI INGEST QUEUE:`**. When the user says **"process my ingest queue"** (or similar):
+The user triages Telegram scout messages by replying with a command (`ingest` / `validate` / `skip` / `note` / `file`), captured by `tools/telegram-inbox.gs`.
+
+- **`ingest` / `validate` are FULLY AUTOMATED:** the inbox script fires a GitHub `repository_dispatch` → `.github/workflows/ingest.yml` runs a headless Claude Code agent in CI (WebFetch the source, write pages per this file, cross-link, update index/log/ingested-sources) → opens a **PR** → pings Telegram with the link. No local session needed; you just review/merge the PR. (PR-by-default is the safety valve for search-sourced VERIFY figures; auto-merge is a documented opt-in in the workflow.)
+- **`skip` / `note` / `file` are logged** to a **Gmail draft `AI INGEST QUEUE:`** for a local run. When the user says **"process my ingest queue"** (or to manually action anything CI missed):
 
 1. Via the Gmail MCP, `list_drafts` with query `subject:"AI INGEST QUEUE"` — each draft has COMMAND + NOTE + the replied-to scout TARGET text.
 2. For each queued item, find the **original scout draft** (the `AI Narrative Scout …` / `AI Synthesis Tracker …` Gmail draft for that date) to recover the item's **URL + detail** (Telegram only shows the concise top block; URLs live below `===DETAIL===`).

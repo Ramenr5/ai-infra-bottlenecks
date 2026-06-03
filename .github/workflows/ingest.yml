@@ -1,0 +1,88 @@
+name: Telegram ingest
+
+# Fired by tools/telegram-inbox.gs (Apps Script) via a repository_dispatch when you
+# reply "ingest"/"validate" to a scout message in Telegram. Runs the real Claude Code
+# agent in CI (full repo context + WebFetch + commit), then opens a PR and pings Telegram.
+#
+# Required repo secrets (Settings → Secrets and variables → Actions):
+#   ANTHROPIC_API_KEY   — pay-per-use API key (separate from the Claude Code subscription)
+#   TELEGRAM_BOT_TOKEN  — same bot as the relay (for the completion ping)
+#   TELEGRAM_CHAT_ID    — your chat id
+#
+# repository_dispatch only fires from the DEFAULT branch, so this file must live on main.
+
+on:
+  repository_dispatch:
+    types: [telegram-ingest]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Claude Code
+        run: npm install -g @anthropic-ai/claude-code
+
+      - name: Write Telegram payload to files
+        env:
+          CMD: ${{ github.event.client_payload.command }}
+          NOTE: ${{ github.event.client_payload.note }}
+          REPLIED: ${{ github.event.client_payload.replied_to }}
+          SCOUT: ${{ github.event.client_payload.scout_body }}
+        run: |
+          mkdir -p /tmp/ingest
+          printf '%s' "$CMD"     > /tmp/ingest/command.txt
+          printf '%s' "$NOTE"    > /tmp/ingest/note.txt
+          printf '%s' "$REPLIED" > /tmp/ingest/replied.txt
+          printf '%s' "$SCOUT"   > /tmp/ingest/scout.txt
+
+      - name: Ingest with Claude Code
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          claude -p "You are maintaining the AI Learn Obsidian wiki in THIS repo. FIRST read CLAUDE.md and follow its conventions + the 'Ingest' (and for validate, the verification) workflow EXACTLY. A Telegram triage command was issued. Read these files: /tmp/ingest/command.txt (the command), /tmp/ingest/note.txt (any user note), /tmp/ingest/replied.txt (the exact scout line the user replied to), /tmp/ingest/scout.txt (the FULL scout message, which contains each item's source URL below its '===DETAIL===' marker). If command is 'ingest': identify the flagged item + its source URL from scout.txt, WebFetch it, and create the proper wiki/sources/<Title> (<Year>).md page plus any new/updated company/bottleneck/geography pages per CLAUDE.md; cross-link with [[wikilinks]]; update index.md, log.md, and wiki/_meta/ingested-sources.md; tag every search-sourced figure VERIFY. If command is 'validate': locate the existing wiki page(s) for the item, verify the figures against the primary source, drop/adjust VERIFY tags, and note discrepancies in log.md. Keep pages short and dense per CLAUDE.md; NEVER invent numbers; flag contradictions with callouts. Make ALL changes in the working tree only — do NOT git add/commit/push (the workflow handles that)." \
+            --dangerously-skip-permissions \
+            --allowedTools "Read,Write,Edit,Glob,Grep,Bash,WebFetch,WebSearch,TodoWrite"
+
+      - name: Open pull request
+        id: cpr
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: ingest/tg-${{ github.run_id }}
+          commit-message: "Telegram ingest (auto): ${{ github.event.client_payload.command }}"
+          title: "Telegram ingest: ${{ github.event.client_payload.command }} ${{ github.event.client_payload.note }}"
+          body: |
+            Auto-ingested from a Telegram reply.
+            - **command:** `${{ github.event.client_payload.command }}`
+            - **note:** ${{ github.event.client_payload.note }}
+
+            ⚠ Review the **VERIFY**-tagged (search-sourced) figures before merge.
+          labels: telegram-ingest
+          # To go fully zero-touch, uncomment to auto-merge when checks pass:
+          # (requires "Allow auto-merge" in repo settings + a branch-protection check)
+
+      - name: Notify Telegram
+        if: always()
+        env:
+          TG: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
+          PR_URL: ${{ steps.cpr.outputs.pull-request-url }}
+        run: |
+          if [ -n "$PR_URL" ]; then
+            MSG="🤖 Ingest done (${{ job.status }}) → review/merge: $PR_URL"
+          else
+            MSG="🤖 Ingest run finished (${{ job.status }}) — no file changes (nothing to ingest, or already present)."
+          fi
+          curl -s "https://api.telegram.org/bot$TG/sendMessage" \
+            --data-urlencode "chat_id=$CHAT" \
+            --data-urlencode "text=$MSG" \
+            --data-urlencode "disable_web_page_preview=true" >/dev/null
