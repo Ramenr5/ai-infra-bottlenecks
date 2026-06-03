@@ -96,6 +96,15 @@ When the user points you at a new source (a file in `raw/`, a URL, or pasted tex
    - Append a `log.md` entry.
 4. **Report what changed** — short list of pages created/updated.
 
+### Process the ingest queue (Telegram reply-to-ingest)
+
+The user triages Telegram scout messages by replying with a command (`ingest` / `validate` / `skip` / `note` / `file`). The `tools/telegram-inbox.gs` Apps Script captures each reply as a **Gmail draft subject-prefixed `AI INGEST QUEUE:`**. When the user says **"process my ingest queue"** (or similar):
+
+1. Via the Gmail MCP, `list_drafts` with query `subject:"AI INGEST QUEUE"` — each draft has COMMAND + NOTE + the replied-to scout TARGET text.
+2. For each queued item, find the **original scout draft** (the `AI Narrative Scout …` / `AI Synthesis Tracker …` Gmail draft for that date) to recover the item's **URL + detail** (Telegram only shows the concise top block; URLs live below `===DETAIL===`).
+3. Action by command: **ingest** → run the normal supervised [Ingest](#ingest-one-source-at-a-time-supervised) workflow on that URL (WebFetch the source, create the wiki page(s), cross-link, log); **validate** → verify the figures against the primary and drop/adjust VERIFY tags; **skip** → record in `log.md` so it isn't re-surfaced; **note**/**file** → apply the user's instruction to the relevant page.
+4. **Delete the queue draft** when done (and report what was ingested/skipped). Confirm before mass-ingesting more than ~3 at once.
+
 ### Query
 
 1. Read `index.md` first to find candidate pages.

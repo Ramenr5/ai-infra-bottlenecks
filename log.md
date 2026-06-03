@@ -791,3 +791,10 @@ Pages NOT yet in wiki but referenced repeatedly — these are markers for what's
 - new SOURCE pages: [[Palo Alto Networks - CyberArk acquisition (2026)]] (~$25B, closed Feb 11 2026, largest cyber deal; Idira launch May 12), [[Okta for AI Agents (2026)]] (GA Apr 30 2026; FY26 rev $2.92B; monetization FY28-29).
 - de-inferred narrative L5: [[2026-06-02 AI cybersecurity]] now cites the new wiki source pages (identity land-grab = wiki-grounded, not external); moved PANW/Okta from external to grounded.
 - index: +6 cyber companies (new AI-cybersecurity subsection) + 2 sources.
+
+## [2026-06-03] schema | Telegram reply-to-ingest loop (tools/telegram-inbox.gs + CLAUDE.md workflow)
+- user: how to validate/ingest by replying to the Telegram bot when a scout sends a message
+- design: two-step loop (Telegram reply = flag; local Claude Code run = action), because CCR routines can't WebFetch/commit. Queue = a Gmail draft (no new creds).
+- created tools/telegram-inbox.gs: Apps Script polls Telegram getUpdates (1-min), parses replies (ingest/validate/skip/note/file [+ item], captures reply_to_message as target), queues each as a Gmail draft "AI INGEST QUEUE:", ACKs back to Telegram. Reuses the relay's bot token + Gmail.
+- added CLAUDE.md workflow "Process the ingest queue": list_drafts subject:"AI INGEST QUEUE" → cross-ref the scout draft for the URL → supervised ingest/validate/skip → delete queue draft.
+- repo copy uses placeholders; one-time setupInbox() on the user's side.
