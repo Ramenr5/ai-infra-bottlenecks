@@ -43,9 +43,20 @@ The single biggest swing factor: **is the model-lab layer a durable toll or does
 
 **My read:** the *infrastructure* tolls (memory, NVIDIA, TSMC/CoWoS, ASML, EDA) are the most durable rents — concentrated, capacity-constrained, indispensable regardless of who wins the model war. The *lab* layer is high-rent but the **least durable** (open-weights + competition). The *application* layer is a **stock-picker's layer** — winners keep rents, losers get commoditized.
 
+## The cleanest tolls — robust to BOTH forks
+Not all tolls are equal. The buildout has **two big forks**: (1) the **silicon war** (NVIDIA GPU vs hyperscaler XPU vs AMD) and (2) the **architecture-within-optics/power** fork (pluggable vs CPO; ±400V vs 800V; copper vs optical). The **cleanest** tolls sit *upstream of both* — they get paid regardless of who wins compute *and* which architecture wins. That's the highest-quality rent.
+
+| Tier | Robustness | Names |
+| --- | --- | --- |
+| **Tier 1 — upstream of both forks (cleanest)** | wins under any compute vendor *and* any architecture | **[[TSMC]]** (foundry; everyone prints there) · **HBM** ([[SK Hynix]]/[[Micron Technology]]/[[Samsung Electronics]]) · **advanced packaging / [[CoWoS packaging capacity|CoWoS]]** (+[[KLA Corporation]]) · **[[Semiconductor test (the AI test toll)|test]]** ([[Advantest]]/[[Teradyne]]) · **EDA** ([[Synopsys]]/[[Cadence Design Systems]]) · **[[Lithography monopoly|ASML]]** |
+| **Tier 2 — robust to silicon war, architecture-exposed** | wins regardless of compute vendor, but bets on an architecture | networking switch silicon ([[Broadcom]] — Ethernet wins either way, but Spectrum-X share war) · optical DSP ([[Marvell Technology]] — needed, but CPO shifts content) |
+| **Tier 3 — architecture bets (high upside, NOT "clean")** | only wins if a *specific* sub-architecture wins | **CPO lasers** ([[Sivers Semiconductors]] — only if CPO beats pluggables) · **SOI substrates** ([[Soitec]] — silicon-photonics-dependent) · voltage-class power semis (±400V vs 800V) |
+
+**Why it matters:** [[NVIDIA]] is a *great* business but **fails fork 1** (loses share if XPUs win), so it's not a "cleanest" toll despite being the headline. The deepest-upstream **Tier 1 — TSMC, memory, packaging, test, EDA, litho — are the foundational supply-chain tolls that win no matter how the war or the architecture resolves.** The exciting micro-cap "chokepoints" (Sivers/Soitec) are **Tier 3** — high-upside *architecture bets*, not clean tolls; size accordingly.
+
 ## Tradable read
 
-- **Own the tolls (highest-conviction rent capture):** [[NVIDIA]], [[TSMC]], [[ASML]], [[SK Hynix]]/[[Samsung Electronics]]/[[Micron Technology]] (HBM), [[Synopsys]]/[[Cadence Design Systems]] (EDA), advanced-packaging exposure ([[KLA Corporation]]).
+- **Own the tolls (highest-conviction rent capture):** [[NVIDIA]], [[TSMC]], [[ASML]], [[SK Hynix]]/[[Samsung Electronics]]/[[Micron Technology]] (HBM), [[Synopsys]]/[[Cadence Design Systems]] (EDA), advanced-packaging exposure ([[KLA Corporation]]), **[[Semiconductor test (the AI test toll)|test]]** ([[Advantest]]/[[Teradyne]]).
 - **Selective / cyclical (volume not rent):** ODMs ([[Foxconn]], [[Quanta Cloud Technology]]), neoclouds ([[CoreWeave]]) — trade the cycle, don't mistake revenue for margin.
 - **Stock-picker's layer (application):** [[CrowdStrike]] (sourced agentic-security toll forming) vs [[ServiceNow]] (control-plane contested by MSFT Agent 365) — see [narrative](../../narratives/2026-06-01 CRWD %2B NOW.md).
 - **The hedge / swing factor:** if open weights commoditize the labs, value flows to infra + application + cheap-compute owners — *underweight pure lab-rent bets, overweight the indispensable infra tolls.*

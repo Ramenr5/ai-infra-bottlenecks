@@ -47,6 +47,7 @@ Each tracked signal scores **+1 (accelerating) / 0 (neutral) / −1 (slowing)** 
 | --- | --- | --- | --- |
 | 2026-06-01 | Financing | **[[Anthropic draft S-1 IPO filing (2026)\|Anthropic files confidential S-1]]** (IPO ~Oct 2026, ~$965B post-Series-H, ARR ~$47B) — frontier lab heading public near $1T rebuts the bust "no-revenue" bear | **+1** |
 | 2026-06-01 | Financing | **[[Alphabet $80B AI equity raise (2026)\|Alphabet ~$80B equity raise]]** for AI infra (first since 2005; Berkshire ~$10B) — *equity not debt* = de-risks debt-bust; scale confirms demand | **+1** |
+| 2026-06-04 | Macro/guide | **[[Goldman - Hyperscaler capex $5.3T-$7.6T (2026)\|Goldman raises 4-hyperscaler 2025-30 capex to $5.3T (from $4.5T)]]; $7.6T aggregate '26-31** — upward *forecast revision* (estimates≠spend caveat) | **+1** |
 | 2026-06-03 | Earnings | **[[Broadcom Q2 FY26 earnings (2026)\|Broadcom Q2]]: AI semi $10.8B (+143%), Q3 guide $16B (+200%); >$30B bookings, visibility to 2028 (2028>2027); "networking insatiable" — *extends the order-book horizon a year past NVIDIA's 2027*** | **+1 (strong)** |
 | 2026-06-01 | Deals/principal | **[[NVIDIA Computex 2026 Keynote\|NVIDIA Computex]]: Jensen reaffirms "$1T high-confidence demand + *purchase orders* (Blackwell+Rubin) through 2027"; Vera Rubin mass production, 10× perf/watt; "inflection point for inference"** | **+1 (strong)** |
 | 2026-05-28 | Earnings | **[[Dell Technologies\|Dell]] Q1 FY27: $24.4B AI orders, $51.3B AI backlog, ~$60B FY27 AI-server guide (+144%)** | **+1** |

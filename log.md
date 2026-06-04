@@ -841,3 +841,12 @@ Pages NOT yet in wiki but referenced repeatedly — these are markers for what's
 - user: proceed (add Advantest)
 - created [[Advantest]] (6857.T / ATEYY): the purest AI-test toll — ~70% of AI-chip testing (VERIFY), HBM/SoC-tester leader; FY26 guide ~$9B (+26%); SoC-tester market $8.7-9.5B CY26 (+32%); Blackwell + HBM3E/HBM4 test intensity = the moat. Cleaner pure-play than Teradyne (no robotics/handset dilution).
 - updated [[Semiconductor test (the AI test toll)]] (Advantest now wikilinked + promoted to lead the quality-toll read), [[Teradyne]] (duopoly-peer link), index (+Advantest). VERIFY.
+
+## [2026-06-03] verify+ingest | Goldman $5.3T/$7.6T capex (VERIFIED) + chokepoints + Phase 5 + cleanest-tolls framework
+- user: verify Goldman capex; proceed+ingest; elaborate Phase 5; list cleanest tolls
+- VERIFIED: Goldman raised 4-hyperscaler 2025-30 capex to **$5.3T (from $4.5T pre-Q1)**; **$7.6T aggregate 2026-31**; 2026 ≈ $725B (+77%). Confirmed correct.
+- created [[Goldman - Hyperscaler capex $5.3T-$7.6T (2026)]] source; updated [[Capex trajectory thesis]] §9 (multi-year revision, estimates≠spend caveat) + momentum-tracker (+1).
+- CHOKEPOINTS (new company stubs): [[Sivers Semiconductors]] (SIVE, InP CPO laser source — Tier-3 architecture bet), [[Soitec]] (SOI, Photonics-SOI substrate), [[Harmonic Drive Systems]] (6324.T, strain-wave reducer = humanoid joint; +Leaderdrive). Wired into [[Networking & interconnect]] (CPO laser/substrate sub-layer) + [[Physical AI & robotics]] (actuator picks-and-shovels — closes the flagged gap).
+- PHASE 5 "Discovery (AI-for-science)" added to [[Future progression of AI (2026 view)]]: agents→physical AI→**discovery** (generate new knowledge: drugs/materials/science); the terminal compute sink + GDP payoff; hardest to play directly (compute tolls capture it); most speculative/back-loaded (bear).
+- CLEANEST-TOLLS framework added to [[AI value capture across the stack]]: robust to BOTH the silicon war AND the architecture-within-optics fork. **Tier 1 (cleanest, upstream of both): TSMC, HBM, packaging/CoWoS, test (Advantest/Teradyne), EDA, ASML.** Tier 2: networking/optical-DSP (Broadcom/Marvell). Tier 3 (architecture bets): Sivers, Soitec, voltage-class power. NVIDIA fails fork 1.
+- index +1 source +3 companies; figures VERIFY.

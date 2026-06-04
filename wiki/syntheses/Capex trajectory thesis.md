@@ -92,6 +92,8 @@ Big Five FY26 capex now triangulates to ~$745-775B (vs prior $602B Ansari second
 
 Direct primary sources from all five hyperscalers means the [[Capex trajectory thesis]] confidence in the supply-side lock-in argument is now even higher. The buildout is funded — confirmation from both demand-side anchors AND supply-side vendors.
 
+**Multi-year revision (Goldman, Jun 4 2026, VERIFY — [[Goldman - Hyperscaler capex $5.3T-$7.6T (2026)]]):** Goldman **raised its four-hyperscaler 2025-2030 capex to $5.3T (from $4.5T pre-Q1)** and frames **$7.6T aggregate (2026-2031)** across compute + DCs + power. 2026 alone ≈ **$725B (+77%)** for the four. The *upward revision* of an already-enormous multi-year number is the headline — but **estimates ≠ spend**: it's a forecast raise, not cash deployed, so the [[Capex bust scenario]] back-loaded-revenue caveat still governs.
+
 ### 10. Frontier AI lab revenue inflection validates inference market sizing
 
 [[Anthropic]] grew from ~$3B mid-2025 to $30B run-rate April 2026 = 10× in 10 months. Combined with OpenAI revenue trajectory (similar profile per third-party reporting), the inference-tier market is real — not just speculative TAM. The AI labs themselves are revenue-positive (or close), justifying the hyperscaler compute-supply commitments to them.

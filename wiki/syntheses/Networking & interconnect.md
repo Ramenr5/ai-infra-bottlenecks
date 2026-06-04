@@ -30,6 +30,8 @@ When the two biggest AI-silicon vendors *both* say the money is in the wires, th
 | **Connectivity / retimers / SerDes** | [[Astera Labs]] (Scorpio/Leo), [[Marvell Technology]] (custom + optical DSP) | the "glue" — PCIe/CXL/fabric signal integrity |
 | **Optical transceivers** | [[Coherent]], [[Lumentum]] (1.6T ramping), [[Marvell Technology]] | content multiplies each bandwidth gen |
 | **Co-packaged optics (CPO)** | [[Broadcom]], [[NVIDIA]], [[Coherent]]/[[Lumentum]] supply | the next step-change ([[SemiAnalysis - Co-Packaged Optics (2026)]]) |
+| **CPO laser source (deepest chokepoint)** | [[Sivers Semiconductors]] (InP ELS) | CPO needs an *external* laser — micro-cap chokepoint, **architecture bet** |
+| **Silicon-photonics substrate** | [[Soitec]] (Photonics-SOI) | the wafer every PIC is built on — "where SiPho begins" |
 | **Optical / DCI systems** | [[Nokia]] (Infinera, NVIDIA-backed AI-RAN) | data-center-interconnect + AI-RAN turnaround |
 | **Switch / box build (ODM)** | [[Celestica]] (hyperscaler switch programs), [[Foxconn]] et al. | builds the boxes — *thin rent* ([[AI value capture across the stack]]) |
 

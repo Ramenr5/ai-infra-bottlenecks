@@ -22,8 +22,16 @@ The opinionated forward map: **where AI compute goes from here, what bends the c
 | 2. **Reasoning / test-time** | 2024-2025 | Can we buy capability with *inference* compute? | ✅ answered yes — reasoning models, RL, test-time compute |
 | 3. **Agentic / industrialization** | **2026-2028 (now)** | Can we run agents *continuously, cheaply, at scale*? | 🔄 **in progress — the current battle** |
 | 4. **Physical AI** | 2027-2030+ | Can intelligence move into robots/vehicles/factories? | 🌱 early; next demand driver |
+| 5. **Discovery (AI-for-science)** | 2028-2035+ | Can AI *generate new knowledge* — drugs, materials, science? | 🔮 nascent; the GDP/"industrial revolution" payoff |
 
-**My read:** we are decisively in **Phase 3**. The Phase-1 "is bigger better" debate is settled; the live debate is **unit economics of always-on agents**. Phase 4 (physical AI) is the option value — real but further out, and the thing that turns a "data-center demand story" into a "GDP story."
+**My read:** we are decisively in **Phase 3**. The Phase-1 "is bigger better" debate is settled; the live debate is **unit economics of always-on agents**. Phase 4 (physical AI) is the option value — real but further out. **Phase 5 (discovery)** is the *terminal* prize — the phase that justifies the entire buildout in GDP terms.
+
+## Phase 5 — Discovery (AI-for-science): the terminal demand sink
+The arc isn't agents → robots and stop. The phases **stack**: agents (automate knowledge work) → physical AI (automate physical work) → **discovery (generate *new* knowledge)**. Discovery is where AI stops *doing existing work faster* and starts **producing new IP** — molecules, materials, proofs, designs that didn't exist.
+- **What it looks like:** AI-designed drugs (AlphaFold → Isomorphic Labs), novel materials (batteries, catalysts, superconductors), protein/enzyme design, chemistry, fusion-plasma control, math/algorithm discovery. Narrow wins exist *now* (AlphaFold); broad economic transformation is unproven.
+- **Why it's the biggest compute sink:** discovery is *search* over astronomically large spaces — world models, simulation, synthetic data, RL, massive parallel inference. It consumes more compute than agents *or* robots, and unlike them its output (a new drug/material) has **enormous, durable economic value** → the demand that makes $5-7T of capex rational in hindsight.
+- **Investment read (the honest part):** it's the **hardest phase to play directly** — the *winners* (who discovers the blockbuster drug/material) are diffuse and unknown, and it's the phase **furthest from monetization** (longest R&D-to-revenue lag). So the rational exposure is the *same picks-and-shovels*: the compute tolls capture Phase 5 even when the discovery winners are unknowable — exactly the logic that holds across every phase. Direct plays (AI-pharma, AI-materials) are venture-grade and unproven.
+- **The bear:** "discovery" is the most speculative phase — it could underdeliver for a decade (AI-for-science has been "5 years away" before), and the capex is being spent *now* against a payoff that's *back-loaded* and uncertain (the [[Capex bust scenario]] writ large). Treat it as the *thesis-justifying option*, not a near-term driver.
 
 ## What bends the curve — the forces
 

@@ -32,6 +32,7 @@ From [[NVIDIA Computex 2026 Keynote]]:
 - **Direct but concentrated:** [[Tesla]] — the only large-cap pure-play; binary on Optimus execution.
 - **Mostly private:** the humanoid pure-plays (Figure, 1X, Unitree, Apptronik) — venture/pre-IPO exposure only; watch for the first humanoid IPO as a regime marker.
 - **Listed industrial-robotics exposure:** [[Teradyne]] (Universal Robots cobots + MiR AMRs; "Cognitive Cobots" w/ NVIDIA toolkits) — a *secondary* robotics option bundled inside a [[Semiconductor test (the AI test toll)|test-toll]] name.
+- **Actuator picks-and-shovels (content-per-robot):** [[Harmonic Drive Systems]] (6324.T — the dominant strain-wave reducer / robot joint), Leaderdrive (China challenger), Nidec (motors). A *listed, mechanical* way to play physical AI, somewhat robust to *which* humanoid wins — but humanoid volumes are still tiny (option value).
 - **Bear / what would break it:** physical AI stays demo-ware (pilots don't scale to fleets); the $40T TAM is a *decade+* story, not a 2026-2028 one — so near-term it's **option value, not order book** (contrast the data-center side, which *is* an order book — [[Capex trajectory thesis]]).
 
 ## Leading indicators

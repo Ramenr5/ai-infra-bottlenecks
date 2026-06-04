@@ -90,3 +90,7 @@ Statuses: `ingested` (source page written), `paywalled-skipped` (insufficient fr
 ## Broadcom Q2 FY26 + networking (2026-06-03)
 
 - 2026-06-03 | ingested | https://www.fool.com/earnings/call-transcripts/2026/06/03/broadcom-avgo-q2-2026-earnings-transcript/ | [[Broadcom Q2 FY26 earnings (2026)]]
+
+## Goldman capex revision (2026-06-04)
+
+- 2026-06-03 | ingested | https://www.indexbox.io/blog/goldman-sachs-big-tech-ai-spending-still-in-early-stages-53-trillion-projected-through-2030/ | [[Goldman - Hyperscaler capex $5.3T-$7.6T (2026)]]
