@@ -22,7 +22,7 @@ tags: [synthesis, semiconductor-test, ate, burn-in, hbm-test, toll, value-captur
 ## The map — who captures the test rent
 | Layer | Names | Position |
 | --- | --- | --- |
-| **ATE (automated test equipment)** | **[[Teradyne]]** (TER), **Advantest** (6857.T) | the **duopoly**; Advantest leads HBM/SoC, TER leads compute/SoC + has robotics |
+| **ATE (automated test equipment)** | **[[Teradyne]]** (TER), **[[Advantest]]** (6857.T) | the **duopoly**; Advantest leads HBM/SoC (~70% AI-test share), TER leads compute/SoC + has robotics |
 | **Wafer-level burn-in** | **[[Aehr Test Systems]]** (AEHR) | micro-cap pure-play pivoting EV-SiC → AI-processor + optical-I/O burn-in |
 | **System-level / handler / probe** | Cohu, FormFactor, Advantest | adjacent test-chain content |
 
@@ -34,7 +34,7 @@ Per [[AI value capture across the stack]] (rent = concentration × indispensabil
 - **Robust to the silicon war:** NVIDIA GPU, hyperscaler XPU, or AMD — *all* get tested. Like [[TSMC]]/memory, test wins regardless of who wins compute.
 
 ## Tradable read
-- **The quality toll:** **[[Teradyne]]** (test duopoly + HBM-test share + a free [[Physical AI & robotics|robotics]] option) and **Advantest** (the HBM/SoC-test leader — not yet a wiki page, the purest HBM-test beneficiary).
+- **The quality toll:** **[[Advantest]]** (the **purest** test toll — ~70% of AI-chip testing, HBM/SoC leader) and **[[Teradyne]]** (test duopoly + HBM-test share + a free [[Physical AI & robotics|robotics]] option).
 - **The speculative end:** **[[Aehr Test Systems]]** — real AI burn-in pivot (3.5× book-to-bill) but micro-cap, lumpy, single-lead-customer concentration. Venture-grade exposure to the same theme.
 - **Bear / watch:** test is **cyclical to chip volume** (a capex pause hits it); Advantest vs Teradyne share shifts; burn-in adoption could plateau if reliability proves a non-issue at scale.
 

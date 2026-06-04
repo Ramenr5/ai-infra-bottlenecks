@@ -836,3 +836,8 @@ Pages NOT yet in wiki but referenced repeatedly — these are markers for what's
 - updated [[Marvell Technology]] (Q1 FY27 record $2.418B, FY28 raised to $16.5B, custom XPU >2x w/ new Tier-1 program locked, Jensen "$1T networking" endorsement).
 - cross-linked: [[800VDC transition]] (+onsemi), [[Networking & interconnect]] (+Nokia optical/DCI, +Celestica switch-build), [[Physical AI & robotics]] (+Teradyne/UR cobots); index +1 synthesis +6 companies. All figures VERIFY.
 - conviction: tolls TER/MRVL > cyclicals CLS/ON > options NOK/AEHR/QCOM.
+
+## [2026-06-03] ingest | Advantest — completes the semiconductor-test toll layer
+- user: proceed (add Advantest)
+- created [[Advantest]] (6857.T / ATEYY): the purest AI-test toll — ~70% of AI-chip testing (VERIFY), HBM/SoC-tester leader; FY26 guide ~$9B (+26%); SoC-tester market $8.7-9.5B CY26 (+32%); Blackwell + HBM3E/HBM4 test intensity = the moat. Cleaner pure-play than Teradyne (no robotics/handset dilution).
+- updated [[Semiconductor test (the AI test toll)]] (Advantest now wikilinked + promoted to lead the quality-toll read), [[Teradyne]] (duopoly-peer link), index (+Advantest). VERIFY.

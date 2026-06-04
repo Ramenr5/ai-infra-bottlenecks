@@ -28,4 +28,4 @@ tags: [teradyne, ter, semiconductor-test, ate, hbm-test, robotics, universal-rob
 - **Caveats:** Advantest is the bigger *pure* HBM/SoC-test winner; test is **cyclical to chip volume** (a capex pause hits it); robotics has been a slow grower.
 
 ## Related
-- Synthesis: [[Semiconductor test (the AI test toll)]] · Peer: Advantest (the HBM/SoC-test leader) · [[HBM allocation]] · [[Physical AI & robotics]] · [[Networking & interconnect]] · Layer: [[Compute & silicon]]
+- Synthesis: [[Semiconductor test (the AI test toll)]] · Duopoly peer: [[Advantest]] (the HBM/SoC-test leader, ~70% AI-test share) · [[HBM allocation]] · [[Physical AI & robotics]] · [[Networking & interconnect]] · Layer: [[Compute & silicon]]
