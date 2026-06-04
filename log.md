@@ -811,3 +811,7 @@ Pages NOT yet in wiki but referenced repeatedly — these are markers for what's
 - user: NVTS showcased an 800V-to-6V AI server power board at NVIDIA AI Factory MGX (Computex); 97.5% peak eff, removes the 48V intermediate bus
 - created [[Navitas Semiconductor]] (NVTS; GaN/SiC pure-play; in NVIDIA MGX 800VDC ecosystem; 800V→6V GaNFast PDB 97.5%/1MHz/2100 W-in³, 16 GaNFast FETs, removes 48V IBC = on-blade point-of-load for Phase 2 Kyber; Q1 FY26 rev $8.6M, loss-making, $122M ATM raise; high-beta/speculative vs POWI/Infineon) + source [[Navitas - 800V-6V PDB at NVIDIA MGX (2026)]].
 - updated [[800VDC transition]] (added Navitas to semiconductor enablers; bumped updated date + sources), index.md (+NVTS company), ingested-sources.md. Figures VERIFY.
+
+## [2026-06-03] schema | On-blade DC-DC socket comparison (POWI vs Infineon vs Navitas) on 800VDC page
+- user: add a side-by-side of the on-blade DC-DC socket players
+- added "The on-blade DC-DC socket (contested)" subsection to [[800VDC transition]]: comparison table (profile, GaN device class, architecture fit, on-blade product, NVIDIA status, scale/profitability, risk-reward) for [[Power Integrations]] / [[Infineon]] / [[Navitas Semiconductor]]. Key insight: the ±400V-bipolar (650V GaN, Infineon/Diablo-400) vs 800V-monopolar (1250/1700V, POWI) architecture fork decides who takes the volume socket; conviction ladder POWI > Infineon > Navitas. Figures VERIFY.

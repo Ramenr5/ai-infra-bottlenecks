@@ -82,6 +82,22 @@ At Kyber-class 660 kW per rack, 48V distribution requires ~200 kg copper per MW 
 **AI-native EPC:**
 - [[Aran Industries]] — PE-stampable 800VDC packages bridging power electronics + grid dynamics
 
+## The on-blade DC-DC socket (contested — POWI vs Infineon vs Navitas)
+
+The new, real TAM inside Phase 2: the **in-tray conversion stage** that steps the 800VDC bus down toward the point-of-load — the socket the **48V intermediate bus converter is being removed** to make room for. Three GaN names are now fighting for it, at **different voltage classes / architectures** (so they're *not* clean substitutes):
+
+| Dimension | [[Power Integrations]] (POWI) | [[Infineon]] (IFX) | [[Navitas Semiconductor]] (NVTS) |
+| --- | --- | --- | --- |
+| Profile | GaN silicon pure-play | diversified power-semi giant | GaN/SiC **micro-cap** pure-play |
+| GaN device class | **1250V HEMT + 1700V switch** (high-voltage) | **650V GaN** (+ broad SiC) | **650V GaNFast** (16× in the PDB) |
+| Architecture fit | **800V monopolar** (high-V single devices) | **±400V bipolar** (Diablo 400) + broad chain | 800V→6V via many 650V devices (multi-level/bipolar) |
+| On-blade product | 800V→50V DC-DC + LV rectifier | 650V GaN + BBU modules (→12 kW @ 99.5%) | **800V→6V GaNFast PDB** (97.5%, 2100 W/in³) |
+| NVIDIA status | **disclosed collaboration** + 2 Taiwan design wins | SiC to [[DG Matrix]]; ±400V ecosystem | **MGX-ecosystem showcase** (GTC/Computex) |
+| Scale / profitability | ~$108M/qtr, **profitable** (53.5% GM) | scale + **profitable** | **$8.6M/qtr, loss-making**, $122M raise |
+| Risk/reward | quality pure-play, disclosed wins | lowest-risk, most diluted exposure | **highest-beta**, design-win + survival risk |
+
+**The read:** the architecture fork matters more than the logos. **±400V-bipolar** ([[Infineon]]'s 650V path, the Diablo-400/OCP camp) vs **800V-monopolar** ([[Power Integrations]]'s 1250/1700V path) is *unsettled* (see the grounding sub-bottleneck above) — and whoever's device class matches the winning architecture takes the socket. **Conviction ladder:** POWI (disclosed wins + profitable + high-V optionality) > Infineon (diversified, lowest-risk, but the GaN datacenter line is a small slice of a huge company) > Navitas (real product + NVIDIA halo, but micro-cap, unprofitable, *showcase ≠ socket*). All three win if 800VDC-native compute scales; **only the architecture-matched ones win the volume socket.**
+
 ## Demand-side forcing functions
 
 - **NVIDIA Kyber Ultra** approaching 660 kW per rack → physics demands 800VDC
