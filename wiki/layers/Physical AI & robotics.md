@@ -31,6 +31,7 @@ From [[NVIDIA Computex 2026 Keynote]]:
 - **Highest conviction — the enabling tolls** (capture value across all robot makers, like owning the picks): [[NVIDIA]] (compute + sim + edge), plus the analog/sensor/actuator/motion-control suppliers (candidate pages: power semis [[Infineon]], [[Power Integrations]]; motion/sensing — to build).
 - **Direct but concentrated:** [[Tesla]] — the only large-cap pure-play; binary on Optimus execution.
 - **Mostly private:** the humanoid pure-plays (Figure, 1X, Unitree, Apptronik) — venture/pre-IPO exposure only; watch for the first humanoid IPO as a regime marker.
+- **Listed industrial-robotics exposure:** [[Teradyne]] (Universal Robots cobots + MiR AMRs; "Cognitive Cobots" w/ NVIDIA toolkits) — a *secondary* robotics option bundled inside a [[Semiconductor test (the AI test toll)|test-toll]] name.
 - **Bear / what would break it:** physical AI stays demo-ware (pilots don't scale to fleets); the $40T TAM is a *decade+* story, not a 2026-2028 one — so near-term it's **option value, not order book** (contrast the data-center side, which *is* an order book — [[Capex trajectory thesis]]).
 
 ## Leading indicators

@@ -827,3 +827,12 @@ Pages NOT yet in wiki but referenced repeatedly — these are markers for what's
 - user: proceed (close the two remaining Broadcom read-throughs)
 - [[Capex bust scenario]] §3 circular financing + [[Capital flows & deal structures]] private-credit: added the **Broadcom + Apollo + Blackstone $35B AI-XPU compute-financing platform** (20+ GW by 2028) — private credit underwriting custom silicon = the XPU analog to neocloud project finance; demand-to-2028 partly financed into existence (only as solid as labs' ability to pay).
 - [[MediaTek]]: added **Front 2 — Google TPU** (co-develops Ironwood/TPU v7 with Broadcom on TSMC N3P; Google split Broadcom=training / MediaTek=inference / Marvell=edge = "diversity of sources"); the bigger-TAM datacenter thread vs N1X; memory ≈50% of XPU cost. Index line refreshed.
+
+## [2026-06-03] query+ingest | 7-name rundown: ON/TER/QCOM/MRVL/AEHR/CLS/NOK + Semiconductor-test synthesis
+- user: go through $ON $TER $QCOM $MRVL $AEHR $CLS $NOK thesis → ingest all
+- validated each via search; sorted into tolls / cyclicals / options.
+- new SYNTHESIS [[Semiconductor test (the AI test toll)]]: ATE duopoly (Teradyne + Advantest) + burn-in (Aehr); AI raises test intensity per chip (HBM KGD, multi-die SLT); concentrated + indispensable + robust-to-silicon-war = toll.
+- new COMPANY pages: [[Teradyne]] (test duopoly, >50% HBM-stack test share, ~70% AI-rev, UR cobots), [[Aehr Test Systems]] (micro-cap AI burn-in, 3.5x book-to-bill, speculative), [[Celestica]] (EMS/ODM, FY26 $19B guide, HPS +63% hyperscaler switches; thin-rent/priced), [[onsemi]] (SiC/GaN 800VDC, $50k→$100k/MW content, auto-cyclical), [[Nokia]] (Infinera optical/DCI + AI-RAN, NVDA $1B stake, Nscale; RAN drag), [[Qualcomm]] (AI200/AI250 DC-inference late entry; lost WoA to N1X/MediaTek).
+- updated [[Marvell Technology]] (Q1 FY27 record $2.418B, FY28 raised to $16.5B, custom XPU >2x w/ new Tier-1 program locked, Jensen "$1T networking" endorsement).
+- cross-linked: [[800VDC transition]] (+onsemi), [[Networking & interconnect]] (+Nokia optical/DCI, +Celestica switch-build), [[Physical AI & robotics]] (+Teradyne/UR cobots); index +1 synthesis +6 companies. All figures VERIFY.
+- conviction: tolls TER/MRVL > cyclicals CLS/ON > options NOK/AEHR/QCOM.

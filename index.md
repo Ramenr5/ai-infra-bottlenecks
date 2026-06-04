@@ -20,6 +20,7 @@
 - [[Open-weight commoditization (the swing factor)]] — **the variable that most changes who keeps the rent.** Open weights now ~5% off closed frontier on code/reasoning → commoditize the model layer → value migrates *down* to infra tolls + *out* to data-moat apps. Doesn't slow the buildout, changes the winners. Why "own the tolls" is outcome-robust.
 - [[AI factory economics (tokens per watt)]] — **the buildout's organizing economic frame.** Revenue = (tokens/watt) × gigawatts → power becomes the *revenue denominator*; $100B/GW → ~$150B/yr, >50% modeled margin. But it's a **supply-side metric** — says nothing about whether demand clears at price (the [[Capex bust scenario]] crux). Trust realized margin, not advertised tokens/watt.
 - [[Networking & interconnect]] — **own the interconnect toll, not the accelerator volume.** Both NVIDIA ("largest networking co") and Broadcom ("networking insatiable, ~40% of AI semi, *rich margins* while XPU compresses") say the rent is in the wires. Robust to the merchant-vs-custom-silicon war; demand grows *faster* than compute via disaggregation. Names: Broadcom, Marvell, Coherent, Lumentum, Astera.
+- [[Semiconductor test (the AI test toll)]] — **the under-watched test toll.** ATE duopoly (Teradyne + Advantest) + burn-in (Aehr); AI raises *test intensity per chip* (HBM KGD, multi-die SLT, burn-in). Concentrated + indispensable + robust to the silicon war = a real toll. Quality: TER/Advantest; speculative: AEHR.
 - [[narrative-gaps]] — **living coverage dashboard**: which narrative threads are built out (🟢), thin (🟡), or missing (🔴), and the ranked next-to-build list. Currently open: Taiwan geo (🔴), networking synthesis (🟡), test-time compute (🟡).
 - [[Wiki maintenance model]] — **operating model for this vault.** Source-of-truth = local Obsidian; GitHub remote enables weekly automated SemiAnalysis ingest (Sundays 22:00 UTC); routine never touches layer/company/bottleneck/synthesis pages — flags them for human review in [[weekly-digest]] instead.
 
@@ -123,6 +124,12 @@
 - [[Aran Industries]] — AI-native EPC startup; PE-stampable 800VDC engineering packages; bridges power electronics + grid dynamics + regulatory — capabilities incumbent EPCs don't combine (ticker: private · role: epc · layer: datacenter · 1 source)
 - [[Power Integrations]] — US GaN silicon pure-play (vs Wolfspeed SiC pure-play); **disclosed NVIDIA collaboration on 1250V/1700V PowiGaN for 800VDC**; Q1 2026 $108.3M (+3% YoY) / 53.5% GM; **two Q1 design wins at Taiwan datacenter equipment customers**; mgmt-disclosed **datacenter SAM >$1B by 2030** (ticker: POWI · role: supplier · layer: compute · 3 sources)
 - [[Navitas Semiconductor]] — GaN/SiC pure-play; **in NVIDIA MGX 800VDC ecosystem**; **800V→6V GaNFast PDB** (97.5% eff, removes the 48V intermediate bus); **high-beta/speculative** — $8.6M Q1 rev, loss-making, $122M ATM raise (ticker: NVTS · role: supplier · layer: power · 1 source)
+- [[onsemi]] — SiC/GaN power semi; NVIDIA 800VDC/MGX; content per 1MW rack **doubled $50k→$100k**; **auto/industrial-cyclical core** dilutes the AI signal (ticker: ON · role: supplier · layer: power)
+- [[Teradyne]] — **semiconductor-test duopoly** (w/ Advantest); **>50% HBM-stack test share**; ~70% AI-rev; + Universal Robots cobots (robotics option) → the test toll (ticker: TER · role: supplier · layer: compute)
+- [[Aehr Test Systems]] — micro-cap **AI-processor burn-in** pivot; 3.5× book-to-bill, hyperscaler ASIC win; speculative (ticker: AEHR · role: supplier · layer: compute)
+- [[Celestica]] — N-American **EMS/ODM**; AI-server + hyperscaler networking switches; FY26 guide raised to $19B, HPS +63%; thin-rent/priced (ticker: CLS · role: odm · layer: datacenter)
+- [[Nokia]] — optical/DCI (Infinera) + AI-RAN; **NVIDIA $1B stake**, Nscale preferred vendor; RAN-cyclical turnaround (ticker: NOK · layer: compute)
+- [[Qualcomm]] — handset core + **speculative DC-inference entry** (AI200/AI250, LPDDR); lost Windows-on-Arm exclusivity to NVDA N1X/MediaTek (ticker: QCOM · layer: compute)
 
 ### Datacenter cooling picks-and-shovels (new pages, May 2026)
 

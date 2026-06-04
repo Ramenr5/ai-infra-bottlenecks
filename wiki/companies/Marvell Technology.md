@@ -1,8 +1,8 @@
 ---
 type: company
 created: 2026-05-24
-updated: 2026-05-24
-sources: ["[[Marvell Q4 FY26 earnings]]"]
+updated: 2026-06-03
+sources: ["[[Marvell Q4 FY26 earnings]]", "[[Networking & interconnect]]"]
 ticker: MRVL
 layer: compute
 role: supplier
@@ -13,6 +13,18 @@ tags: [marvell, mrvl, custom-asic, optical-dsp, ai-networking, microsoft-maia]
 # Marvell Technology
 
 **Custom AI ASIC design partner + optical DSP supplier.** Sits between [[Broadcom]] (custom ASIC + networking) and [[Astera Labs]] (connectivity silicon) on the picks-and-shovels map. Less concentrated on AI than Broadcom but broader optical interconnect business.
+
+## Q1 FY27 (reported ~2026-05, VERIFY — search-sourced)
+
+| Metric | Value |
+| --- | --- |
+| **Q1 FY27 revenue** | **$2.418B** — company record (+28% YoY, +9% QoQ) |
+| **FY27 revenue guide** | **~$11.5B (+~40% YoY)** |
+| **FY28 revenue target** | **raised to ~$16.5B** |
+| Custom XPU | **to >2× YoY in FY28** |
+
+- **Custom XPU growth has 3 roughly-equal sources for FY28:** continued ramp of existing programs, **10+ XPU-attach products** reaching volume, and a **NEW Tier-1 XPU program entering volume in FY28 with customer requirements already locked** — the de-risking catalyst (a major new hyperscaler win beyond Microsoft Maia).
+- **Jensen "$1T networking company" endorsement** (+33% stock pop) — the [[Networking & interconnect]] read. Also a [[Broadcom]]-flagged risk: custom-XPU margins compress vs networking.
 
 ## Q4 FY26 financials (per [[Marvell Q4 FY26 earnings]])
 
