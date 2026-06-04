@@ -121,6 +121,7 @@
 - [[Infineon]] — German power semis; SiC supply to DG Matrix; 650V GaN for Diablo 400 ±400V bipolar; BBU roadmap 4 kW PPC cards → 12 kW per unit at 99.5% peak (ticker: IFX.DE / IFNNY · role: supplier · layer: compute · 1 source)
 - [[Aran Industries]] — AI-native EPC startup; PE-stampable 800VDC engineering packages; bridges power electronics + grid dynamics + regulatory — capabilities incumbent EPCs don't combine (ticker: private · role: epc · layer: datacenter · 1 source)
 - [[Power Integrations]] — US GaN silicon pure-play (vs Wolfspeed SiC pure-play); **disclosed NVIDIA collaboration on 1250V/1700V PowiGaN for 800VDC**; Q1 2026 $108.3M (+3% YoY) / 53.5% GM; **two Q1 design wins at Taiwan datacenter equipment customers**; mgmt-disclosed **datacenter SAM >$1B by 2030** (ticker: POWI · role: supplier · layer: compute · 3 sources)
+- [[Navitas Semiconductor]] — GaN/SiC pure-play; **in NVIDIA MGX 800VDC ecosystem**; **800V→6V GaNFast PDB** (97.5% eff, removes the 48V intermediate bus); **high-beta/speculative** — $8.6M Q1 rev, loss-making, $122M ATM raise (ticker: NVTS · role: supplier · layer: power · 1 source)
 
 ### Datacenter cooling picks-and-shovels (new pages, May 2026)
 

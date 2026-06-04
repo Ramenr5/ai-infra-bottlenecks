@@ -806,3 +806,8 @@ Pages NOT yet in wiki but referenced repeatedly — these are markers for what's
 - upgraded tools/telegram-inbox.gs: ingest/validate → fireDispatch (needs a fine-grained GitHub PAT, Contents RW) with the matched scout-draft body (URLs) as payload; skip/note/file → Gmail-queue log.
 - updated CLAUDE.md "Process the ingest queue": ingest/validate now CI-automated (PR-by-default, auto-merge opt-in); skip/note/file = local.
 - HONEST: PR-by-default (review gate for VERIFY figures) — flip to auto-merge for true zero-touch; each ingest = a pay-per-use Anthropic API run. Repo copies use placeholders.
+
+## [2026-06-03] ingest | Navitas (NVTS) 800V→6V GaN PDB at NVIDIA MGX → 800VDC transition
+- user: NVTS showcased an 800V-to-6V AI server power board at NVIDIA AI Factory MGX (Computex); 97.5% peak eff, removes the 48V intermediate bus
+- created [[Navitas Semiconductor]] (NVTS; GaN/SiC pure-play; in NVIDIA MGX 800VDC ecosystem; 800V→6V GaNFast PDB 97.5%/1MHz/2100 W-in³, 16 GaNFast FETs, removes 48V IBC = on-blade point-of-load for Phase 2 Kyber; Q1 FY26 rev $8.6M, loss-making, $122M ATM raise; high-beta/speculative vs POWI/Infineon) + source [[Navitas - 800V-6V PDB at NVIDIA MGX (2026)]].
+- updated [[800VDC transition]] (added Navitas to semiconductor enablers; bumped updated date + sources), index.md (+NVTS company), ingested-sources.md. Figures VERIFY.

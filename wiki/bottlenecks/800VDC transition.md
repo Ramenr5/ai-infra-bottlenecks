@@ -1,8 +1,8 @@
 ---
 type: bottleneck
 created: 2026-05-26
-updated: 2026-05-26
-sources: ["[[SemiAnalysis - Inside the 800VDC Revolution (2026)]]", "[[Power Integrations Q1 2026 earnings]]", "[[Power Integrations - 1250V & 1700V PowiGaN for 800VDC AI Datacenters (2025)]]"]
+updated: 2026-06-03
+sources: ["[[SemiAnalysis - Inside the 800VDC Revolution (2026)]]", "[[Power Integrations Q1 2026 earnings]]", "[[Power Integrations - 1250V & 1700V PowiGaN for 800VDC AI Datacenters (2025)]]", "[[Navitas - 800V-6V PDB at NVIDIA MGX (2026)]]"]
 layer: power
 severity: structural
 mechanism: capacity
@@ -77,6 +77,7 @@ At Kyber-class 660 kW per rack, 48V distribution requires ~200 kg copper per MW 
 - [[Wolfspeed]] — **10 kV SiC MOSFET commercial March 2026**; SiC pure-play; MV rectifier + SST end-state enabler
 - [[Infineon]] — broad portfolio: SiC + 650V GaN (for ±400V Diablo 400) + BBU power modules (4 kW → 12 kW at 99.5%); supplies SiC to [[DG Matrix]]
 - [[Power Integrations]] (POWI) — **integrated GaN pure-play; 1250V HEMTs + 1700V switch with disclosed NVIDIA collaboration**; targets on-blade 800V→50V DC-DC (Phase 2 Kyber) + LV rectifier; **mgmt-disclosed datacenter SAM >$1B by 2030**; Q1 2026 confirmed "variety of sockets in forthcoming 800VDC architectures"; 2 Q1 2026 Taiwan datacenter design wins. Notably NOT named in the SemiAnalysis deep dive — likely because SemiAnalysis tracks deployed equipment products, not silicon enablers upstream of them
+- [[Navitas Semiconductor]] (NVTS) — **GaN/SiC pure-play; in NVIDIA MGX 800VDC ecosystem**; showcased an **800V→6V GaNFast PDB** (97.5% peak eff, 1 MHz, 2100 W/in³) that **removes the 48V intermediate bus** — i.e. single-stage point-of-load for Phase 2 Kyber ([[Navitas - 800V-6V PDB at NVIDIA MGX (2026)]]). **High-beta/speculative:** sub-scale ($8.6M Q1 rev), loss-making, $122M ATM raise; competes with POWI/Infineon for the on-blade socket. Showcase ≠ locked volume socket.
 
 **AI-native EPC:**
 - [[Aran Industries]] — PE-stampable 800VDC packages bridging power electronics + grid dynamics
