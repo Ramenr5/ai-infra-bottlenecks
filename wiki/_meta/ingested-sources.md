@@ -86,3 +86,7 @@ Statuses: `ingested` (source page written), `paywalled-skipped` (insufficient fr
 ## 800VDC enabler (2026-06-03)
 
 - 2026-06-03 | ingested | https://www.globenewswire.com/news-release/2026/06/03/3306044/0/en/navitas-collaborates-with-nvidia-mgx-ecosystem-to-accelerate-800-vdc-ai-infrastructure.html | [[Navitas - 800V-6V PDB at NVIDIA MGX (2026)]]
+
+## Broadcom Q2 FY26 + networking (2026-06-03)
+
+- 2026-06-03 | ingested | https://www.fool.com/earnings/call-transcripts/2026/06/03/broadcom-avgo-q2-2026-earnings-transcript/ | [[Broadcom Q2 FY26 earnings (2026)]]

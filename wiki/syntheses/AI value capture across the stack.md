@@ -22,6 +22,7 @@ The single biggest swing factor: **is the model-lab layer a durable toll or does
 | **Memory / HBM** | Oligopoly (3) | **HIGH** | SK Hynix **72% op margin**; memory pricing **6×**; sold out 3yr; NVIDIA exclusive HBM4 ([[HBM allocation]], [[NVIDIA Computex 2026 Keynote]]) |
 | **GPU (NVIDIA)** | Dominant + allocation power | **HIGH but "underpricing"** | $1T order book; yet AI Value Capture says NVIDIA/TSMC *underprice relative to value created* → pricing power > current pricing |
 | **Foundry / packaging** | TSMC monopoly-ish (leading edge + CoWoS) | **HIGH** | CoWoS sold out; NVIDIA books majority; A16 roadmap ([[CoWoS packaging capacity]], [[TSMC]]) |
+| **Networking / interconnect** | Broadcom near-mono + NVLink + optics oligopoly | **HIGH (toll)** | Broadcom: networking = the **rich-margin** ~40% of AI semi; custom XPU compresses ([[Broadcom Q2 FY26 earnings (2026)]]); "largest networking co" (NVIDIA). Robust to merchant-vs-custom war → [[Networking & interconnect]] |
 | **Lithography / EDA** | ASML EUV monopoly; EDA Big-3 | **HIGH (toll)** | €38.8B ASML backlog; 95-99% EDA retention ([[Lithography monopoly]], [[EDA tool consolidation]]) |
 | **Hyperscalers** | Oligopoly | **MIXED** | TaaS (Bedrock) margin-accretive (+213bp); IaaS thinner ([[SemiAnalysis - Anthropic Bedrock AWS Margins (2026)]]) |
 | **Application SaaS** | Fragmented | **CONTESTED** | captured ~**half** of $37B enterprise spend (Menlo) BUT fragmented + threatened (AI-eats-SaaS, MSFT bundling) → [[CrowdStrike]]/[[ServiceNow]] |

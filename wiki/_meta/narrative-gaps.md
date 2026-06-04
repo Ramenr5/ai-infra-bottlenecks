@@ -19,7 +19,7 @@ tags: [meta, gaps, coverage, narrative-tracker]
 | 2 | Memory / HBM | 🟢 | [[HBM allocation]], [[SK Hynix]]/[[Micron Technology]]/[[Samsung Electronics]] | GDDR7 (Rubin CPX) not its own page |
 | 3 | Inference economics | 🟢 | [[Disaggregated inference (Rubin CPX)]], [[AI factory economics (tokens per watt)]] | **test-time-compute / reasoning-scaling** page missing; serving providers (Together/Fireworks/Baseten) absent |
 | 4 | CPU scaling / Vera | 🟢 *(filled 2026-06-01)* | [[CPU scaling (host-CPU ratio)]], [[Datacenter CPU landscape (2026)]] | deepened — monitor only |
-| 5 | **Networking / interconnect** | 🟡 | companies: [[Broadcom]], [[Marvell Technology]], [[Astera Labs]], [[Coherent]], [[Lumentum]] | **no synthesis** tying it together ("NVDA largest networking co", Spectrum-X vs merchant, CPO, scale-up vs scale-out) |
+| 5 | Networking / interconnect | 🟢 *(filled 2026-06-03)* | [[Networking & interconnect]] synthesis + [[Broadcom]]/[[Marvell Technology]]/[[Astera Labs]]/[[Coherent]]/[[Lumentum]] | — (networking-as-toll, anchored on Broadcom Q2 "networking insatiable / rich margins") |
 | 6 | Power / AI-factory economics | 🟢 *(filled 2026-06-01)* | [[AI factory economics (tokens per watt)]], [[Power & energy]], [[800VDC transition]] | — |
 | 7 | **Taiwan supply chain** | 🔴 | TSMC/CoWoS/ODM company pages exist, but… | **no [[Taiwan]] geography page** — the "epicentre"; concentration + geopolitical-tail un-synthesized |
 | 8 | Software / application | 🟢 *(filled 2026-06-01)* | [[Application & software]], [[CrowdStrike]]/[[ServiceNow]]/[[Salesforce]]/[[Palantir]] | more agentic-app comparables (Zscaler/Okta/Datadog) optional |
@@ -31,7 +31,7 @@ tags: [meta, gaps, coverage, narrative-tracker]
 
 ## Next to build (ranked)
 1. 🔴 **[[Taiwan]]** geography page — the #1 structural hole. Ties TSMC/CoWoS/ODMs/$150B + the concentration & geopolitical-tail risk that underwrites *both* the bull (the toll) and the bear. Touches every infra thread.
-2. 🟡 **Networking / interconnect synthesis** — companies exist, no tying page. "NVIDIA = largest networking company", Spectrum-X vs Broadcom merchant, scale-up (NVLink/copper) vs scale-out (Ethernet) vs CPO.
+2. ✅ ~~Networking / interconnect synthesis~~ — **done 2026-06-03** ([[Networking & interconnect]]).
 3. 🟡 **Test-time compute / reasoning scaling** — a core demand driver (reasoning models burn inference) with no concept page; referenced in [[Future progression of AI (2026 view)]] but not built.
 4. 🟡 **Physical AI depth** — actuator/sensor/motion-control supplier pages (the non-NVIDIA picks-and-shovels) + a robot-data/world-model bottleneck page.
 5. 🟢-minor — GDDR7 memory treatment; inference-serving providers; more app-layer comparables.

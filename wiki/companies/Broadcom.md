@@ -1,8 +1,8 @@
 ---
 type: company
 created: 2026-05-24
-updated: 2026-05-24
-sources: ["[[Broadcom Q1 FY26 earnings]]"]
+updated: 2026-06-03
+sources: ["[[Broadcom Q1 FY26 earnings]]", "[[Broadcom Q2 FY26 earnings (2026)]]"]
 ticker: AVGO
 layer: compute
 role: supplier
@@ -12,6 +12,23 @@ tags: [broadcom, avgo, custom-asic, xpu, tomahawk, jericho, ai-networking, hock-
 # Broadcom
 
 **The other dominant supplier of AI silicon after NVIDIA.** Designs custom AI accelerators (XPUs) for hyperscalers and produces near-monopoly Ethernet networking switch ASICs (Tomahawk, Jericho). Plus VMware (post-2023 acquisition) for infrastructure software. CEO Hock Tan committed to **>$100B AI chip revenue by 2027** — one of the largest forward AI commitments after NVIDIA's $1T Blackwell+Rubin guide.
+
+## Q2 FY26 (reported 2026-06-03, per [[Broadcom Q2 FY26 earnings (2026)]])
+
+| Metric | Value |
+| --- | --- |
+| **Q2 AI semi revenue** | **$10.8B (+143% YoY)** |
+| **Q3 FY26 AI guide** | **~$16.0B (+200% YoY)** |
+| **Networking share of AI semi** | **~40%** (the **rich-margin** part) |
+| **AI bookings (Q2)** | **>$30B**; visibility **extends to 2028** (2028 > 2027) |
+| **FY27 AI revenue** | **>$100B — reiterated, NOT raised** (→ +0% week) |
+| Operating margin | **record 67%** |
+
+- **"Demand for XPUs and networking is simply insatiable."** Custom-silicon ramp now spans **OpenAI** (silicon delivered, production late 2026; **1.3 GW '27 → 10 GW by '29**), **Meta** (**1 GW order, delivery H2 2027 → 3 GW end-2028**), **Google** (multi-gen TPU + AI-networking; "diversity of sources"), **Anthropic**, + 2 others (late-2026 → 2027).
+- **NEW — $35B Apollo/Blackstone compute-financing platform** (20+ GW) — private credit underwriting the XPU buildout → [[Capital flows & deal structures]], [[AI debt financing capacity]].
+- **Content-per-GW rising** (CPU cores into XPUs, multi-die, more HBM) → [[HBM allocation]].
+
+> **The margin tell (answers the old open question below):** AI **networking carries "very rich margins"; custom XPU/TPU margins compress at scale.** So within Broadcom the **interconnect layer is the toll**, custom-ASIC design is the thinner-margin volume service → anchors [[Networking & interconnect]] and [[AI value capture across the stack]].
 
 ## Q1 FY26 financials (per [[Broadcom Q1 FY26 earnings]])
 
@@ -66,7 +83,7 @@ Broadcom is the **design partner / packaging coordinator**; TSMC manufactures th
 ## Open questions
 
 - Specific customer revenue mix (Google vs Meta vs OpenAI vs Anthropic split not disclosed)
-- Margin profile on custom ASICs vs networking ASICs vs VMware software
+- ~~Margin profile on custom ASICs vs networking ASICs~~ **(answered Q2 FY26: networking = rich margins; XPU compresses at scale)** vs VMware software
 - VMware contribution vs AI segment growth
 - Risk of hyperscalers internalizing more design (COT dynamic applies here too)
 - Tomahawk 7 / Jericho 5 roadmap timing

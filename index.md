@@ -19,6 +19,7 @@
 - [[Future progression of AI (2026 view)]] — **the time-axis forward map.** Four phases (scaling → reasoning → **agentic/industrialization, now** → physical AI); capability is now *deployment-gated, not research-gated* — the binding constraints are power/HBM/CPU/cost-per-token, not algorithms. Crux: does Jevons (cheaper inference → more demand) hold past 2027? Bull through 2027 high-confidence; 2028+ hinges on agent unit economics. Companion to the capstone.
 - [[Open-weight commoditization (the swing factor)]] — **the variable that most changes who keeps the rent.** Open weights now ~5% off closed frontier on code/reasoning → commoditize the model layer → value migrates *down* to infra tolls + *out* to data-moat apps. Doesn't slow the buildout, changes the winners. Why "own the tolls" is outcome-robust.
 - [[AI factory economics (tokens per watt)]] — **the buildout's organizing economic frame.** Revenue = (tokens/watt) × gigawatts → power becomes the *revenue denominator*; $100B/GW → ~$150B/yr, >50% modeled margin. But it's a **supply-side metric** — says nothing about whether demand clears at price (the [[Capex bust scenario]] crux). Trust realized margin, not advertised tokens/watt.
+- [[Networking & interconnect]] — **own the interconnect toll, not the accelerator volume.** Both NVIDIA ("largest networking co") and Broadcom ("networking insatiable, ~40% of AI semi, *rich margins* while XPU compresses") say the rent is in the wires. Robust to the merchant-vs-custom-silicon war; demand grows *faster* than compute via disaggregation. Names: Broadcom, Marvell, Coherent, Lumentum, Astera.
 - [[narrative-gaps]] — **living coverage dashboard**: which narrative threads are built out (🟢), thin (🟡), or missing (🔴), and the ranked next-to-build list. Currently open: Taiwan geo (🔴), networking synthesis (🟡), test-time compute (🟡).
 - [[Wiki maintenance model]] — **operating model for this vault.** Source-of-truth = local Obsidian; GitHub remote enables weekly automated SemiAnalysis ingest (Sundays 22:00 UTC); routine never touches layer/company/bottleneck/synthesis pages — flags them for human review in [[weekly-digest]] instead.
 
@@ -83,7 +84,7 @@
 - [[Applied Materials]] — #1 WFE vendor; Q1 FY26 $7.01B revenue with record DRAM segment; CEO: "$1T semi industry 2026" (ticker: AMAT · role: supplier · layer: compute · 1 source)
 - [[Lam Research]] — WFE #2-3; memory etch leader; Q3 FY26 $5.84B revenue; memory 39%/DRAM 27% record; raised WFE forecast $140B (ticker: LRCX · role: supplier · layer: compute · 1 source)
 - [[KLA Corporation]] — process control monopoly ~58% share; Q3 FY26 $3.415B; advanced packaging $1B FY26 (+70% YoY, +14pp share) (ticker: KLAC · role: supplier · layer: compute · 1 source)
-- [[Broadcom]] — hyperscaler custom ASIC (Google TPU, Meta MTIA, OpenAI, Anthropic) + Tomahawk/Jericho networking; **>$100B AI 2027 line of sight, $73B backlog** (ticker: AVGO · role: supplier · layer: compute · 1 source)
+- [[Broadcom]] — hyperscaler custom ASIC (Google TPU, Meta MTIA, OpenAI, Anthropic) + Tomahawk/Jericho networking; Q2 FY26 AI semi **$10.8B (+143%)**, Q3 guide $16B; **>$100B FY27 reiterated, visibility to 2028**; networking = the rich-margin toll (ticker: AVGO · role: supplier · layer: compute · 2 sources)
 - [[Marvell Technology]] — custom AI ASIC (Microsoft Maia + others) + optical DSP; Q4 FY26 $1.65B DC record; FY27 optical +50% YoY guide (ticker: MRVL · role: supplier · layer: compute · 1 source)
 - [[ARM Holdings]] — processor IP licensing (Neoverse server cores, CSS subsystems); Q4 FY26 record; data center royalty doubled YoY; CSS adoption with AWS/Google/NVDA/MSFT (ticker: ARM · role: supplier · layer: chip-design · 1 source)
 - [[Astera Labs]] — pure-play AI connectivity silicon (Aries PCIe retimers, Scorpio fabric switches, Leo CXL); Q1 2026 +93% YoY, 76% GM (ticker: ALAB · role: supplier · layer: datacenter · 1 source)
@@ -216,6 +217,7 @@
 - [[Astera Labs Q1 2026 earnings]] — Record $308.4M (+93% YoY) / 76% GM; Scorpio AI fabric switches ramping; Leo CXL win at Microsoft Azure M-Series.
 - [[Marvell Q4 FY26 earnings]] — DC record $1.65B; custom ASIC $1.5B run-rate; FY27 optical +50% YoY guide.
 - [[Broadcom Q1 FY26 earnings]] — AI revenue $8.4B (+106%); $10.7B Q2 guide; **>$100B AI 2027 line of sight + $73B backlog**.
+- [[Broadcom Q2 FY26 earnings (2026)]] — **AI semi $10.8B (+143%); Q3 guide $16B (+200%); >$30B bookings, visibility to 2028**; "networking insatiable" + **rich margins vs XPU compression**; OpenAI 1.3→10 GW, Meta 1→3 GW; $35B Apollo/Blackstone financing platform. Anchors [[Networking & interconnect]].
 - [[Lam Research Q3 FY26 earnings]] — $5.84B revenue; memory 39%/DRAM 27% record; WFE forecast raised to $140B.
 - [[Coherent Q3 FY26 earnings]] — Record $1.80B; DC +37% YoY; 1.6T ramp ahead of plan; NVIDIA equity-backed.
 - [[KLA Q3 FY26 earnings]] — $3.415B revenue; ~58% process control share; advanced packaging $1B FY26 (+70% YoY).
