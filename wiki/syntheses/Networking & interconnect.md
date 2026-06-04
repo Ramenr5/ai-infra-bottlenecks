@@ -34,6 +34,9 @@ When the two biggest AI-silicon vendors *both* say the money is in the wires, th
 | **Silicon-photonics substrate** | [[Soitec]] (Photonics-SOI) | the wafer every PIC is built on — "where SiPho begins" |
 | **Optical / DCI systems** | [[Nokia]] (Infinera, NVIDIA-backed AI-RAN) | data-center-interconnect + AI-RAN turnaround |
 | **Switch / box build (ODM)** | [[Celestica]] (hyperscaler switch programs), [[Foxconn]] et al. | builds the boxes — *thin rent* ([[AI value capture across the stack]]) |
+| **Connectors / copper (physical layer)** | [[Amphenol]] (800G/1.6T connectors), TE Connectivity | copper content scales with every rack — clean compounder |
+| **Active electrical cables (scale-up copper)** | [[Credo Technology]] (AEC pioneer, +272%) | copper-with-DSP between passive copper and optics |
+| **Optical EMS (transceiver build)** | [[Fabrinet]] (1.6T lead; NVDA/Cisco) | *makes* the Coherent/Lumentum/NVDA transceivers |
 
 ## Why it's a toll (value-capture)
 Per [[AI value capture across the stack]], rent = concentration × indispensability × capacity-constraint. Networking scores high on all three:

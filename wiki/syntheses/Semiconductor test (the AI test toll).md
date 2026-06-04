@@ -24,7 +24,8 @@ tags: [synthesis, semiconductor-test, ate, burn-in, hbm-test, toll, value-captur
 | --- | --- | --- |
 | **ATE (automated test equipment)** | **[[Teradyne]]** (TER), **[[Advantest]]** (6857.T) | the **duopoly**; Advantest leads HBM/SoC (~70% AI-test share), TER leads compute/SoC + has robotics |
 | **Wafer-level burn-in** | **[[Aehr Test Systems]]** (AEHR) | micro-cap pure-play pivoting EV-SiC → AI-processor + optical-I/O burn-in |
-| **System-level / handler / probe** | Cohu, FormFactor, Advantest | adjacent test-chain content |
+| **Probe cards (test interface)** | [[FormFactor]] (leader; top-3 HBM makers) | consumable-like — HBM4 wear → faster replacement |
+| **Handlers / system-level** | Cohu, inTEST, Advantest | adjacent test-chain content |
 
 ## Value-capture read
 Per [[AI value capture across the stack]] (rent = concentration × indispensability × capacity-constraint):

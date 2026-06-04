@@ -20,7 +20,9 @@
 - [[Open-weight commoditization (the swing factor)]] — **the variable that most changes who keeps the rent.** Open weights now ~5% off closed frontier on code/reasoning → commoditize the model layer → value migrates *down* to infra tolls + *out* to data-moat apps. Doesn't slow the buildout, changes the winners. Why "own the tolls" is outcome-robust.
 - [[AI factory economics (tokens per watt)]] — **the buildout's organizing economic frame.** Revenue = (tokens/watt) × gigawatts → power becomes the *revenue denominator*; $100B/GW → ~$150B/yr, >50% modeled margin. But it's a **supply-side metric** — says nothing about whether demand clears at price (the [[Capex bust scenario]] crux). Trust realized margin, not advertised tokens/watt.
 - [[Networking & interconnect]] — **own the interconnect toll, not the accelerator volume.** Both NVIDIA ("largest networking co") and Broadcom ("networking insatiable, ~40% of AI semi, *rich margins* while XPU compresses") say the rent is in the wires. Robust to the merchant-vs-custom-silicon war; demand grows *faster* than compute via disaggregation. Names: Broadcom, Marvell, Coherent, Lumentum, Astera.
-- [[Semiconductor test (the AI test toll)]] — **the under-watched test toll.** ATE duopoly (Teradyne + Advantest) + burn-in (Aehr); AI raises *test intensity per chip* (HBM KGD, multi-die SLT, burn-in). Concentrated + indispensable + robust to the silicon war = a real toll. Quality: TER/Advantest; speculative: AEHR.
+- [[Semiconductor test (the AI test toll)]] — **the under-watched test toll.** ATE duopoly (Teradyne + Advantest) + burn-in (Aehr) + probe cards (FormFactor); AI raises *test intensity per chip* (HBM KGD, multi-die SLT, burn-in). Concentrated + indispensable + robust to the silicon war = a real toll. Quality: TER/Advantest; speculative: AEHR.
+- [[Advanced packaging & OSAT (the AI packaging toll)]] — **the back-end is now a front-line chokepoint.** CoWoS sold out → ASE/Amkor capacity gatekeepers; **hybrid bonding** (BESI) the frontier; TCB (Hanmi/ASMPT) for HBM stacks; metrology (Camtek/Onto). Bonding tools = cleaner toll than OSAT; even a >90% incumbent (Hanmi) is contestable.
+- [[WFE & process control (the equipment toll)]] — **the shovels that make the shovels.** ASML + **Lasertec** (EUV-inspection ~monopoly) + KLA process-control + WFE-5 + materials (Entegris). Tier-1 robust-to-both-forks toll, but **cyclical to total wafer capex** — own the monopolies, trade the WFE-5.
 - [[narrative-gaps]] — **living coverage dashboard**: which narrative threads are built out (🟢), thin (🟡), or missing (🔴), and the ranked next-to-build list. Currently open: Taiwan geo (🔴), networking synthesis (🟡), test-time compute (🟡).
 - [[Wiki maintenance model]] — **operating model for this vault.** Source-of-truth = local Obsidian; GitHub remote enables weekly automated SemiAnalysis ingest (Sundays 22:00 UTC); routine never touches layer/company/bottleneck/synthesis pages — flags them for human review in [[weekly-digest]] instead.
 
@@ -126,6 +128,29 @@
 - [[Navitas Semiconductor]] — GaN/SiC pure-play; **in NVIDIA MGX 800VDC ecosystem**; **800V→6V GaNFast PDB** (97.5% eff, removes the 48V intermediate bus); **high-beta/speculative** — $8.6M Q1 rev, loss-making, $122M ATM raise (ticker: NVTS · role: supplier · layer: power · 1 source)
 - [[onsemi]] — SiC/GaN power semi; NVIDIA 800VDC/MGX; content per 1MW rack **doubled $50k→$100k**; **auto/industrial-cyclical core** dilutes the AI signal (ticker: ON · role: supplier · layer: power)
 - [[Advantest]] — **the purest test toll**: ~**70% of AI-chip testing**, HBM/SoC-tester leader; FY26 guide **~$9B (+26%)**; Blackwell/HBM4 test intensity = the moat (ticker: 6857.T / ATEYY · role: supplier · layer: compute)
+- [[FormFactor]] — **probe-card leader** to the top-3 HBM makers; HBM4 wear → faster replacement (consumable-like test toll) (ticker: FORM · layer: compute)
+
+#### Advanced packaging / OSAT / bonding ([[Advanced packaging & OSAT (the AI packaging toll)]])
+
+- [[ASE Technology]] — largest OSAT, **44.6% adv-pkg share**, $7B '26 capex, "capacity gatekeeper" (CoWoS +5-20%) (ticker: ASX · layer: compute)
+- [[Amkor]] — #2 OSAT; **$2B Arizona** US-onshore advanced packaging (ticker: AMKR · layer: compute)
+- [[Hanmi Semiconductor]] — HBM **TC-bonder** leader (>90% HBM3E) **but diversifying away** (SK Hynix share → 20-30%) (ticker: 042700.KS · layer: compute)
+- [[ASMPT]] — TCB **share-gainer** (+146%, SK Hynix HBM4 win) + hybrid-bonding contender (ticker: 0522.HK · layer: compute)
+- [[BESI]] — **hybrid-bonding leader** (Micron HBM4 sole TCB; AMAT partner; M&A interest) — cleanest bonding toll (ticker: BESI.AS · layer: compute)
+- [[Kulicke & Soffa]] — bonding; pivoting wire-bond → TCB; lower-conviction (ticker: KLIC · layer: compute)
+- [[Camtek]] — advanced-packaging **metrology/inspection**; >$105M AI orders (ticker: CAMT · layer: compute)
+- [[Onto Innovation]] — metrology → AI process-control platform (ticker: ONTO · layer: compute)
+
+#### WFE / process control / materials ([[WFE & process control (the equipment toll)]])
+
+- [[Lasertec]] — **~100% EUV mask-inspection** (a 2nd near-monopoly under ASML); cleanest toll, leading-edge-cyclical (ticker: 6920.T · layer: compute)
+- [[Entegris]] — **recurring-consumables** toll (filtration/CMP/materials); AI nodes raise intensity/wafer (ticker: ENTG · layer: compute)
+
+#### Interconnect physical layer ([[Networking & interconnect]])
+
+- [[Amphenol]] — **connectors/cables**; Q2'26 ~$8.15B (+43-45%); cleanest copper-interconnect compounder (ticker: APH · layer: compute)
+- [[Credo Technology]] — **active electrical cables (AEC)**; +272% YoY (AWS/MSFT); scale-up copper (ticker: CRDO · layer: compute)
+- [[Fabrinet]] — **optical EMS** (builds the transceivers); 1.6T lead; NVDA/Cisco (ticker: FN · layer: compute)
 - [[Sivers Semiconductors]] — micro-cap **CPO laser chokepoint** (InP external light source); GlobalFoundries SiPho deal; **Tier-3 architecture bet** (only if CPO wins) (ticker: SIVE.ST · layer: compute)
 - [[Soitec]] — **Photonics-SOI substrate** under silicon photonics ("where SiPho begins"); broader than CPO but optics-architecture-exposed (ticker: SOI.PA · layer: compute)
 - [[Harmonic Drive Systems]] — **strain-wave reducer** = the humanoid joint; listed actuator picks-and-shovels (vs China's Leaderdrive); humanoid volumes still tiny (ticker: 6324.T · layer: application)
