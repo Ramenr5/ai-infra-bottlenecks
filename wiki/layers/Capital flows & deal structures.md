@@ -17,7 +17,7 @@ The "where is the money" layer. Tracks the spend curves, the financing vehicles,
 - **Sovereign capital** — [[Humain (Saudi PIF)]], [[G42]] (UAE Mubadala), [[Japan METI]] / [[SoftBank]], Korea / Singapore initiatives
 - **Joint ventures & megaprojects** — [[Stargate]] (OpenAI / Oracle / SoftBank / MGX), Microsoft-OpenAI compute deal restructurings
 - **Project finance** — non-recourse debt against hyperscaler-contracted offtake; key for neoclouds
-- **Private credit & PE** — [[Apollo]], [[Blackstone]], [[KKR]], [[Brookfield]] funding datacenter and power assets
+- **Private credit & PE** — [[Apollo]], [[Blackstone]], [[KKR]], [[Brookfield]] funding datacenter and power assets. **NEW (Jun 2026): Broadcom + Apollo + Blackstone "$35B AI-XPU compute-financing platform"** (20+ GW by 2028) — private credit now underwriting *custom silicon* for AI labs, the XPU analog to neocloud project finance ([[Broadcom Q2 FY26 earnings (2026)]]; see circular-financing in [[Capex bust scenario]]).
 - **Public markets** — equity offerings, infrastructure REITs, AI-themed ETFs, and the **2026 "AI IPO race"**: [[Anthropic draft S-1 IPO filing (2026)|Anthropic's confidential S-1]] (IPO ~Oct 2026, ~$1T) + [[Alphabet $80B AI equity raise (2026)|Alphabet's ~$80B equity raise]] (first since 2005, Berkshire ~$10B). Note the **funding-mix shift**: hyperscalers turning to *equity* (Alphabet) alongside record bond issuance ($175-285B) — equity-funded capex *eases* the [[AI debt financing capacity]] bust-risk; lab IPOs price value-capture at the [[AI value capture across the stack|lab layer]].
 
 ## Bottlenecks (to be populated as sources land)

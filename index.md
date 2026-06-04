@@ -177,7 +177,7 @@
 - [[Supermicro]] — US-listed AI-server/DLC systems (ticker: SMCI · role: oem)
 - [[Ingrasys]] — Foxconn DC subsidiary; NVIDIA AI-factory vehicle (role: odm)
 - [[Asus]] — AI-factory + AI-PC OEM (ticker: 2357.TW · role: oem)
-- [[MediaTek]] — **N1/N1X Arm laptop SoC co-dev** with NVIDIA (Lenovo/Dell OEMs; breaks Qualcomm WoA exclusivity) (ticker: 2454.TW · role: supplier · layer: compute)
+- [[MediaTek]] — **two AI fronts:** NVIDIA N1/N1X Arm laptop SoC co-dev **+ Google TPU (Ironwood) inference partner** (Google's "diversity of sources" vs Broadcom; the bigger-TAM datacenter thread) (ticker: 2454.TW · role: supplier · layer: compute)
 - [[GMI Cloud]] — Taiwan GPU neocloud (sovereign/regional demand) (role: neocloud)
 
 ## Assets

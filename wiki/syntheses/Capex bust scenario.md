@@ -33,6 +33,7 @@ The deliberate counterweight to [[Capex trajectory thesis]]. This page steelmans
 ### 3. Circular financing
 - Datacenters booked as long-term revenue even when subsidized by the hyperscaler or VC-funded → capex stimulates capex without proven end-demand
 - Oracle/Crusoe/OpenAI: OpenAI to pay ~$30B/yr from 2028 vs ~$12.7B 2025 revenue
+- **NEW (Jun 2026): Broadcom + Apollo + Blackstone "$35B AI-XPU compute-financing platform"** (20+ GW by 2028) — Wall Street private credit underwriting custom-silicon for AI labs ([[Broadcom Q2 FY26 earnings (2026)]]). The **XPU analog to neocloud project finance** ([[AI debt financing capacity]]): demand visibility "to 2028" is partly *financed into existence*, so it's only as solid as the labs' ability to pay. Bullish on near-term volume, but adds the same back-loaded-revenue / external-capital dependency the bust thesis flags.
 
 ### 4. Demand-disappointment bookend
 - IEA **Headwinds case = ~700 TWh by 2035** (vs Lift-Off 1,700 TWh) — a 1,000 TWh forecast spread that quantifies how wide the demand uncertainty is ([[IEA - Energy and AI (2026)]])
