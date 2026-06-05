@@ -60,6 +60,21 @@ The investable read: **~40 robot *makers* are mostly private + Chinese** (only T
 
 **Goldman exposure ranking (Exhibit 5):** scoring components by content-value + tech/mfg barrier + humanoid-incremental opportunity, **harmonic reduction gear ranks #1 (16)** — the value-dense chokepoint Goldman "prefers for growth." **[[LeaderDrive]]** (688017, China's #1 harmonic-reducer maker) is the favored *listed* name — exposed to harmonic gear (#1) *and* roller screw — a **content-per-robot, agnostic-to-which-maker-wins** play; but **~100× sales** = sized as a high-beta call option on humanoid units shipped, not a toll.
 
+## Component toll-value ranking (which to own)
+Grading each component by **content-value × barrier × concentration × robustness-to-which-maker-wins** (Goldman Exhibit 5 + the [[AI value capture across the stack|toll framework]]):
+
+| Tier | Component | Best names |
+| --- | --- | --- |
+| **🟢 Tier 1 — cleanest tolls** | Harmonic reducer (Goldman #1) | [[Harmonic Drive Systems]], [[LeaderDrive]] |
+| 🟢 Tier 1 | Planetary roller screw | [[Schaeffler]], [[LeaderDrive]] |
+| 🟢 Tier 1 | Force/torque sensor | [[Novanta]] (ATI), Vishay Precision |
+| **🟡 Tier 2 — high content, competitive** | Dexterous hand / integrated actuator | [[Inovance]], [[Schaeffler]] (all-in-one), Zhaowei |
+| 🟡 Tier 2 — volume/adoption | Actuator assembly | [[Sanhua]] (**$685M Tesla Optimus order**), Tuopu |
+| 🟡 Tier 2 | Optics/vision modules | [[Sunny Optical]] |
+| **🔴 Tier 3 — competitive/cyclical (trade, not toll)** | Motors / LiDAR / battery | Maxon (private), Hesai/RoboSense, CATL/Samsung SDI/Panasonic |
+
+**The read:** own the **high-barrier mechanical chokepoints** (reducers → roller screws → force/torque sensors) — they're the tolls; motors/LiDAR/batteries are competitive volume. **Schaeffler** (Western integrated actuator + roller screw), **Novanta** (force/torque sensing), and the reducer duo are the cleanest; **Sanhua** is the highest-*adoption-certainty* (Tesla-locked) but thinner-rent.
+
 ## Still to build
 - Company pages for the listed actuator/sensor standouts (Harmonic Drive ✓; LeaderDrive, Schaeffler, Inovance, Sunny Optical, Hesai, RoboSense candidates).
 - A **robot-data / world-model bottleneck** page (is training data the binding constraint? Cosmos is NVIDIA's answer).

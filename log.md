@@ -872,3 +872,9 @@ Pages NOT yet in wiki but referenced repeatedly — these are markers for what's
 - Goldman Exhibit 5: harmonic reduction gear = **#1 exposure (16)**; LeaderDrive in harmonic + roller screw. Added the full ranking table to [[Goldman - Humanoid robot ecosystem map (2026)]].
 - created [[LeaderDrive]]: strong theme (content-per-robot, agnostic-to-maker, China cost edge) / high-risk vehicle (~100x sales, share eroding 60→30-40%, China A-share, roller-screw incumbents) → directional call option on humanoid units.
 - updated [[Physical AI & robotics]] (exposure ranking + LeaderDrive favored-name note), [[Harmonic Drive Systems]] (LeaderDrive link + #1 ranking), index +LeaderDrive. VERIFY.
+
+## [2026-06-03] ingest | Physical-AI component toll-value ranking + best toll names (Schaeffler/Novanta/Inovance/Sanhua/Sunny)
+- user: analyse all other companies in the humanoid image + fill best toll value for physical AI
+- graded all Exhibit-5 components by toll quality (content × barrier × concentration × robustness): Tier 1 = harmonic reducer (HD/LeaderDrive), roller screw (Schaeffler/LeaderDrive), force/torque sensor (Novanta/Vishay); Tier 2 = dexterous hand/integrated actuator (Inovance/Schaeffler), actuator assembly (Sanhua/Tuopu), optics (Sunny); Tier 3 (competitive, not toll) = motors (Maxon private), LiDAR (Hesai/RoboSense), battery (CATL/SDI/Panasonic). Added the ranking table to [[Physical AI & robotics]].
+- new COMPANY pages (best toll value): [[Schaeffler]] (Western Tier-1 integrated-actuator/roller-screw toll; CES 2026 all-in-one), [[Novanta]] (force/torque sensor toll, owns ATI), [[Inovance]] ("Chinese ABB"; 5M+ joint motors; Tier-2), [[Sanhua]] (**Tesla Optimus ~$685M actuator order**, ~180k units; adoption-certainty but thinner rent), [[Sunny Optical]] (optics/vision toll, HK-listed).
+- read: own the high-barrier mechanical chokepoints (reducers→roller screws→force/torque sensors); motors/LiDAR/battery = competitive volume. index +5. VERIFY.
