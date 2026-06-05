@@ -241,6 +241,7 @@
 - [[Alphabet $80B AI equity raise (2026)]] — **Alphabet ~$80B equity raise** for AI infra (Jun 1 2026; first since 2005; Berkshire ~$10B). Equity-not-debt = de-risks the debt-bust; scale confirms demand.
 - [[Palo Alto Networks - CyberArk acquisition (2026)]] — **PANW closes ~$25B CyberArk** (Feb 2026) → Idira (human/machine/agentic identity); largest cyber deal ever. Anchors "identity = the new perimeter."
 - [[Okta for AI Agents (2026)]] — Okta governs AI agents as identities (GA Apr 30 2026); validates the agentic-identity theme (revenue a FY28-29 story).
+- [[Goldman - Humanoid robot ecosystem map (2026)]] — Goldman exhibit: ~40 robot makers (mostly private/Chinese) vs ~80 enablers. **Own the enablers** (actuators ~½ BOM); **LeaderDrive spans all 3 actuator types**; vision=AV-LiDAR, batteries=EV; China-dominated. Maps to [[Physical AI & robotics]].
 - [[TSMC Q1 2026 earnings]] — $35.9B revenue; FY26 >30%; CoWoS sold out into 2026 with 50+ week leads.
 - [[SK Hynix Q3 2025 earnings]] — ₩24.45T revenue; 47% margin; HBM4 mass production Sept 2025; 2026 sold out.
 - [[Stargate Project announcement (2025)]] — $500B/10 GW; OpenAI 40%/SoftBank 40%/Oracle/MGX; flagship Abilene; Bloomberg Aug 2025 stalling caveat.

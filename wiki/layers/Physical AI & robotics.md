@@ -41,10 +41,26 @@ From [[NVIDIA Computex 2026 Keynote]]:
 - Unit **cost-down** curve (sub-$20k humanoids) — the Jevons trigger for robots.
 - AV **reasoning** deployments (Alpamayo/Drive) moving from pilot to commercial.
 
-## Open gaps (to build)
-- Actuator / sensor / motion-control supplier pages (the non-NVIDIA picks-and-shovels).
-- A dedicated **robot-data / world-model bottleneck** page (is training data the binding constraint? Cosmos is NVIDIA's answer).
-- AV-specific page if the thesis deepens (Drive Hyperion ecosystem).
+## The component-enabler map (per [[Goldman - Humanoid robot ecosystem map (2026)]])
+The investable read: **~40 robot *makers* are mostly private + Chinese** (only Tesla, BYD, Xiaomi, XPENG, GAC, Estun, CATL listed) → **own the ~80 component *enablers***, where **actuators are ~half the BOM**.
+
+| Sub-system | Names (listed standouts **bold**) | Read |
+| --- | --- | --- |
+| **Foundation models (brains)** | **NVIDIA**, **Tesla**, **Alphabet**, **Meta**, OpenAI, iFlytek, Huawei | the AI stack ([[NVIDIA]] Cosmos/Isaac) |
+| **GPU/CPU** | **NVIDIA**, **Intel** | the cross-cutting toll |
+| **Rotary actuators** (joints/reducers) | **Harmonic Drive** (6324.T), **LeaderDrive**, **Shuanghuan**, Reach Machinery, Zhongda Leader, FORE | the value-dense joint chokepoint |
+| **Linear actuators** (screws) | **Schaeffler**, **Sanhua**, **Hengli**, Beite, XCC, **LeaderDrive**, Zhenyu, Shuanglin | |
+| **Dexterous hands** (micro-actuators) | Maxon, **LeaderDrive**, **Inovance**, **Leadshine**, RoboSense, Fortior, Paxini | hand = the hardest, highest-actuator-count part |
+| **Actuator assembly** | **Sanhua**, **Tuopu** | integration |
+| **Sensors** | **Novanta**, **Vishay Precision**, **Murata**, **TDK**, Kunwei | force/torque + MLCC tolls |
+| **Vision / LiDAR** | **Hesai**, **RoboSense**, **Sunny Optical**, **Luminar**, **Innoviz**, DJI/Livox, **Intel** | *the AV-LiDAR supply chain* |
+| **Batteries** | **CATL**, **Samsung SDI**, **Panasonic** | *the EV battery supply chain* |
+
+**Key insights:** (1) **LeaderDrive spans all three actuator categories** (rotary + linear + dexterous) — the **Chinese multi-actuator champion**, the volume/cost-down play vs Japan's rotary-only [[Harmonic Drive Systems]]. (2) **China dominates the humanoid supply chain even more than the AI-compute one** — makers *and* components (a geopolitical/supply read). (3) **Vision = AV LiDAR, Batteries = EV** — humanoid rides the AV/EV component tolls.
+
+## Still to build
+- Company pages for the listed actuator/sensor standouts (Harmonic Drive ✓; LeaderDrive, Schaeffler, Inovance, Sunny Optical, Hesai, RoboSense candidates).
+- A **robot-data / world-model bottleneck** page (is training data the binding constraint? Cosmos is NVIDIA's answer).
 
 ## Related
 - [[Future progression of AI (2026 view)]] (Phase 4) · [[AI value capture across the stack]] · [[Compute & silicon]] · [[NVIDIA Computex 2026 Keynote]] · [[NVIDIA]]

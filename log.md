@@ -858,3 +858,10 @@ Pages NOT yet in wiki but referenced repeatedly — these are markers for what's
 - new COMPANIES: [[ASE Technology]] (44.6% pkg share, $7B capex), [[Amkor]] ($2B AZ), [[Hanmi Semiconductor]] (>90% HBM3E bonders, diversifying), [[ASMPT]] (TCB +146%, SK Hynix HBM4), [[BESI]] (hybrid-bonding leader, Micron HBM4), [[Kulicke & Soffa]], [[Camtek]] (>$105M AI orders), [[Onto Innovation]], [[Lasertec]] (~100% EUV mask inspection), [[FormFactor]] (probe-card leader, HBM4 wear cycle), [[Amphenol]] (connectors, +43-45%), [[Credo Technology]] (AEC +272%), [[Fabrinet]] (optical EMS, 1.6T), [[Entegris]] (materials/consumables).
 - cross-linked: [[Networking & interconnect]] (+copper/AEC/optical-EMS rows), [[Semiconductor test (the AI test toll)]] (+FormFactor), [[AI value capture across the stack]] Tier-1 cleanest-tolls (+Lasertec, +BESI/ASE/Amkor, +FormFactor, +WFE note); index +2 syntheses +14 companies.
 - caveat: deeper layers (WFE/materials/OSAT) are cyclical to total wafer capex, not pure AI; all search-sourced VERIFY.
+
+## [2026-06-03] ingest | Goldman humanoid ecosystem map → Physical AI component-enabler map
+- user: shared Goldman "Exhibit 2" humanoid map image (makers vs enablers); analyze + ingest
+- created [[Goldman - Humanoid robot ecosystem map (2026)]] source (full taxonomy: ~40 makers / ~80 enablers verbatim).
+- added the **component-enabler map** to [[Physical AI & robotics]] (foundation models / GPU-CPU / rotary+linear+dexterous actuators / sensors / vision-LiDAR / batteries; listed standouts bolded) — closes the actuator/sensor-supplier gap.
+- key reads: makers mostly private+Chinese → own the enablers (actuators ~½ BOM); **LeaderDrive spans all 3 actuator categories** (multi-actuator China champion vs Japan rotary-only Harmonic Drive); China dominates the humanoid supply chain even more than AI-compute; vision=AV-LiDAR + batteries=EV cross-overs; NVIDIA cross-cutting (brains+GPU).
+- updated [[Harmonic Drive Systems]] (LeaderDrive multi-category context + rotary peers); index +source. VERIFY (financials not in exhibit).
