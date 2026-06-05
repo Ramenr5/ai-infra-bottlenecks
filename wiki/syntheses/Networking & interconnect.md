@@ -45,6 +45,13 @@ Per [[AI value capture across the stack]], rent = concentration × indispensabil
 - **Margin-confirmed:** Broadcom explicitly says networking is the rich-margin segment vs commoditizing XPUs. The interconnect is the part of the silicon bill that *holds* price.
 **Read-through:** networking is **robust to the merchant-vs-custom-silicon war** — whoever wins compute (NVIDIA GPU or hyperscaler XPU), the boxes still need switches + optics. A "own the tolls" position (like memory/TSMC) rather than a "trade the cycle" one.
 
+## The EML laser chokepoint (the optics bottleneck)
+The **deepest constraint in optics is the laser** — specifically the **EML** (electro-absorption modulated laser) inside every 800G/1.6T transceiver, made by only a handful of firms.
+- **NVIDIA locked it up:** ~**$4B to [[Lumentum]] + [[Coherent]]** (Mar 2026) for **priority EML supply**, pushing everyone else's lead times **past 2027** — the same "NVIDIA starts first, bottlenecks everyone" pattern as HBM/CoWoS. EML is the optics analog of the [[Sivers Semiconductors|CPO laser]] chokepoint.
+- **Demand:** 800G **24M → ~63M units (2026)**; 1.6T ramping (GB300 = **162 modules/cabinet**, scales with GPU shipments). 800G *persists* (Tier-2/sovereign) even as leading edge moves to 1.6T.
+- **ASP — the variant perception:** consensus models ASP **down** (800G ~$1,200 '23 → ~$400 '26E, GM <25%). But if the EML/component shortage bites H1, ASP could **firm or rise → under-modeled margin upside** across [[Lumentum]]/[[Coherent]]/[[Applied Optoelectronics]]/[[Fabrinet]].
+- **Vertical-integration edge:** [[Applied Optoelectronics]] (AAOI) makes its *own* lasers (+350% capacity) → a **hedge** vs the NVIDIA-locked merchant EML supply (differentiated from the non-integrated assemblers).
+
 ## Demand visibility (the order-book extension)
 Broadcom's **>$30B AI bookings + visibility to 2028** (and 2028 > 2027) **extends the demand horizon a year beyond NVIDIA's "through-2027" order book** — and networking rides every gigawatt of it. Custom-silicon GW (Meta 1→3 GW, OpenAI 1.3→10 GW) each carry networking content. → strengthens [[Capex trajectory thesis]].
 

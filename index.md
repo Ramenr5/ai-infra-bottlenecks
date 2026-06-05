@@ -151,6 +151,7 @@
 - [[Amphenol]] — **connectors/cables**; Q2'26 ~$8.15B (+43-45%); cleanest copper-interconnect compounder (ticker: APH · layer: compute)
 - [[Credo Technology]] — **active electrical cables (AEC)**; +272% YoY (AWS/MSFT); scale-up copper (ticker: CRDO · layer: compute)
 - [[Fabrinet]] — **optical EMS** (builds the transceivers); 1.6T lead; NVDA/Cisco (ticker: FN · layer: compute)
+- [[Applied Optoelectronics]] — **vertically-integrated US transceiver** (makes own lasers); 800G/1.6T ramp to >500k/mo, $324M backlog; **EML-shortage hedge** but high-beta/execution-risk, *not* NVDA-anointed (ticker: AAOI · layer: compute)
 - [[Sivers Semiconductors]] — micro-cap **CPO laser chokepoint** (InP external light source); GlobalFoundries SiPho deal; **Tier-3 architecture bet** (only if CPO wins) (ticker: SIVE.ST · layer: compute)
 - [[Soitec]] — **Photonics-SOI substrate** under silicon photonics ("where SiPho begins"); broader than CPO but optics-architecture-exposed (ticker: SOI.PA · layer: compute)
 - [[Harmonic Drive Systems]] — **strain-wave reducer** = the humanoid joint; listed actuator picks-and-shovels (vs China's LeaderDrive); humanoid volumes still tiny (ticker: 6324.T · layer: application)
