@@ -21,5 +21,24 @@ tags: [source, goldman, humanoid, robotics, ecosystem-map, actuators, enablers, 
 - **China dominates the humanoid supply chain even more than AI-compute** (makers + components) — supply/geopolitical read.
 - **Cross-overs:** vision = the **AV-LiDAR** names; batteries = the **EV** names — humanoid rides existing AV/EV component tolls.
 
+## Exhibit 5 — component exposure ranking (GS preference)
+Goldman scores each component on 6 criteria (BOM content value, certainty of tech choice, tech barrier, mfg/eng barrier, capacity flexibility, % incremental humanoid opportunity), each **1 (low)–3 (high)**, summed. **"Prefer high content-value products — harmonic reduction gears (growth) + actuator assembly (adoption certainty)."**
+
+| Component (rank score) | Key stocks |
+| --- | --- |
+| **Harmonic reduction gear — 16 (top)** | [[Harmonic Drive Systems\|Harmonic Drive]], **[[LeaderDrive]]** |
+| Dexterous hand module — 15 | Zhaowei, Inovance |
+| Actuator assembly — 14 | Sanhua, Tuopu |
+| Planetary roller screw — 14 | Schaeffler, Hengli, Sanhua, **[[LeaderDrive]]** |
+| Sensors — 13 | ATI (Novanta), Vishay Precision |
+| GPU/CPU — 13 | [[NVIDIA]], [[Intel]] |
+| Coreless motor — 13 | Moons' Electric, Zhaowei, Leadshine, Leili, Veichi |
+| Frameless torque motor — 13 | Kinco, Haozhi, Veichi |
+| Battery — 12 | CATL, Samsung SDI, Panasonic |
+| Camera/LiDAR — 12 | Intel, Orbbec, RoboSense, Hesai, Sunny Optical |
+
+- **Harmonic reduction gear ranks #1** (high content-value + high tech/mfg barrier + high humanoid-incremental) → the value-dense chokepoint; **[[LeaderDrive]]** is exposed to it *and* roller screw.
+- GS humanoid-cost path: ~$250k (2023) → ~$150k (2024) → 1.4M units / $38B market by 2035.
+
 ## Implications
-- [[Physical AI & robotics]] (component-enabler map added) · [[Harmonic Drive Systems]] / LeaderDrive · candidates: Schaeffler, Inovance, Sunny Optical, Hesai, RoboSense · [[NVIDIA]] (cross-cutting brains+GPU)
+- [[Physical AI & robotics]] (component-enabler map + exposure ranking) · [[LeaderDrive]] (the favored name) · [[Harmonic Drive Systems]] · candidates: Schaeffler, Inovance, Sunny Optical, Hesai, RoboSense · [[NVIDIA]] (cross-cutting brains+GPU)

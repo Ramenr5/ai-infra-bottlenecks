@@ -15,7 +15,7 @@ tags: [harmonic-drive, strain-wave-gear, reducer, actuator, humanoid, robotics-c
 
 ## The thesis
 - **Harmonic reducers are the joints** of robotic arms + humanoids — precision, low-backlash gearing is a hard-to-commoditize mechanical chokepoint. As humanoids scale (shipments **+480% in 2025 to ~13,318 units; ~2.6M by 2035 proj.**, VERIFY), reducer demand scales with *joints per robot × robots*.
-- **LeaderDrive** is the rising **Chinese** challenger — and per the [[Goldman - Humanoid robot ecosystem map (2026)]] it's broader than Harmonic Drive: it appears in **all three actuator categories (rotary + linear + dexterous hands)**, where Harmonic Drive is **rotary-reducer-only**. So LeaderDrive is the **multi-actuator** cost-down/volume play (same China-vs-incumbent split as [[Unitree Robotics]] vs Western humanoids); Harmonic Drive is the higher-precision rotary specialist.
+- **[[LeaderDrive]]** (688017, China's #1 harmonic-reducer maker, ~30-40% China share) is the rising **Chinese** challenger — and per the [[Goldman - Humanoid robot ecosystem map (2026)]] it's broader than Harmonic Drive: it appears in **all three actuator categories (rotary + linear + dexterous hands)**, where Harmonic Drive is **rotary-reducer-only**. Goldman ranks harmonic reduction gear its **#1** humanoid-component exposure. So LeaderDrive is the **multi-actuator** cost-down/volume play (same China-vs-incumbent split as [[Unitree Robotics]] vs Western humanoids); Harmonic Drive is the higher-precision rotary specialist.
 - Other rotary-reducer peers (per the map): Shuanghuan, Reach Machinery, Zhongda Leader, FORE Intelligent (mostly China).
 
 ## Investment read

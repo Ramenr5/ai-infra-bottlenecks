@@ -58,6 +58,8 @@ The investable read: **~40 robot *makers* are mostly private + Chinese** (only T
 
 **Key insights:** (1) **LeaderDrive spans all three actuator categories** (rotary + linear + dexterous) — the **Chinese multi-actuator champion**, the volume/cost-down play vs Japan's rotary-only [[Harmonic Drive Systems]]. (2) **China dominates the humanoid supply chain even more than the AI-compute one** — makers *and* components (a geopolitical/supply read). (3) **Vision = AV LiDAR, Batteries = EV** — humanoid rides the AV/EV component tolls.
 
+**Goldman exposure ranking (Exhibit 5):** scoring components by content-value + tech/mfg barrier + humanoid-incremental opportunity, **harmonic reduction gear ranks #1 (16)** — the value-dense chokepoint Goldman "prefers for growth." **[[LeaderDrive]]** (688017, China's #1 harmonic-reducer maker) is the favored *listed* name — exposed to harmonic gear (#1) *and* roller screw — a **content-per-robot, agnostic-to-which-maker-wins** play; but **~100× sales** = sized as a high-beta call option on humanoid units shipped, not a toll.
+
 ## Still to build
 - Company pages for the listed actuator/sensor standouts (Harmonic Drive ✓; LeaderDrive, Schaeffler, Inovance, Sunny Optical, Hesai, RoboSense candidates).
 - A **robot-data / world-model bottleneck** page (is training data the binding constraint? Cosmos is NVIDIA's answer).

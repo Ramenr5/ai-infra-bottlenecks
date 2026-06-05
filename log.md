@@ -865,3 +865,10 @@ Pages NOT yet in wiki but referenced repeatedly — these are markers for what's
 - added the **component-enabler map** to [[Physical AI & robotics]] (foundation models / GPU-CPU / rotary+linear+dexterous actuators / sensors / vision-LiDAR / batteries; listed standouts bolded) — closes the actuator/sensor-supplier gap.
 - key reads: makers mostly private+Chinese → own the enablers (actuators ~½ BOM); **LeaderDrive spans all 3 actuator categories** (multi-actuator China champion vs Japan rotary-only Harmonic Drive); China dominates the humanoid supply chain even more than AI-compute; vision=AV-LiDAR + batteries=EV cross-overs; NVIDIA cross-cutting (brains+GPU).
 - updated [[Harmonic Drive Systems]] (LeaderDrive multi-category context + rotary peers); index +source. VERIFY (financials not in exhibit).
+
+## [2026-06-03] verify+ingest | LeaderDrive (688017) + Goldman Exhibit 5 exposure ranking
+- user: verify LeaderDrive thesis (688017, ~57.7B RMB; >60% share, 1,800 customers, roller-screw entry, directional long on humanoid mass production)
+- VERIFIED w/ 1 correction: identity/products/customers (AGIBOT/UBTech) ✓; **share >60% is DATED (2020) — current ~30-40% (J.P. Morgan), still China #1**; Tesla/Figure = potential not confirmed; 2025 rev 570.7M RMB (+47%), NP 124.4M (>2x) → **~100× sales** (priced for the future). BOM 4-15% ✓ (gearboxes 30-50% of actuator cost).
+- Goldman Exhibit 5: harmonic reduction gear = **#1 exposure (16)**; LeaderDrive in harmonic + roller screw. Added the full ranking table to [[Goldman - Humanoid robot ecosystem map (2026)]].
+- created [[LeaderDrive]]: strong theme (content-per-robot, agnostic-to-maker, China cost edge) / high-risk vehicle (~100x sales, share eroding 60→30-40%, China A-share, roller-screw incumbents) → directional call option on humanoid units.
+- updated [[Physical AI & robotics]] (exposure ranking + LeaderDrive favored-name note), [[Harmonic Drive Systems]] (LeaderDrive link + #1 ranking), index +LeaderDrive. VERIFY.
